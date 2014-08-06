@@ -77,7 +77,7 @@
                       <div class="form-group">
                         <!-- <label class="pull-left control-label" for="textinput">Your Name</label> -->
                         <div class="">
-                          <input id="textinput" name="textinput" placeholder="Name" class="form-control input-md contact-border-bottom" type="text">
+                          <input id="textinput" name="textinput" placeholder="Your Name" class="form-control input-md contact-border-bottom" type="text">
                           <!-- <span class="help-block">help</span> -->
                         </div>
                       </div>
