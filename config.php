@@ -2,9 +2,9 @@
 # Constants
 define('BASE_URL', '');         #
 define('DEFAULT_VIEW', 'home'); # set this to any page to be the default home page
-define('FACEBOOK_URL', 'https://www.facebook.com/hackingedusf');
-define('TWITTER_URL', 'https://twitter.com/hackingedusf');
-define('GOOGLE_PLUS_URL', 'https://plus.google.com/100755871712588838625');
+$FACEBOOK_URL = 'https://www.facebook.com/hackingedusf';
+$TWITTER_URL = 'https://twitter.com/hackingedusf';
+$GOOGLE_PLUS_URL = 'https://plus.google.com/100755871712588838625';
 
 # Database Info
 # Local ------------------------------------------------------------------
