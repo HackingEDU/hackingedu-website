@@ -704,7 +704,7 @@ a.main-btn:hover {
     box-shadow:none!important;
     height:auto;
 }
-.contact-border-bottom {
+.auth form input[type="text"].contact-border-bottom {
     border-bottom:1px dotted black;
 }
 .auth textarea {
