@@ -68,7 +68,7 @@
 
     <!-- Modal -->
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="container">
+      <div class="m-top-10">
         <!-- <div class="row"> -->
           <div class="col-sm-6 col-sm-offset-3 text-center">
             <h1>Modal with blur effect</h1>

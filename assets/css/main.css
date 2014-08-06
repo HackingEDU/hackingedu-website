@@ -815,3 +815,7 @@ a.main-btn:hover {
    }
 
    .modal-backdrop {background: #f7f7f7;}
+
+   .m-top-10 {
+   margin: 20vh 20vw;
+   }
