@@ -895,6 +895,46 @@ a.main-btn:hover {
 .auth form .btn-link:hover {
     background:none;
 }
+.auth2 form .btn {
+    background:none;
+    -webkit-transition: background 0.2s ease-in-out;
+    -moz-transition: background 0.2s ease-in-out;
+    -ms-transition: background 0.2s ease-in-out;
+    -o-transition: background 0.2s ease-in-out;
+    transition: background 0.2s ease-in-out;
+}
+.auth2 form .btn-default {
+    color:#fff;
+    border-color:#fff;
+}
+.auth2 form .btn-default:hover {
+    background:rgba(225, 225, 225, 0.3);
+    color:#fff;
+    border-color:#fff;
+}
+.auth2 form .btn-primary:hover {
+    background:rgba(66, 139, 202, 0.3);
+}
+.auth2 form .btn-success:hover {
+    background:rgba(92, 184, 92, 0.3);
+}
+.auth2 form .btn-info :hover {
+    background:rgba(91, 192, 222, 0.3);
+}
+.auth2 form .btn-warning:hover {
+    background:rgba(240, 173, 78, 0.3);
+}
+.auth2 form .btn-danger:hover {
+    background:rgba(217, 83, 79, 0.3);
+}
+.auth2 form .btn-link {
+    border:none;
+    color:#fff;
+    padding-left:0;
+}
+.auth2 form .btn-link:hover {
+    background:none;
+}
 
 
 .auth label.label-floatlabel {
