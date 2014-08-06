@@ -34,8 +34,8 @@
 
   </head>
 
-  <body id="wrap">
-
+  <body>
+	<div id="wrap">
 	<!-- Menu -->
 	<nav class="menu" id="theMenu">
 		<div class="menu-wrap">
@@ -494,7 +494,7 @@
 			</div><!-- row -->
 		</div><!-- container -->
 	</div><!-- Social Footer -->
-
+	</div>
 
 
     <!-- Bootstrap core JavaScript
