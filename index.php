@@ -86,7 +86,7 @@
 	        <p>This year we will have various companies from all over the bay area coming along with a couple of their trusted software engineers to help each hacker with their projects.</p>
       	</div>
       	<div class="col-lg-4">
-      		<p class="pull-right"><br><button type="button" class="btn btn-green">Sign Up Now!</button></p>
+      		<p class="pull-right"><br><a href="#apply"><button type="button" class="btn btn-green">Sign Up Now!</button></a></p>
       	</div>
       	  <div class="col-lg-8">
       	  	<!-- <h1>Our Process</h1> -->
