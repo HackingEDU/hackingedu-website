@@ -246,6 +246,7 @@ hr {
     font-size: 50px;
     font-weight: 100;
     letter-spacing: 2px;
+    margin-bottom: .5em;
 }
 .headerwrap h3 {
     color: #fff;
@@ -396,9 +397,9 @@ a.sponsor-btn {
     padding: 15px 59px;
 }
 a.main-btn:hover {
-    background: #fff;
-    opacity: .4;
+    background: rgba(255, 255, 255, 0.9);
     color: black;
+    border: 2px solid #fff;
 }
 /*.btn-row {
 
