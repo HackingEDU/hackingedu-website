@@ -375,7 +375,8 @@
 
 
 	<!-- RULES -->
-	<div id="sp" class="rules">
+	<div id="rules"></div>
+	<div id="sp">
 		<div class="container">
 			<div class="row">
 				<h2>Hackathon Rules</h2>
@@ -428,7 +429,8 @@
 	</div><!-- dg -->
 
 	<!-- SCHEDULE -->
-	<div id="sp-standout" class="schedule"></div>
+	<div id="schedule"></div>
+	<div id="sp-standout"></div>
 
 	<div class="container">
 		<div class="row mt centered">
