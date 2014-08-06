@@ -61,7 +61,7 @@
     <!-- Modal -->
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="m-top-10">
-          <div class="col-sm-6 col-sm-offset-3 text-center">
+          <div class="col-sm-10 col-sm-offset-1 text-center">
             <h1>Contact Form</h1>
 
             <div class="auth">
@@ -91,9 +91,15 @@
                         </div>
                       </div>
 
+
+
                       <!-- Textarea -->
                       <div class="form-group">
                         <label class=" control-label" for="textarea">What can we help you with?</label>
+                        <!-- Subject -->
+                        <div class="form-group">
+                            <input id="textinput" name="textinput" placeholder="Subject" class="form-control input-md" type="text">
+                        </div>
                         <div class="">
                           <textarea class="form-control" id="textarea" name="textarea" placeholder="Tell us about your idea! :)"></textarea>
                         </div>
