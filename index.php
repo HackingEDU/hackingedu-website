@@ -428,7 +428,7 @@
 
 	<!-- CALL TO ACTION -->
 	<div id="call">
-		<div class="container">
+		<div class="container contact-blur">
 			<div class="row">
 				<h3>Interested in Sponsoring?</h3>
 				<div class="col-lg-8 col-lg-offset-2">
@@ -452,7 +452,7 @@
 	      	</div> -->
 		<!-- </div> --><!-- row -->
 	<!-- </div> --><!-- container -->
-    <div class="container">
+    <div class="container contact-blur">
     	<div class="row mt">
       		<div class="col-lg-8">
 	        	<h1>Stay Connected</h1>
@@ -467,7 +467,7 @@
 	<!-- SOCIAL FOOTER -->
 	<section id="contact"></section>
 	<div id="sf">
-		<div class="container">
+		<div class="container contact-blur">
 			<div class="row">
 				<a href="<?php echo FACEBOOK_URL; ?>">
 					<div class="col-lg-4 dg">
