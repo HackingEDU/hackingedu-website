@@ -806,16 +806,18 @@ a.main-btn:hover {
 /* =========================================================================
                          Modal With Blur Effect
    =======================================================================*/
-   body.modal-open .contact-blur{
-       -webkit-filter: blur(7px);
-       -moz-filter: blur(15px);
-       -o-filter: blur(15px);
-       -ms-filter: blur(15px);
-       filter: blur(15px);
-   }
+body.modal-open .contact-blur {
+    -webkit-filter: blur(7px);
+    -moz-filter: blur(15px);
+    -o-filter: blur(15px);
+    -ms-filter: blur(15px);
+    filter: blur(15px);
+}
 
-   .modal-backdrop {background: #f7f7f7;}
+.modal-backdrop {
+    background: #f7f7f7;
+}
 
-   .m-top-10 {
-   margin: 20vh 20vw;
-   }
+.m-top-10 {
+    margin: 20vh 20vw;
+}

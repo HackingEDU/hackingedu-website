@@ -46,7 +46,8 @@
 			<a href="#sponsors">Sponsors</a>
 			<a href="">Rules</a>
 			<a href="">Schedule</a>
-			<a href="#myModal">Contact</a>
+			<!-- <a href="#myModal">Contact</a> -->
+			<button class="btn btn-primary btn-lg contact-blur" data-toggle="modal" data-target="#myModal">Contact</button>
 			<a href="<?php echo FACEBOOK_URL; ?>"><i class="fa fa-facebook"></i></a>
 			<a href="<?php echo TWITTER_URL; ?>"><i class="fa fa-twitter"></i></a>
 			<a href="<?php echo GOOGLE_PLUS_URL; ?>" rel="publisher"><i class="fa fa-google-plus"></i></a>
@@ -61,9 +62,7 @@
     <!-- <div id="wrap" class="text-center"> -->
       <!-- Button trigger modal -->
       <!-- <br> -->
-    <button class="btn btn-primary btn-lg contact-blur" data-toggle="modal" data-target="#myModal">
-      Modal with blur effect
-    </button>
+
     <!-- </div> -->
 
     <!-- Modal -->
