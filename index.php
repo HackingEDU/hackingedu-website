@@ -95,7 +95,7 @@
                       <div class="form-group">
                         <label class=" control-label" for="textarea">What can we help you with?</label>
                         <!-- Subject -->
-                        <textarea class="form-control" id="" name="textarea" placeholder="Tell us about your idea! :)"></textarea>
+                        <textarea class="form-control subject" id="" name="textarea" placeholder="Subject"></textarea>
                         <!-- Textarea -->
                         <textarea class="form-control" id="textarea" name="textarea" placeholder="Tell us about your idea! :)"></textarea>
                       </div>

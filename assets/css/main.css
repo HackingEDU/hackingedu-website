@@ -709,6 +709,11 @@ a.main-btn:hover {
     color: black!important;
     height: 6em;
 }
+
+.auth textarea.subject {
+    height: 2em;
+}
+
 .auth input[type="file"] {
     color: black;
 }
