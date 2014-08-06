@@ -712,6 +712,8 @@ a.main-btn:hover {
 
 .auth textarea.subject {
     height: 2em;
+    padding-bottom: .5em;
+    margin-bottom: 1em;
 }
 
 .auth input[type="file"] {
