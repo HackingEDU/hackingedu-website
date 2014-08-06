@@ -64,66 +64,86 @@
           <div class="col-sm-6 col-sm-offset-3 text-center">
             <h1>Modal with blur effect</h1>
             <div class="body">
-    			<form action="demo-contacts-process.php" method="post" id="sky-form" class="sky-form" novalidate="novalidate">
-    				<header>Contacts form</header>
+            <div id="DIV_1">
+            	<form action="demo-contacts-process.php" method="post" id="FORM_2">
+            		<header id="HEADER_3">
+            			Contacts form
+            		</header>
+            		<fieldset id="FIELDSET_4">
+            			<div id="DIV_5">
+            				<section id="SECTION_6">
 
-    				<fieldset>
-    					<div class="row">
-    						<section class="col col-6">
-    							<label class="label">Name</label>
-    							<label class="input">
-    								<i class="icon-append fa fa-user"></i>
-    								<input type="text" name="name" id="name">
-    							</label>
-    						</section>
-    						<section class="col col-6">
-    							<label class="label">E-mail</label>
-    							<label class="input">
-    								<i class="icon-append fa fa-envelope-o"></i>
-    								<input type="email" name="email" id="email">
-    							</label>
-    						</section>
-    					</div>
+            					<label id="LABEL_7">
+            						Name
+            					</label>
+            					<label id="LABEL_8">
+            						<i id="I_9"></i>
+            						<input type="text" name="name" id="INPUT_10" />
+            					</label>
+            				</section>
+            				<section id="SECTION_11">
 
-    					<section>
-    						<label class="label">Subject</label>
-    						<label class="input">
-    							<i class="icon-append fa fa-tag"></i>
-    							<input type="text" name="subject" id="subject">
-    						</label>
-    					</section>
+            					<label id="LABEL_12">
+            						E-mail
+            					</label>
+            					<label id="LABEL_13">
+            						<i id="I_14"></i>
+            						<input type="email" name="email" id="INPUT_15" />
+            					</label>
+            				</section>
+            			</div>
+            			<section id="SECTION_16">
 
-    					<section>
-    						<label class="label">Message</label>
-    						<label class="textarea">
-    							<i class="icon-append fa fa-comment"></i>
-    							<textarea rows="4" name="message" id="message"></textarea>
-    						</label>
-    					</section>
+            				<label id="LABEL_17">
+            					Subject
+            				</label>
+            				<label id="LABEL_18">
+            					<i id="I_19"></i>
+            					<input type="text" name="subject" id="INPUT_20" />
+            				</label>
+            			</section>
+            			<section id="SECTION_21">
 
-    					<section>
-    						<label class="label">Enter characters below:</label>
-    						<label class="input input-captcha">
-    							<img src="captcha/image.php?1407363257" width="100" height="35" alt="Captcha image">
-    							<input type="text" maxlength="6" name="captcha" id="captcha">
-    						</label>
-    					</section>
+            				<label id="LABEL_22">
+            					Message
+            				</label>
+            				<label id="LABEL_23">
+            					<i id="I_24"></i>
+            				</label>
+            				<textarea rows="4" name="message" id="TEXTAREA_25">
+            				</textarea>
+            			</section>
+            			<section id="SECTION_26">
 
-    					<section>
-    						<label class="checkbox"><input type="checkbox" name="copy"><i></i>Send a copy to my e-mail address</label>
-    					</section>
-    				</fieldset>
+            				<label id="LABEL_27">
+            					Enter characters below:
+            				</label>
+            				<label id="LABEL_28">
+            					<img src="captcha/image.php?1407363257" width="100" height="35" alt="Captcha image" id="IMG_29" />
+            					<input type="text" maxlength="6" name="captcha" id="INPUT_30" />
+            				</label>
+            			</section>
+            			<section id="SECTION_31">
 
-    				<footer>
-    					<button type="submit" class="button">Send message</button>
-    				</footer>
+            				<label id="LABEL_32">
+            					<input type="checkbox" name="copy" id="INPUT_33" /><i id="I_34"></i>Send a copy to my e-mail address
+            				</label>
+            			</section>
+            		</fieldset>
+            		<footer id="FOOTER_35">
 
-    				<div class="message">
-    					<i class="fa fa-check"></i>
-    					<p>Your message was successfully sent!</p>
-    				</div>
-    			</form>
-    		</div>
+            			<button type="submit" id="BUTTON_36">
+            				Send message
+            			</button>
+            		</footer>
+            		<div id="DIV_37">
+            			<i id="I_38"></i>
+            			<p id="P_39">
+            				Your message was successfully sent!
+            			</p>
+            		</div>
+            	</form>
+            </div>
             <!-- <h2>Put here whatever you want here</h2>
             <h4>For instance, a login form or an article content</h4>
             <h4><kbd>esc</kbd> or click anyway to close</h4>
