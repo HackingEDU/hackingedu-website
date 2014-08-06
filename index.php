@@ -65,6 +65,7 @@
             <h1>Contact Form</h1>
 
             <div class="auth">
+	            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                 <!-- <h1 class="text-center">Bootstrap form theme <span>It's nice!</span> </h1> -->
                 <div id="big-form" class="well auth-box">
                   <form>
