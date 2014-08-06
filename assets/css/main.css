@@ -26,6 +26,10 @@ p {
 .mt {
     padding-top: 25px;
 }
+.main-img {
+    width: 32em;
+    margin-top: 10em;
+}
 a {
     color: #16a085;
     word-wrap: break-word;
