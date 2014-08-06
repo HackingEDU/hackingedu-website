@@ -41,9 +41,9 @@
 		<div class="menu-wrap">
 			<h1 class="logo"><a href="index.html#home">LINK</a></h1>
 			<i class="fa fa-arrow-right menu-close"></i>
-			<a href="index.html">Home</a>
+			<a href="#home">Home</a>
 			<a href="#about">About</a>
-			<a href="portfolio.html">Sponsors</a>
+			<a href="#sponsors">Sponsors</a>
 			<a href="">Rules</a>
 			<a href="">Schedule</a>
 			<a href="#contact">Contact</a>
@@ -58,7 +58,7 @@
 	</nav>
 
 	<!-- MAIN IMAGE SECTION -->
-	<div class="headerwrap">
+	<div id="home" class="headerwrap">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2">
@@ -318,7 +318,7 @@
 	<!-- BLOG POSTS -->
 	<div class="container">
 		<div class="row mt">
-			<div class="col-lg-12">
+			<div id="sponsors" class="col-lg-12">
 				<h1>2015 Hacking Edu Sponsors</h1>
 			</div><!-- col-lg-12 -->
 			<div class="col-lg-8">
