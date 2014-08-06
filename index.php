@@ -64,7 +64,7 @@
           <div class="col-sm-6 col-sm-offset-3 text-center">
             <h1>Modal with blur effect</h1>
 
-            <div class="container auth">
+            <div class="auth">
                 <!-- <h1 class="text-center">Bootstrap form theme <span>It's nice!</span> </h1> -->
                 <div id="big-form" class="well auth-box">
                   <form>
