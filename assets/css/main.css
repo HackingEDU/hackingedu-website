@@ -362,6 +362,47 @@ hr {
     -o-background-size: cover;
     background-size: cover;
 }
+a.apply-btn {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    background: #ef3e36;
+    color: #fff;
+    max-width: 254px;
+    width: 100%;
+    cursor: pointer;
+    padding: 10px 55px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-decoration: none;
+    border: 1px solid #ef3e36;
+    text-transform: uppercase;
+
+}
+
+a.volunteer-btn {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    background: #ef3e36;
+    color: #fff;
+    max-width: 254px;
+    width: 100%;
+    cursor: pointer;
+    padding: 10px 91px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-decoration: none;
+    border: 1px solid #ef3e36;
+    text-transform: uppercase;
+    margin-right: 4px;
+}
 #portfolio {
     width: 100%}
 #services {
