@@ -62,7 +62,7 @@
 					<!-- <h1>Hacking Edu</h1> -->
 					<img class="main-img" src="./assets/img/hacklogo-white-no-border.png" alt="">
 					<h3>SF Bay Area</h3>
-					<h2>Disrupting The Education System</h2>
+					<h2>Disrupting The Education Market</h2>
 					<!-- <div class="btn-row"> -->
 					<a class="main-btn apply-btn" href="#">Hacker Application</a>
 					<a id="volunteer-btn-slide" class="main-btn volunteer-btn" target="_blank" href="#">Volunteer</a>
@@ -85,6 +85,29 @@
       	<div class="col-lg-4">
       		<p class="pull-right"><br><button type="button" class="btn btn-green">Sign Up Now!</button></p>
       	</div>
+      	  <div class="col-lg-8">
+      	  	<h1>Our Process</h1>
+      	  	<hr>
+      	  	<h3><b>LEARN</b></h3>
+      	  	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+      	  	<br>
+      	  	<h3><b>DESIGN</b></h3>
+      	  	<p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software.</p>
+      	  	<br>
+      	  	<h3><b>BUILD</b></h3>
+      	  	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+      	  	<br>
+      	  	<h3><b>EVOLVE</b></h3>
+      	  	<p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software.</p>
+      	  </div><!-- col-lg-8 -->
+      	  <div class="col-lg-4">
+      		<ul class="process effect-2" id="process">
+      			<li><img src="assets/img/process/pro01.png"></li>
+      			<li><img src="assets/img/process/pro02.png"></li>
+      			<li><img src="assets/img/process/pro03.png"></li>
+      			<li><img src="assets/img/process/pro04.png"></li>
+      		</ul>
+      	  </div><!-- col-lg-4 -->
       </div><!-- /row -->
     </div><!-- /.container -->
 
@@ -431,7 +454,7 @@
 				</div>
 				<div class="col-lg-4 dg">
 					<h4 class="ml">GOOGLE +</h4>
-					<p class="centered"><a href="<?php GOOGLE_PLUS_URL; ?>"><i class="fa fa-google-plus"></i></a></p>
+					<p class="centered"><a href="<?php echo GOOGLE_PLUS_URL; ?>"><i class="fa fa-google-plus"></i></a></p>
 					<p class="ml">> Add Us To Your Circle</p>
 				</div>
 			</div><!-- row -->
