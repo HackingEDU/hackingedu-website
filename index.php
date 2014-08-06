@@ -64,9 +64,9 @@
           <div class="col-sm-10 col-sm-offset-1 text-center">
             <h1>Contact Form</h1>
 
-            <div class="auth contact-form">
+            <div class="auth contact-form well auth-box">
                 <!-- <h1 class="text-center">Bootstrap form theme <span>It's nice!</span> </h1> -->
-                <div id="big-form" class="well auth-box">
+                <div id="big-form" class="">
 		            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                   <form>
                     <!-- <fieldset> -->
@@ -174,7 +174,7 @@
 			<div class="row mt">
 				<h1 class="white-text">Applications are Going Quickly</h1>
 
-				<div class="container signup-form" style="color: #fff">
+				<div class="container" style="color: #fff">
 				    <!-- <h1 class="text-center">Bootstrap form theme <span>It's nice!</span> </h1> -->
 				    <div id="big-form" class="well auth-box">
 				      <form>
