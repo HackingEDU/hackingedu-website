@@ -34,7 +34,7 @@
 
   </head>
 
-  <body>
+  <body id="wrap">
 
 	<!-- Menu -->
 	<nav class="menu" id="theMenu">
@@ -58,13 +58,13 @@
 	</nav>
 
     <!-- Modal -->
-    <div id="wrap" class="text-center">
+    <!-- <div id="wrap" class="text-center"> -->
       <!-- Button trigger modal -->
-      <br>
+      <!-- <br> -->
     <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
       Modal with blur effect
     </button>
-    </div>
+    <!-- </div> -->
 
     <!-- Modal -->
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
