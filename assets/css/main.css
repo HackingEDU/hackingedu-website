@@ -697,7 +697,7 @@ a.main-btn:hover {
     padding:10px 0 10px 0;
     background-color: rgba(255, 255, 255, 0)!important;
     background: rgba(255, 255, 255, 0);
-    color:#fff;
+    color: black;
     font-size:16px;
     border-bottom:1px dotted #fff;
     border-radius:0;
@@ -706,13 +706,13 @@ a.main-btn:hover {
 }
 .auth textarea {
     background-color: rgba(255, 255, 255, 0)!important;
-    color:#fff!important;
+    color: black!important;
 }
 .auth input[type="file"] {
-    color:#fff;
+    color: black;
 }
 .auth form label {
-    color:#fff;
+    color: black;
     font-size:21px;
     font-weight:300;
 }
@@ -725,12 +725,12 @@ a.main-btn:hover {
 }
 
 .auth form .help-block {
-    color:#fff;
+    color: black;
 }
 .auth form select {
     background-color: rgba(255, 255, 255, 0)!important;
     background: rgba(255, 255, 255, 0);
-    color:#fff!important;
+    color: black!important;
     border-bottom:1px solid #fff!important;
     border-radius:0;
     box-shadow:none;
