@@ -37,7 +37,7 @@
   <body>
 
 	<!-- Menu -->
-	<nav class="menu contact-blur" id="theMenu">
+	<nav class="menu " id="theMenu">
 		<div class="menu-wrap">
 			<h1 class="logo"><a href="index.html#home">LINK</a></h1>
 			<i class="fa fa-arrow-right menu-close"></i>
@@ -47,7 +47,7 @@
 			<a href="">Rules</a>
 			<a href="">Schedule</a>
 			<!-- <a href="#myModal">Contact</a> -->
-			<a class="contact-blur" data-toggle="modal" data-target="#myModal">Contact</a>
+			<a class="" data-toggle="modal" data-target="#myModal">Contact</a>
 			<a href="<?php echo FACEBOOK_URL; ?>"><i class="fa fa-facebook"></i></a>
 			<a href="<?php echo TWITTER_URL; ?>"><i class="fa fa-twitter"></i></a>
 			<a href="<?php echo GOOGLE_PLUS_URL; ?>" rel="publisher"><i class="fa fa-google-plus"></i></a>
@@ -109,7 +109,7 @@
     </div>
 
 	<!-- MAIN IMAGE SECTION -->
-	<div id="home" class="headerwrap contact-blur">
+	<div id="home" class="headerwrap ">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2">
@@ -130,7 +130,7 @@
 	</div><!-- /headerwrap -->
 
 	<!-- WELCOME SECTION -->
-    <div class="container contact-blur">
+    <div class="container ">
       <div class="row mt">
       	<div id="about" class="col-lg-8">
 	        <h1>What is Hacking Edu?</h1>
@@ -167,7 +167,7 @@
 
 
 	<!-- APPLY -->
-	<div id="apply" class="contact-blur">
+	<div id="apply" class="">
 		<div class="container">
 			<div class="row mt">
 				<h1 class="white-text">Applications are Going Quickly</h1>
@@ -367,7 +367,7 @@
 
 
 	<!-- SPONSORS -->
-	<div id="sponsors" class="container contact-blur">
+	<div id="sponsors" class="container ">
 		<div class="row mt">
 			<div class="col-lg-12">
 				<h1>2015 Hacking Edu Sponsors</h1>
@@ -403,7 +403,7 @@
 		<!-- </div>row -->
 
 	    <!-- PORTFOLIO SECTION -->
-	    <!-- <div id="portfolio contact-blur">
+	    <!-- <div id="portfolio ">
 	    	<div class="container" -->
 		    	<!-- <div class="row mt"> -->
 			<ul class="grid effect-2" id="grid">
@@ -454,7 +454,7 @@
 
 	<!-- CALL TO ACTION -->
 	<div id="call">
-		<div class="container contact-blur">
+		<div class="container ">
 			<div class="row">
 				<h3>Interested in Sponsoring?</h3>
 				<div class="col-lg-8 col-lg-offset-2">
@@ -478,7 +478,7 @@
 	      	</div> -->
 		<!-- </div> --><!-- row -->
 	<!-- </div> --><!-- container -->
-    <div class="container contact-blur">
+    <div class="container ">
     	<div class="row mt">
       		<div class="col-lg-8">
 	        	<h1>Stay Connected</h1>
@@ -493,7 +493,7 @@
 	<!-- SOCIAL FOOTER -->
 	<section id="contact"></section>
 	<div id="sf">
-		<div class="container contact-blur">
+		<div class="container ">
 			<div class="row">
 				<a href="<?php echo FACEBOOK_URL; ?>">
 					<div class="col-lg-4 dg">
