@@ -69,7 +69,7 @@
     <!-- Modal -->
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="container">
-        <div class="row">
+        <!-- <div class="row"> -->
           <div class="col-sm-6 col-sm-offset-3 text-center">
             <h1>Modal with blur effect</h1>
             <h2>Put here whatever you want here</h2>
@@ -78,7 +78,7 @@
             <hr>
             <div class="alert alert-info"><h4>I can add a close button if you want.<br>Please, tell me in comments :)</h4></div>
           </div>
-        </div>
+        <!-- </div> -->
       </div>
     </div>
 
