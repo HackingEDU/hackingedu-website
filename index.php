@@ -479,6 +479,11 @@
 			maxDuration : 0.7,
 			viewportFactor : 0.2
 		} );
+		new AnimOnScroll( document.getElementById( 'process' ), {
+			minDuration : 0.4,
+			maxDuration : 0.7,
+			viewportFactor : 0.2
+		} );
 	</script>
   </body>
 </html>
