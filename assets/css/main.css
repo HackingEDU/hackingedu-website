@@ -265,7 +265,7 @@ hr {
     margin: 0;
     padding: 0;
 }
-#serviceswrap {
+#applywrap {
     background: url(../img/services-bg.jpg) no-repeat center top;
     margin-top: -10px;
     padding-top: 20px;
@@ -283,7 +283,7 @@ hr {
     -o-background-size: cover;
     background-size: cover;
 }
-#serviceswrap h2 {
+#applywrap h2 {
     color: #fff;
     font-size: 50px;
     font-weight: 400;
@@ -407,7 +407,7 @@ a.main-btn:hover {
 }*/
 #portfolio {
     width: 100%}
-#services {
+#apply {
     /*background: #1abc9c;*/
     background:url('../img/edubg.png') fixed;/* */
     /*background: url(../img/apicon-hackathon.jpg) no-repeat center top fixed;*/
@@ -417,13 +417,13 @@ a.main-btn:hover {
     padding-top: 35px;
     padding-bottom: 35px;
 }
-#services h3 {
+#apply h3 {
     color: #fff;
 }
-#services p {
+#apply p {
     color: #fff;
 }
-#services i {
+#apply i {
     color: #fff;
     font-size: 35px;
     margin-top: 22px;
