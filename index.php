@@ -39,7 +39,7 @@
 	<!-- Menu -->
 	<nav class="menu " id="theMenu">
 		<div class="menu-wrap">
-			<h1 class="logo"><a href="index.html#home">LINK</a></h1>
+			<h1 class="logo"><a href="#home">Hacking Edu</a></h1>
 			<i class="fa fa-arrow-right menu-close"></i>
 			<a href="#home">Home</a>
 			<a href="#about">About</a>
@@ -131,7 +131,7 @@
 		</div><!-- /container -->
 	</div><!-- /headerwrap -->
 
-	<!-- WELCOME SECTION -->
+	<!-- ABOUT -->
     <div class="container ">
       <div class="row mt">
       	<div id="about" class="col-lg-8">
@@ -338,31 +338,6 @@
 				    </div>
 				    <div class="clearfix"></div>
 				  </div>
-<!-- 				<div class="col-lg-1 centered">
-					<i class="fa fa-certificate"></i>
-				</div>
-				<div class="col-lg-3">
-					<h3>Quality Design</h3>
-					<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-				</div>
-
-				<div class="col-lg-1 centered">
-					<i class="fa fa-question-circle"></i>
-				</div>
-				<div class="col-lg-3">
-					<h3>Awesome Support</h3>
-					<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-				</div>
-
-
-				<div class="col-lg-1 centered">
-					<i class="fa fa-globe"></i>
-				</div>
-				<div class="col-lg-3">
-					<h3>Global Services</h3>
-					<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-				</div> -->
-
 			</div><!-- row -->
 		</div><!-- container -->
 	</div><!-- services section -->
@@ -377,37 +352,6 @@
 			<div class="col-lg-8">
 				<p>We're excited to get the sponsors underway.  We plan to have Google, Evernote, Visa, and more!</p>
 			</div><!-- col-lg-8 -->
-
-<!-- 			<div class="col-lg-4 goright">
-				<p><a href="#"><i class="fa fa-angle-right"></i> See All Posts</a></p>
-			</div> -->
-		</div><!-- row -->
-
-<!-- 		<div class="row mt">
-			<div class="col-lg-4">
-				<img class="img-responsive" src="assets/img/post01.jpg" alt="">
-				<h3><a href="#">Designing for the reader experience</a></h3>
-				<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-				<p><a href="#"><i class="fa fa-link"></i> Read More</a></p>
-			</div>
-			<div class="col-lg-4">
-				<img class="img-responsive" src="assets/img/post02.jpg" alt="">
-				<h3><a href="#">25 Examples of flat web & application design</a></h3>
-				<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-				<p><a href="#"><i class="fa fa-link"></i> Read More</a></p>
-			</div>
-			<div class="col-lg-4">
-				<img class="img-responsive" src="assets/img/post03.jpg" alt="">
-				<h3><a href="#">We are an award winning design agency</a></h3>
-				<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-				<p><a href="#"><i class="fa fa-link"></i> Read More</a></p>
-			</div> -->
-		<!-- </div>row -->
-
-	    <!-- PORTFOLIO SECTION -->
-	    <!-- <div id="portfolio ">
-	    	<div class="container" -->
-		    	<!-- <div class="row mt"> -->
 			<ul class="grid effect-2" id="grid">
 				<!-- <li><a href="singleproject.html"><img src="assets/img/portfolio/1.jpg"></a></li>
 				<li><a href="singleproject.html"><img src="assets/img/portfolio/3.jpg"></a></li>
@@ -430,28 +374,78 @@
 
 
 
-	<!-- CLIENTS LOGOS -->
-<!-- 	<div id="lg">
+	<!-- SCHEDULE -->
+	<div id="sp">
 		<div class="container">
-			<div class="row centered">
-				<div class="col-lg-2 col-lg-offset-1">
-					<img src="assets/img/clients/c01.gif" alt="">
+			<div class="row">
+				<h2>Client Name Goes Here</h2>
+			</div><!-- row -->
+		</div><!-- /container -->
+	</div><!-- /portrwrap -->
+
+    <div class="container">
+      <div class="row mt centered">
+      	<div class="col-lg-8 col-lg-offset-2">
+	        <h1><b>Spot Free Theme</b></h1>
+	        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+      	</div>
+      </div><!-- /row -->
+    </div><!-- /.container -->
+
+    <!-- MAC IMAGE -->
+	<div class="container">
+		<div class="row centered">
+			<div class="col-lg-10 col-lg-offset-1">
+				<img class="img-responsive" src="assets/img/spot.png" alt="Spot Theme">
+			</div>
+		</div>
+	</div>
+
+
+	<!-- CLIENT INFORMATION -->
+	<div id="lg">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-5 col-lg-offset-1 desc">
+					<h3>Client Desctription</h3>
+					<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+					<p>Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
 				</div>
-				<div class="col-lg-2">
-					<img src="assets/img/clients/c02.gif" alt="">
+
+				<div class="col-lg-4 col-lg-offset-1 desc">
+					<h3>Agency Resume</h3>
+					<br>
+					<h5><b>Team Leader:</b> REBECCA ZEARING</h5>
+					<h5><b>Agency Job:</b> WEB DESIGN, WEB DEVELOPMENT</h5>
+					<h5><b>Proposal Description:</b></h5>
+					<p class="tm">Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure.<br/>Lorem Ipsum passage, and going through the cites of the word in classical literature.</p>
+					<p><a href="http://BlackTie.co"><i class="fa fa-link"></i> Visit Site</a></p>
+
 				</div>
-				<div class="col-lg-2">
-					<img src="assets/img/clients/c03.gif" alt="">
-				</div>
-				<div class="col-lg-2">
-					<img src="assets/img/clients/c04.gif" alt="">
-				</div>
-				<div class="col-lg-2">
-					<img src="assets/img/clients/c05.gif" alt="">
-				</div> -->
-			<!--</div><!-- row -->
-		<!--</div><!-- container -->
-	<!--</div><!-- dg -->
+
+			</div><!-- row -->
+		</div><!-- container -->
+	</div><!-- dg -->
+
+	<!-- IMAGES -->
+	<div id="sp-standout"></div>
+
+	<div class="container">
+		<div class="row mt centered">
+			<div class="col-lg-8 col-lg-offset-2">
+				<h1>More Information</h1>
+				<ul class="process effect-2" id="process">
+					<li><img src="assets/img/sp/p01.png"></li>
+					<li><img src="assets/img/sp/p02.png"></li>
+					<li><img src="assets/img/sp/p04.png"></li>
+					<li><img src="assets/img/sp/p03.png"></li>
+				</ul>
+			</div><!-- col-lg-8 -->
+		</div><!-- row -->
+	</div><!-- container -->
+
+
+	<!-- SCHEDULE -->
 
 
 	<!-- CALL TO ACTION -->
