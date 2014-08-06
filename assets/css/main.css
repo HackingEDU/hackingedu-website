@@ -704,6 +704,9 @@ a.main-btn:hover {
     box-shadow:none!important;
     height:auto;
 }
+.contact-border-bottom {
+    border-bottom:1px dotted black;
+}
 .auth textarea {
     background-color: rgba(255, 255, 255, 0)!important;
     color: black!important;
@@ -712,7 +715,7 @@ a.main-btn:hover {
 
 .auth textarea.subject {
     height: 2em;
-    padding-bottom: .5em;
+    padding-bottom: 1.8em;
     margin-bottom: 1em;
 }
 

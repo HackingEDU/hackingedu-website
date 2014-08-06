@@ -75,29 +75,29 @@
 
                       <!-- Name -->
                       <div class="form-group">
-                        <label class="pull-left control-label" for="textinput">Your Name</label>
+                        <!-- <label class="pull-left control-label" for="textinput">Your Name</label> -->
                         <div class="">
-                          <input id="textinput" name="textinput" placeholder="Student Hacker" class="form-control input-md" type="text">
+                          <input id="textinput" name="textinput" placeholder="Name" class="form-control input-md contact-border-bottom" type="text">
                           <!-- <span class="help-block">help</span> -->
                         </div>
                       </div>
 
                       <!-- Email -->
                       <div class="form-group">
-                        <label class="pull-left control-label" for="textinput">Your Email</label>
+                        <!-- <label class="pull-left control-label" for="textinput">Your Email</label> -->
                         <div class="">
-                          <input id="textinput" name="textinput" placeholder="you@yourSchool.edu" class="form-control input-md" type="text">
+                          <input id="textinput" name="textinput" placeholder="example@hacker.com" class="form-control input-md contact-border-bottom" type="text">
                           <!-- <span class="help-block">help</span> -->
                         </div>
                       </div>
 
 
                       <div class="form-group">
-                        <label class=" control-label" for="textarea">What can we help you with?</label>
+                        <label class="control-label" for="textarea">What can we help you with?</label>
                         <!-- Subject -->
                         <textarea class="form-control subject" id="" name="textarea" placeholder="Subject"></textarea>
                         <!-- Textarea -->
-                        <textarea class="form-control" id="textarea" name="textarea" placeholder="Tell us about your idea! :)"></textarea>
+                        <textarea class="form-control" id="textarea" name="textarea" placeholder="Ask away! :)"></textarea>
                       </div>
 
                     <!-- </fieldset> -->
