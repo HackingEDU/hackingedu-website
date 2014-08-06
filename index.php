@@ -58,7 +58,7 @@
 		<div id="menuToggle"><i class="fa fa-bars"></i></div>
 	</nav>
 
-    <!-- Modal -->
+    <!-- Contact Form Modal -->
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="m-top-10">
           <div class="col-sm-10 col-sm-offset-1 text-center">
@@ -121,7 +121,7 @@
 					<h2>Disrupting The Education Market</h2>
 					<!-- <div class="btn-row"> -->
 					<a class="main-btn apply-btn" href="#apply">Hacker Application</a>
-					<a id="volunteer-btn-slide" class="main-btn volunteer-btn" target="_blank" href="#apply">Volunteer</a>
+					<a id="volunteer-btn-slide" class="main-btn volunteer-btn" href="#apply">Volunteer</a>
 					<a id="" class="main-btn sponsor-btn" href="#apply">Sponsor</a>
 					<!-- </div> -->
 					<div class="spacer"></div>
