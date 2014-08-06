@@ -68,7 +68,7 @@
                 <!-- <h1 class="text-center">Bootstrap form theme <span>It's nice!</span> </h1> -->
                 <div id="big-form" class="well auth-box">
                   <form>
-                    <fieldset>
+                    <!-- <fieldset> -->
 
                       <!-- Form Name -->
                       <!-- <legend>Contact Form</legend> -->
@@ -99,7 +99,7 @@
                         </div>
                       </div>
 
-                    </fieldset>
+                    <!-- </fieldset> -->
                   </form>
                 </div>
                 <div class="clearfix"></div>
