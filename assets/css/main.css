@@ -367,6 +367,8 @@ hr {
 #services {
     /*background: #1abc9c;*/
     background: url(../img/apicon-hackathon.jpg) no-repeat center top fixed;
+    background-size: cover;
+    background-position: center center;
     margin-top: 25px;
     padding-top: 35px;
     padding-bottom: 35px;
