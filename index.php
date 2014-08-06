@@ -67,9 +67,9 @@
 					<h3>SF Bay Area</h3>
 					<h2>Disrupting The Education Market</h2>
 					<!-- <div class="btn-row"> -->
-					<a class="main-btn apply-btn" href="#">Hacker Application</a>
-					<a id="volunteer-btn-slide" class="main-btn volunteer-btn" target="_blank" href="#">Volunteer</a>
-					<a id="" class="main-btn sponsor-btn" href="#">Sponsor</a>
+					<a class="main-btn apply-btn" href="#apply">Hacker Application</a>
+					<a id="volunteer-btn-slide" class="main-btn volunteer-btn" target="_blank" href="#apply">Volunteer</a>
+					<a id="" class="main-btn sponsor-btn" href="#apply">Sponsor</a>
 					<!-- </div> -->
 					<div class="spacer"></div>
 					<!-- <i class="fa fa-angle-down"></i> -->
@@ -115,8 +115,8 @@
     </div><!-- /.container -->
 
 
-	<!-- SERVICES SECTION -->
-	<div id="services">
+	<!-- APPLY -->
+	<div id="apply">
 		<div class="container">
 			<div class="row mt">
 				<h1 class="white-text">Applications are Going Quickly</h1>
@@ -315,10 +315,10 @@
 	</div><!-- services section -->
 
 
-	<!-- BLOG POSTS -->
-	<div class="container">
+	<!-- SPONSORS -->
+	<div id="sponsors" class="container">
 		<div class="row mt">
-			<div id="sponsors" class="col-lg-12">
+			<div class="col-lg-12">
 				<h1>2015 Hacking Edu Sponsors</h1>
 			</div><!-- col-lg-12 -->
 			<div class="col-lg-8">
