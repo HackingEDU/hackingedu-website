@@ -44,7 +44,8 @@
 			<a href="index.html">Home</a>
 			<a href="services.html">About</a>
 			<a href="portfolio.html">Sponsors</a>
-			<a href="about.html">FAQs</a>
+			<a href="">Rules</a>
+			<a href="">Schedule</a>
 			<a href="#contact">Contact</a>
 			<a href="<?php echo FACEBOOK_URL; ?>"><i class="fa fa-facebook"></i></a>
 			<a href="<?php echo TWITTER_URL; ?>"><i class="fa fa-twitter"></i></a>
