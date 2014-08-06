@@ -44,8 +44,8 @@
 			<a href="#home">Home</a>
 			<a href="#about">About</a>
 			<a href="#sponsors">Sponsors</a>
-			<a href="">Rules</a>
-			<a href="">Schedule</a>
+			<a href="#rules">Rules</a>
+			<a href="#schedule">Schedule</a>
 			<!-- <a href="#myModal">Contact</a> -->
 			<a class="" data-toggle="modal" data-target="#myModal">Contact</a>
 			<a href="<?php echo FACEBOOK_URL; ?>"><i class="fa fa-facebook"></i></a>
@@ -374,11 +374,11 @@
 
 
 
-	<!-- SCHEDULE -->
-	<div id="sp">
+	<!-- RULES -->
+	<div id="sp" class="rules">
 		<div class="container">
 			<div class="row">
-				<h2>Client Name Goes Here</h2>
+				<h2>Hackathon Rules</h2>
 			</div><!-- row -->
 		</div><!-- /container -->
 	</div><!-- /portrwrap -->
@@ -427,13 +427,13 @@
 		</div><!-- container -->
 	</div><!-- dg -->
 
-	<!-- IMAGES -->
-	<div id="sp-standout"></div>
+	<!-- SCHEDULE -->
+	<div id="sp-standout" class="schedule"></div>
 
 	<div class="container">
 		<div class="row mt centered">
 			<div class="col-lg-8 col-lg-offset-2">
-				<h1>More Information</h1>
+				<h1>Schedule</h1>
 				<ul class="process effect-2" id="process">
 					<li><img src="assets/img/sp/p01.png"></li>
 					<li><img src="assets/img/sp/p02.png"></li>
