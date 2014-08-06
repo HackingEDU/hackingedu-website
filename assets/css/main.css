@@ -806,7 +806,7 @@ a.main-btn:hover {
 /* =========================================================================
                          Modal With Blur Effect
    =======================================================================*/
-   body.modal-open #wrap{
+   body.modal-open .contact-blur{
        -webkit-filter: blur(7px);
        -moz-filter: blur(15px);
        -o-filter: blur(15px);
