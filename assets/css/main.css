@@ -510,7 +510,7 @@ a.main-btn:hover {
     float: left;
     padding: 1px;
     width: 100%;
-    /*opacity: 0;*/
+    opacity: 0;
 }
 .process li.shown, .no-js .process li, .no-cssanimations .process li {
     opacity: 1;
