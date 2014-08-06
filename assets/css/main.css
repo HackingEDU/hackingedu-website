@@ -365,15 +365,13 @@ hr {
     -o-background-size: cover;
     background-size: cover;
 }
-a.apply-btn {
+
+a.main-btn {
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 14px;
     font-weight: bold;
     background: clear;
     color: #fff;
-    /* max-width: 236px; */
-    /* cursor: pointer; */
-    padding: 15px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     /* border: none; */
@@ -382,44 +380,21 @@ a.apply-btn {
     /* text-decoration: none; */
     border: 2px solid #fff;
     text-transform: uppercase;
-
+    /* max-width: 236px; */
+    /* cursor: pointer; */
+}
+a.apply-btn {
+    padding: 15px;
 }
 
 a.volunteer-btn {
-/*    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    font-weight: bold;
-    background: #ef3e36;
-    color: #fff;
-    max-width: 254px;
-    width: 100%;
-    cursor: pointer;
-    padding: 10px 91px;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-    border: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    text-decoration: none;
-    border: 1px solid #ef3e36;
-    text-transform: uppercase;
-    margin-right: 4px;*/
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    font-weight: bold;
-    background: clear;
-    color: #fff;
-    /* max-width: 236px; */
-    /* cursor: pointer; */
-    padding: 15px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    /* border: none; */
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    /* text-decoration: none; */
-    border: 2px solid #fff;
-    text-transform: uppercase;
+    padding: 15px 51px;
+}
+a.sponsor-btn {
+    padding: 15px 51px;
+}
+.sponsor-btn {
+
 }
 #portfolio {
     width: 100%}
