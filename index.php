@@ -1,4 +1,4 @@
-<?php require_once 'config.php'; ?>
+<?php require_once './config.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -44,9 +44,9 @@
 			<a href="portfolio.html">Sponsors</a>
 			<a href="about.html">FAQs</a>
 			<a href="#contact">Contact</a>
-			<a href="<?php echo $FACEBOOK_URL; ?>"><i class="fa fa-facebook"></i></a>
-			<a href="<?php echo $TWITTER_URL; ?>"><i class="fa fa-twitter"></i></a>
-			<a href="<?php echo $GOOGLE_PLUS_URL; ?>" rel="publisher"><i class="fa fa-google-plus"></i></a>
+			<a href="<?php echo FACEBOOK_URL; ?>"><i class="fa fa-facebook"></i></a>
+			<a href="<?php echo TWITTER_URL; ?>"><i class="fa fa-twitter"></i></a>
+			<a href="<?php echo GOOGLE_PLUS_URL; ?>" rel="publisher"><i class="fa fa-google-plus"></i></a>
 			<a href="mailto:hackingeduteam@gmail.com"><i class="fa fa-envelope"></i></a>
 		</div>
 
@@ -421,17 +421,17 @@
 			<div class="row">
 				<div class="col-lg-4 dg">
 					<h4 class="ml">FACEBOOK</h4>
-					<p class="centered"><a href="<?php echo $FACEBOOK_URL; ?>"><i class="fa fa-facebook"></i></a></p>
+					<p class="centered"><a href="<?php echo FACEBOOK_URL; ?>"><i class="fa fa-facebook"></i></a></p>
 					<p class="ml">> Become A Friend</p>
 				</div>
 				<div class="col-lg-4 lg">
 					<h4 class="ml">TWITTER</h4>
-					<p class="centered"><a href="<?php echo $TWITTER_URL; ?>"><i class="fa fa-twitter"></i></a></p>
+					<p class="centered"><a href="<?php echo TWITTER_URL; ?>"><i class="fa fa-twitter"></i></a></p>
 					<p class="ml">> Follow Us</p>
 				</div>
 				<div class="col-lg-4 dg">
 					<h4 class="ml">GOOGLE +</h4>
-					<p class="centered"><a href="<?php echo $GOOGLE_PLUS_URL; ?>"><i class="fa fa-google-plus"></i></a></p>
+					<p class="centered"><a href="<?php GOOGLE_PLUS_URL; ?>"><i class="fa fa-google-plus"></i></a></p>
 					<p class="ml">> Add Us To Your Circle</p>
 				</div>
 			</div><!-- row -->
