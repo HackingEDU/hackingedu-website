@@ -665,19 +665,19 @@ a.main-btn:hover {
 }
 
 .auth .auth-box input::-webkit-input-placeholder { /* WebKit browsers */
-    color:    #fff;
+    color:    black;
     font-weight:300;
 }
 .auth .auth-box input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    color:    #fff;
+    color:    black;
     font-weight:300;
 }
 .auth .auth-box input::-moz-placeholder { /* Mozilla Firefox 19+ */
-    color:    #fff;
+    color:    black;
     font-weight:300;
 }
 .auth .auth-box input:-ms-input-placeholder { /* Internet Explorer 10+ */
-    color:    #fff;
+    color:    black;
     font-weight:300;
 }
 .auth span.input-group-addon,
