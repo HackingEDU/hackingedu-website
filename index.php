@@ -46,7 +46,7 @@
 			<a href="#sponsors">Sponsors</a>
 			<a href="">Rules</a>
 			<a href="">Schedule</a>
-			<a href="#contact">Contact</a>
+			<a href="#myModal">Contact</a>
 			<a href="<?php echo FACEBOOK_URL; ?>"><i class="fa fa-facebook"></i></a>
 			<a href="<?php echo TWITTER_URL; ?>"><i class="fa fa-twitter"></i></a>
 			<a href="<?php echo GOOGLE_PLUS_URL; ?>" rel="publisher"><i class="fa fa-google-plus"></i></a>
@@ -56,6 +56,35 @@
 		<!-- Menu button -->
 		<div id="menuToggle"><i class="fa fa-bars"></i></div>
 	</nav>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="m-top-10">
+            <div class="panel-image text-center">
+                <!-- <img src="http://666a658c624a3c03a6b2-25cda059d975d2f318c03e90bcf17c40.r92.cf1.rackcdn.com/unsplash_52d09387ae003_1.JPG" class="panel-image-preview" /> -->
+                <!-- <img class="repo_image" id="<?php // echo $repository['name']; ?>" src="<?php // echo $repository['image']; ?>" onload="checkImage(this)" onerror="" alt="<?php // echo $repository['name']; ?>"> -->
+                <label for="toggle-1"></label>
+                <div class="panel-footer footer-cool text-center">
+                    <a href="<?php // echo $repository['html_url']; ?>/archive/master.zip">
+                        <span class="glyphicon glyphicon-download"></span>
+                        <span class="modal-subtext">Download</span>
+                    </a>
+                    <a href="<?php // echo $repository['html_url']; ?>">
+                        <span class="fa fa-github"></span>
+                        <span class="strong modal-subtext">Github</span>
+                    </a>
+                    <a href="#live_preview">
+                        <span class="fa fa-play-circle-o"></span>
+                        <span class="modal-subtext">Live Demo</span>
+                    </a>
+                    <a href="#share">
+                        <span class="glyphicon glyphicon-share-alt"></span>
+                        <span class="modal-subtext">Share</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 
 	<!-- MAIN IMAGE SECTION -->
 	<div id="home" class="headerwrap">
