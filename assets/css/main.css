@@ -367,6 +367,7 @@ hr {
 }
 
 a.main-btn {
+    margin-top: 1em;
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 14px;
     font-weight: bold;
@@ -399,9 +400,9 @@ a.main-btn:hover {
     opacity: .4;
     color: black;
 }
-.btn-row {
+/*.btn-row {
 
-}
+}*/
 #portfolio {
     width: 100%}
 #services {
