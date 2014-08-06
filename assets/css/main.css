@@ -382,6 +382,7 @@ a.main-btn {
     text-transform: uppercase;
     /* max-width: 236px; */
     /* cursor: pointer; */
+    transition-duration: .6s;
 }
 a.apply-btn {
     padding: 15px;
@@ -391,11 +392,13 @@ a.volunteer-btn {
     padding: 15px 51px;
 }
 a.sponsor-btn {
-    padding: 15px 51px;
+    padding: 15px 59px;
 }
-.sponsor-btn {
+a.main-btn:hover {
+    background: white;
+    color: black;
+}
 
-}
 #portfolio {
     width: 100%}
 #services {
