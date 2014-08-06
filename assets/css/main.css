@@ -410,7 +410,7 @@ a.volunteer-btn {
     width: 100%}
 #services {
     /*background: #1abc9c;*/
-    background:url('http://www.wallpaperup.com/uploads/wallpapers/2012/08/30/12087/3574f899daef41d2f145eba13ff7840f.jpg');
+    background:url('http://www.wallpaperup.com/uploads/wallpapers/2012/08/30/12087/3574f899daef41d2f145eba13ff7840f.jpg') fixed;
     /*background: url(../img/apicon-hackathon.jpg) no-repeat center top fixed;*/
     background-size: cover;
     background-position: center center;
