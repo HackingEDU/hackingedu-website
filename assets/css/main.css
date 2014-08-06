@@ -645,6 +645,23 @@ a.main-btn:hover {
     font-weight:300;
     font-size:24px;
 }
+.auth2 h1 {
+    color:#fff!important;
+    font-weight:300;
+    font-family: 'Open Sans', sans-serif;
+}
+.auth2 h1 span {
+    font-size:21px;
+    display:block;
+    padding-top: 20px;
+}
+
+.auth2 .auth-box2 legend {
+    color: #fff;
+    border:none;
+    font-weight:300;
+    font-size:24px;
+}
 .auth .auth-box {
     background-color:#fff;
     max-width: 900px;
@@ -652,6 +669,26 @@ a.main-btn:hover {
 /*    border:1px solid rgba(255, 255, 255, 0.8);
     background-color: rgba(255, 255, 255, 0.2);
     background: rgba(255, 255, 255, 0.9);*/
+    margin-top:40px;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.32);
+    -moz-box-shadow:    0px 0px 30px 0px rgba(50, 50, 50, 0.32);
+    box-shadow:         0px 0px 30px 0px rgba(50, 50, 50, 0.32);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: background 1s ease-in-out;
+    -moz-transition: background 1s ease-in-out;
+    -ms-transition: background 1s ease-in-out;
+    -o-transition: background 1s ease-in-out;
+    transition: background 1s ease-in-out;
+}
+.auth2 .auth-box2 {
+    background-color:#fff;
+    max-width: 900px;
+    margin:0 auto;
+    border:1px solid rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.2);
     margin-top:40px;
     -webkit-box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.32);
     -moz-box-shadow:    0px 0px 30px 0px rgba(50, 50, 50, 0.32);
@@ -687,6 +724,23 @@ a.main-btn:hover {
     color:    black;
     font-weight:300;
 }
+
+.auth2 .auth-box2 input::-webkit-input-placeholder { /* WebKit browsers */
+    color: #fff;
+    font-weight:300;
+}
+.auth2 .auth-box2 input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #fff;
+    font-weight:300;
+}
+.auth2 .auth-box2 input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #fff;
+    font-weight:300;
+}
+.auth2 .auth-box2 input:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #fff;
+    font-weight:300;
+}
 .auth span.input-group-addon,
 .input-group-btn button {
     border:none;
@@ -711,6 +765,21 @@ a.main-btn:hover {
     box-shadow:none!important;
     height:auto;
 }
+.auth2 form input[type="text"],
+.auth2 form input[type="password"],
+.auth2 form input[type="email"],
+.auth2 form input[type="search"] {
+    border:none;
+    padding:10px 0 10px 0;
+    background-color: rgba(255, 255, 255, 0)!important;
+    background: rgba(255, 255, 255, 0);
+    color: #fff;
+    font-size:16px;
+    border-bottom:1px dotted #fff;
+    border-radius:0;
+    box-shadow:none!important;
+    height:auto;
+}
 .auth form input[type="text"].contact-border-bottom {
     border-bottom:1px dotted black;
 }
@@ -718,6 +787,14 @@ a.main-btn:hover {
     background-color: rgba(255, 255, 255, 0)!important;
     color: black!important;
     height: 6em;
+}
+.auth2 form input[type="text"].contact-border-bottom {
+    border-bottom:1px dotted #fff;
+}
+.auth2 textarea {
+    background-color: rgba(255, 255, 255, 0)!important;
+    color: #fff!important;
+    /*height: 6em;*/
 }
 
 .auth textarea.subject {
@@ -742,6 +819,13 @@ a.main-btn:hover {
     font-size: 14px;
 }
 
+.auth2 .radio label,
+.auth2 label.radio-inline,
+.auth2 .checkbox label,
+.auth2 label.checkbox-inline {
+    font-size: 14px;
+}
+
 .auth form .help-block {
     color: black;
 }
@@ -749,6 +833,14 @@ a.main-btn:hover {
     background-color: rgba(255, 255, 255, 0)!important;
     background: rgba(255, 255, 255, 0);
     color: black!important;
+    border-bottom:1px solid #fff!important;
+    border-radius:0;
+    box-shadow:none;
+}
+.auth2 form select {
+    background-color: rgba(255, 255, 255, 0)!important;
+    background: rgba(255, 255, 255, 0);
+    color: #fff!important;
     border-bottom:1px solid #fff!important;
     border-radius:0;
     box-shadow:none;
