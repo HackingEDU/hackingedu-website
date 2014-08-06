@@ -239,6 +239,12 @@ hr {
     font-weight: 100;
     letter-spacing: 2px;
 }
+#headerwrap h3 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
 #headerwrap i {
     font-size: 35px;
     color: #fff;
