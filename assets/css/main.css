@@ -26,6 +26,9 @@ p {
 .mt {
     padding-top: 25px;
 }
+.white-text {
+    color: #fff;
+}
 .main-img {
     width: 32em;
     margin-top: 12em;
