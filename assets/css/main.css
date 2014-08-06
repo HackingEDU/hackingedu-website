@@ -621,15 +621,7 @@ a.main-btn:hover {
 .margin-top-20 {
     margin-top: 20px;
 }
-/*body {
-    background:url('http://www.wallpaperup.com/uploads/wallpapers/2012/08/30/12087/3574f899daef41d2f145eba13ff7840f.jpg');
-    background-size:100% 100%;
-    background-attachment: fixed;
-    background-repeat:no-repeat;
-    font-family: 'Open Sans', sans-serif;
-    padding-bottom: 40px;
-}
-*/
+
 .auth h1 {
     color:#fff!important;
     font-weight:300;
@@ -641,7 +633,7 @@ a.main-btn:hover {
     padding-top: 20px;
 }
 .auth .auth-box legend {
-    color:#fff;
+    color: black;
     border:none;
     font-weight:300;
     font-size:24px;
@@ -652,7 +644,7 @@ a.main-btn:hover {
     margin:0 auto;
     border:1px solid rgba(255, 255, 255, 0.4);;
     background-color: rgba(255, 255, 255, 0.2);
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.6);
     margin-top:40px;
     -webkit-box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.32);
     -moz-box-shadow:    0px 0px 30px 0px rgba(50, 50, 50, 0.32);

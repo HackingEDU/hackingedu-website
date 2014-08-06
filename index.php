@@ -93,7 +93,7 @@
 
                       <!-- Textarea -->
                       <div class="form-group">
-                        <label class=" control-label" for="textarea">At Hacking Edu we want to show the world the new ways we can learn.  How do you plan to tackle this challenge?</label>
+                        <label class=" control-label" for="textarea">What can we help you with?</label>
                         <div class="">
                           <textarea class="form-control" id="textarea" name="textarea">Tell us about your idea! :)</textarea>
                         </div>
