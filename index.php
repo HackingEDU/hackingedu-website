@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- <link rel="shortcut icon" href="./favicon.ico"> -->
-    <link rel="shortcut icon" href="http://alexcory.com/hackingedu.ico">
+    <link rel="shortcut icon" href="hackingedu.ico">
     <!-- <link rel="shortcut icon" href="assets/ico/faviconΩ.png"> -->
 
     <title>Hacking Edu</title>
