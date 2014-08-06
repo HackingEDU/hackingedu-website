@@ -64,92 +64,46 @@
           <div class="col-sm-6 col-sm-offset-3 text-center">
             <h1>Modal with blur effect</h1>
 
-            <div id="DIV_1">
-            	<form action="demo-contacts-process.php" method="post" id="FORM_2">
-            		<header id="HEADER_3">
-            			Contacts form
-            		</header>
-            		<fieldset id="FIELDSET_4">
-            			<div id="DIV_5">
-            				<section id="SECTION_6">
+            <div class="container auth">
+                <!-- <h1 class="text-center">Bootstrap form theme <span>It's nice!</span> </h1> -->
+                <div id="big-form" class="well auth-box">
+                  <form>
+                    <fieldset>
 
-            					<label id="LABEL_7">
-            						Name
-            					</label>
-            					<label id="LABEL_8">
-            						<i id="I_9"></i>
-            						<input type="text" name="name" id="INPUT_10" />
-            					</label>
-            				</section>
-            				<section id="SECTION_11">
+                      <!-- Form Name -->
+                      <legend>Contact Form</legend>
 
-            					<label id="LABEL_12">
-            						E-mail
-            					</label>
-            					<label id="LABEL_13">
-            						<i id="I_14"></i>
-            						<input type="email" name="email" id="INPUT_15" />
-            					</label>
-            				</section>
-            			</div>
-            			<section id="SECTION_16">
+                      <!-- Name -->
+                      <div class="form-group">
+                        <label class=" control-label" for="textinput">Your Name</label>
+                        <div class="">
+                          <input id="textinput" name="textinput" placeholder="Student Hacker" class="form-control input-md" type="text">
+                          <!-- <span class="help-block">help</span> -->
+                        </div>
+                      </div>
 
-            				<label id="LABEL_17">
-            					Subject
-            				</label>
-            				<label id="LABEL_18">
-            					<i id="I_19"></i>
-            					<input type="text" name="subject" id="INPUT_20" />
-            				</label>
-            			</section>
-            			<section id="SECTION_21">
+                      <!-- Email -->
+                      <div class="form-group">
+                        <label class=" control-label" for="textinput">Your Email</label>
+                        <div class="">
+                          <input id="textinput" name="textinput" placeholder="you@yourSchool.edu" class="form-control input-md" type="text">
+                          <!-- <span class="help-block">help</span> -->
+                        </div>
+                      </div>
 
-            				<label id="LABEL_22">
-            					Message
-            				</label>
-            				<label id="LABEL_23">
-            					<i id="I_24"></i>
-            				</label>
-            				<textarea rows="4" name="message" id="TEXTAREA_25">
-            				</textarea>
-            			</section>
-            			<section id="SECTION_26">
+                      <!-- Textarea -->
+                      <div class="form-group">
+                        <label class=" control-label" for="textarea">At Hacking Edu we want to show the world the new ways we can learn.  How do you plan to tackle this challenge?</label>
+                        <div class="">
+                          <textarea class="form-control" id="textarea" name="textarea">Tell us about your idea! :)</textarea>
+                        </div>
+                      </div>
 
-            				<label id="LABEL_27">
-            					Enter characters below:
-            				</label>
-            				<label id="LABEL_28">
-            					<img src="captcha/image.php?1407363257" width="100" height="35" alt="Captcha image" id="IMG_29" />
-            					<input type="text" maxlength="6" name="captcha" id="INPUT_30" />
-            				</label>
-            			</section>
-            			<section id="SECTION_31">
-
-            				<label id="LABEL_32">
-            					<input type="checkbox" name="copy" id="INPUT_33" /><i id="I_34"></i>Send a copy to my e-mail address
-            				</label>
-            			</section>
-            		</fieldset>
-            		<footer id="FOOTER_35">
-
-            			<button type="submit" id="BUTTON_36">
-            				Send message
-            			</button>
-            		</footer>
-            		<div id="DIV_37">
-            			<i id="I_38"></i>
-            			<p id="P_39">
-            				Your message was successfully sent!
-            			</p>
-            		</div>
-            	</form>
-            </div>
-            <!-- <h2>Put here whatever you want here</h2>
-            <h4>For instance, a login form or an article content</h4>
-            <h4><kbd>esc</kbd> or click anyway to close</h4>
-            <hr>
-            <div class="alert alert-info"><h4>I can add a close button if you want.<br>Please, tell me in comments :)</h4></div>
- -->
+                    </fieldset>
+                  </form>
+                </div>
+                <div class="clearfix"></div>
+              </div>
  		</div>
       </div>
     </div>
