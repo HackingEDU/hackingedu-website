@@ -1,4 +1,3 @@
-;
 (function() {
 
     // Menu settings
@@ -11,7 +10,7 @@
 
 })(jQuery)
 
-function(e, t, n, r) {
+(function(e, t, n, r) {
     function o(t, n) {
         this.$element = e(t);
         this.settings = e.extend({}, s, n);
