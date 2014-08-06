@@ -92,17 +92,12 @@
                       </div>
 
 
-
-                      <!-- Textarea -->
                       <div class="form-group">
                         <label class=" control-label" for="textarea">What can we help you with?</label>
                         <!-- Subject -->
-                        <div class="form-group">
-                            <input id="textinput" name="textinput" placeholder="Subject" class="form-control input-md" type="text">
-                        </div>
-                        <div class="">
-                          <textarea class="form-control" id="textarea" name="textarea" placeholder="Tell us about your idea! :)"></textarea>
-                        </div>
+                        <textarea class="form-control" id="" name="textarea" placeholder="Tell us about your idea! :)"></textarea>
+                        <!-- Textarea -->
+                        <textarea class="form-control" id="textarea" name="textarea" placeholder="Tell us about your idea! :)"></textarea>
                       </div>
 
                     <!-- </fieldset> -->
