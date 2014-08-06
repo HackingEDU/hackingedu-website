@@ -59,25 +59,78 @@
 	</nav>
 
     <!-- Modal -->
-    <!-- <div id="wrap" class="text-center"> -->
-      <!-- Button trigger modal -->
-      <!-- <br> -->
-
-    <!-- </div> -->
-
-    <!-- Modal -->
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="m-top-10">
-        <!-- <div class="row"> -->
           <div class="col-sm-6 col-sm-offset-3 text-center">
             <h1>Modal with blur effect</h1>
-            <h2>Put here whatever you want here</h2>
+            <div class="body">
+    			<form action="demo-contacts-process.php" method="post" id="sky-form" class="sky-form" novalidate="novalidate">
+    				<header>Contacts form</header>
+
+    				<fieldset>
+    					<div class="row">
+    						<section class="col col-6">
+    							<label class="label">Name</label>
+    							<label class="input">
+    								<i class="icon-append fa fa-user"></i>
+    								<input type="text" name="name" id="name">
+    							</label>
+    						</section>
+    						<section class="col col-6">
+    							<label class="label">E-mail</label>
+    							<label class="input">
+    								<i class="icon-append fa fa-envelope-o"></i>
+    								<input type="email" name="email" id="email">
+    							</label>
+    						</section>
+    					</div>
+
+    					<section>
+    						<label class="label">Subject</label>
+    						<label class="input">
+    							<i class="icon-append fa fa-tag"></i>
+    							<input type="text" name="subject" id="subject">
+    						</label>
+    					</section>
+
+    					<section>
+    						<label class="label">Message</label>
+    						<label class="textarea">
+    							<i class="icon-append fa fa-comment"></i>
+    							<textarea rows="4" name="message" id="message"></textarea>
+    						</label>
+    					</section>
+
+    					<section>
+    						<label class="label">Enter characters below:</label>
+    						<label class="input input-captcha">
+    							<img src="captcha/image.php?1407363257" width="100" height="35" alt="Captcha image">
+    							<input type="text" maxlength="6" name="captcha" id="captcha">
+    						</label>
+    					</section>
+
+    					<section>
+    						<label class="checkbox"><input type="checkbox" name="copy"><i></i>Send a copy to my e-mail address</label>
+    					</section>
+    				</fieldset>
+
+    				<footer>
+    					<button type="submit" class="button">Send message</button>
+    				</footer>
+
+    				<div class="message">
+    					<i class="fa fa-check"></i>
+    					<p>Your message was successfully sent!</p>
+    				</div>
+    			</form>
+    		</div>
+            <!-- <h2>Put here whatever you want here</h2>
             <h4>For instance, a login form or an article content</h4>
             <h4><kbd>esc</kbd> or click anyway to close</h4>
             <hr>
             <div class="alert alert-info"><h4>I can add a close button if you want.<br>Please, tell me in comments :)</h4></div>
-          </div>
-        <!-- </div> -->
+ -->
+ 		</div>
       </div>
     </div>
 
