@@ -121,8 +121,8 @@
 					<h2>Disrupting The Education Market</h2>
 					<!-- <div class="btn-row"> -->
 					<a class="main-btn apply-btn" href="#apply">Hacker Application</a>
-					<a id="volunteer-btn-slide" class="main-btn volunteer-btn" href="#apply">Volunteer</a>
-					<a id="" class="main-btn sponsor-btn" href="#apply">Sponsor</a>
+					<a class="main-btn volunteer-btn" href="#apply">Volunteer</a>
+					<a class="main-btn sponsor-btn" href="#apply">Sponsor</a>
 					<!-- </div> -->
 					<div class="spacer"></div>
 					<!-- <i class="fa fa-angle-down"></i> -->
