@@ -209,7 +209,8 @@ hr {
     transition: all .1s ease-in-out;
 }
 #headerwrap {
-    background: url(../img/header-bg1.jpg) no-repeat center top;
+    /*background: url(../img/header-bg1.jpg) no-repeat center top;*/
+    background: url(../img/apicon hackathon.jpg) no-repeat center top;
     margin-top: -10px;
     padding-top: 20px;
     text-align: center;
