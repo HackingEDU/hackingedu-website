@@ -62,7 +62,7 @@
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="m-top-10">
           <div class="col-sm-6 col-sm-offset-3 text-center">
-            <h1>Modal with blur effect</h1>
+            <h1>Contact Form</h1>
 
             <div class="auth">
                 <!-- <h1 class="text-center">Bootstrap form theme <span>It's nice!</span> </h1> -->
@@ -71,11 +71,11 @@
                     <fieldset>
 
                       <!-- Form Name -->
-                      <legend>Contact Form</legend>
+                      <!-- <legend>Contact Form</legend> -->
 
                       <!-- Name -->
                       <div class="form-group">
-                        <label class=" control-label" for="textinput">Your Name</label>
+                        <label class="pull-left control-label" for="textinput">Your Name</label>
                         <div class="">
                           <input id="textinput" name="textinput" placeholder="Student Hacker" class="form-control input-md" type="text">
                           <!-- <span class="help-block">help</span> -->
@@ -84,7 +84,7 @@
 
                       <!-- Email -->
                       <div class="form-group">
-                        <label class=" control-label" for="textinput">Your Email</label>
+                        <label class="pull-left control-label" for="textinput">Your Email</label>
                         <div class="">
                           <input id="textinput" name="textinput" placeholder="you@yourSchool.edu" class="form-control input-md" type="text">
                           <!-- <span class="help-block">help</span> -->
@@ -95,7 +95,7 @@
                       <div class="form-group">
                         <label class=" control-label" for="textarea">What can we help you with?</label>
                         <div class="">
-                          <textarea class="form-control" id="textarea" name="textarea">Tell us about your idea! :)</textarea>
+                          <textarea class="form-control" id="textarea" name="textarea" placeholder="Tell us about your idea! :)"></textarea>
                         </div>
                       </div>
 
