@@ -63,7 +63,7 @@
       <div class="m-top-10">
           <div class="col-sm-6 col-sm-offset-3 text-center">
             <h1>Modal with blur effect</h1>
-            <div class="body">
+
             <div id="DIV_1">
             	<form action="demo-contacts-process.php" method="post" id="FORM_2">
             		<header id="HEADER_3">
