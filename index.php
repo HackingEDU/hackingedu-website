@@ -174,9 +174,9 @@
 			<div class="row mt">
 				<h1 class="white-text">Applications are Going Quickly</h1>
 
-				<div class="container" style="color: #fff">
+				<div class="container">
 				    <!-- <h1 class="text-center">Bootstrap form theme <span>It's nice!</span> </h1> -->
-				    <div id="big-form" class="well auth-box">
+				    <div id="big-form" class="well auth-box signup-form" style="color: #fff">
 				      <form>
 				        <fieldset>
 
