@@ -81,7 +81,7 @@
 	<!-- WELCOME SECTION -->
     <div class="container">
       <div class="row mt">
-      	<div id="#about" class="col-lg-8">
+      	<div id="about" class="col-lg-8">
 	        <h1>What is Hacking Edu?</h1>
 	        <p>This year we will have various companies from all over the bay area coming along with a couple of their trusted software engineers to help each hacker with their projects.</p>
       	</div>
