@@ -12,21 +12,21 @@
 	                    <div class="btn-group">
 		                    <ul class="nav panel-tabs">
 		                        <li class="active">
-		                        	<a type="button" class="btn btn-default" href="#tab1" data-toggle="tab">Hacker</a>
+		                        	<a type="button" class="btn btn-default" href="#hackerForm" data-toggle="tab">Hacker</a>
 		                        </li>
 		                        <li>
-		                        	<a type="button" class="hide-right-left-border btn btn-default" href="#tab2" data-toggle="tab">Volunteer</a>
+		                        	<a type="button" class="hide-right-left-border btn btn-default" href="#volunteerForm" data-toggle="tab">Volunteer</a>
 		                        </li>
 		                        <li>
-		                        	<a type="button" class="btn btn-default" href="#tab3" data-toggle="tab">Sponsor</a>
+		                        	<a type="button" class="btn btn-default" href="#sponsorForm" data-toggle="tab">Sponsor</a>
 		                        </li>
 		                    </ul>
 	                    </div>
 	                    <!-- Forms -->
 		                <div class="tab-content">
-		                    <div class="tab-pane active" id="tab1"><?php include_once 'formHacker.php'; ?></div>
-		                    <div class="tab-pane" id="tab2"><?php include_once 'formVolunteer.php'; ?></div>
-		                    <div class="tab-pane" id="tab3"><?php include_once 'formSponsor.php'; ?></div>
+		                    <div class="tab-pane active" id="hackerForm"><?php include_once 'formHacker.php'; ?></div>
+		                    <div class="tab-pane" id="volunteerForm"><?php include_once 'formVolunteer.php'; ?></div>
+		                    <div class="tab-pane" id="sponsorForm"><?php include_once 'formSponsor.php'; ?></div>
 		                </div>
 			        </fieldset>
 			    </div>

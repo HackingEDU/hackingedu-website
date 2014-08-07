@@ -1,43 +1,36 @@
 <?php // SPONSOR FORM ?>
 <form>
-    <!-- Name -->
+    <!-- Company Name -->
     <div class="form-group">
         <!-- <label class=" control-label" for="textinput">Name:</label> -->
         <!-- <div class=""> -->
-        <input id="textinput" name="textinput" placeholder="Name:  SPONSOR FORM" class="form-control input-md" type="text">
+        <input id="textinput" name="textinput" placeholder="Sponsor Name:  Google Inc." class="form-control input-md" type="text">
           <!-- <span class="help-block">help</span> -->
         <!-- </div> -->
     </div>
 
-    <!-- Email -->
+    <!-- Contact Name -->
+    <div class="form-group">
+        <!-- <label class=" control-label" for="textinput">Name:</label> -->
+        <!-- <div class=""> -->
+        <input id="textinput" name="textinput" placeholder="Contact's Name:  Mary Example" class="form-control input-md" type="text">
+          <!-- <span class="help-block">help</span> -->
+        <!-- </div> -->
+    </div>
+
+    <!-- Contact Email -->
     <div class="form-group">
         <!-- <label class=" control-label" for="textinput">Your Email</label> -->
         <div class="">
-            <input id="textinput" name="textinput" placeholder="Email:  you@yourSchool.edu" class="form-control input-md" type="text">
+            <input id="textinput" name="textinput" placeholder="Contact's Email:  you@yourSchool.edu" class="form-control input-md" type="text">
             <!-- <span class="help-block">help</span> -->
         </div>
     </div>
 
-    <!-- Major -->
-    <div class="form-group">
-        <!-- <label class=" control-label" for="textinput">Your Major</label> -->
-        <div class="">
-            <input id="textinput" name="textinput" placeholder="Major:  Computer Science" class="form-control input-md" type="text">
-            <!-- <span class="help-block">help</span> -->
-        </div>
-    </div>
 
-    <!-- School -->
-    <div class="form-group">
-        <!-- <label class=" control-label" for="textinput">Your School</label> -->
-        <div class="">
-            <input id="textinput" name="textinput" placeholder="School:  Example University" class="form-control input-md" type="text">
-            <!-- <span class="help-block">help</span> -->
-        </div>
-    </div>
 
     <!-- Gender -->
-    <div class="form-group">
+<!--     <div class="form-group">
         <label class=" control-label" for="gender">Gender?</label>
         <div class="">
             <label class="radio-inline" for="gender-0">
@@ -53,35 +46,31 @@
                 Other
             </label>
         </div>
-    </div>
+    </div> -->
 
-    <!-- Grade -->
+    <!-- Levels Of Sponsorship -->
     <div class="form-group">
-        <label class=" control-label" for="grade">What grade will you be in this Spring?</label>
+        <label class=" control-label" for="grade">Which level of sponsorship would you like to participate in?</label>
         <div class="">
             <label class="radio-inline" for="grade-0">
                 <input name="grade" id="grade-0" value="1" checked="checked" type="radio">
-                Freshman
+                1st
             </label>
             <label class="radio-inline" for="grade-1">
                 <input name="grade" id="grade-1" value="2" type="radio">
-                Sophomore
+                A
             </label>
             <label class="radio-inline" for="grade-2">
                 <input name="grade" id="grade-2" value="3" type="radio">
-                Junior
+                B+
             </label>
             <label class="radio-inline" for="grade-2">
                 <input name="grade" id="grade-2" value="3" type="radio">
-                Senior
+                B
             </label>
             <label class="radio-inline" for="grade-2">
                 <input name="grade" id="grade-2" value="3" type="radio">
-                Highschool
-            </label>
-            <label class="radio-inline" for="grade-2">
-                <input name="grade" id="grade-2" value="3" type="radio">
-                Graduate Student
+                C
             </label>
         </div>
     </div>
@@ -99,24 +88,6 @@
                 No
             </label>
         </div>
-    </div>
-
-    <!-- Github -->
-    <div class="form-group">
-        <!-- <label class=" control-label" for="textinput">Your Github</label> -->
-        <!-- <div class=""> -->
-            <input id="textinput" name="textinput" placeholder="Github:  @github_username" class="form-control input-md" type="text">
-            <!-- <span class="help-block">help</span> -->
-        <!-- </div> -->
-    </div>
-
-    <!-- LinkedIn -->
-    <div class="form-group">
-      <!-- <label class=" control-label" for="textinput">Your LinkedIn</label> -->
-      <!-- <div class=""> -->
-        <input id="textinput" name="textinput" placeholder="LinkedIn:  https://linkedin.com/in/your_linkedin_url" class="form-control input-md" type="text">
-        <!-- <span class="help-block">help</span> -->
-      <!-- </div> -->
     </div>
 
     <!-- Travel Arrangements? -->

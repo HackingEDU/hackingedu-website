@@ -702,11 +702,11 @@ a.main-btn:hover {
 }
 
 .panel-tabs > li > a {
-    padding: 5px;
+    padding: 6px;
 }
 a.hide-right-left-border.btn.btn-default {
-border-right-color: transparent;
-border-left-color: transparent;
+border-right: none;
+border-left: none;
 }
 
 .panel-tabs > li > a:hover {

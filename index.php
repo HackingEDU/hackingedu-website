@@ -11,12 +11,12 @@
 					<h3>SF Bay Area</h3>
 					<h2>Disrupting The Education Market</h2>
 					<!-- HACKER APPLICATION -->
-					<!-- $is_admin = ($user['permissions'] == 'admin' ? true : false); -->
-					<a class="main-btn apply-btn <?php // $form = 'hacker'; ?>" href="#apply">Hacker Application</a>
+					<a class="main-btn apply-btn" href="#apply">Hacker Application</a>
+					<!-- <a type="button" class="btn btn-default" href="#hackerForm" data-toggle="tab">Hacker</a> -->
 					<!-- VOLUNTEER APPLICATION -->
-					<a class="main-btn volunteer-btn <?php // $form = 'volunteer'; ?>" href="#apply">Volunteer</a>
+					<a class="main-btn volunteer-btn" href="#apply">Volunteer</a>
 					<!-- SPONSOR APPLICATION -->
-					<a class="main-btn sponsor-btn <?php // $form = 'sponsor'; ?>" href="#apply">Sponsor</a>
+					<a class="main-btn sponsor-btn" href="#apply">Sponsor</a>
 					<div class="spacer"></div>
 				</div>
 			</div><!-- row -->
@@ -59,7 +59,7 @@
 				<h3>Interested in Sponsoring?</h3>
 				<div class="col-lg-8 col-lg-offset-2">
 					<p>Although this is our first year, we want to show the universities in the bay area that students can make new and better products to improve the education system.  Help make a difference by supporting us!</p>
-					<p><button type="button" class="btn btn-green btn-lg">Show Your Support!</button></p>
+					<p><a href="#apply"><button type="button" class="btn btn-green btn-lg">Show Your Support!</button></a></p>
 				</div>
 			</div><!-- row -->
 		</div><!-- container -->
@@ -73,7 +73,7 @@
 	        	<p>Join us on our social networks for all the latest updates, service announcements and more.</p>
       		</div>
       		<div class="col-lg-4">
-      			<p class="pull-right"><br><button type="button" class="btn btn-green">Contact Us!</button></p>
+      			<p class="pull-right"><br><a data-toggle="modal" data-target="#myModal"><button type="button" class="btn btn-green">Contact Us!</button></a></p>
       		</div>
     	</div><!-- /row -->
     </div><!-- /.container -->
@@ -132,19 +132,6 @@
 			maxDuration : 0.7,
 			viewportFactor : 0.2
 		} );
-		var num = null;
-		var ele = document.querySelectorAll(".btn-group > button.btn");
-		for(var i=0; i<ele.length; i++){
-		    ele[i].addEventListener("click", function(){
-		        num = +this.innerHTML;
-		        alert("Value is " + num);
-		    });
-		}
-		// $('#selector button').click(function() {
-		//     $('#selector button').addClass('active').not(this).removeClass('active');
-		//     // alert($(this).val());
-		//     // TODO: insert whatever you want to do with $(this) here
-		// });
 	</script>
   </body>
 </html>

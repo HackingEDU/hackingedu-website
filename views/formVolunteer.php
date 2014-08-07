@@ -4,7 +4,7 @@
     <div class="form-group">
         <!-- <label class=" control-label" for="textinput">Name:</label> -->
         <!-- <div class=""> -->
-        <input id="textinput" name="textinput" placeholder="Name:  VOLUNTEER FORM" class="form-control input-md" type="text">
+        <input id="textinput" name="textinput" placeholder="Volunteer Name:  Alex Cory" class="form-control input-md" type="text">
           <!-- <span class="help-block">help</span> -->
         <!-- </div> -->
     </div>
@@ -18,26 +18,17 @@
         </div>
     </div>
 
-    <!-- Major -->
-    <div class="form-group">
-        <!-- <label class=" control-label" for="textinput">Your Major</label> -->
-        <div class="">
-            <input id="textinput" name="textinput" placeholder="Major:  Computer Science" class="form-control input-md" type="text">
-            <!-- <span class="help-block">help</span> -->
-        </div>
-    </div>
-
     <!-- School -->
     <div class="form-group">
         <!-- <label class=" control-label" for="textinput">Your School</label> -->
         <div class="">
-            <input id="textinput" name="textinput" placeholder="School:  Example University" class="form-control input-md" type="text">
+            <input id="textinput" name="textinput" placeholder="School:  Example University (put N/A if not in school)" class="form-control input-md" type="text">
             <!-- <span class="help-block">help</span> -->
         </div>
     </div>
 
     <!-- Gender -->
-    <div class="form-group">
+<!--     <div class="form-group">
         <label class=" control-label" for="gender">Gender?</label>
         <div class="">
             <label class="radio-inline" for="gender-0">
@@ -53,38 +44,7 @@
                 Other
             </label>
         </div>
-    </div>
-
-    <!-- Grade -->
-    <div class="form-group">
-        <label class=" control-label" for="grade">What grade will you be in this Spring?</label>
-        <div class="">
-            <label class="radio-inline" for="grade-0">
-                <input name="grade" id="grade-0" value="1" checked="checked" type="radio">
-                Freshman
-            </label>
-            <label class="radio-inline" for="grade-1">
-                <input name="grade" id="grade-1" value="2" type="radio">
-                Sophomore
-            </label>
-            <label class="radio-inline" for="grade-2">
-                <input name="grade" id="grade-2" value="3" type="radio">
-                Junior
-            </label>
-            <label class="radio-inline" for="grade-2">
-                <input name="grade" id="grade-2" value="3" type="radio">
-                Senior
-            </label>
-            <label class="radio-inline" for="grade-2">
-                <input name="grade" id="grade-2" value="3" type="radio">
-                Highschool
-            </label>
-            <label class="radio-inline" for="grade-2">
-                <input name="grade" id="grade-2" value="3" type="radio">
-                Graduate Student
-            </label>
-        </div>
-    </div>
+    </div> -->
 
     <!-- First Hackathon? -->
     <div class="form-group">
@@ -119,9 +79,9 @@
       <!-- </div> -->
     </div>
 
-    <!-- Travel Arrangements? -->
+    <!-- Mentor? -->
     <div class="form-group">
-        <label class=" control-label" for="radios">Will you need a travel reimbersment/arrangement to attend Hacking Edu?</label>
+        <label class=" control-label" for="radios">Will you be volunteering as a mentor?</label>
         <div class="">
             <label class="radio-inline" for="radios-0">
                 <input name="radios" id="radios-0" value="1" type="radio">
@@ -134,13 +94,22 @@
         </div>
     </div>
 
-    <!-- Textarea -->
+    <!-- Company -->
     <div class="form-group">
-        <label class=" control-label" for="textarea">At Hacking Edu we want to show the world the new ways we can learn.  How do you plan to tackle this challenge?</label>
+        <!-- <label class=" control-label" for="textinput">Your Major</label> -->
         <div class="">
-          <textarea class="form-control" id="textarea" name="textarea">Tell us about your idea! :)</textarea>
+            <input id="textinput" name="textinput" placeholder="Company:  (put N/A if not working)" class="form-control input-md" type="text">
+            <!-- <span class="help-block">help</span> -->
         </div>
     </div>
+
+    <!-- Volunteer Request -->
+<!--     <div class="form-group">
+        <label class=" control-label" for="textarea">Is there a specific role you would like to have as a volunteer?</label>
+        <div class="">
+          <textarea class="form-control" id="textarea" name="textarea">Tell us what you would like to do! :)</textarea>
+        </div>
+    </div> -->
 
     <button id="singlebutton" name="singlebutton" class="btn btn-default pull-right">Submit</button>
 
