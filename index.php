@@ -34,13 +34,13 @@
 
   </head>
 
-  <body>
+  <body class="menu-close">
 
 	<!-- Menu -->
 	<nav class="menu " id="theMenu">
 		<div class="menu-wrap">
 			<h1 class="logo"><a href="#home">Hacking Edu</a></h1>
-			<i class="fa fa-arrow-right menu-close arrow-right"></i>
+			<i class="fa fa-arrow-right menu-close"></i>
 			<a href="#home">Home</a>
 			<a href="#about">About</a>
 			<a href="#sponsors">Sponsors</a>
