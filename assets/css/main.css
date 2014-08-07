@@ -374,6 +374,12 @@ hr {
     width: 100%;
     height: 100%;
 }*/
+div#sp {
+  width: 200px;
+  height: 200px;
+  display: block;
+  position: relative;
+}
 
 div#sp::after {
   content: "";
@@ -385,12 +391,6 @@ div#sp::after {
   right: 0;
   position: absolute;
   z-index: -1;
-}
-div#sp {
-  width: 200px;
-  height: 200px;
-  display: block;
-  position: relative;
 }
 #sp h2 {
     color: #fff;
