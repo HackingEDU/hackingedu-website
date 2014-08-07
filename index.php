@@ -1,7 +1,32 @@
-<?php require_once 'application/config.php'; ?>
-<?php // $section = trim($_SERVER['PATH_INFO'], '/');?>
-<?php // echo $section; ?>
-<?php require_once 'views/header.php'; ?>
+<?php require_once './application/config.php'; ?>
+<?php $section = trim($_SERVER['PATH_INFO'], '/');?>
+<?php echo $section; ?>
+<?php require_once './views/header.php'; ?>
+
+		<!-- Menu button -->
+		<div id="menuToggle"><i class="fa fa-bars"></i></div>
+	</nav>
+	<!-- MAIN IMAGE SECTION -->
+	<div id="home" class="headerwrap ">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<!-- <h1>Hacking Edu</h1> -->
+					<img class="main-img" src="./assets/img/hacklogo-white-no-border.png" alt="">
+					<h3>SF Bay Area</h3>
+					<h2>Disrupting The Education Market</h2>
+					<!-- HACKER APPLICATION -->
+					<!-- $is_admin = ($user['permissions'] == 'admin' ? true : false); -->
+					<a class="main-btn apply-btn" href="<?php // $form = ()  ?>">Hacker Application</a>
+					<!-- VOLUNTEER APPLICATION -->
+					<a class="main-btn volunteer-btn" href="#apply">Volunteer</a>
+					<!-- SPONSOR APPLICATION -->
+					<a class="main-btn sponsor-btn" href="#apply">Sponsor</a>
+					<div class="spacer"></div>
+				</div>
+			</div><!-- row -->
+		</div><!-- /container -->
+	</div><!-- /headerwrap -->
 
 	<!-- ABOUT -->
 	<?php require_once './views/about.php'; ?>
