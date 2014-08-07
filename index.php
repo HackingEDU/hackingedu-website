@@ -101,6 +101,8 @@
                         <textarea class="form-control" id="textarea" name="textarea" placeholder="Ask away! :)"></textarea>
                       </div>
 
+                      <button id="singlebutton" name="singlebutton" class="btn btn-default pull-right">Send</button>
+
                     <!-- </fieldset> -->
                   </form>
                 </div>
@@ -333,7 +335,7 @@
 				            </div>
 				          </div>
 
-				          <button id="singlebutton" name="singlebutton" class="btn btn-default">Button</button>
+				          <button id="singlebutton" name="singlebutton" class="btn btn-default pull-right">Submit</button>
 
 				        </fieldset>
 				      </form>
