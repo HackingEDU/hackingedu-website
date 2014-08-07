@@ -384,7 +384,7 @@
 		<div id="splayer">
 			<div class="container">
 				<div class="row mt">
-			       	<div class="col-lg-8 white-text">
+			       	<div class="col-lg-12 white-text">
 			 	        <h1 style="color: white">Hackathon Rules</h1>
 			 	        <div class="auth2">
 			 	            <!-- <h1 class="text-center">Bootstrap form theme <span>It's nice!</span> </h1> -->
