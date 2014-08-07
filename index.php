@@ -428,32 +428,6 @@
 		</div>
 	</div> -->
 
-
-	<!-- CLIENT INFORMATION -->
-	<div id="lg">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-5 col-lg-offset-1 desc">
-					<h3>Client Desctription</h3>
-					<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
-					<p>Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
-				</div>
-
-				<div class="col-lg-4 col-lg-offset-1 desc">
-					<h3>Agency Resume</h3>
-					<br>
-					<h5><b>Team Leader:</b> REBECCA ZEARING</h5>
-					<h5><b>Agency Job:</b> WEB DESIGN, WEB DEVELOPMENT</h5>
-					<h5><b>Proposal Description:</b></h5>
-					<p class="tm">Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure.<br/>Lorem Ipsum passage, and going through the cites of the word in classical literature.</p>
-					<p><a href="http://BlackTie.co"><i class="fa fa-link"></i> Visit Site</a></p>
-
-				</div>
-
-			</div><!-- row -->
-		</div><!-- container -->
-	</div><!-- dg -->
-
 	<!-- SCHEDULE -->
 	<div id="schedule"></div>
 	<div id="sp-standout"></div>
@@ -463,10 +437,10 @@
 			<div class="col-lg-8 col-lg-offset-2">
 				<h1>Schedule</h1>
 				<ul class="process effect-2" id="process">
-					<li><img src="assets/img/sp/p01.png"></li>
+					<!-- <li><img src="assets/img/sp/p01.png"></li>
 					<li><img src="assets/img/sp/p02.png"></li>
 					<li><img src="assets/img/sp/p04.png"></li>
-					<li><img src="assets/img/sp/p03.png"></li>
+					<li><img src="assets/img/sp/p03.png"></li> -->
 				</ul>
 			</div><!-- col-lg-8 -->
 		</div><!-- row -->
