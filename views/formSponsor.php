@@ -76,7 +76,7 @@
     </div>
 
     <!-- First Hackathon? -->
-    <div class="form-group">
+<!--     <div class="form-group">
         <label class=" control-label" for="fHackathon">Is this your first hackathon?</label>
         <div class="">
             <label class="radio-inline" for="fHackathon-0">
@@ -89,9 +89,9 @@
             </label>
         </div>
     </div>
-
+ -->
     <!-- Travel Arrangements? -->
-    <div class="form-group">
+<!--     <div class="form-group">
         <label class=" control-label" for="radios">Will you need a travel reimbersment/arrangement to attend Hacking Edu?</label>
         <div class="">
             <label class="radio-inline" for="radios-0">
@@ -103,7 +103,7 @@
                 No
             </label>
         </div>
-    </div>
+    </div> -->
 
     <!-- Textarea -->
     <div class="form-group">
