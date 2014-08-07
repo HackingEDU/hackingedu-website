@@ -1,8 +1,5 @@
 <?php require_once './views/header.php'; ?>
 
-    <!-- Contact Form Modal -->
-	<?php require_once './views/formContact.php'; ?>
-
 	<!-- MAIN IMAGE SECTION -->
 	<div id="home" class="headerwrap ">
 		<div class="container">
@@ -64,24 +61,12 @@
 		</div><!-- container -->
 	</div><!-- Call to action -->
 
-<!-- 	<div class="container">
-		<div class="row mt">
-			<div class="col-lg-12">
-				<h1>Stay Connected</h1>
-				<p>Join us on our social networks for all the latest updates, product/service announcements and more.</p>
-				<br> -->
-			<!-- </div><!-- col-lg-12 -->
-
-			<!-- <div class="col-lg-4">
-	      		<p class="pull-right"><br><button type="button" class="btn btn-green">Contact Us!</button></p>
-	      	</div> -->
-		<!-- </div> --><!-- row -->
-	<!-- </div> --><!-- container -->
+	<!-- STAY CONNECTED -->
     <div class="container ">
     	<div class="row mt">
       		<div class="col-lg-8">
 	        	<h1>Stay Connected</h1>
-	        	<p>Join us on our social networks for all the latest updates, product/service announcements and more.</p>
+	        	<p>Join us on our social networks for all the latest updates, service announcements and more.</p>
       		</div>
       		<div class="col-lg-4">
       			<p class="pull-right"><br><button type="button" class="btn btn-green">Contact Us!</button></p>
@@ -120,7 +105,8 @@
 	</div><!-- Social Footer -->
 
 
-
+    <!-- Contact Form Modal -->
+	<?php require_once './views/formContact.php'; ?>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
