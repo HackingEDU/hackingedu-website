@@ -732,7 +732,6 @@ a.main-btn:hover {
     background-color: rgba(255, 255, 255, 0.2);
     background: rgba(255, 255, 255, 0.9);*/
     margin-top:40px;
-    margin-bottom: 2em;
     -webkit-box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.32);
     -moz-box-shadow:    0px 0px 30px 0px rgba(50, 50, 50, 0.32);
     box-shadow:         0px 0px 30px 0px rgba(50, 50, 50, 0.32);
@@ -753,6 +752,7 @@ a.main-btn:hover {
     background-color: rgba(255, 255, 255, 0.2);
     background: rgba(255, 255, 255, 0.4);
     margin-top:40px;
+    margin-bottom: 2em;
     -webkit-box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.32);
     -moz-box-shadow:    0px 0px 30px 0px rgba(50, 50, 50, 0.32);
     box-shadow:         0px 0px 30px 0px rgba(50, 50, 50, 0.32);
