@@ -194,8 +194,8 @@
 
 
 				          <!-- Name -->
-				          <div class="form-group">
-				            <label style="display: block" class=" control-label" for="textinput">Name:</label>
+				          <div class="form-group" style="white-space:nowrap">
+				            <label class=" control-label" for="textinput">Name:</label>
 				            <!-- <div class=""> -->
 				            <input id="textinput" name="textinput" placeholder="Alexander the Great" class="form-control input-md" type="text">
 				              <!-- <span class="help-block">help</span> -->
