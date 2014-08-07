@@ -36,7 +36,7 @@
   </head>
 
   <body>
-
+	<?php $section = trim($_SERVER['PATH_INFO'], '/');?>
 	<!-- Menu -->
 	<nav class="menu " id="theMenu">
 		<div class="menu-wrap">
@@ -54,7 +54,7 @@
 			<a href="<?php echo GOOGLE_PLUS_URL; ?>" rel="publisher"><i class="fa fa-google-plus"></i></a>
 			<a href="mailto:hackingeduteam@gmail.com"><i class="fa fa-envelope"></i></a>
 		</div>
-
+		<?php echo $section; ?>
 		<!-- Menu button -->
 		<div id="menuToggle"><i class="fa fa-bars"></i></div>
 	</nav>
@@ -67,13 +67,14 @@
 					<img class="main-img" src="./assets/img/hacklogo-white-no-border.png" alt="">
 					<h3>SF Bay Area</h3>
 					<h2>Disrupting The Education Market</h2>
-					<!-- <div class="btn-row"> -->
-					<a class="main-btn apply-btn" href="#apply">Hacker Application</a>
+					<!-- HACKER APPLICATION -->
+					$is_admin = ($user['permissions'] == 'admin' ? true : false);
+					<a class="main-btn apply-btn" href="<?php // $form = ()  ?>">Hacker Application</a>
+					<!-- VOLUNTEER APPLICATION -->
 					<a class="main-btn volunteer-btn" href="#apply">Volunteer</a>
+					<!-- SPONSOR APPLICATION -->
 					<a class="main-btn sponsor-btn" href="#apply">Sponsor</a>
-					<!-- </div> -->
 					<div class="spacer"></div>
-					<!-- <i class="fa fa-angle-down"></i> -->
 				</div>
 			</div><!-- row -->
 		</div><!-- /container -->
