@@ -1,10 +1,19 @@
 <?php
-# Constants
+# Constants --------------------------------------------------------------
+# Path Constants
 define('BASE_URL', '');         #
 define('DEFAULT_VIEW', 'home'); # set this to any page to be the default home page
+# Social Constants
 define('FACEBOOK_URL', 'https://www.facebook.com/hackingedusf');
 define('TWITTER_URL', 'https://twitter.com/hackingedusf');
 define('GOOGLE_PLUS_URL', 'https://plus.google.com/100755871712588838625');
+# Date Constants
+define('SUBMISSION_DATE', 'Sunday March 22nd, 2015 at 10:00 am');
+define('START_DATE', 'Friday, April 11th, 2014');
+# Location Constants
+define('HACK_EDU_LOCATION', 'SF Bay Area');
+
+
 
 # Database Info
 # Local ------------------------------------------------------------------

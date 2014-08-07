@@ -1,116 +1,7 @@
-<?php require_once './config.php'; ?>
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="favicon.ico?v=1.1">
-    <!-- <link rel="shortcut icon" href="hackinged.ico"> -->
-    <!-- <link rel="shortcut icon" href="assets/ico/faviconΩ.png"> -->
-
-    <title>Hacking Edu</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="assets/css/main.css" rel="stylesheet">
-
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
-
-    <script src="assets/js/modernizr.custom.js"></script>
-
-  </head>
-
-  <body>
-
-	<!-- Menu -->
-	<nav class="menu " id="theMenu">
-		<div class="menu-wrap">
-			<h1 class="logo"><a href="#home">Hacking Edu</a></h1>
-			<i class="fa fa-arrow-right menu-close"></i>
-			<a href="#home">Home</a>
-			<a href="#about">About</a>
-			<a href="#sponsors">Sponsors</a>
-			<a href="#rules">Rules</a>
-			<a href="#schedule">Schedule</a>
-			<!-- <a href="#myModal">Contact</a> -->
-			<a class="" data-toggle="modal" data-target="#myModal">Contact</a>
-			<a href="<?php echo FACEBOOK_URL; ?>"><i class="fa fa-facebook"></i></a>
-			<a href="<?php echo TWITTER_URL; ?>"><i class="fa fa-twitter"></i></a>
-			<a href="<?php echo GOOGLE_PLUS_URL; ?>" rel="publisher"><i class="fa fa-google-plus"></i></a>
-			<a href="mailto:hackingeduteam@gmail.com"><i class="fa fa-envelope"></i></a>
-		</div>
-
-		<!-- Menu button -->
-		<div id="menuToggle"><i class="fa fa-bars"></i></div>
-	</nav>
+<?php require_once 'header.php'; ?>
 
     <!-- Contact Form Modal -->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="m-top-10">
-          <div class="col-sm-10 col-sm-offset-1 text-center">
-            <h1>Contact Form</h1>
-
-            <div class="auth contact-form well auth-box">
-                <!-- <h1 class="text-center">Bootstrap form theme <span>It's nice!</span> </h1> -->
-                <div id="big-form" class="">
-		            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-		            <h3 class="pull-left">What can we help you with?</h3>
-                  <form>
-                    <!-- <fieldset> -->
-
-                      <!-- Form Name -->
-                      <!-- <legend>Contact Form</legend> -->
-
-                      <!-- Name -->
-                      <div class="form-group">
-                        <!-- <label class="pull-left control-label" for="textinput">Your Name</label> -->
-                        <div class="">
-                          <input id="textinput" name="textinput" placeholder="Your Name" class="form-control input-md contact-border-bottom" type="text">
-                          <!-- <span class="help-block">help</span> -->
-                        </div>
-                      </div>
-
-                      <!-- Email -->
-                      <div class="form-group">
-                        <!-- <label class="pull-left control-label" for="textinput">Your Email</label> -->
-                        <div class="">
-                          <input id="textinput" name="textinput" placeholder="example@hacker.com" class="form-control input-md contact-border-bottom" type="text">
-                          <!-- <span class="help-block">help</span> -->
-                        </div>
-                      </div>
-
-
-                      <div class="form-group">
-                        <!-- Subject -->
-                        <textarea class="form-control subject" id="" name="textarea" placeholder="Subject"></textarea>
-                        <!-- Textarea -->
-                        <textarea class="form-control" id="textarea" name="textarea" placeholder="Ask away! :)"></textarea>
-                      </div>
-
-                      <button id="singlebutton" name="singlebutton" class="btn btn-default pull-right" style="color: black">Send</button>
-
-                    <!-- </fieldset> -->
-                  </form>
-                </div>
-                <div class="clearfix"></div>
-              </div>
- 		</div>
-      </div>
-    </div>
+	<?php require_once 'contactForm.php'; ?>
 
 	<!-- MAIN IMAGE SECTION -->
 	<div id="home" class="headerwrap ">
@@ -391,23 +282,23 @@
 			 	            <div id="big-form" class="well auth-box2" style="color: black">
 	                        <!-- <div class="col-lg-offset-2"> -->
 				 	        	<h3><b>IN A NUTSHELL...</b></h3>
-				 	        	<p>Use common sense, and listen to HackIllinois staff. Let us know if you have any questions!</p>
+				 	        	<p>Use common sense, and listen to Hacking Edu staff. Let us know if you have any questions!</p>
 				 	        	<h3><b>GENERAL</b></h3>
-								<p>Rules are subject to change at any time without notice. Decisions by the HackIllinois team are final. Be sure to read our code of conduct.</p>
+								<p>Rules are subject to change at any time without notice. Decisions by the Hacking Edu team are final. Be sure to read our code of conduct.</p>
 				 	        	<h3><b>PARTICIPATION</b></h3>
-								<p>All participants must be full-time or part-time University students during Spring 2014 except where permission is explicitly given. (We’re willing to work with high school students — contact us). Participation is closed to family members of judges. Upon participation in this event, it is implied that we reserve the right to share your resume and other application material with our corporate sponsors.</p>
+								<p>All participants must be full-time or part-time University students during Spring 2015 except where permission is explicitly given. (We’re willing to work with high school students — contact us). Participation is closed to family members of judges. Upon participation in this event, it is implied that we reserve the right to share your resume and other application material with our corporate sponsors.</p>
 				 	        	<h3><b>TEAMS</b></h3>
-								<p>Teams must consist of between 1 and 4 participants. Teams must submit a list of members upon submitting their hack by Sunday April 13th, 2014 at 10:00 am. Any modifications after that must be approved by organizers. You can, by all means go solo, but we encourage you to work in groups!</p>
+								<p>Teams must consist of between 1 and 4 participants. Teams must submit a list of members upon submitting their hack by <?php echo SUBMISSION_DATE; ?>. Any modifications after that must be approved by organizers. You can, by all means go solo, but we encourage you to work in groups!</p>
 				 	        	<h3><b>SUBMISSIONS</b></h3>
-								<p>Each team is permitted one submission that must be received by 10:00am on Sunday, April 13th, 2014. Code submitted must be produced only by team members and written during HackIllinois from the starting time on Friday, April 11th, 2014 to the submission time. If you are continuing a previous project or using old code written by you, let us know on the project submission form. Third party libraries are allowed without notice provided that they are publicly available to any participant. All code you create at HackIllinois is owned by you, and may be made open source at your discretion. By submitting a project, you and your team grant the HackIllinois team the unrestricted right to use your submission material, at no cost, for promotional purposes of future HackIllinois events.</p>
+								<p>Each team is permitted one submission that must be received by <?php echo SUBMISSION_DATE; ?>. Code submitted must be produced only by team members and written during the Hacking Edu <?php echo HACK_EDU_LOCATION; ?> event from the starting time on <?php echo START_DATE; ?> to the submission time. If you are continuing a previous project or using old code written by you, let us know on the project submission form. Third party libraries are allowed without notice provided that they are publicly available to any participant. All code you create at Hacking Edu <?php echo HACK_EDU_LOCATION; ?> is owned by you, and may be made open source at your discretion. By submitting a project, you and your team grant the Hacking Edu team the unrestricted right to use your submission material, at no cost, for promotional purposes of future Hacking Edu events.</p>
 				 	        	<h3><b>JUDGING CRITERIA</b></h3>
-								<p>Teams’ demos will be judged on several criteria including usefulness, technical difficulty, polish, and creativity. More details about the judging process will be provided closer to the event. Teams will not be told their scores during or after judging, and decisions by the judges and HackIllinois team are final.</p>
+								<p>Teams’ demos will be judged on several criteria including usefulness, technical difficulty, polish, and creativity. More details about the judging process will be provided closer to the event. Teams will not be told their scores during or after judging, and decisions by the judges and Hacking Edu team are final.</p>
 				 	        	<h3><b>PROJECT FAIR</b></h3>
-								<p>At the end of the event, teams will showcase their projects in a project fair. During this time period, judges will proceed to all teams, and a team will have one to two minutes to demo their projects in a project fair. A team’s presentation may be interrupted by a judge at any time. Teams must be ready to demo when the judges reach their table, and passing on a judge relinquishes the right to be judged. Corporate prizes are judged directly by the company, and HackIllinois is not responsible for the criteria used by these companies.</p>
+								<p>At the end of the event, teams will showcase their projects in a project fair. During this time period, judges will proceed to all teams, and a team will have one to two minutes to demo their projects in a project fair. A team’s presentation may be interrupted by a judge at any time. Teams must be ready to demo when the judges reach their table, and passing on a judge relinquishes the right to be judged. Corporate prizes are judged directly by the company, and Hack Edu is not responsible for the criteria used by these companies.</p>
 				 	        	<h3><b>WINNERS</b></h3>
-								<p>Winners for general HackIllinois prizes will be selected by a combination of corporate judges and judges provided by HackIllinois. Each winning team will be responsible for working with the University of Illinois Computer Science department to arrange for the payment to be sent. Corporate prizes are judged by the respective company, and are provided directly from a company to the winning team. The winning team is responsible for all taxes associated with a prize.</p>
+								<p>Winners for general Hacking Edu prizes will be selected by a combination of corporate judges and judges provided by Hacking Edu. Each winning team will be responsible for working with the Hacking Edu team to arrange for the payment to be sent. Corporate prizes are judged by the respective company, and are provided directly from a company to the winning team. The winning team is responsible for all taxes associated with a prize.</p>
 				 	        	<h3><b>PHOTOS</b></h3>
-								<p>By attending HackIllinois, you acknowledge that your picture and video may be used without compensation, prior permission, or notification in any promotional material related to HackIllinois.</p>
+								<p>By attending Hacking Edu, you acknowledge that your picture and video may be used without compensation, prior permission, or notification in any promotional material related to Hacking Edu.</p>
 				 	        	<h3><b>DID WE MISS SOMETHING?</b></h3>
 								<p>Have a question, or think there's something we should have included here, but didn’t? Drop us a line.</p>
 								</div>
