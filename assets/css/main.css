@@ -375,14 +375,13 @@ hr {
     height: 100%;
 }*/
 div#sp {
-    width: 100%;
-    height: 100%;
+    /*width: 100%;*/
+    /*height: 100%;*/
     display: block;
     position: relative;
     background: url(../img/40085.jpg) fixed;
     background-position: center center;
     background-size: cover;
-
 }
 
 div#sp::after {
