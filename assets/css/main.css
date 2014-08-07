@@ -54,6 +54,9 @@ a:before, a:after {
     -o-transition: color .1s ease-in, background .1s ease-in;
     transition: color .1s ease-in, background .1s ease-in;
 }
+.auth-box2 h3 {
+    color: #fff;
+}
 hr {
     display: block;
     height: 1px;
