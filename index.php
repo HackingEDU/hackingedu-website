@@ -385,11 +385,11 @@
 	    	<div class="container">
 			    <div class="row">
 			    	<h2>Hackathon Rules</h2>
-			    </div><!-- row -->
-		        <div class="row mt centered">
-			      	<div class="col-lg-8 col-lg-offset-2">
-				        <h1><b>Spot Free Theme</b></h1>
-				        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+			        <div class="mt centered">
+				      	<div class="col-lg-8 col-lg-offset-2">
+					        <h1><b>Spot Free Theme</b></h1>
+					        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+				      	</div>
 			      	</div>
 		      	</div><!-- /row -->
 		    </div><!-- /.container -->
