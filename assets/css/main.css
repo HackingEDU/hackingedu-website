@@ -381,7 +381,7 @@ div#sp {
   position: relative;
   background: url(../img/40085.jpg) fixed;
   background-position: center center;
-  margin-top: 25px;
+/*  margin-top: 25px;
   padding-top: 35px;
   padding-bottom: 35px;
   -webkit-background-size: 100%;
@@ -390,9 +390,8 @@ div#sp {
   background-size: 100%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
+  -o-background-size: cover;*/
   background-size: cover;
-  position: relative;
 }
 
 div#sp::after {
