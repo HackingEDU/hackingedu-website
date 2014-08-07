@@ -383,7 +383,7 @@ div#sp {
 
 div#sp::after {
   content: "";
-  background: url(../img/40085.jpg);
+  background: url(../img/40085.jpg) fixed;
   opacity: 0.5;
   top: 0;
   left: 0;
