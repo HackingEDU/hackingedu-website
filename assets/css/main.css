@@ -629,9 +629,8 @@ a.main-btn:hover {
     margin-top: 20px;
 }
 .fa-arrow-right:before {
-    content: "\f061";
-    right: 15px;
-    position: fixed;
+    right: -13px;
+    position: relative;
 }
 .auth h1 {
     color:#fff!important;
