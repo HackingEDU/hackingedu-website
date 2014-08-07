@@ -630,7 +630,7 @@ a.main-btn:hover {
 }
 .fa-arrow-right:before {
     content: "\f061";
-    right: -9px;
+    right: 15px;
     position: fixed;
 }
 .auth h1 {
