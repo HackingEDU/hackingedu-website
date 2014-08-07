@@ -67,7 +67,6 @@
 					<img class="main-img" src="./assets/img/hacklogo-white-no-border.png" alt="">
 					<h3>SF Bay Area</h3>
 					<h2>Disrupting The Education Market</h2>
-					<h2>Hello World Round 2</h2>
 					<!-- <div class="btn-row"> -->
 					<a class="main-btn apply-btn" href="#apply">Hacker Application</a>
 					<a class="main-btn volunteer-btn" href="#apply">Volunteer</a>
