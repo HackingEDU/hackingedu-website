@@ -195,9 +195,9 @@
 
 				          <!-- Name -->
 				          <div class="form-group">
-				            <label class=" control-label" for="textinput">Name:</label>
+				            <!-- <label class=" control-label" for="textinput">Name:</label> -->
 				            <!-- <div class=""> -->
-				            <input id="textinput" name="textinput" placeholder="Alexander the Great" class="form-control input-md" type="text">
+				            <input id="textinput" name="textinput" placeholder="Name: Alexander the Great" class="form-control input-md" type="text">
 				              <!-- <span class="help-block">help</span> -->
 				            <!-- </div> -->
 				          </div>
