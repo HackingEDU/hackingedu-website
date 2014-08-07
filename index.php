@@ -194,14 +194,14 @@
 
 
 				        <!-- Name -->
-			            <label class=" control-label" for="textinput">Name:</label>
-				        <div class="form-group" style="display: inline-block">
+			            <label style="border-bottom: 1px dotted #fff;" class="control-label" for="textinput">Name:</label>
+			            <input style="display: inline-block" id="textinput" name="textinput" placeholder="Alexander the Great" class="form-control input-md" type="text">
+				        <!-- <div class="form-group" style="display: inline-block"> -->
 				            <!-- <div class="form-group" style="display: inline-block"> -->
 					            <!-- <div class=""> -->
-					            <input style="display: inline-block" id="textinput" name="textinput" placeholder="Alexander the Great" class="form-control input-md" type="text">
 					            <!-- <span class="help-block">help</span> -->
 					        <!-- </div> -->
-				        </div>
+				        <!-- </div> -->
 
 				          <!-- Email -->
 				          <div class="form-group">
