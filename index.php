@@ -356,7 +356,7 @@
 			<div class="col-lg-8">
 				<p>We're excited to get the sponsors underway.  We plan to have Google, Evernote, Visa, and more!</p>
 			</div><!-- col-lg-8 -->
-			<ul class="grid effect-2" id="grid">
+			<ul class="grid effect-2" id="grid" style="margin-top: 4em;">
 				<!-- <li><a href="singleproject.html"><img src="assets/img/portfolio/1.jpg"></a></li>
 				<li><a href="singleproject.html"><img src="assets/img/portfolio/3.jpg"></a></li>
 				<li><a href="singleproject.html"><img src="assets/img/portfolio/4.jpg"></a></li>
