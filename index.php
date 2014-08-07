@@ -195,36 +195,36 @@
 
 				          <!-- Name -->
 				          <div class="form-group">
-				            <label class=" control-label" for="textinput">Your Name</label>
+				            <!-- <label class=" control-label" for="textinput">Your Name</label> -->
 				            <div class="">
-				              <input id="textinput" name="textinput" placeholder="Student Hacker" class="form-control input-md" type="text">
+				              <input id="textinput" name="textinput" placeholder="Name: Alexander the Great" class="form-control input-md" type="text">
 				              <!-- <span class="help-block">help</span> -->
 				            </div>
 				          </div>
 
 				          <!-- Email -->
 				          <div class="form-group">
-				            <label class=" control-label" for="textinput">Your Email</label>
+				            <!-- <label class=" control-label" for="textinput">Your Email</label> -->
 				            <div class="">
-				              <input id="textinput" name="textinput" placeholder="you@yourSchool.edu" class="form-control input-md" type="text">
+				              <input id="textinput" name="textinput" placeholder="Email: you@yourSchool.edu" class="form-control input-md" type="text">
 				              <!-- <span class="help-block">help</span> -->
 				            </div>
 				          </div>
 
 				          <!-- Major -->
 				          <div class="form-group">
-				            <label class=" control-label" for="textinput">Your Major</label>
+				            <!-- <label class=" control-label" for="textinput">Your Major</label> -->
 				            <div class="">
-				              <input id="textinput" name="textinput" placeholder="Computer Science" class="form-control input-md" type="text">
+				              <input id="textinput" name="textinput" placeholder="Major: Computer Science" class="form-control input-md" type="text">
 				              <!-- <span class="help-block">help</span> -->
 				            </div>
 				          </div>
 
 				          <!-- School -->
 				          <div class="form-group">
-				            <label class=" control-label" for="textinput">Your School</label>
+				            <!-- <label class=" control-label" for="textinput">Your School</label> -->
 				            <div class="">
-				              <input id="textinput" name="textinput" placeholder="University" class="form-control input-md" type="text">
+				              <input id="textinput" name="textinput" placeholder="School: Example University" class="form-control input-md" type="text">
 				              <!-- <span class="help-block">help</span> -->
 				            </div>
 				          </div>
