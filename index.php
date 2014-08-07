@@ -1,7 +1,7 @@
-<?php require_once 'header.php'; ?>
+<?php require_once './views/header.php'; ?>
 
     <!-- Contact Form Modal -->
-	<?php require_once 'contactForm.php'; ?>
+	<?php require_once './views/formContact.php'; ?>
 
 	<!-- MAIN IMAGE SECTION -->
 	<div id="home" class="headerwrap ">
@@ -25,16 +25,16 @@
 	</div><!-- /headerwrap -->
 
 	<!-- ABOUT -->
-	<?php require_once 'about.php'; ?>
+	<?php require_once './views/about.php'; ?>
 
 	<!-- APPLY -->
-	<?php require_once 'application.php'; ?>
+	<?php require_once './views/formSignUp.php'; ?>
 
 	<!-- SPONSORS -->
-	<?php require_once 'sponsors.php'; ?>
+	<?php require_once './views/sponsors.php'; ?>
 
 	<!-- RULES -->
-	<?php require_once 'rules.php'; ?>
+	<?php require_once './views/rules.php'; ?>
 
     <!-- MAC IMAGE -->
 <!-- 	<div class="container">
@@ -46,7 +46,7 @@
 	</div> -->
 
 	<!-- SCHEDULE -->
-	<?php require_once 'schedule.php'; ?>
+	<?php require_once './views/schedule.php'; ?>
 
 
 
