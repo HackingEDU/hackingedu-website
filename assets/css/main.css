@@ -867,13 +867,14 @@ a.main-btn:hover {
     transition: background 0.2s ease-in-out;
 }
 .auth form .btn-default {
-    color:#fff;
-    border-color:#fff;
+    color: black;
+    border-color: #adadad;
+    border-radius: .3em;
 }
 .auth form .btn-default:hover {
     background:rgba(225, 225, 225, 0.3);
-    color:#fff;
-    border-color:#fff;
+    color: #adadad;
+    border-color: black;
 }
 .auth form .btn-primary:hover {
     background:rgba(66, 139, 202, 0.3);
