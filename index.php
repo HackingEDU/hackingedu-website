@@ -388,7 +388,7 @@
 			 	        <h1 style="color: white">Hackathon Rules</h1>
 			 	        <div class="auth2">
 			 	            <!-- <h1 class="text-center">Bootstrap form theme <span>It's nice!</span> </h1> -->
-			 	            <div id="big-form" class="well auth-box2" style="color: #fff">
+			 	            <div id="big-form" class="well auth-box2" style="color: black">
 	                        <!-- <div class="col-lg-offset-2"> -->
 				 	        	<h3><b>IN A NUTSHELL...</b></h3>
 				 	        	<p>Use common sense, and listen to HackIllinois staff. Let us know if you have any questions!</p>
@@ -418,15 +418,17 @@
 			</div><!-- container -->
 		</div><!-- splayer -->
 	</div>
+	<br>
+	<br>
 
     <!-- MAC IMAGE -->
-	<div class="container">
+<!-- 	<div class="container">
 		<div class="row centered">
 			<div class="col-lg-10 col-lg-offset-1">
 				<img class="img-responsive" src="assets/img/spot.png" alt="Spot Theme">
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 
 	<!-- CLIENT INFORMATION -->
