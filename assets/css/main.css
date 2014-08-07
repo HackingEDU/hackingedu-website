@@ -386,7 +386,7 @@ div#sp {
 
 div#sp::before {
     content: "";
-    background-color: rgba(24, 150, 150, 0.85);
+    background-color: rgba(24, 150, 150, 0.75);
     top: 0;
     left: 0;
     bottom: 0;
