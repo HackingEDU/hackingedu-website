@@ -34,7 +34,7 @@
 
   </head>
 
-  <body class="menu-close">
+  <body>
 
 	<!-- Menu -->
 	<nav class="menu " id="theMenu">
