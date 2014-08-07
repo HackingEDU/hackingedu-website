@@ -1,5 +1,5 @@
 <?php require_once './application/config.php'; ?>
-<?php include_once 'views/header.php'; ?>
+<?php require_once './views/header.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -80,16 +80,16 @@
 	</div><!-- /headerwrap -->
 
 	<!-- ABOUT -->
-	<?php include_once 'views/about.php'; ?>
+	<?php require_once './views/about.php'; ?>
 
 	<!-- APPLY -->
-	<?php include_once 'views/formSignUp.php'; ?>
+	<?php require_once './views/formSignUp.php'; ?>
 
 	<!-- SPONSORS -->
-	<?php include_once 'views/sponsors.php'; ?>
+	<?php require_once './views/sponsors.php'; ?>
 
 	<!-- RULES -->
-	<?php include_once 'views/rules.php'; ?>
+	<?php require_once './views/rules.php'; ?>
 
     <!-- MAC IMAGE -->
 <!-- 	<div class="container">
@@ -101,7 +101,7 @@
 	</div> -->
 
 	<!-- SCHEDULE -->
-	<?php include_once 'views/schedule.php'; ?>
+	<?php require_once './views/schedule.php'; ?>
 
 
 
@@ -164,7 +164,7 @@
 
 
     <!-- Contact Form Modal -->
-	<?php include_once 'views/formContact.php'; ?>
+	<?php require_once './views/formContact.php'; ?>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
