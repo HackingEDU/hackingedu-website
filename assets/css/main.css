@@ -628,7 +628,10 @@ a.main-btn:hover {
 .margin-top-20 {
     margin-top: 20px;
 }
-
+.arrow-right {
+    right: 15px;
+    position: fixed;
+}
 .auth h1 {
     color:#fff!important;
     font-weight:300;
