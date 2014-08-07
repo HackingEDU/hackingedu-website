@@ -384,7 +384,7 @@ div#sp {
     background-size: cover;
 }
 
-div#sp::after {
+div#sp::before {
     content: "";
     background-color: rgba(248, 247, 216, 0.6);
     top: 0;
