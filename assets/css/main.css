@@ -377,7 +377,7 @@ hr {
 
 div#sp::after {
   content: "";
-  background: url(image.jpg);
+  background: url(../img/edubg.png);
   opacity: 0.5;
   top: 0;
   left: 0;
