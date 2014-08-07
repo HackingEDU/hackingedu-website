@@ -1,6 +1,4 @@
 <?php require_once './application/config.php'; ?>
-<?php $section = trim($_SERVER['PATH_INFO'], '/');?>
-<?php var_dump($section); ?>
 <?php require_once './views/header.php'; ?>
 
 	<!-- MAIN IMAGE SECTION -->
@@ -14,21 +12,22 @@
 					<h2>Disrupting The Education Market</h2>
 					<!-- HACKER APPLICATION -->
 					<!-- $is_admin = ($user['permissions'] == 'admin' ? true : false); -->
-					<a class="main-btn apply-btn" href="<?php // $form = ()  ?>">Hacker Application</a>
+					<a class="main-btn apply-btn <?php $form = 'hacker'; ?>" href="#apply">Hacker Application</a>
 					<!-- VOLUNTEER APPLICATION -->
-					<a class="main-btn volunteer-btn" href="#apply">Volunteer</a>
+					<a class="main-btn volunteer-btn <?php $form = 'volunteer'; ?>" href="#apply">Volunteer</a>
 					<!-- SPONSOR APPLICATION -->
-					<a class="main-btn sponsor-btn" href="#apply">Sponsor</a>
+					<a class="main-btn sponsor-btn <?php $form = 'sponsor'; ?>" href="#apply">Sponsor</a>
 					<div class="spacer"></div>
 				</div>
 			</div><!-- row -->
 		</div><!-- /container -->
 	</div><!-- /headerwrap -->
+	<?php die($form); ?>
 
 	<!-- ABOUT -->
 	<?php require_once './views/about.php'; ?>
 
-	<!-- APPLY -->
+	<!-- APPLICATION FORM -->
 	<?php require_once './views/formSignUp.php'; ?>
 
 	<!-- SPONSORS -->

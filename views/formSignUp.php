@@ -14,9 +14,9 @@
 
 					  <!-- Form Type -->
 			          <div class="btn-group">
-			            <a href="#" class="btn btn-default">Hacker</a>
-			            <a href="#" class="btn btn-default">Volunteer</a>
-			            <a href="#" class="btn btn-default">Sponsor</a>
+			            <a href="#" class="btn btn-default <?php echo ($form == 'hacker') ? 'active' : ''; ?>">Hacker</a>
+			            <a href="#" class="btn btn-default <?php echo ($form == 'volunteer') ? 'active' : ''; ?>">Volunteer</a>
+			            <a href="#" class="btn btn-default <?php echo ($form == 'sponsor') ? 'active' : ''; ?>">Sponsor</a>
 			          </div>
 
 

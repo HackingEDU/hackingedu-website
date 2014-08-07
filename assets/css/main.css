@@ -744,6 +744,10 @@ a.main-btn:hover {
     -o-transition: background 1s ease-in-out;
     transition: background 1s ease-in-out;
 }
+a.btn.btn-default.active {
+    background: green;
+}
+
 .auth2 .auth-box2 {
     background-color:#fff;
     max-width: 900px;
