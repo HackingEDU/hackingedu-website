@@ -176,7 +176,7 @@
 			<div class="row mt">
 				<h1 class="white-text">Applications are Going Quickly</h1>
 
-				<div class="container auth2">
+				<div class="auth2">
 				    <!-- <h1 class="text-center">Bootstrap form theme <span>It's nice!</span> </h1> -->
 				    <div id="big-form" class="well auth-box2" style="color: #fff">
 				      <form>
@@ -380,21 +380,19 @@
 
 	<!-- RULES -->
 	<div id="rules"></div>
-    <div id="sp">
-    	<div id="splayer">
-	    	<div class="container">
-			    <div class="row">
-			    	<h2>Hackathon Rules</h2>
-			        <div class="mt centered">
-				      	<div class="col-lg-8 col-lg-offset-2">
-					        <h1><b>Spot Free Theme</b></h1>
-					        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-				      	</div>
-			      	</div>
-		      	</div><!-- /row -->
-		    </div><!-- /.container -->
-		</div><!-- /#splayer -->
-    </div><!-- /#sp -->
+	<div id="sp">
+		<div id="splayer">
+			<div class="container">
+				<div class="row mt">
+					<h1 class="white-text">Hackathon Rules</h1>
+			       	<div class="col-lg-8 col-lg-offset-2">
+			 	        <h1><b>Spot Free Theme</b></h1>
+			 	        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+			       	</div>
+				</div><!-- row -->
+			</div><!-- container -->
+		</div><!-- splayer -->
+	</div><!-- services section -->
 
     <!-- MAC IMAGE -->
 	<div class="container">
