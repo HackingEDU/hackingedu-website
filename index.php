@@ -3,9 +3,6 @@
 <?php echo $section; ?>
 <?php require_once './views/header.php'; ?>
 
-		<!-- Menu button -->
-		<div id="menuToggle"><i class="fa fa-bars"></i></div>
-	</nav>
 	<!-- MAIN IMAGE SECTION -->
 	<div id="home" class="headerwrap ">
 		<div class="container">
