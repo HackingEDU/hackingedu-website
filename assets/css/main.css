@@ -649,7 +649,8 @@ a.main-btn:hover {
     outline: 0;
     border: 0;
     display: block;
-    max-width: 100%}
+    max-width: 100%
+}
 .grid img {
     opacity: .7;
 }
@@ -666,20 +667,66 @@ a.main-btn:hover {
 }
 @-webkit-keyframes moveUp {
     to {
-    -webkit-transform: translateY(0);
-    opacity: 1;
+        -webkit-transform: translateY(0);
+        opacity: 1;
+    }
 }
-}@-moz-keyframes moveUp {
+@-moz-keyframes moveUp {
     to {
-    -moz-transform: translateY(0);
-    opacity: 1;
+        -moz-transform: translateY(0);
+        opacity: 1;
+    }
 }
-}@keyframes moveUp {
+@keyframes moveUp {
     to {
-    transform: translateY(0);
-    opacity: 1;
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
+
+/* =========================================================================
+                            Testing Form Toggles
+   =======================================================================*/
+/*Panel tabs*/
+.panel-tabs {
+   /*position: relative;
+   bottom: 30px;
+   clear:both;
+   border-bottom: 1px solid transparent;
+*/
 }
+
+.panel-tabs > li {
+   float: left;
+   margin-bottom: -1px;
+}
+
+.panel-tabs > li > a {
+    padding: 5px;
+}
+a.hide-right-left-border.btn.btn-default {
+border-right-color: transparent;
+border-left-color: transparent;
+}
+
+.panel-tabs > li > a:hover {
+   border-color: transparent;
+   color: #ffffff;
+   background-color: transparent;
+}
+
+.panel-tabs > li.active > a,
+.panel-tabs > li.active > a:hover,
+.panel-tabs > li.active > a:focus {
+   color: #fff;
+   cursor: default;
+   -webkit-border-radius: 2px;
+   -moz-border-radius: 2px;
+   border-radius: 2px;
+   background-color: green; /*rgba(255,255,255, .23);*/
+}
+
+
 
 /* =========================================================================
                             Bootstrap Form
@@ -971,36 +1018,38 @@ a.btn.btn-default.active {
     -o-transition: background 0.2s ease-in-out;
     transition: background 0.2s ease-in-out;
 }
-.auth2 form .btn-default {
-    color:#fff;
-    border-color:#fff;
-}
-.auth2 form .btn-default:hover {
+.auth2 .btn-default {
     background:rgba(225, 225, 225, 0.3);
+
     color:#fff;
     border-color:#fff;
 }
-.auth2 form .btn-primary:hover {
+.auth2 .btn-default:hover {
+    background:rgba(225, 225, 225, 0.7);
+    color:#fff;
+    border-color:#fff;
+}
+.auth2 .btn-primary:hover {
     background:rgba(66, 139, 202, 0.3);
 }
-.auth2 form .btn-success:hover {
+.auth2 .btn-success:hover {
     background:rgba(92, 184, 92, 0.3);
 }
-.auth2 form .btn-info :hover {
+.auth2 .btn-info :hover {
     background:rgba(91, 192, 222, 0.3);
 }
-.auth2 form .btn-warning:hover {
+.auth2 .btn-warning:hover {
     background:rgba(240, 173, 78, 0.3);
 }
-.auth2 form .btn-danger:hover {
+.auth2 .btn-danger:hover {
     background:rgba(217, 83, 79, 0.3);
 }
-.auth2 form .btn-link {
+.auth2 .btn-link {
     border:none;
     color:#fff;
     padding-left:0;
 }
-.auth2 form .btn-link:hover {
+.auth2 .btn-link:hover {
     background:none;
 }
 
