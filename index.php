@@ -1,5 +1,5 @@
-<?php // include_once 'views/header.php'; ?>
 <?php require_once './application/config.php'; ?>
+<?php include_once 'views/header.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -58,8 +58,6 @@
 		<!-- Menu button -->
 		<div id="menuToggle"><i class="fa fa-bars"></i></div>
 	</nav>
-
-
 	<!-- MAIN IMAGE SECTION -->
 	<div id="home" class="headerwrap ">
 		<div class="container">
