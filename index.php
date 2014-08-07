@@ -195,12 +195,12 @@
 
 				        <!-- Name -->
 				        <div class="form-group" style="display: inline-block">
-				            <div class="form-group" style="display: inline-block">
+				            <!-- <div class="form-group" style="display: inline-block"> -->
 					            <label class=" control-label" for="textinput">Name:</label>
 					            <!-- <div class=""> -->
-					            <input id="textinput" name="textinput" placeholder="Alexander the Great" class="form-control input-md" type="text">
+					            <input style="display: inline-block" id="textinput" name="textinput" placeholder="Alexander the Great" class="form-control input-md" type="text">
 					            <!-- <span class="help-block">help</span> -->
-					        </div>
+					        <!-- </div> -->
 				        </div>
 
 				          <!-- Email -->
