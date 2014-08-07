@@ -101,7 +101,7 @@
                         <textarea class="form-control" id="textarea" name="textarea" placeholder="Ask away! :)"></textarea>
                       </div>
 
-                      <button id="singlebutton" name="singlebutton" class="btn btn-default pull-right">Send</button>
+                      <button id="singlebutton" name="singlebutton" class="btn btn-default pull-right" style="color: black">Send</button>
 
                     <!-- </fieldset> -->
                   </form>
