@@ -1,4 +1,4 @@
-<?php require_once './views/header.php'; ?>
+<?php include_once 'views/header.php'; ?>
 
 	<!-- MAIN IMAGE SECTION -->
 	<div id="home" class="headerwrap ">
@@ -22,16 +22,16 @@
 	</div><!-- /headerwrap -->
 
 	<!-- ABOUT -->
-	<?php require_once './views/about.php'; ?>
+	<?php include_once 'views/about.php'; ?>
 
 	<!-- APPLY -->
-	<?php require_once './views/formSignUp.php'; ?>
+	<?php include_once 'views/formSignUp.php'; ?>
 
 	<!-- SPONSORS -->
-	<?php require_once './views/sponsors.php'; ?>
+	<?php include_once 'views/sponsors.php'; ?>
 
 	<!-- RULES -->
-	<?php require_once './views/rules.php'; ?>
+	<?php include_once 'views/rules.php'; ?>
 
     <!-- MAC IMAGE -->
 <!-- 	<div class="container">
@@ -43,7 +43,7 @@
 	</div> -->
 
 	<!-- SCHEDULE -->
-	<?php require_once './views/schedule.php'; ?>
+	<?php include_once 'views/schedule.php'; ?>
 
 
 
@@ -106,7 +106,7 @@
 
 
     <!-- Contact Form Modal -->
-	<?php require_once './views/formContact.php'; ?>
+	<?php include_once 'views/formContact.php'; ?>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

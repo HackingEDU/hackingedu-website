@@ -1,4 +1,4 @@
-<?php require_once '/application/config.php'; ?>
+<?php require_once '../application/config.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
