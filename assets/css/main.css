@@ -629,7 +629,7 @@ a.main-btn:hover {
     margin-top: 20px;
 }
 .arrow-right {
-    right: 15px;
+    right: -9px;
     position: fixed;
 }
 .auth h1 {
