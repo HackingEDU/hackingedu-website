@@ -418,8 +418,6 @@
 			</div><!-- container -->
 		</div><!-- splayer -->
 	</div>
-	<br>
-	<br>
 
     <!-- MAC IMAGE -->
 <!-- 	<div class="container">

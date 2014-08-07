@@ -388,6 +388,7 @@ div#sp {
     background: url(../img/40085.jpg) fixed;
     background-position: center center;
     background-size: cover;
+    margin-bottom: 2em;
 }
 
 div#sp::before {
