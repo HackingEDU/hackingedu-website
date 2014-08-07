@@ -628,7 +628,8 @@ a.main-btn:hover {
 .margin-top-20 {
     margin-top: 20px;
 }
-.arrow-right {
+.fa-arrow-right:before {
+    content: "\f061";
     right: -9px;
     position: fixed;
 }
