@@ -379,11 +379,12 @@ div#sp {
   height: 100%;
   display: block;
   position: relative;
+  background: url(../img/40085.jpg) fixed;
 }
 
 div#sp::after {
   content: "";
-  background: url(../img/40085.jpg) fixed;
+  background-color: rgba(248, 247, 216, 0.7);
   opacity: 0.5;
   top: 0;
   left: 0;
