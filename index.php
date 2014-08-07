@@ -383,11 +383,13 @@
 	<div id="sp">
 		<div id="splayer">
 			<div class="container">
+				<div class="row mt">
 
-				<h1 class="white-text">Hackathon Rules</h1>
-		       	<div class="col-lg-8 col-lg-offset-2">
-		 	        <h1><b>Spot Free Theme</b></h1>
-		 	        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+					<h1 class="white-text">Hackathon Rules</h1>
+			       	<div class="col-lg-8 col-lg-offset-2">
+			 	        <h1><b>Spot Free Theme</b></h1>
+			 	        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+			       	</div>
 		       	</div>
 			</div><!-- container -->
 		</div><!-- splayer -->
