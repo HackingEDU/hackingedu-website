@@ -68,7 +68,7 @@
 					<h3>SF Bay Area</h3>
 					<h2>Disrupting The Education Market</h2>
 					<!-- HACKER APPLICATION -->
-					$is_admin = ($user['permissions'] == 'admin' ? true : false);
+					<!-- $is_admin = ($user['permissions'] == 'admin' ? true : false); -->
 					<a class="main-btn apply-btn" href="<?php // $form = ()  ?>">Hacker Application</a>
 					<!-- VOLUNTEER APPLICATION -->
 					<a class="main-btn volunteer-btn" href="#apply">Volunteer</a>
