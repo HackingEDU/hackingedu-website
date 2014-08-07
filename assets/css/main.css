@@ -343,7 +343,7 @@ hr {
 
 #sp {
     background: url("../img/40085.jpg") fixed;
-    background-size: cover;
+    /*background-size: cover;*/
     background-position: center center;
     margin-top: 25px;
     padding-top: 35px;
