@@ -341,7 +341,7 @@ hr {
     margin-top: 150px;
 }
 
-#sp {
+div#sp {
     background: url("../img/40085.jpg") fixed;
     /*background-size: cover;*/
     background-position: center center;
