@@ -54,23 +54,23 @@
         <div class="">
             <label class="radio-inline" for="grade-0">
                 <input name="grade" id="grade-0" value="1" checked="checked" type="radio">
-                1st
+                1st Level
             </label>
             <label class="radio-inline" for="grade-1">
                 <input name="grade" id="grade-1" value="2" type="radio">
-                A
+                2nd Level
             </label>
             <label class="radio-inline" for="grade-2">
                 <input name="grade" id="grade-2" value="3" type="radio">
-                B+
+                3rd Level
             </label>
             <label class="radio-inline" for="grade-2">
                 <input name="grade" id="grade-2" value="3" type="radio">
-                B
+                4th Level
             </label>
             <label class="radio-inline" for="grade-2">
                 <input name="grade" id="grade-2" value="3" type="radio">
-                C
+                5th Level
             </label>
         </div>
     </div>
