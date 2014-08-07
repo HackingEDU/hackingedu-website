@@ -390,8 +390,6 @@
 			 	            <!-- <h1 class="text-center">Bootstrap form theme <span>It's nice!</span> </h1> -->
 			 	            <div id="big-form" class="well auth-box2" style="color: #fff">
 	                        <!-- <div class="col-lg-offset-2"> -->
-				 	        	<h3><b>Spot Free Theme</b></h3>
-				 	        	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
 				 	        	<h3><b>IN A NUTSHELL...</b></h3>
 				 	        	<p>Use common sense, and listen to HackIllinois staff. Let us know if you have any questions!</p>
 				 	        	<h3><b>GENERAL</b></h3>

@@ -57,6 +57,9 @@ a:before, a:after {
 .auth-box2 h3 {
     color: #fff;
 }
+.auth-box2 p {
+    font-weight: 300;
+}
 hr {
     display: block;
     height: 1px;
