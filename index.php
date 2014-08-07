@@ -39,9 +39,9 @@
 	<!-- Menu -->
 	<nav class="menu " id="theMenu">
 		<div class="menu-wrap">
-			<h1 class="logo"><a class="menu-close" href="#home">Hacking Edu</a></h1>
+			<h1 class="logo"><a href="#home">Hacking Edu</a></h1>
 			<i class="fa fa-arrow-right menu-close"></i>
-			<a class="menu-close" href="#home">Home</a>
+			<a href="#home">Home</a>
 			<a href="#about">About</a>
 			<a href="#sponsors">Sponsors</a>
 			<a href="#rules">Rules</a>
