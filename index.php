@@ -39,9 +39,9 @@
 	<!-- Menu -->
 	<nav class="menu " id="theMenu">
 		<div class="menu-wrap">
-			<h1 class="logo"><a href="#home">Hacking Edu</a></h1>
+			<h1 class="logo"><a class="menu-close" href="#home">Hacking Edu</a></h1>
 			<i class="fa fa-arrow-right menu-close"></i>
-			<a href="#home">Home</a>
+			<a class="menu-close" href="#home">Home</a>
 			<a href="#about">About</a>
 			<a href="#sponsors">Sponsors</a>
 			<a href="#rules">Rules</a>
@@ -332,6 +332,8 @@
 				              <textarea class="form-control" id="textarea" name="textarea">Tell us about your idea! :)</textarea>
 				            </div>
 				          </div>
+
+				          <button id="singlebutton" name="singlebutton" class="btn btn-default">Button</button>
 
 				        </fieldset>
 				      </form>
