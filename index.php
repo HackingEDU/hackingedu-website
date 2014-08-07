@@ -22,7 +22,8 @@
 			</div><!-- row -->
 		</div><!-- /container -->
 	</div><!-- /headerwrap -->
-	<?php die($form); ?>
+	<?php // die($form); ?>
+	<?php die(trim($_SERVER['PATH_INFO'], '/')); ?>
 
 	<!-- ABOUT -->
 	<?php require_once './views/about.php'; ?>
