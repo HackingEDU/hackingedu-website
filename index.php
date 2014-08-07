@@ -197,7 +197,7 @@
 				          <div class="form-group">
 				            <!-- <label class=" control-label" for="textinput">Name:</label> -->
 				            <!-- <div class=""> -->
-				            <input id="textinput" name="textinput" placeholder="Name: Alexander the Great" class="form-control input-md" type="text">
+				            <input id="textinput" name="textinput" placeholder="Name:  Alexander the Great" class="form-control input-md" type="text">
 				              <!-- <span class="help-block">help</span> -->
 				            <!-- </div> -->
 				          </div>
@@ -206,7 +206,7 @@
 				          <div class="form-group">
 				            <!-- <label class=" control-label" for="textinput">Your Email</label> -->
 				            <div class="">
-				              <input id="textinput" name="textinput" placeholder="Email: you@yourSchool.edu" class="form-control input-md" type="text">
+				              <input id="textinput" name="textinput" placeholder="Email:  you@yourSchool.edu" class="form-control input-md" type="text">
 				              <!-- <span class="help-block">help</span> -->
 				            </div>
 				          </div>
@@ -215,7 +215,7 @@
 				          <div class="form-group">
 				            <!-- <label class=" control-label" for="textinput">Your Major</label> -->
 				            <div class="">
-				              <input id="textinput" name="textinput" placeholder="Major: Computer Science" class="form-control input-md" type="text">
+				              <input id="textinput" name="textinput" placeholder="Major:  Computer Science" class="form-control input-md" type="text">
 				              <!-- <span class="help-block">help</span> -->
 				            </div>
 				          </div>
@@ -224,7 +224,7 @@
 				          <div class="form-group">
 				            <!-- <label class=" control-label" for="textinput">Your School</label> -->
 				            <div class="">
-				              <input id="textinput" name="textinput" placeholder="School: Example University" class="form-control input-md" type="text">
+				              <input id="textinput" name="textinput" placeholder="School:  Example University" class="form-control input-md" type="text">
 				              <!-- <span class="help-block">help</span> -->
 				            </div>
 				          </div>
@@ -296,20 +296,20 @@
 
 				          <!-- Github -->
 				          <div class="form-group">
-				            <label class=" control-label" for="textinput">Your Github</label>
-				            <div class="">
-				              <input id="textinput" name="textinput" placeholder="@github_username" class="form-control input-md" type="text">
+				            <!-- <label class=" control-label" for="textinput">Your Github</label> -->
+				            <!-- <div class=""> -->
+				              <input id="textinput" name="textinput" placeholder="Github:  @github_username" class="form-control input-md" type="text">
 				              <!-- <span class="help-block">help</span> -->
-				            </div>
+				            <!-- </div> -->
 				          </div>
 
 				          <!-- LinkedIn -->
 				          <div class="form-group">
-				            <label class=" control-label" for="textinput">Your LinkedIn</label>
-				            <div class="">
-				              <input id="textinput" name="textinput" placeholder="https://linkedin.com/in/your_linkedin_url" class="form-control input-md" type="text">
+				            <!-- <label class=" control-label" for="textinput">Your LinkedIn</label> -->
+				            <!-- <div class=""> -->
+				              <input id="textinput" name="textinput" placeholder="LinkedIn:  https://linkedin.com/in/your_linkedin_url" class="form-control input-md" type="text">
 				              <!-- <span class="help-block">help</span> -->
-				            </div>
+				            <!-- </div> -->
 				          </div>
 
 				          <!-- Travel Arrangements? -->
