@@ -68,6 +68,7 @@
                 <!-- <h1 class="text-center">Bootstrap form theme <span>It's nice!</span> </h1> -->
                 <div id="big-form" class="">
 		            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+		            <h2 class="pull-left">What can we help you with?</h2>
                   <form>
                     <!-- <fieldset> -->
 
@@ -94,7 +95,6 @@
 
 
                       <div class="form-group">
-                        <label class="control-label" for="textarea">What can we help you with?</label>
                         <!-- Subject -->
                         <textarea class="form-control subject" id="" name="textarea" placeholder="Subject"></textarea>
                         <!-- Textarea -->
