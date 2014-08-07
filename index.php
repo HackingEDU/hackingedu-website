@@ -1,7 +1,7 @@
 <?php require_once './application/config.php'; ?>
 <?php // $section = trim($_SERVER['PATH_INFO'], '/');?>
 <?php // echo $section; ?>
-<?php require_once './views/header.php'; ?>
+<?php require_once 'views/header.php'; ?>
 
 	<!-- ABOUT -->
 	<?php require_once './views/about.php'; ?>
