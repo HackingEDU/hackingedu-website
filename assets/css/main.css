@@ -341,7 +341,7 @@ hr {
     margin-top: 150px;
 }
 #sp {
-    background: url("../img/40085.jpg") no-repeat center top;
+    background: url("../img/40085.jpg") no-repeat center top fixed;
     background-attachment: relative;
     background-position: center center;
     width: 100%;
