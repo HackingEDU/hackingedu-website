@@ -341,9 +341,9 @@ hr {
     margin-top: 150px;
 }
 
-div#sp {
-/*    background: url("../img/40085.jpg") fixed;
-    /*background-size: cover;
+/*div#sp {
+    background: url("../img/40085.jpg") fixed;
+    background-size: cover;
     background-position: center center;
     margin-top: 25px;
     padding-top: 35px;
@@ -356,25 +356,42 @@ div#sp {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    position: relative;*/
-    background:url('../img/edubg.png') fixed;/* */
-    /*background: url(../img/apicon-hackathon.jpg) no-repeat center top fixed;*/
+    position: relative;
+    background:url('../img/edubg.png') fixed;/*
+    /*background: url(../img/apicon-hackathon.jpg) no-repeat center top fixed;
     background-size: cover;
     background-position: center center;
     margin-top: 25px;
     padding-top: 35px;
     padding-bottom: 35px;
-}
+}*/
 
-#splayer {
+/*#splayer {
     background-color: rgba(248, 247, 216, 0.7);
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-}
+}*/
 
+div#sp::after {
+  content: "";
+  background: url(image.jpg);
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+div#sp {
+  width: 200px;
+  height: 200px;
+  display: block;
+  position: relative;
+}
 #sp h2 {
     color: #fff;
 }
