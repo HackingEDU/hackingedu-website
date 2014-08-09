@@ -1,116 +1,108 @@
 <?php // VOLUNTEER FORM ?>
-<form>
-    <!-- Name -->
-    <div class="form-group">
-        <!-- <label class=" control-label" for="textinput">Name:</label> -->
-        <!-- <div class=""> -->
-        <input id="textinput" name="textinput" placeholder="Volunteer Name:  Alex Cory" class="form-control input-md" type="text">
-          <!-- <span class="help-block">help</span> -->
-        <!-- </div> -->
-    </div>
-
-    <!-- Email -->
-    <div class="form-group">
-        <!-- <label class=" control-label" for="textinput">Your Email</label> -->
-        <div class="">
-            <input id="textinput" name="textinput" placeholder="Email:  you@yourSchool.edu" class="form-control input-md" type="text">
-            <!-- <span class="help-block">help</span> -->
+<form action="https://docs.google.com/forms/d/1f9F6CboeGQkH-hSBhG5XHskxuGnwBglK6Hz8jhfraLw/formResponse" method="POST" id="ss-form" target="_self" onsubmit="">
+    <ol role="list" class="ss-question-list" style="padding-left: 0">
+        <!-- NAME -->
+        <div class="ss-form-question errorbox-good" role="listitem">
+            <div dir="ltr" class="ss-item  ss-text">
+                <div class="ss-form-entry">
+                    <label class="ss-q-item-label" for="entry_1518263597">
+                        <div class="ss-q-title">Volunteer Name:</div>
+                        <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+                    </label>
+                    <input type="text" name="entry.1518263597" value="" class="ss-q-short" id="entry_1518263597" dir="auto" aria-label="Volunteer Name:  " title="">
+                    <div class="error-message" id="913001082_errorMessage"></div>
+                    <!-- <div class="required-message">This is a required question</div> -->
+                </div>
+            </div>
         </div>
-    </div>
-
-    <!-- School -->
-    <div class="form-group">
-        <!-- <label class=" control-label" for="textinput">Your School</label> -->
-        <div class="">
-            <input id="textinput" name="textinput" placeholder="School:  Example University (put N/A if not in school)" class="form-control input-md" type="text">
-            <!-- <span class="help-block">help</span> -->
+        <!-- EMAIL -->
+        <div class="ss-form-question errorbox-good" role="listitem">
+            <div dir="ltr" class="ss-item  ss-text">
+                <div class="ss-form-entry">
+                    <label class="ss-q-item-label" for="entry_2004162391">
+                        <div class="ss-q-title">Email:</div>
+                        <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+                    </label>
+                    <input type="text" name="entry.2004162391" value="" class="ss-q-short" id="entry_2004162391" dir="auto" aria-label="Email:  " title="">
+                    <div class="error-message" id="938649348_errorMessage"></div>
+                    <!-- <div class="required-message">This is a required question</div> -->
+                </div>
+            </div>
         </div>
-    </div>
+        <!-- MENTOR? -->
+        <div class="ss-form-question errorbox-good" role="listitem">
+            <div dir="ltr" class="ss-item  ss-radio">
+                <div class="ss-form-entry">
+                    <label class="ss-q-item-label" for="entry_1151994508">
+                        <div class="ss-q-title">Will you be volunteering as a mentor?</div>
+                        <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+                    </label>
 
-    <!-- Gender -->
-<!--     <div class="form-group">
-        <label class=" control-label" for="gender">Gender?</label>
-        <div class="">
-            <label class="radio-inline" for="gender-0">
-                <input name="gender" id="gender-0" value="1" checked="checked" type="radio">
-                Male
-            </label>
-            <label class="radio-inline" for="gender-1">
-                <input name="gender" id="gender-1" value="2" type="radio">
-                Female
-            </label>
-            <label class="radio-inline" for="gender-2">
-                <input name="gender" id="gender-2" value="3" type="radio">
-                Other
-            </label>
+                    <ul class="ss-choices" role="radiogroup" aria-label="Will you be volunteering as a mentor?  ">
+                        <li class="radio-inline ss-choice-item">
+                            <label>
+                                <span class="ss-choice-item-control goog-inline-block">
+                                    <input type="radio" name="entry.1283645061" value="Yes" id="group_1283645061_1" role="radio" class="ss-q-radio" aria-label="Yes">
+                                </span>
+                                <span class="ss-choice-label">Yes</span>
+                            </label>
+                        </li>
+                        <li class="radio-inline ss-choice-item">
+                            <label>
+                                <span class="ss-choice-item-control goog-inline-block">
+                                    <input type="radio" name="entry.1283645061" value="No" id="group_1283645061_2" role="radio" class="ss-q-radio" aria-label="No">
+                                </span>
+                                <span class="ss-choice-label">No</span>
+                            </label>
+                        </li>
+                    </ul>
+                    <div class="error-message" id="1151994508_errorMessage"></div>
+                    <!-- <div class="required-message">This is a required question</div> -->
+                </div>
+            </div>
         </div>
-    </div> -->
-
-    <!-- First Hackathon? -->
-    <div class="form-group">
-        <label class=" control-label" for="fHackathon">Is this your first hackathon?</label>
-        <div class="">
-            <label class="radio-inline" for="fHackathon-0">
-                <input name="fHackathon" id="fHackathon-0" value="1" checked="checked" type="radio">
-                Yes
-            </label>
-            <label class="radio-inline" for="fHackathon-1">
-                <input name="fHackathon" id="fHackathon-1" value="2" type="radio">
-                No
-            </label>
+        <!-- COMPANY -->
+        <div class="ss-form-question errorbox-good" role="listitem">
+            <div dir="ltr" class="ss-item  ss-text">
+                <div class="ss-form-entry">
+                    <label class="ss-q-item-label" for="entry_68404305">
+                        <div class="ss-q-title">Company?</div>
+                        <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+                    </label>
+                    <input type="text" name="entry.68404305" value="" class="ss-q-short" id="entry_68404305" dir="auto" aria-label="Company?  " title="">
+                    <div class="error-message" id="410489093_errorMessage"></div>
+                    <!-- <div class="required-message">This is a required question</div> -->
+                </div>
+            </div>
         </div>
-    </div>
-
-    <!-- Github -->
-    <div class="form-group">
-        <!-- <label class=" control-label" for="textinput">Your Github</label> -->
-        <!-- <div class=""> -->
-            <input id="textinput" name="textinput" placeholder="Github:  @github_username" class="form-control input-md" type="text">
-            <!-- <span class="help-block">help</span> -->
-        <!-- </div> -->
-    </div>
-
-    <!-- LinkedIn -->
-    <div class="form-group">
-      <!-- <label class=" control-label" for="textinput">Your LinkedIn</label> -->
-      <!-- <div class=""> -->
-        <input id="textinput" name="textinput" placeholder="LinkedIn:  https://linkedin.com/in/your_linkedin_url" class="form-control input-md" type="text">
-        <!-- <span class="help-block">help</span> -->
-      <!-- </div> -->
-    </div>
-
-    <!-- Mentor? -->
-    <div class="form-group">
-        <label class=" control-label" for="radios">Will you be volunteering as a mentor?</label>
-        <div class="">
-            <label class="radio-inline" for="radios-0">
-                <input name="radios" id="radios-0" value="1" type="radio">
-                Yes
-            </label>
-            <label class="radio-inline" for="radios-1">
-                <input name="radios" id="radios-1" value="2" checked="checked" type="radio">
-                No
-            </label>
+        <!-- SCHOOL -->
+        <div class="ss-form-question errorbox-good" role="listitem">
+            <div dir="ltr" class="ss-item  ss-text">
+                <div class="ss-form-entry">
+                    <label class="ss-q-item-label" for="entry_2127045771">
+                        <div class="ss-q-title">If you are still in school, which school do you attend?</div>
+                        <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+                    </label>
+                    <input type="text" name="entry.2127045771" value="" class="ss-q-short" id="entry_2127045771" dir="auto" aria-label="If you are still in school, which school do you attend?  " title="">
+                    <div class="error-message" id="100011719_errorMessage"></div>
+                    <!-- <div class="required-message">This is a required question</div> -->
+                </div>
+            </div>
         </div>
-    </div>
-
-    <!-- Company -->
-    <div class="form-group">
-        <!-- <label class=" control-label" for="textinput">Your Major</label> -->
-        <div class="">
-            <input id="textinput" name="textinput" placeholder="Company:  (put N/A if not working)" class="form-control input-md" type="text">
-            <!-- <span class="help-block">help</span> -->
+        <input type="hidden" name="draftResponse" value="[,,&quot;8401116685446025590&quot;]">
+        <input type="hidden" name="pageHistory" value="0">
+        <input type="hidden" name="fbzx" value="8401116685446025590">
+        <div class="ss-item ss-navigate">
+            <table id="navigation-table">
+                <tbody>
+                    <tr>
+                        <td class="ss-form-entry goog-inline-block" id="navigation-buttons" dir="ltr">
+                            <input type="submit" name="submit" value="Submit" id="ss-submit">
+                            <!-- <div class="ss-password-warning ss-secondary-text">Never submit passwords through Google Forms.</div> -->
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
-    </div>
-
-    <!-- Volunteer Request -->
-<!--     <div class="form-group">
-        <label class=" control-label" for="textarea">Is there a specific role you would like to have as a volunteer?</label>
-        <div class="">
-          <textarea class="form-control" id="textarea" name="textarea">Tell us what you would like to do! :)</textarea>
-        </div>
-    </div> -->
-
-    <button id="singlebutton" name="singlebutton" class="btn btn-default pull-right">Submit</button>
-
+    </ol>
 </form>
