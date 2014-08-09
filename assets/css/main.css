@@ -757,7 +757,7 @@ border-left: none;
     margin-top: 20px;
 }
 i.fa.fa-bars {
-    line-height: 0;
+    line-height: 2.8;
 }
 .fa-arrow-right:before {
     right: -13px;
