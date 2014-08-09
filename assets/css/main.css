@@ -756,6 +756,9 @@ border-left: none;
 .margin-top-20 {
     margin-top: 20px;
 }
+.fa {
+    line-height: 0;
+}
 .fa-arrow-right:before {
     right: -13px;
     position: relative;
