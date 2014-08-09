@@ -1,5 +1,5 @@
 <?php  // For Google Analytics
-include_once 'analyticstracking.php';
+include_once './application/analyticstracking.php';
 echo $google_analytics; ?>
 
 <?php require_once './application/config.php'; ?>

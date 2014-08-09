@@ -17,6 +17,22 @@ p {
     margin-bottom: 25px;
     font-size: 18px;
 }
+.btn-group.mg-btm-1em {
+    margin-bottom: 1em;
+}
+.ss-form-entry {
+    margin-bottom: 1em;
+}
+ul.ss-choices {
+    padding-left: 0;
+}
+.ss-form-entry.s-form-text {
+    border-bottom: 1px dotted #fff;
+    width: 100%;
+    min-width: 200px;
+    max-width: 900px;
+    display: -webkit-flex;
+}
 .centered {
     text-align: center;
 }
@@ -32,6 +48,12 @@ p {
 .main-img {
     width: 32em;
     margin-top: 12em;
+}
+.well {
+    padding: 8px 19px 0 19px;
+}
+input.btn {
+    border-radius: 3;
 }
 a {
     color: #16a085;
@@ -884,15 +906,33 @@ a.btn.btn-default.active {
 .auth2 form input[type="email"],
 .auth2 form input[type="search"] {
     border:none;
-    padding:10px 0 10px 0;
+    /*padding:10px 0 10px 0;*/
     background-color: rgba(255, 255, 255, 0)!important;
     background: rgba(255, 255, 255, 0);
     color: #fff;
     font-size:16px;
-    border-bottom:1px dotted #fff;
+    /*border-bottom:1px dotted #fff;*/
     border-radius:0;
     box-shadow:none!important;
     height:auto;
+    font-size: 10pt;
+    -webkit-flex: 1;
+    margin-left: .4em;
+}
+textarea.ss-q-long::-webkit-input-placeholder {
+   color: #fff;
+}
+
+textarea.ss-q-long:-moz-placeholder { /* Firefox 18- */
+   color: #fff;
+}
+
+textarea.ss-q-long::-moz-placeholder {  /* Firefox 19+ */
+   color: #fff;
+}
+
+textarea.ss-q-long:-ms-input-placeholder {
+   color: #fff;
 }
 .auth form input[type="text"].contact-border-bottom {
     border-bottom:1px dotted black;

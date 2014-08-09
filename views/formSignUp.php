@@ -9,7 +9,7 @@
 				        <!-- Form Name -->
 				        <legend>Sign Up Form</legend>
 						<!-- Form Type -->
-	                    <div class="btn-group">
+	                    <div class="mg-btm-1em btn-group">
 		                    <ul class="nav panel-tabs">
 		                        <li class="active">
 		                        	<a type="button" class="btn btn-default" href="#hackerForm" data-toggle="tab">Hacker</a>
