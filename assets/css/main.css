@@ -756,7 +756,7 @@ border-left: none;
 .margin-top-20 {
     margin-top: 20px;
 }
-.fa {
+i.fa.fa-bars {
     line-height: 0;
 }
 .fa-arrow-right:before {
