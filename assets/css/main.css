@@ -497,7 +497,7 @@ a.main-btn:hover {
     width: 100%}
 #apply {
     /*background: #1abc9c;*/
-    background:url('../img/edubg.png') fixed;/* */
+    background:url('../img/edubg.png'), 017F6E fixed;/* */
     /*background: url(../img/apicon-hackathon.jpg) no-repeat center top fixed;*/
     background-size: cover;
     background-position: center center;
