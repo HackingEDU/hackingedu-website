@@ -1,5 +1,5 @@
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="m-top-10">
+    <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="m-top-20">
           <div class="col-sm-10 col-sm-offset-1 text-center">
             <h1>Contact Form</h1>
 
@@ -9,8 +9,6 @@
 		            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
 		            <h3 class="pull-left">What can we help you with?</h3>
                   <form>
-                    <!-- <fieldset> -->
-
                       <!-- Form Name -->
                       <!-- <legend>Contact Form</legend> -->
 
@@ -32,7 +30,7 @@
                         </div>
                       </div>
 
-
+                      <!-- Subject & Message -->
                       <div class="form-group">
                         <!-- Subject -->
                         <textarea class="form-control subject" id="" name="textarea" placeholder="Subject"></textarea>
@@ -40,7 +38,7 @@
                         <textarea class="form-control" id="textarea" name="textarea" placeholder="Ask away! :)"></textarea>
                       </div>
 
-                      <button id="singlebutton" name="singlebutton" class="btn btn-default pull-right" style="color: black">Send</button>
+                      <button id="singlebutton" name="singlebutton" class="btn m-btm-1em btn-default pull-right" style="color: black">Send</button>
 
                     <!-- </fieldset> -->
                   </form>

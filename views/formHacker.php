@@ -12,7 +12,7 @@
                     </label>
                     <input placeholder="Alexander the Hacker" type="text" name="entry.1672223234" value="" class="ss-q-short" id="entry_1672223234" dir="auto" aria-label="Hacker Name:  " title="">
                     <div class="error-message" id="1889223634_errorMessage"></div>
-                    <!-- <div class="required-message">This is a required question</div> -->
+                    <div class="required-message">required</div>
                 </div>
             </div>
         </div>
@@ -26,7 +26,7 @@
                     </label>
                     <input placeholder="you@yourSchool.edu" type="text" name="entry.2114170671" value="" class="ss-q-short" id="entry_2114170671" dir="auto" aria-label="Email:  " title="">
                     <div class="error-message" id="1254070548_errorMessage"></div>
-                    <!-- <div class="required-message">This is a required question</div> -->
+                    <div class="required-message">required</div>
                 </div>
             </div>
         </div>
@@ -40,7 +40,7 @@
                     </label>
                     <input placeholder="Computer Science" type="text" name="entry.74476949" value="" class="ss-q-short" id="entry_74476949" dir="auto" aria-label="Major:  " title="">
                     <div class="error-message" id="1693962477_errorMessage"></div>
-                    <!-- <div class="required-message">This is a required question</div> -->
+                    <div class="required-message">required</div>
                 </div>
             </div>
         </div>
@@ -54,7 +54,7 @@
                     </label>
                     <input placeholder="Example University" type="text" name="entry.1717680027" value="" class="ss-q-short" id="entry_1717680027" dir="auto" aria-label="School:  " title="">
                     <div class="error-message" id="1269078471_errorMessage"></div>
-                    <!-- <div class="required-message">This is a required question</div> -->
+                    <div class="required-message">required</div>
                 </div>
             </div>
         </div>
@@ -66,6 +66,7 @@
                         <div class="ss-q-title">Gender?</div>
                         <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
                     </label>
+                    <div class="radio-inline pull-right required-message">required</div>
                     <ul class="ss-choices" role="radiogroup" aria-label="Gender?  ">
                         <li class="radio-inline ss-choice-item">
                             <label>
@@ -106,7 +107,8 @@
                         <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
                     </label>
 
-                    <ul class="radio-inline ss-choices" role="radiogroup" aria-label="What grade will you be in this spring?  ">
+                    <div class="radio-inline pull-right required-message">required</div>
+                    <ul class="ss-choices" role="radiogroup" aria-label="What grade will you be in this spring?  ">
                         <li class="radio-inline ss-choice-item">
                             <label>
                                 <span class="ss-choice-item-control goog-inline-block">
@@ -169,6 +171,7 @@
                         <div class="ss-q-title">Is this your first hackathon?</div>
                         <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
                     </label>
+                    <div class="radio-inline pull-right required-message">required</div>
                     <ul class="ss-choices" role="radiogroup" aria-label="Is this your first hackathon?  ">
                         <li class="radio-inline ss-choice-item">
                             <label>
@@ -202,7 +205,7 @@
                     </label>
                     <input placeholder="@your_github_username" type="text" name="entry.1542160184" value="" class="ss-q-short" id="entry_1542160184" dir="auto" aria-label="Github Username:  " title="">
                     <div class="error-message" id="980342934_errorMessage"></div>
-                    <!-- <div class="required-message">This is a required question</div> -->
+                    <div class="required-message">required</div>
                 </div>
             </div>
         </div>
@@ -216,7 +219,7 @@
                     </label>
                     <input placeholder="https://linkedin.com/in/your_linkedin_url" type="text" name="entry.1161751270" value="" class="ss-q-short" id="entry_1161751270" dir="auto" aria-label="LinkedIn URL:  " title="">
                     <div class="error-message" id="1444288313_errorMessage"></div>
-                    <!-- <div class="required-message">This is a required question</div> -->
+                    <div class="required-message">required</div>
                 </div>
             </div>
         </div>
@@ -228,6 +231,7 @@
                         <div class="ss-q-title">Will you need a travel reimbursement/arrangement to attend Hacking Edu?</div>
                         <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
                     </label>
+                    <div class="radio-inline pull-right required-message">required</div>
                     <ul class="ss-choices" role="radiogroup" aria-label="Will you need a travel reimbursement/arrangement to attend Hacking Edu?  ">
                         <li class="radio-inline ss-choice-item">
                             <label>
@@ -247,7 +251,7 @@
                         </li>
                     </ul>
                     <div class="error-message" id="567906908_errorMessage"></div>
-                    <!-- <div class="required-message">This is a required question</div> -->
+                    <!-- <div class="radio-inline pull-right required-message">required</div> -->
                 </div>
             </div>
         </div>
@@ -268,6 +272,7 @@
         <input type="hidden" name="draftResponse" value="[,,&quot;2857943352873406159&quot;]">
         <input type="hidden" name="pageHistory" value="0">
         <input type="hidden" name="fbzx" value="2857943352873406159">
+        <!-- SUBMIT BUTTON -->
         <div class="ss-item ss-navigate">
             <table id="navigation-table">
                 <tbody>

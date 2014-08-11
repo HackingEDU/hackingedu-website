@@ -4,28 +4,28 @@
         <!-- NAME -->
         <div class="ss-form-question errorbox-good" role="listitem">
             <div dir="ltr" class="ss-item  ss-text">
-                <div class="ss-form-entry">
+                <div class="ss-form-entry s-form-text">
                     <label class="ss-q-item-label" for="entry_1518263597">
                         <div class="ss-q-title">Volunteer Name:</div>
                         <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
                     </label>
-                    <input type="text" name="entry.1518263597" value="" class="ss-q-short" id="entry_1518263597" dir="auto" aria-label="Volunteer Name:  " title="">
+                    <input placeholder="Alexander the Volunteer" type="text" name="entry.1518263597" value="" class="ss-q-short" id="entry_1518263597" dir="auto" aria-label="Volunteer Name:  " title="">
                     <div class="error-message" id="913001082_errorMessage"></div>
-                    <!-- <div class="required-message">This is a required question</div> -->
+                    <div class="required-message">required</div>
                 </div>
             </div>
         </div>
         <!-- EMAIL -->
         <div class="ss-form-question errorbox-good" role="listitem">
             <div dir="ltr" class="ss-item  ss-text">
-                <div class="ss-form-entry">
+                <div class="ss-form-entry s-form-text">
                     <label class="ss-q-item-label" for="entry_2004162391">
                         <div class="ss-q-title">Email:</div>
                         <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
                     </label>
-                    <input type="text" name="entry.2004162391" value="" class="ss-q-short" id="entry_2004162391" dir="auto" aria-label="Email:  " title="">
+                    <input placeholder="you@yourCompany.com" type="text" name="entry.2004162391" value="" class="ss-q-short" id="entry_2004162391" dir="auto" aria-label="Email:  " title="">
                     <div class="error-message" id="938649348_errorMessage"></div>
-                    <!-- <div class="required-message">This is a required question</div> -->
+                    <div class="required-message">required</div>
                 </div>
             </div>
         </div>
@@ -38,6 +38,7 @@
                         <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
                     </label>
 
+                    <div class="radio-inline pull-right required-message">required</div>
                     <ul class="ss-choices" role="radiogroup" aria-label="Will you be volunteering as a mentor?  ">
                         <li class="radio-inline ss-choice-item">
                             <label>
@@ -57,47 +58,47 @@
                         </li>
                     </ul>
                     <div class="error-message" id="1151994508_errorMessage"></div>
-                    <!-- <div class="required-message">This is a required question</div> -->
                 </div>
             </div>
         </div>
         <!-- COMPANY -->
         <div class="ss-form-question errorbox-good" role="listitem">
             <div dir="ltr" class="ss-item  ss-text">
-                <div class="ss-form-entry">
+                <div class="ss-form-entry s-form-text">
                     <label class="ss-q-item-label" for="entry_68404305">
-                        <div class="ss-q-title">Company?</div>
+                        <div class="ss-q-title">If you are working, what company do you work for?</div>
                         <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
                     </label>
-                    <input type="text" name="entry.68404305" value="" class="ss-q-short" id="entry_68404305" dir="auto" aria-label="Company?  " title="">
+                    <input placeholder="Company's Name" type="text" name="entry.68404305" value="" class="ss-q-short" id="entry_68404305" dir="auto" aria-label="Company?  " title="">
                     <div class="error-message" id="410489093_errorMessage"></div>
-                    <!-- <div class="required-message">This is a required question</div> -->
+                    <div class="required-message">N/A if not applicable</div>
                 </div>
             </div>
         </div>
         <!-- SCHOOL -->
         <div class="ss-form-question errorbox-good" role="listitem">
             <div dir="ltr" class="ss-item  ss-text">
-                <div class="ss-form-entry">
+                <div class="ss-form-entry s-form-text">
                     <label class="ss-q-item-label" for="entry_2127045771">
                         <div class="ss-q-title">If you are still in school, which school do you attend?</div>
                         <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
                     </label>
-                    <input type="text" name="entry.2127045771" value="" class="ss-q-short" id="entry_2127045771" dir="auto" aria-label="If you are still in school, which school do you attend?  " title="">
+                    <input placeholder="Example University" type="text" name="entry.2127045771" value="" class="ss-q-short" id="entry_2127045771" dir="auto" aria-label="If you are still in school, which school do you attend?  " title="">
                     <div class="error-message" id="100011719_errorMessage"></div>
-                    <!-- <div class="required-message">This is a required question</div> -->
+                    <div class="required-message">N/A if not applicable</div>
                 </div>
             </div>
         </div>
         <input type="hidden" name="draftResponse" value="[,,&quot;8401116685446025590&quot;]">
         <input type="hidden" name="pageHistory" value="0">
         <input type="hidden" name="fbzx" value="8401116685446025590">
+        <!-- SUBMIT BUTTON -->
         <div class="ss-item ss-navigate">
             <table id="navigation-table">
                 <tbody>
                     <tr>
                         <td class="ss-form-entry goog-inline-block" id="navigation-buttons" dir="ltr">
-                            <input type="submit" name="submit" value="Submit" id="ss-submit">
+                            <input class="btn btn-default border-radius-5px" type="submit" name="submit" value="Submit" id="ss-submit">
                             <!-- <div class="ss-password-warning ss-secondary-text">Never submit passwords through Google Forms.</div> -->
                         </td>
                     </tr>

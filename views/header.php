@@ -47,7 +47,7 @@
 			<a href="#rules">Rules</a>
 			<a href="#schedule">Schedule</a>
 			<!-- <a href="#myModal">Contact</a> -->
-			<a class="" data-toggle="modal" data-target="#myModal">Contact</a>
+			<a class="" data-toggle="modal" data-target="#contactModal">Contact</a>
 			<a href="<?php echo FACEBOOK_URL; ?>"><i class="fa fa-facebook"></i></a>
 			<a href="<?php echo TWITTER_URL; ?>"><i class="fa fa-twitter"></i></a>
 			<a href="<?php echo GOOGLE_PLUS_URL; ?>" rel="publisher"><i class="fa fa-google-plus"></i></a>

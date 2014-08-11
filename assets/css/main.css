@@ -493,11 +493,14 @@ a.main-btn:hover {
     background-color: rgba(255, 255, 255, 0.2);
     background: rgba(255, 255, 255, 07);
 }
+.sponsor-modal {
+    margin-bottom: 1em;
+}
 #portfolio {
     width: 100%}
 #apply {
     /*background: #1abc9c;*/
-    background:url('../img/edubg.png'), 03CFB4 fixed;/* */
+    background:url('../img/edubg.png') fixed;/* backup clor: 03CFB4 OR 017F6E; */
     /*background: url(../img/apicon-hackathon.jpg) no-repeat center top fixed;*/
     background-size: cover;
     background-position: center center;
@@ -846,39 +849,57 @@ a.btn.btn-default.active {
         margin:0 10px;
     }
 }
-
+span.ss-choice-label {
+    font-weight: 400;
+}
+.radio-inline.pull-right.required-message {
+    font-weight: 300;
+}
+.border-btm-1pxdottedBlack {
+border-bottom: 1px dotted black;
+}
+.border-btm-1pxsolidBlack {
+    border-bottom: 1px solid black;
+}
+.margin-top-1em {
+    margin-top: 1em;
+}
+span.small-grey {
+    font-size: 10pt;
+    color: grey;
+}
 .auth .auth-box input::-webkit-input-placeholder { /* WebKit browsers */
-    color:    black;
+    color:    #fff;
     font-weight:300;
 }
 .auth .auth-box input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    color:    black;
+    color:    #fff;
     font-weight:300;
 }
 .auth .auth-box input::-moz-placeholder { /* Mozilla Firefox 19+ */
-    color:    black;
+    color:    #fff;
     font-weight:300;
 }
 .auth .auth-box input:-ms-input-placeholder { /* Internet Explorer 10+ */
-    color:    black;
+    color:    #fff;
     font-weight:300;
 }
 
 .auth2 .auth-box2 input::-webkit-input-placeholder { /* WebKit browsers */
     color: #fff;
-    font-weight:300;
+    font-weight: 300;
 }
 .auth2 .auth-box2 input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
     color: #fff;
-    font-weight:300;
+    font-weight: 300;
 }
 .auth2 .auth-box2 input::-moz-placeholder { /* Mozilla Firefox 19+ */
     color: #fff;
-    font-weight:300;
+    font-weight: 300;
 }
 .auth2 .auth-box2 input:-ms-input-placeholder { /* Internet Explorer 10+ */
     color: #fff;
-    font-weight:300;
+    font-weight: 300;
 }
 .auth span.input-group-addon,
 .input-group-btn button {
@@ -1120,8 +1141,14 @@ body.modal-open .contact-blur {
     background: #f7f7f7;
 }
 
-.m-top-10 {
+.m-top-20 {
     margin: 20vh 20vw;
+}
+.m-top-10 {
+    margin: 0vh 10vw;
+}
+.m-btm-1em {
+    margin-bottom: 1em;
 }
 
 /* =========================================================================

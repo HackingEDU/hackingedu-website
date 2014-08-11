@@ -77,7 +77,7 @@ echo $google_analytics; ?>
 	        	<p>Join us on our social networks for all the latest updates, service announcements and more.</p>
       		</div>
       		<div class="col-lg-4">
-      			<p class="pull-right"><br><a data-toggle="modal" data-target="#myModal"><button type="button" class="btn btn-green">Contact Us!</button></a></p>
+      			<p class="pull-right"><br><a data-toggle="modal" data-target="#contactModal"><button type="button" class="btn btn-green">Contact Us!</button></a></p>
       		</div>
     	</div><!-- /row -->
     </div><!-- /.container -->
@@ -112,9 +112,10 @@ echo $google_analytics; ?>
 		</div><!-- container -->
 	</div><!-- Social Footer -->
 
-
     <!-- Contact Form Modal -->
 	<?php require_once './views/formContact.php'; ?>
+	<!-- Levels of Sponsorship Modal -->
+	<?php require_once './views/sponsorshipLevelsModal.php'; ?>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
