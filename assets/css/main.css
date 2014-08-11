@@ -1144,9 +1144,11 @@ body.modal-open .contact-blur {
 .m-top-20 {
     margin: 20vh 20vw;
 }
+
 .m-top-10 {
     margin: 0vh 10vw;
 }
+
 .m-btm-1em {
     margin-bottom: 1em;
 }
