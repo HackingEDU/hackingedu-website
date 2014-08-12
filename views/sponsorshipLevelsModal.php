@@ -119,7 +119,7 @@
                                 <td>    </td>
                             </tr>
                             <tr class="border-btm-1pxdottedBlack">
-                                <td>Recruiters at HackIllinois</td>
+                                <td>Recruiters at Hacking Edu</td>
                                 <td>×</td>
                                 <td>×</td>
                                 <td>×</td>

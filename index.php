@@ -138,6 +138,26 @@ echo $google_analytics; ?>
 			maxDuration : 0.7,
 			viewportFactor : 0.2
 		} );
+		$(document).ready(function() {
+		    $('.apply-btn').click(function() {
+			    $('ul.panel-tabs li.active').removeClass('active');
+			    $('ul.panel-tabs li.hackerSignup').addClass('active');
+			    $('div.tab-pane.active').removeClass('active');
+			    $('div.tab-pane.hackerSignup').addClass('active');
+		    });
+		    $('.volunteer-btn').click(function() {
+		    	$('ul.panel-tabs li.active').removeClass('active');
+			    $('ul.panel-tabs li.volunteerSignup').addClass('active');
+			    $('div.tab-pane.active').removeClass('active');
+			    $('div.tab-pane.volunteerSignup').addClass('active');
+		    });
+		    $('.sponsor-btn').click(function() {
+		    	$('ul.panel-tabs li.active').removeClass('active');
+			    $('ul.panel-tabs li.sponsorSignup').addClass('active');
+			    $('div.tab-pane.active').removeClass('active');
+			    $('div.tab-pane.sponsorSignup').addClass('active');
+		    });
+		});
 	</script>
   </body>
 </html>

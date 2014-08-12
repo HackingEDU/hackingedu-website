@@ -8,7 +8,7 @@
     });
 
 
-})(jQuery)
+})(jQuery);
 
 (function(e, t, n, r) {
     function o(t, n) {
@@ -158,32 +158,29 @@
     }
 })(jQuery, window, document)
 
-$(document).ready(function() {
-    //Floatlabel
-    $('input').floatlabel();
-    $('a, button').click(function(e) {
-        e.preventDefault();
-    });
-});
+// $(document).ready(function() {
+//     //Floatlabel
+//     $('input').floatlabel();
+//     $('a, button').click(function(e) {
+//         e.preventDefault();
+//     });
+// });
 
-// Makes the Signup Form switch to the correct form from the 3 Buttons at the top of the website
-$(document).ready(function() {
-    $('.apply-btn').click(function() {
-        $('ul.panel-tabs li.active').removeClass('active');
-        $('ul.panel-tabs li.hackerSignup').addClass('active');
-        $('div.tab-pane.active').removeClass('active');
-        $('div.tab-pane.hackerSignup').addClass('active');
-    });
-    $('.volunteer-btn').click(function() {
-        $('ul.panel-tabs li.active').removeClass('active');
-        $('ul.panel-tabs li.volunteerSignup').addClass('active');
-        $('div.tab-pane.active').removeClass('active');
-        $('div.tab-pane.volunteerSignup').addClass('active');
-    });
-    $('.sponsor-btn').click(function() {
-        $('ul.panel-tabs li.active').removeClass('active');
-        $('ul.panel-tabs li.sponsorSignup').addClass('active');
-        $('div.tab-pane.active').removeClass('active');
-        $('div.tab-pane.sponsorSignup').addClass('active');
-    });
-});
+
+// Adam
+// Sydney Cz -
+// Alex
+// Cassie Carter✔
+// Ryan
+// Kasie ✔
+// David Schulkin ✔
+// Taylor
+// Bobby -
+// Destiny
+// Eric -
+// dex ✔
+// Logan Webb -
+
+// 55 North Ellsworth Apt 206
+// Phone: 650 - 269 - 2324
+// 8: 00
