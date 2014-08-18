@@ -1,5 +1,5 @@
 <?php // HACKER FORM ?>
-<form action="https://docs.google.com/forms/d/17z_PL-YR2__DDiwkpLA_hTENqojw-zB0D0RjUT05AUg/formResponse" method="POST" id="ss-form" target="_self" onsubmit="">
+<form action="https://docs.google.com/forms/d/17z_PL-YR2__DDiwkpLA_hTENqojw-zB0D0RjUT05AUg/formResponse" method="POST" id="ss-form" target="rss _self" onsubmit="">
     <ol role="list" class="ss-question-list" style="padding-left: 0">
         <!-- NAME -->
         <div class="ss-form-question errorbox-good" role="listitem">

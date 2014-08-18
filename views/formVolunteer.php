@@ -1,5 +1,5 @@
 <?php // VOLUNTEER FORM ?>
-<form action="https://docs.google.com/forms/d/1f9F6CboeGQkH-hSBhG5XHskxuGnwBglK6Hz8jhfraLw/formResponse" method="POST" id="ss-form" target="_self" onsubmit="">
+<form action="https://docs.google.com/forms/d/1f9F6CboeGQkH-hSBhG5XHskxuGnwBglK6Hz8jhfraLw/formResponse" method="POST" id="ss-form" target="rss _self" onsubmit="">
     <ol role="list" class="ss-question-list" style="padding-left: 0">
         <!-- NAME -->
         <div class="ss-form-question errorbox-good" role="listitem">

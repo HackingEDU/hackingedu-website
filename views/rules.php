@@ -6,9 +6,7 @@
 		       	<div class="col-lg-12 white-text">
 		 	        <h1 style="color: white">Hackathon Rules</h1>
 		 	        <div class="auth2">
-		 	            <!-- <h1 class="text-center">Bootstrap form theme <span>It's nice!</span> </h1> -->
 		 	            <div id="big-form" class="well auth-box2" style="color: black">
-                        <!-- <div class="col-lg-offset-2"> -->
 			 	        	<h3><b>IN A NUTSHELL...</b></h3>
 			 	        	<p>Use common sense, and listen to Hacking Edu staff. Let us know if you have any questions!</p>
 			 	        	<h3><b>GENERAL</b></h3>
