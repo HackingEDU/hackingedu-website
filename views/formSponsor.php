@@ -61,7 +61,7 @@
             <div dir="ltr" class="ss-item  ss-radio">
                 <div class="ss-form-entry">
                     <label class="ss-q-item-label" for="entry_420258967">
-                        <div class="ss-q-title">Which level of sponsorship would you like to participate in? <a data-toggle="modal" data-target="#sponsorshipModal">(Sponsorship Level Details)</a></div>
+                        <div class="ss-q-title">Which level of sponsorship would you like to participate in? <a class="sponsor-btn btn btn-default" data-toggle="modal" data-target="#sponsorshipModal">(Sponsorship Level Details)</a></div>
                         <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
                     </label>
 

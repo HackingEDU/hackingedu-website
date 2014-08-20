@@ -871,6 +871,17 @@ td {
 .margin-top-1em {
     margin-top: 1em;
 }
+/* =========================================================================
+                            Sponsor Form
+   =======================================================================*/
+a.sponsor-btn {
+     border: 2px solid;
+     border-radius: .5em;
+     padding: .2em .3em;
+     padding-bottom: 0.3em;
+     margin-left: 5em;
+     color: white;
+}
 span.small-grey {
     font-size: 10pt;
     color: grey;
