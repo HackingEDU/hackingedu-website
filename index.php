@@ -63,7 +63,7 @@ echo $google_analytics; ?>
 				<h3>Interested in Sponsoring?</h3>
 				<div class="col-lg-8 col-lg-offset-2">
 					<p>Although this is our first year, we want to show the universities in the bay area that students can make new and better products to improve the education system.  Help make a difference by supporting us!</p>
-					<p><a href="#apply"><button type="button" class="btn btn-green btn-lg">Show Your Support!</button></a></p>
+					<p><a href="#apply"><button type="button" class="btn btn-green btn-lg sponsor-btn">Show Your Support!</button></a></p>
 				</div>
 			</div><!-- row -->
 		</div><!-- container -->
