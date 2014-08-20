@@ -11,7 +11,7 @@ echo $google_analytics; ?>
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2">
 					<img class="marg-top-20 col-xs-12 col-sm-10 col-lg-10 col-sm-offset-1 col-lg-offset-1" src="./assets/img/hacklogo-white-no-border.png" alt="">
-					<div class="col-lg-6 col-lg-offset-3">
+					<div class="col-lg-10 col-lg-offset-1">
 						<h3>SF Bay Area</h3>
 						<h2>Disrupting The Education Market</h2>
 					</div>
