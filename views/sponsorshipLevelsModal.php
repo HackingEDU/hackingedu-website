@@ -4,7 +4,6 @@
             <h1>Levels Of Sponsorship</h1>
 
             <div class="auth contact-form well auth-box">
-                <!-- <h1 class="text-center">Bootstrap form theme <span>It's nice!</span> </h1> -->
                 <div id="big-form" class="">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                     <h3 class="pull-left">Which level would you like?</h3>
@@ -142,7 +141,7 @@
                                 </td>
                                 <td></td>
                                 <td></td>
-                                <td></td>
+                                <td>×</td>
                                 <td>×</td>
                                 <td>×</td>
                             </tr>

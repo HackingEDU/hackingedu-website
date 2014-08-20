@@ -855,8 +855,15 @@ span.ss-choice-label {
 .radio-inline.pull-right.required-message {
     font-weight: 300;
 }
+/* =========================================================================
+                            Sponsor Table Data
+   =======================================================================*/
+
 .border-btm-1pxdottedBlack {
-border-bottom: 1px dotted black;
+    border-bottom: 1px dotted black;
+}
+td {
+    padding-right: 1em;
 }
 .border-btm-1pxsolidBlack {
     border-bottom: 1px solid black;
