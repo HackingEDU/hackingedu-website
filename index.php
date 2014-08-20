@@ -6,33 +6,32 @@ echo $google_analytics; ?>
 <?php require_once './views/header.php'; ?>
 
 	<!-- MAIN IMAGE SECTION -->
-	<div id="home" class="headerwrap ">
+	<div id="home" class="headerwrap">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2">
-					<!-- <h1>Hacking Edu</h1> -->
-					<img class="main-img" src="./assets/img/hacklogo-white-no-border.png" alt="">
-					<h3>SF Bay Area</h3>
-					<h2>Disrupting The Education Market</h2>
+					<img class="marg-top-20 col-xs-12 col-sm-10 col-lg-10 col-sm-offset-1 col-lg-offset-1" src="./assets/img/hacklogo-white-no-border.png" alt="">
+					<div class="col-lg-6 col-lg-offset-3">
+						<h3>SF Bay Area</h3>
+						<h2>Disrupting The Education Market</h2>
+					</div>
 					<!-- HACKER APPLICATION -->
-					<a class="main-btn apply-btn" href="#apply">Hacker Application</a>
+					<a class="btn main-btn apply-btn" href="#apply">Hacker Application</a>
 					<!-- <a type="button" class="btn btn-default" href="#hackerForm" data-toggle="tab">Hacker</a> -->
 					<!-- VOLUNTEER APPLICATION -->
-					<a class="main-btn volunteer-btn" href="#apply">Volunteer</a>
+					<a class="btn main-btn volunteer-btn" href="#apply">Volunteer</a>
 					<!-- SPONSOR APPLICATION -->
-					<a class="main-btn sponsor-btn" href="#apply">Sponsor</a>
+					<a class="btn main-btn sponsor-btn" href="#apply">Sponsor</a>
 					<div class="spacer"></div>
 				</div>
 			</div><!-- row -->
 		</div><!-- /container -->
 	</div><!-- /headerwrap -->
-	<?php // die($form); ?>
-	<?php // die(trim($_SERVER['PATH_INFO'], '/')); ?>
 
 	<!-- ABOUT -->
 	<?php require_once './views/about.php'; ?>
 
-	<!-- APPLICATION FORM -->
+	<!-- APPLICATION FORMS -->
 	<?php require_once './views/formSignUp.php'; ?>
 
 	<!-- SPONSORS -->
@@ -41,20 +40,8 @@ echo $google_analytics; ?>
 	<!-- RULES -->
 	<?php require_once './views/rules.php'; ?>
 
-    <!-- MAC IMAGE -->
-<!-- 	<div class="container">
-		<div class="row centered">
-			<div class="col-lg-10 col-lg-offset-1">
-				<img class="img-responsive" src="assets/img/spot.png" alt="Spot Theme">
-			</div>
-		</div>
-	</div> -->
-
 	<!-- SCHEDULE -->
 	<?php require_once './views/schedule.php'; ?>
-
-
-
 
 	<!-- CALL TO ACTION -->
 	<div id="call">
