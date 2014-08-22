@@ -53,12 +53,7 @@ ul.ss-choices {
 .marg-left-6 {
     margin-left: 6em;
 }
-/* Smartphones (portrait) ----------- */
-@media only screen and (max-width : 860px) {
-    .marg-left-6 {
-        margin-left: 0em;
-    }
-}
+
 .well {
     padding: 8px 19px 0 19px;
 }
@@ -482,8 +477,31 @@ a.apply-btn {
     padding: 15px;
 }
 
+/* =========================================================================
+                            Social Links
+   =======================================================================*/
+.top-left-social {
+    position: fixed;
+    left: 1em;
+    top: 1em;
+}
+.top-left-social > * {
+    margin-left: 1em;
+}
+
 a.volunteer-btn {
     padding: 15px 51px;
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 860px) {
+    .marg-left-6 {
+        margin-left: 0em;
+    }
+    .top-left-social > * {
+        display: none;
+    }
+
 }
 a.sponsor-btn-pad {
     padding: 15px 59px;

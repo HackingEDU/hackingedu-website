@@ -4,31 +4,15 @@ echo $google_analytics; ?>
 
 	<?php require_once './application/config.php'; ?>
 	<?php require_once './views/header.php'; ?>
-	<script>
-	  window.fbAsyncInit = function() {
-	    FB.init({
-	      appId      : '{your-app-id}',
-	      xfbml      : true,
-	      version    : 'v2.0'
-	    });
-	  };
-
-	  (function(d, s, id){
-	     var js, fjs = d.getElementsByTagName(s)[0];
-	     if (d.getElementById(id)) {return;}
-	     js = d.createElement(s); js.id = id;
-	     js.src = "//connect.facebook.net/en_US/sdk.js";
-	     fjs.parentNode.insertBefore(js, fjs);
-	   }(document, 'script', 'facebook-jssdk'));
-	</script>
-
-	<script>(function(d, s, id) {
-	  var js, fjs = d.getElementsByTagName(s)[0];
-	  if (d.getElementById(id)) return;
-	  js = d.createElement(s); js.id = id;
-	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
-	  fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));</script>
+		<!-- Social Like/Follow Buttons -->
+		<div class="top-left-social">
+			<!-- Google+ Plus -->
+			<div class="g-follow" data-annotation="bubble" data-height="20" data-href="https://plus.google.com/100755871712588838625" data-rel="publisher"></div>
+			<!-- Facebook Like -->
+			<div class="fb-like" data-href="https://www.facebook.com/hackingedusf" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
+			<!-- Twitter Follow -->
+			<a href="https://twitter.com/hackingedusf" class="twitter-follow-button" data-show-count="false">Follow @hackingedusf</a>
+		</div>
 
 		<!-- MAIN IMAGE SECTION -->
 		<div id="home" class="headerwrap">
@@ -48,13 +32,10 @@ echo $google_analytics; ?>
 						<!-- SPONSOR APPLICATION -->
 						<a class="btn col-lg-3 col-md-3 col-sm-3 col-xs-12 main-btn sponsor-btn sponsor-btn-pad" href="#apply">Sponsor</a>
 						<div class="spacer"></div>
-														<div class="fb-like" data-href="https://www.facebook.com/hackingedusf" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
-
 					</div>
 				</div><!-- row -->
 			</div><!-- /container -->
 		</div><!-- /headerwrap -->
-		<div id="fb-root"></div>
 		<div id="fb-root"></div>
 
 		<!-- ABOUT -->
@@ -143,7 +124,40 @@ echo $google_analytics; ?>
 		<script src="assets/js/imagesloaded.js"></script>
 	    <script src="assets/js/classie.js"></script>
 		<script src="assets/js/AnimOnScroll.js"></script>
+		<!-- SOCIAL MEDIA BUTTONS @ TOP -->
+		<!-- Google+ Plus Button / Follow Button -->
+		<script src="https://apis.google.com/js/platform.js" async defer></script>
 		<script>
+			// Facebook Like Button
+			window.fbAsyncInit = function() {
+				FB.init({
+					appId      : '{your-app-id}',
+					xfbml      : true,
+					version    : 'v2.0'
+				});
+			};
+			(function(d, s, id){
+			var js, fjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(id)) {return;}
+				js = d.createElement(s); js.id = id;
+				js.src = "//connect.facebook.net/en_US/sdk.js";
+				fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+			(function(d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(id)) return;
+				js = d.createElement(s); js.id = id;
+				js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+				fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+
+			// Twitter Follow Button
+			!function(d,s,id){
+				var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){
+					js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);
+				}
+			}(document, 'script', 'twitter-wjs');
+
 
 			// ANIMATIONS ON SCROLL
 			new AnimOnScroll( document.getElementById( 'grid' ), {
