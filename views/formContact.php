@@ -1,6 +1,6 @@
     <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="marg-top-20">
-          <div class="col-xs-12 col-sm-12 text-center">
+          <div class="col-xs-12 col-sm-12 col-lg-6 col-lg-offset-3 text-center">
             <h1>Contact Form</h1>
 
             <div class="auth contact-form well auth-box">
