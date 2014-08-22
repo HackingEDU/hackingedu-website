@@ -6,6 +6,7 @@ body {
     color: #555;
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
+    width: 100%;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: Raleway;
@@ -48,6 +49,15 @@ ul.ss-choices {
 .main-img {
     width: 32em;
     margin-top: 12em;
+}
+.marg-left-6 {
+    margin-left: 6em;
+}
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 860px) {
+    .marg-left-6 {
+        margin-left: 0em;
+    }
 }
 .well {
     padding: 8px 19px 0 19px;
@@ -475,7 +485,7 @@ a.apply-btn {
 a.volunteer-btn {
     padding: 15px 51px;
 }
-a.sponsor-btn {
+a.sponsor-btn-pad {
     padding: 15px 59px;
 }
 a.main-btn:hover {
@@ -849,6 +859,7 @@ a.btn.btn-default.active {
         margin:0 10px;
     }
 }
+
 span.ss-choice-label {
     font-weight: 400;
 }

@@ -1,7 +1,7 @@
 <div id="apply" class="">
 	<div class="container">
 		<div class="row mt">
-			<h1 class="col-lg-offset-0 white-text">Applications are Going Quickly</h1>
+			<h1 class="col-xs-offset-1 col-lg-offset-0 white-text">Applications are Going Quickly</h1>
 
 			<div class="auth2">
 			    <div id="big-form" class="well auth-box2" style="color: #fff">
