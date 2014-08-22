@@ -6,7 +6,7 @@
 		       	<div class="col-lg-12 white-text">
 		 	        <h1 style="color: white">Hackathon Rules</h1>
 		 	        <div class="auth2">
-		 	            <div id="big-form" class="well auth-box2 hackathon-rules" style="color: black; background-color: rgba(255, 255, 255, .6)">
+		 	            <div id="big-form" class="well auth-box2 hackathon-rules" style="color: black; background-color: rgba(255, 255, 255, .8)">
 			 	        	<h3><b class="clr-green">IN A NUTSHELL...</b></h3>
 			 	        	<p>Use common sense, and listen to HackingEDU staff. Let us know if you have any questions!</p>
 			 	        	<h3><b class="clr-green">GENERAL</b></h3>
