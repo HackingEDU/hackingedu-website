@@ -5,7 +5,7 @@
 
             <div class="auth contact-form well auth-box">
                 <div id="big-form" class="">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true" class="clr-green">×</button>
                     <h3 class="pull-left">Which level would you like?</h3>
                     <table class="sponsor-modal">
                         <!-- HEADER -->
@@ -39,35 +39,35 @@
                             </tr>
                             <tr class="border-btm-1pxdottedBlack">
                                 <td>Mentors at Hacking Edu</td>
-                                <td>×</td>
-                                <td>×</td>
-                                <td>×</td>
-                                <td>×</td>
-                                <td>×</td>
+                                <td class="clr-green" class="clr-green">×</td>
+                                <td class="clr-green" class="clr-green">×</td>
+                                <td class="clr-green" class="clr-green">×</td>
+                                <td class="clr-green" class="clr-green">×</td>
+                                <td class="clr-green" class="clr-green">×</td>
                             </tr>
                             <tr class="border-btm-1pxdottedBlack">
                                 <td>Pre-hackathon API Demo</td>
                                 <td></td>
-                                <td>1 min</td>
-                                <td>2 min</td>
-                                <td>2 min</td>
-                                <td>2 min</td>
+                                <td class="clr-green">1 min</td>
+                                <td class="clr-green">2 min</td>
+                                <td class="clr-green">2 min</td>
+                                <td class="clr-green">2 min</td>
                             </tr>
                             <tr class="border-btm-1pxdottedBlack">
                                 <td>Reserved Company Table</td>
                                 <td></td>
                                 <td></td>
-                                <td>×</td>
-                                <td>×</td>
-                                <td>×</td>
+                                <td class="clr-green" class="clr-green">×</td>
+                                <td class="clr-green" class="clr-green">×</td>
+                                <td class="clr-green" class="clr-green">×</td>
                             </tr>
                             <tr class="border-btm-1pxdottedBlack">
                                 <td>Judging Spot for Hacking Edu Prizes</td>
                                 <td></td>
                                 <td></td>
-                                <td>×</td>
-                                <td>×</td>
-                                <td>×</td>
+                                <td class="clr-green" class="clr-green">×</td>
+                                <td class="clr-green" class="clr-green">×</td>
+                                <td class="clr-green" class="clr-green">×</td>
                             </tr>
                             <tr class="border-btm-1pxdottedBlack">
                                 <td>Custom Branded Prize*
@@ -76,25 +76,25 @@
                                 </td>
                                 <td></td>
                                 <td></td>
-                                <td>$500</td>
-                                <td>$1500</td>
-                                <td>$2500</td>
+                                <td class="clr-green">$500</td>
+                                <td class="clr-green">$1500</td>
+                                <td class="clr-green">$2500</td>
                             </tr>
                             <tr class="border-btm-1pxdottedBlack">
                                 <td>Tech Talk during the Hackathon</td>
                                 <td></td>
                                 <td></td>
-                                <td>×</td>
-                                <td>×</td>
-                                <td>×</td>
+                                <td class="clr-green" class="clr-green">×</td>
+                                <td class="clr-green" class="clr-green">×</td>
+                                <td class="clr-green" class="clr-green">×</td>
                             </tr>
                             <tr class="border-btm-1pxdottedBlack">
                                 <td>Sponsored Meal</td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
-                                <td>×</td>
-                                <td>×</td>
+                                <td class="clr-green" class="clr-green">×</td>
+                                <td class="clr-green" class="clr-green">×</td>
                             </tr>
                             <tr class="border-btm-1pxdottedBlack">
                                 <td>Featured Speaker at Award Ceremony</td>
@@ -102,7 +102,7 @@
                                 <td></td>
                                 <td></td>
                                 <td></td>
-                                <td>×</td>
+                                <td class="clr-green" class="clr-green">×</td>
                             </tr>
                         </tbody>
 
@@ -119,19 +119,19 @@
                             </tr>
                             <tr class="border-btm-1pxdottedBlack">
                                 <td>Recruiters at Hacking Edu</td>
-                                <td>×</td>
-                                <td>×</td>
-                                <td>×</td>
-                                <td>×</td>
-                                <td>×</td>
+                                <td class="clr-green" class="clr-green">×</td>
+                                <td class="clr-green" class="clr-green">×</td>
+                                <td class="clr-green" class="clr-green">×</td>
+                                <td class="clr-green" class="clr-green">×</td>
+                                <td class="clr-green" class="clr-green">×</td>
                             </tr>
                             <tr class="border-btm-1pxdottedBlack">
                                 <td>Access to resumes after Hacking Edu</td>
                                 <td></td>
-                                <td>×</td>
-                                <td>×</td>
-                                <td>×</td>
-                                <td>×</td>
+                                <td class="clr-green" class="clr-green">×</td>
+                                <td class="clr-green" class="clr-green">×</td>
+                                <td class="clr-green" class="clr-green">×</td>
+                                <td class="clr-green" class="clr-green">×</td>
                             </tr>
                             <tr class="border-btm-1pxdottedBlack">
                                 <td>
@@ -142,16 +142,16 @@
                                 <td></td>
                                 <td></td>
                                 <td></td>
-                                <td>×</td>
-                                <td>×</td>
+                                <td class="clr-green" class="clr-green">×</td>
+                                <td class="clr-green" class="clr-green">×</td>
                             </tr>
                             <tr class="border-btm-1pxdottedBlack">
                                 <td>Private interview location</td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
-                                <td>×</td>
-                                <td>×</td>
+                                <td class="clr-green" class="clr-green">×</td>
+                                <td class="clr-green" class="clr-green">×</td>
                             </tr>
                         </tbody>
 
@@ -169,67 +169,59 @@
                             </tr>
                             <tr class="border-btm-1pxdottedBlack">
                                 <td>Thanked at kickoff and at demos</td>
-                                <td>×</td>
-                                <td>×</td>
-                                <td>×</td>
-                                <td>×</td>
-                                <td>×</td>
+                                <td class="clr-green" class="clr-green">×</td>
+                                <td class="clr-green" class="clr-green">×</td>
+                                <td class="clr-green" class="clr-green">×</td>
+                                <td class="clr-green" class="clr-green">×</td>
+                                <td class="clr-green" class="clr-green">×</td>
                             </tr>
                             <tr class="border-btm-1pxdottedBlack">
                                 <td>Logo Placement</td>
-                                <td>Website</td>
-                                <td>Website, T-Shirt</td>
-                                <td>Website, T-Shirt,
-
-        Hacking Edu Swag</td>
-                                <td>Website, T-Shirt,
-
-        Hacking Edu Swag</td>
-                                <td>Website (EVERY
-
-        Page!), T-Shirt,
-
-        Hacking Edu Swag</td>
+                                <td class="clr-green">Website</td>
+                                <td class="clr-green">Website, T-Shirt</td>
+                                <td class="clr-green">Website, T-Shirt, Hacking Edu Swag</td>
+                                <td class="clr-green">Website, T-Shirt, Hacking Edu Swag</td>
+                                <td class="clr-green">Website (EVERY Page!), T-Shirt, Hacking Edu Swag</td>
                             </tr>
                             <tr class="border-btm-1pxdottedBlack">
                                 <td>Can distribute company swag</td>
-                                <td>×</td>
-                                <td>×</td>
-                                <td>×</td>
-                                <td>×</td>
-                                <td>×</td>
+                                <td class="clr-green" class="clr-green">×</td>
+                                <td class="clr-green" class="clr-green">×</td>
+                                <td class="clr-green" class="clr-green">×</td>
+                                <td class="clr-green" class="clr-green">×</td>
+                                <td class="clr-green" class="clr-green">×</td>
                             </tr>
                             <tr class="border-btm-1pxdottedBlack">
                                 <td>Company blurb in program</td>
                                 <td></td>
-                                <td>×</td>
-                                <td>×</td>
-                                <td>×</td>
-                                <td>×</td>
+                                <td class="clr-green" class="clr-green">×</td>
+                                <td class="clr-green" class="clr-green">×</td>
+                                <td class="clr-green" class="clr-green">×</td>
+                                <td class="clr-green" class="clr-green">×</td>
                             </tr>
                             <tr class="border-btm-1pxdottedBlack">
                                 <td>Placement of company banners</td>
                                 <td></td>
                                 <td></td>
-                                <td>×</td>
-                                <td>×</td>
-                                <td>×</td>
+                                <td class="clr-green" class="clr-green">×</td>
+                                <td class="clr-green" class="clr-green">×</td>
+                                <td class="clr-green" class="clr-green">×</td>
                             </tr>
                             <tr class="border-btm-1pxdottedBlack">
                                 <td>Swag in swag bag</td>
                                 <td></td>
                                 <td></td>
-                                <td>×</td>
-                                <td>×</td>
-                                <td>×</td>
+                                <td class="clr-green" class="clr-green">×</td>
+                                <td class="clr-green" class="clr-green">×</td>
+                                <td class="clr-green" class="clr-green">×</td>
                             </tr>
                             <tr class="border-btm-1pxdottedBlack">
                                 <td>Sponsored Overnight Raffles</td>
                                 <td></td>
                                 <td></td>
-                                <td>×</td>
-                                <td>×</td>
-                                <td>×</td>
+                                <td class="clr-green" class="clr-green">×</td>
+                                <td class="clr-green" class="clr-green">×</td>
+                                <td class="clr-green" class="clr-green">×</td>
                             </tr>
                             <tr class="border-btm-1pxdottedBlack">
                                 <td>Can provide recruiting or API
@@ -240,16 +232,16 @@
                                 <td></td>
                                 <td></td>
                                 <td></td>
-                                <td>×</td>
-                                <td>×</td>
+                                <td class="clr-green" class="clr-green">×</td>
+                                <td class="clr-green" class="clr-green">×</td>
                             </tr>
                             <tr class="border-btm-1pxdottedBlack">
                                 <td>Pre-Hackathon Social Media Post</td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
-                                <td>×</td>
-                                <td>×</td>
+                                <td class="clr-green" class="clr-green">×</td>
+                                <td class="clr-green" class="clr-green">×</td>
                             </tr>
                             <tr class="border-btm-1pxdottedBlack">
                                 <td>Mobile / push notification advertising
@@ -258,8 +250,8 @@
                                 <td></td>
                                 <td></td>
                                 <td></td>
-                                <td>×</td>
-                                <td>×</td>
+                                <td class="clr-green">×</td>
+                                <td class="clr-green">×</td>
                             </tr>
                             <tr class="">
                                 <td>Brand Name Sponsor: Hacking Edu,
@@ -269,7 +261,7 @@
                                 <td></td>
                                 <td></td>
                                 <td></td>
-                                <td>×</td>
+                                <td class="clr-green">×</td>
                             </tr>
                         <!-- </tbody> -->
                         <!-- </div> -->

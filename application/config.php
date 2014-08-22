@@ -6,12 +6,13 @@ define('DEFAULT_VIEW', 'home'); # set this to any page to be the default home pa
 # Social Constants
 define('FACEBOOK_URL', 'https://www.facebook.com/hackingedusf');
 define('TWITTER_URL', 'https://twitter.com/hackingedusf');
-define('GOOGLE_PLUS_URL', 'https://plus.google.com/100755871712588838625');
+define('GOOGLE_PLUS_URL', 'https://google.com/hackingeduco');
 # Date Constants
-define('SUBMISSION_DATE', 'Sunday March 22nd, 2015 at 10:00 am');
-define('START_DATE', 'Friday, April 11th, 2014');
+define('SUBMISSION_DATE', 'submission date/time TBD'); // ex: Sunday March 22nd, 2015 at 10:00 am
+define('START_DATE', 'start date TBD'); // ex: Friday, April 11th, 2014
 # Location Constants
 define('HACK_EDU_LOCATION', 'SF Bay Area');
+define('HACK_EDU_VENUE', 'venue TBD');
 
 
 
