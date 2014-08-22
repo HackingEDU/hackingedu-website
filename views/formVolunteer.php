@@ -66,7 +66,7 @@
             <div dir="ltr" class="ss-item  ss-text">
                 <div class="ss-form-entry s-form-text">
                     <label class="ss-q-item-label" for="entry_68404305">
-                        <div class="ss-q-title">If you are working, what company do you work for?</div>
+                        <div class="ss-q-title">Company you work for:</div>
                         <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
                     </label>
                     <input placeholder="Company's Name" type="text" name="entry.68404305" value="" class="ss-q-short" id="entry_68404305" dir="auto" aria-label="Company?  " title="">
@@ -80,7 +80,7 @@
             <div dir="ltr" class="ss-item  ss-text">
                 <div class="ss-form-entry s-form-text">
                     <label class="ss-q-item-label" for="entry_2127045771">
-                        <div class="ss-q-title">If you are still in school, which school do you attend?</div>
+                        <div class="ss-q-title">School you attend:</div>
                         <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
                     </label>
                     <input placeholder="Example University" type="text" name="entry.2127045771" value="" class="ss-q-short" id="entry_2127045771" dir="auto" aria-label="If you are still in school, which school do you attend?  " title="">

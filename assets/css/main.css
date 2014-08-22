@@ -515,7 +515,13 @@ a.volunteer-btn {
     .hide-on-mobile {
         display: none;
     }
-
+    div.auth2 div.auth-box2 {
+        margin: 1em;
+    }
+    .required-message {
+        display: none;
+        color: transparent;
+    }
 }
 a.sponsor-btn-pad {
     padding: 15px 59px;
