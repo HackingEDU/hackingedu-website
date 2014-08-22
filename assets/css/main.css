@@ -484,6 +484,7 @@ a.apply-btn {
     position: fixed;
     left: 1em;
     top: 1em;
+    z-index: 1;
 }
 .top-left-social > * {
     margin-left: 1em;
