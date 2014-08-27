@@ -496,8 +496,11 @@ h1.coming-soon {
     top: 1em;
     z-index: 1;
 }
-.top-left-social > *, div#___follow_0 {
+.top-left-social > * {
     margin-left: 1em;
+}
+.fb-like {
+    margin-right: 1em;
 }
 
 a.volunteer-btn {
