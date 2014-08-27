@@ -496,7 +496,7 @@ h1.coming-soon {
     top: 1em;
     z-index: 1;
 }
-.top-left-social > * {
+.top-left-social > *, div#___follow_0 {
     margin-left: 1em;
 }
 
