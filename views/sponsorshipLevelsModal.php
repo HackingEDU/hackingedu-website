@@ -38,7 +38,7 @@
                                 <td>    </td>
                             </tr>
                             <tr class="border-btm-1pxdottedBlack">
-                                <td>Mentors at Hacking Edu</td>
+                                <td>Mentors at HackingEDU</td>
                                 <td class="clr-green" class="clr-green">×</td>
                                 <td class="clr-green" class="clr-green">×</td>
                                 <td class="clr-green" class="clr-green">×</td>
@@ -62,7 +62,7 @@
                                 <td class="clr-green" class="clr-green">×</td>
                             </tr>
                             <tr class="border-btm-1pxdottedBlack">
-                                <td>Judging Spot for Hacking Edu Prizes</td>
+                                <td>Judging Spot for HackingEDU Prizes</td>
                                 <td></td>
                                 <td></td>
                                 <td class="clr-green" class="clr-green">×</td>
@@ -118,7 +118,7 @@
                                 <td>    </td>
                             </tr>
                             <tr class="border-btm-1pxdottedBlack">
-                                <td>Recruiters at Hacking Edu</td>
+                                <td>Recruiters at HackingEDU</td>
                                 <td class="clr-green" class="clr-green">×</td>
                                 <td class="clr-green" class="clr-green">×</td>
                                 <td class="clr-green" class="clr-green">×</td>
@@ -126,7 +126,7 @@
                                 <td class="clr-green" class="clr-green">×</td>
                             </tr>
                             <tr class="border-btm-1pxdottedBlack">
-                                <td>Access to resumes after Hacking Edu</td>
+                                <td>Access to resumes after HackingEDU</td>
                                 <td></td>
                                 <td class="clr-green" class="clr-green">×</td>
                                 <td class="clr-green" class="clr-green">×</td>
@@ -179,9 +179,9 @@
                                 <td>Logo Placement</td>
                                 <td class="clr-green">Website</td>
                                 <td class="clr-green">Website, T-Shirt</td>
-                                <td class="clr-green">Website, T-Shirt, Hacking Edu Swag</td>
-                                <td class="clr-green">Website, T-Shirt, Hacking Edu Swag</td>
-                                <td class="clr-green">Website (EVERY Page!), T-Shirt, Hacking Edu Swag</td>
+                                <td class="clr-green">Website, T-Shirt, HackingEDU Swag</td>
+                                <td class="clr-green">Website, T-Shirt, HackingEDU Swag</td>
+                                <td class="clr-green">Website (EVERY Page!), T-Shirt, HackingEDU Swag</td>
                             </tr>
                             <tr class="border-btm-1pxdottedBlack">
                                 <td>Can distribute company swag</td>
@@ -254,7 +254,7 @@
                                 <td class="clr-green">×</td>
                             </tr>
                             <tr class="">
-                                <td>Brand Name Sponsor: Hacking Edu,
+                                <td>Brand Name Sponsor: HackingEDU,
 
         Co-hosted by YOU</td>
                                 <td></td>

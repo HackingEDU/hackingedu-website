@@ -128,6 +128,10 @@ echo $google_analytics; ?>
 		<!-- Google+ Plus Button / Follow Button -->
 		<script src="https://apis.google.com/js/platform.js" async defer></script>
 		<script>
+			// // Hacker Form Validation ?
+			// H5F.setup(document.getElementById('ss-form'));
+			// _initFormViewer("[100,\x22#CCC\x22,[]\n]\n");
+
 			// Facebook Like Button
 			window.fbAsyncInit = function() {
 				FB.init({
