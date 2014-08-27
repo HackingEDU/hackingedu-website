@@ -11,7 +11,7 @@ echo $google_analytics; ?>
 			<!-- Facebook Like -->
 			<div class="fb-like" data-href="https://www.facebook.com/hackingedusf" data-layout="button_count" data-action="like" data-show-faces="true" data-share=""></div>
 			<!-- Twitter Follow -->
-			<a href="https://twitter.com/hackingedusf" class="twitter-follow-button" data-show-count="false">Follow @hackingedusf</a>
+			<a href="https://twitter.com/hackingedusf" class="twitter-follow-button" data-show-count="true">Follow @hackingedusf</a>
 		</div>
 
 		<!-- MAIN IMAGE SECTION -->
