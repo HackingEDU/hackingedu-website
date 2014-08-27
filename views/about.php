@@ -2,7 +2,7 @@
       <div class="row mt">
       	<div id="about" class="col-lg-8">
 	        <h1>What is Hacking Edu?</h1>
-	        <p>HackingEDU is helping students who are fed up with the way the education system is today to innovate new ways to improve it.  We want you and your team to bring a product to market to make a difference!</p>
+	        <p>HackingEDU is helping students who are ready for a change.  Ready for a new approach to education than what is currently provided.  We want you and your team to bring a product to market that will catalyze a new age to education.  Something that will change the way we think about school. <strong>It is not required to create something related to education.</strong></p>
       	</div>
       	<div class="col-lg-4 hide-on-mobile">
       		<span class="pull-right"><br><a class="apply-btn" href="#apply"><button type="button" class="btn btn-green">Sign Up Now!</button></a></span>
@@ -20,7 +20,7 @@
       	  	<p>It's time to show what you've got!  They say ideas are great, but execution is where people fall short.  Lets see what you can do in the 36 hours provided.</p>
       	  	<br>
       	  	<h3><b>EVOLVE</b></h3>
-      	  	<p>We believe that the current education system is outdated.  If we are on the same wavelength then lets make a change.  Let us evolve the way we think about education.</p>
+      	  	<p>We believe that the current education system is outdated.  If you are on the same wavelength as us then lets make a change.  Let us evolve the way we think about education.</p>
       	  </div><!-- col-lg-8 -->
       	  <div class="col-lg-4">
       		<ul class="process effect-2 hide-on-mobile" id="process">
