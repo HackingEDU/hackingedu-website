@@ -6,10 +6,10 @@ echo $google_analytics; ?>
 	<?php require_once './views/header.php'; ?>
 		<!-- Social Like/Follow Buttons -->
 		<div class="top-left-social">
-			<!-- Google+ Plus -->
-			<div class="g-follow" data-annotation="bubble" data-height="20" data-href="https://plus.google.com/100755871712588838625" data-rel="publisher"></div>
 			<!-- Facebook Like -->
 			<div class="fb-like" data-href="https://www.facebook.com/hackingedusf" data-layout="button_count" data-action="like" data-show-faces="true" data-share=""></div>
+			<!-- Google+ Plus -->
+			<div class="g-follow" data-annotation="bubble" data-height="20" data-href="https://plus.google.com/100755871712588838625" data-rel="publisher"></div>
 			<!-- Twitter Follow -->
 			<a href="https://twitter.com/hackingedusf" class="twitter-follow-button" data-show-count="true">Follow @hackingedusf</a>
 		</div>
