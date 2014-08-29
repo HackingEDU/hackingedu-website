@@ -1,5 +1,8 @@
-<?php  // For Google Analytics
+<?php
+// For Google Analytics
 include_once './application/analyticstracking.php';
+// For team section (holds Member class)
+include_once './application/controllers/teamController.php';
 echo $google_analytics; ?>
 
 	<?php require_once './application/config.php'; ?>
@@ -45,7 +48,7 @@ echo $google_analytics; ?>
 		<?php require_once './views/formSignUp.php'; ?>
 
 		<!-- SPONSORS -->
-		<?php require_once './views/sponsors.php'; ?>
+		<?php require_once './views/team.php'; ?>
 
 		<!-- RULES -->
 		<?php require_once './views/rules.php'; ?>
@@ -54,8 +57,30 @@ echo $google_analytics; ?>
 		<?php require_once './views/schedule.php'; ?>
 
 		<!-- CALL TO ACTION -->
-		<div id="call">
+		<div id="sponsors">
 			<div class="container ">
+				<div class="row">
+					<div class="col-lg-12">
+						<h1 class="pull-left" style="color: white">2015 Hacking Edu Sponsors</h1>
+					</div>
+				</div>
+				<div class="row centered">
+					<div class="col-lg-2 col-lg-offset-1">
+						<img src="assets/img/clients/c01.gif" alt="">
+					</div>
+					<div class="col-lg-2">
+						<img src="assets/img/clients/c02.gif" alt="">
+					</div>
+					<div class="col-lg-2">
+						<img src="assets/img/clients/c03.gif" alt="">
+					</div>
+					<div class="col-lg-2">
+						<img src="assets/img/clients/c04.gif" alt="">
+					</div>
+					<div class="col-lg-2">
+						<img src="assets/img/clients/c05.gif" alt="">
+					</div>
+				</div><!-- row -->
 				<div class="row">
 					<h3>Interested in Sponsoring?</h3>
 					<div class="col-lg-8 col-lg-offset-2">
