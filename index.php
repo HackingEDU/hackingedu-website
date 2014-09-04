@@ -25,7 +25,7 @@ echo $google_analytics; ?>
 						<img class="marg-top-20 col-xs-12 col-sm-10 col-lg-10 col-sm-offset-1 col-lg-offset-1" src="./assets/img/hacklogo-white-no-border.png" alt="">
 						<div class="col-lg-10 col-lg-offset-1">
 							<h3>SF Bay Area</h3>
-							<h2>Disrupting The Education Market</h2>
+							<h2>Invent the Future</h2>
 						</div>
 						<!-- HACKER APPLICATION -->
 						<a class="btn marg-left-6 col-lg-offset-2 col-md-offset-2 col-sm-offset-2 col-lg-3 col-sm-3 col-xs-12 main-btn apply-btn" href="#apply">Hacker Application</a>
@@ -47,7 +47,7 @@ echo $google_analytics; ?>
 		<!-- APPLICATION FORMS -->
 		<?php require_once './views/formSignUp.php'; ?>
 
-		<!-- SPONSORS -->
+		<!-- TEAM -->
 		<?php require_once './views/team.php'; ?>
 
 		<!-- RULES -->
@@ -152,7 +152,13 @@ echo $google_analytics; ?>
 		<!-- SOCIAL MEDIA BUTTONS @ TOP -->
 		<!-- Google+ Plus Button / Follow Button -->
 		<script src="https://apis.google.com/js/platform.js" async defer></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+		<script src="assets/js/bootstrap-image-gallery.min.js"></script>
 		<script>
+			// Team Slides
+			// $( "img[title='Alex Cory']" ).css('top', '-10em').css('left', '-50em');
+
 			// // Hacker Form Validation ?
 			// H5F.setup(document.getElementById('ss-form'));
 			// _initFormViewer("[100,\x22#CCC\x22,[]\n]\n");

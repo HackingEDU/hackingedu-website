@@ -57,6 +57,25 @@ ul.ss-choices {
 .marg-left-6 {
     margin-left: 6em;
 }
+.marg-left-1 {
+    margin-left: 1em;
+}
+.tile h2 {
+    position: relative;
+    bottom: 9em;
+    left: .5em;
+}
+img.team_img_size.pull-left.col-lg-12 {
+    min-height: 1px;
+}
+
+/* =========================================================================
+                            Team Profiles
+   =======================================================================*/
+
+.blueimp-gallery>.slides>.slide>.slide-content {
+    margin: 5em 0 0 5em;
+}
 
 .well {
     padding: 8px 19px 0 19px;

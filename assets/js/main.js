@@ -1,15 +1,13 @@
+// Menu settings
 (function() {
-
-    // Menu settings
     $('#menuToggle, .menu-close').on('click', function() {
         $('#menuToggle').toggleClass('active');
         $('body').toggleClass('body-push-toleft');
         $('#theMenu').toggleClass('menu-open');
     });
-
-
 })(jQuery);
 
+// Animate On Scroll Feature
 (function(e, t, n, r) {
     function o(t, n) {
         this.$element = e(t);

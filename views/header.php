@@ -16,19 +16,22 @@
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="assets/css/main.css" rel="stylesheet">
 
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
 
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
 
+    <!-- Bootstrap Image Gallery -->
+    <link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-image-gallery.css">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
 
     <script src="assets/js/modernizr.custom.js"></script>
 
@@ -43,8 +46,9 @@
 			<i class="fa fa-arrow-right menu-close"></i>
 			<a href="#home">Home</a>
 			<a href="#about">About</a>
+            <a href="#team">Team</a>
+            <a href="#rules">Rules</a>
 			<a href="#sponsors">Sponsors</a>
-			<a href="#rules">Rules</a>
 			<a href="#schedule">Schedule</a>
 			<!-- <a href="#myModal">Contact</a> -->
 			<a class="" data-toggle="modal" data-target="#contactModal">Contact</a>
