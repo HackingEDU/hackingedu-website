@@ -223,6 +223,54 @@
                 </div>
             </div>
         </div>
+        <!-- SHIRT SIZE -->
+        <div class="ss-form-question errorbox-good" role="listitem">
+            <div dir="ltr" class="ss-item  ss-radio">
+                <div class="ss-form-entry">
+                    <label class="ss-q-item-label" for="entry_304595977">
+                        <div class="ss-q-title">What&#39;s your shirt size?</div>
+                        <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+                    </label>
+                    <div class="radio-inline pull-right required-message">required</div>
+                    <ul class="ss-choices" role="radiogroup" aria-label="What&#39;s your shirt size?  ">
+                        <li class="radio-inline ss-choice-item">
+                            <label>
+                                <span class="ss-choice-item-control goog-inline-block">
+                                    <input type="radio" name="entry.1892720008" value="Small" id="group_1892720008_1" role="radio" class="ss-q-radio" aria-label="Small">
+                                </span>
+                                <span class="ss-choice-label">Small</span>
+                            </label>
+                        </li>
+                        <li class="radio-inline ss-choice-item">
+                            <label>
+                                <span class="ss-choice-item-control goog-inline-block">
+                                    <input type="radio" name="entry.1892720008" value="Medium" id="group_1892720008_2" role="radio" class="ss-q-radio" aria-label="Medium">
+                                </span>
+                                <span class="ss-choice-label">Medium</span>
+                            </label>
+                        </li>
+                        <li class="radio-inline ss-choice-item">
+                        <label>
+                            <span class="ss-choice-item-control goog-inline-block">
+                                <input type="radio" name="entry.1892720008" value="Large" id="group_1892720008_3" role="radio" class="ss-q-radio" aria-label="Large">
+                            </span>
+                            <span class="ss-choice-label">Large</span>
+                        </label>
+                        </li>
+                        <li class="radio-inline ss-choice-item">
+                            <label>
+                                <span class="ss-choice-item-control goog-inline-block">
+                                    <input type="radio" name="entry.1892720008" value="XL" id="group_1892720008_4" role="radio" class="ss-q-radio" aria-label="XL">
+                                </span>
+                                <span class="ss-choice-label">XL</span>
+                            </label>
+                        </li>
+                    </ul>
+                    <div class="error-message" id="304595977_errorMessage"></div>
+                    <!-- <div class="radio-inline pull-right required-message">required</div> -->
+                </div>
+            </div>
+        </div>
         <!-- TRAVEL REIMBERSEMENT -->
         <div class="ss-form-question errorbox-good" role="listitem">
             <div dir="ltr" class="ss-item  ss-radio">

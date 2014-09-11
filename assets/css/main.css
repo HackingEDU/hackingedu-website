@@ -17,6 +17,16 @@ h1, h2, h3, h4, h5, h6 {
     color: #16a085;
     font-weight: bold;
 }
+button.modal-up-2em {
+    position: relative;
+    bottom: 2.5em;
+}
+.mg-top-none {
+    margin-top: 0;
+}
+.mg-bottom-none {
+    margin-bottom: 0;
+}
 p {
     line-height: 28px;
     margin-bottom: 25px;
@@ -599,16 +609,70 @@ a.main-btn:hover {
 #lg .desc {
     text-align: left;
 }
-#call {
+/* =========================================================================
+                            Slidable Stuff
+   =======================================================================*/
+
+/* carousel */
+.media-carousel {
+   margin-bottom: 0;
+   padding: 0 40px 30px 40px;
+   margin-top: 30px;
+}
+/* Previous button  */
+.media-carousel .carousel-control.left {
+   left: -12px;
+   background-image: none;
+   background: none repeat scroll 0 0 #222222;
+   border: 4px solid #FFFFFF;
+   border-radius: 23px 23px 23px 23px;
+   height: 40px;
+   width : 40px;
+   margin-top: 30px
+}
+/* Next button  */
+.media-carousel .carousel-control.right {
+   right: -12px !important;
+   background-image: none;
+   background: none repeat scroll 0 0 #222222;
+   border: 4px solid #FFFFFF;
+   border-radius: 23px 23px 23px 23px;
+   height: 40px;
+   width : 40px;
+   margin-top: 30px
+}
+/* Changes the position of the indicators */
+.media-carousel .carousel-indicators {
+   right: 50%;
+   top: auto;
+   bottom: 0px;
+   margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.media-carousel .carousel-indicators li {
+   background: #c0c0c0;
+}
+.media-carousel .carousel-indicators .active {
+   background: #333333;
+}
+.media-carousel img {
+   width: 250px;
+   height: 100px
+}
+/* End carousel */
+
+
+
+#sponsors {
     background: #2f2f2f;
     padding-top: 35px;
     padding-bottom: 35px;
     text-align: center;
 }
-#call h3 {
+#sponsors h3 {
     color: #fff;
 }
-#call p {
+#sponsors p {
     color: #fff;
 }
 #sf {
@@ -1318,4 +1382,94 @@ body.modal-open .contact-blur {
    =======================================================================*/
 .marg-top-20 {
    margin-top: 20vh;
+}
+
+/* =========================================================================
+                            Team Members
+   =======================================================================*/
+#social:hover {
+    -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -o-transform:scale(1.1);
+}
+#social {
+    -webkit-transform:scale(0.8);
+    /* Browser Variations: */
+    -moz-transform:scale(0.8);
+    -o-transform:scale(0.8);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+}
+.social-fb:hover {
+    color: #3B5998;
+}
+.social-tw:hover {
+    color: #4099FF;
+}
+.social-gp:hover {
+    color: #d34836;
+}
+.social-em:hover {
+    color: #f39c12;
+}
+
+/*.info-card .info-card-details .info-card-detail*/ .social {
+    list-style: none;
+    padding: 0px;
+    margin-top: 25px;
+    text-align: center;
+}
+/*.info-card .info-card-details .info-card-detail*/ .social a {
+    position: relative;
+    display: inline-block;
+    min-width: 40px;
+    padding: 10px 0px;
+    margin: 0px 5px;
+    overflow: hidden;
+    text-align: center;
+    background-color: rgb(215, 215, 215);
+    border-radius: 40px;
+}
+.hidden {
+    display: none;
+}
+
+a.social-icon {
+    text-decoration: none !important;
+    box-shadow: 0px 0px 1px rgb(51, 51, 51);
+    box-shadow: 0px 0px 1px rgba(51, 51, 51, 0.7);
+}
+a.social-icon:hover {
+    color: rgb(255, 255, 255) !important;
+}
+/*a.facebook {
+    color: rgb(59, 90, 154) !important;
+}
+a.facebook:hover {
+    background-color: rgb(59, 90, 154) !important;
+}*/
+a.twitter {
+    color: rgb(45, 168, 225) !important;
+}
+a.twitter:hover {
+    background-color: rgb(45, 168, 225) !important;
+}
+a.github {
+    color: rgb(51, 51, 51) !important;
+}
+a.github:hover {
+    background-color: rgb(51, 51, 51) !important;
+}
+a.google-plus {
+    color: rgb(244, 94, 75) !important;
+}
+a.google-plus:hover {
+    background-color: rgb(244, 94, 75) !important;
+}
+a.linkedin {
+    color: rgb(1, 116, 179) !important;
+}
+a.linkedin:hover {
+    background-color: rgb(1, 116, 179) !important;
 }

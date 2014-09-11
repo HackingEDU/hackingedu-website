@@ -1,4 +1,3 @@
-<?php // require_once '../application/config.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -13,10 +12,9 @@
 
     <title>Hacking Edu</title>
 
+    <link rel="stylesheet" href="./libraries/flexisel-master/css/style.css">
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
-
-
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
 
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
@@ -32,8 +30,14 @@
     <![endif]-->
     <!-- Custom styles for this template -->
     <link href="assets/css/main.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="./libraries/owl.carousel/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="./libraries/owl.carousel/owl-carousel/owl.theme.css">
+    <!-- <link rel="stylesheet" href="./libraries/Smooth-Div-Scroll/css/smoothDivScroll.css"> -->
     <script src="assets/js/modernizr.custom.js"></script>
+    <!--<script type="text/javascript" src="./assets/js/jssor.core.js"></script>
+    <script type="text/javascript" src="./assets/js/jssor.utils.js"></script>
+    <script type="text/javascript" src="./assets/js/jssor.slider.js"></script> -->
+
 
   </head>
 

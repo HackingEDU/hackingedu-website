@@ -1,12 +1,58 @@
 <?php
-// For Google Analytics
-include_once './application/analyticstracking.php';
-// For team section (holds Member class)
-include_once './application/controllers/teamController.php';
-echo $google_analytics; ?>
+	// error_reporting(0);
 
-	<?php require_once './application/config.php'; ?>
-	<?php require_once './views/header.php'; ?>
+	require './vendor/autoload.php'; # For Composer
+	// set_include_path(get_include_path() . PATH_SEPARATOR . './libraries/google-api-php-client/src'); # To get Access Tokens to work
+	require_once './application/config.php';
+
+	require './application/controllers/controller.php';
+	$controller = new Controller();
+
+	// include_once './application/controllers/teamController.php'; # For team section (holds Member class)
+	include_once './application/analyticstracking.php'; # For Google Analytics
+	echo $google_analytics;
+
+	require_once './views/header.php';
+
+	// $teamMembers = array();
+	// $teamMembers = $controller->getTeamMembers();
+	// dd($teamMembers);
+
+	$rows = $controller->getRows();
+	// dd($rows);
+
+	$teamMembers = array();
+
+	$teamName;
+	foreach ($rows as $row) {
+		$teamMember = array();
+		if (is_string($row)) {
+			$teamName = $row;
+		} else {
+			foreach ($row as $key => $value) {
+				$teamMember[$key] = $value;
+				$teamMember['Team Name:'] = $teamName;
+			}
+			$teamMembers[] = $teamMember;
+		}
+
+	}
+	// dd($teamMembers);
+
+
+
+?>
+
+<?php
+	// TODO: Loop through the users and add them into this bootstrap snippet: http://bootsnipp.com/snippets/2XX5
+
+	// Social Links For People
+	// <a href="https://www.facebook.com/bootsnipp"><i id="social" class="fa fa-facebook-square fa-3x social-fb"></i></a>
+    // <a href="https://twitter.com/bootsnipp"><i id="social" class="fa fa-twitter-square fa-3x social-tw"></i></a>
+    // <a href="https://plus.google.com/+Bootsnipp-page"><i id="social" class="fa fa-google-plus-square fa-3x social-gp"></i></a>
+    // <a href="mailto:bootsnipp@gmail.com"><i id="social" class="fa fa-envelope-square fa-3x social-em"></i></a>
+?>
+
 		<!-- Social Like/Follow Buttons -->
 		<div class="top-left-social">
 			<!-- Facebook Like -->
@@ -57,39 +103,7 @@ echo $google_analytics; ?>
 		<?php require_once './views/schedule.php'; ?>
 
 		<!-- CALL TO ACTION -->
-		<div id="sponsors">
-			<div class="container ">
-				<div class="row">
-					<div class="col-lg-12">
-						<h1 class="pull-left" style="color: white">2015 Hacking Edu Sponsors</h1>
-					</div>
-				</div>
-				<div class="row centered">
-					<div class="col-lg-2 col-lg-offset-1">
-						<img src="assets/img/clients/c01.gif" alt="">
-					</div>
-					<div class="col-lg-2">
-						<img src="assets/img/clients/c02.gif" alt="">
-					</div>
-					<div class="col-lg-2">
-						<img src="assets/img/clients/c03.gif" alt="">
-					</div>
-					<div class="col-lg-2">
-						<img src="assets/img/clients/c04.gif" alt="">
-					</div>
-					<div class="col-lg-2">
-						<img src="assets/img/clients/c05.gif" alt="">
-					</div>
-				</div><!-- row -->
-				<div class="row">
-					<h3>Interested in Sponsoring?</h3>
-					<div class="col-lg-8 col-lg-offset-2">
-						<p>Although this is our first year, we want to show the universities in the bay area that students are ready for a change.  Help make a difference by supporting us! Either fill out the <strong><a href="#apply" class="sponsor-btn">form</a></strong> or shoot us an email at <strong><a href="mailto:sponsor@hackingedu.co">sponsor@hackingedu.co</a></strong></p>
-						<p><a href="#apply"><button type="button" class="btn btn-green btn-lg sponsor-btn">Show Your Support!</button></a></p>
-					</div>
-				</div><!-- row -->
-			</div><!-- container -->
-		</div><!-- Call to action -->
+		<?php require_once './views/sponsors.php'; ?>
 
 		<!-- STAY CONNECTED -->
 	    <div class="container ">
@@ -153,15 +167,98 @@ echo $google_analytics; ?>
 		<!-- Google+ Plus Button / Follow Button -->
 		<script src="https://apis.google.com/js/platform.js" async defer></script>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-		<script src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+		<!-- <script src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
 		<script src="assets/js/bootstrap-image-gallery.min.js"></script>
-		<script>
-			// Team Slides
-			// $( "img[title='Alex Cory']" ).css('top', '-10em').css('left', '-50em');
+		<script src="./libraries/flexisel-master/js/jquery.flexisel.js"></script>
+		<script src="./libraries/Smooth-Div-Scroll/js/jquery.kinetic.min.js"></script>
+		<script src="./libraries/Smooth-Div-Scroll/js/jquery.smoothdivscroll-1.3-min.js"></script>
+		<script src="./libraries/Smooth-Div-Scroll/js/jquery.mousewheel.min.js"></script>
+		<script src="./libraries/Smooth-Div-Scroll/js/source/jquery.smoothDivScroll-1.3.js"></script>
+		<script src="./libraries/Smooth-Div-Scroll/js/source/jquery-ui-1.10.3.custom.js"></script> -->
+		<!--  jQuery 1.7+  -->
+		<script src="./libraries/owl.carousel/assets/js/jquery-1.9.1.min.js"></script>
 
-			// // Hacker Form Validation ?
-			// H5F.setup(document.getElementById('ss-form'));
-			// _initFormViewer("[100,\x22#CCC\x22,[]\n]\n");
+		<!-- Include js plugin -->
+		<script src="./libraries/owl.carousel/owl-carousel/owl.carousel.js"></script>
+		<script>
+			// Remove the Social Links that aren't used!
+			$.fn.exists = function () {
+			    return this.length !== 0;
+			}
+			$( document ).ready(function() {
+				if ($('a[href*="/N/A"]').exists()) { // hiding twitter if they don't have a value
+					$('a[href*="/N/A"]').addClass('hidden');
+				}
+				if ($('a[href*=" "]').exists()) { // hiding linkedin if they don't have a value
+					$('a[href*=" "]').addClass('hidden');
+				};
+			});
+
+			// Animations for the sponsors!
+			// $(document).ready(function() {
+			// 	$("#owl-example").owlCarousel({
+			// 		//Autoplay
+			// 	    autoPlay : true,
+			// 	    stopOnHover : true,
+			// 	    // Navigation
+			// 	    navigation : false,
+
+			// 	    //Basic Speeds
+			//         slideSpeed : 700,
+			//         rewindSpeed : 1000
+
+			// 	});
+
+			// 	$("#owl-example2").owlCarousel({
+			// 		//Autoplay
+			// 	    autoPlay : true,
+			// 	    stopOnHover : true,
+
+			// 	    //Basic Speeds
+			//         slideSpeed : 300,
+			//         rewindSpeed : 500
+			// 	});
+			// });
+
+			// -- Bootstrap slider
+			$(document).ready(function() {
+			  $('#media').carousel({
+			    pause: true,
+			    interval: false,
+			  });
+			});
+
+			// -- Pretty slider (problem: can only do one slider though -__-)
+			//   $("#myCarousel2").flexisel({
+			//     visibleItems: 5,
+			//     animationSpeed: 1700,
+			//     autoPlay: true,
+			//     autoPlaySpeed: 3000,
+			//     pauseOnHover: true,
+			//     // clone:false,
+			//     // enableResponsiveBreakpoints: true,
+			//     // responsiveBreakpoints: {
+			//     //   portrait: {
+			//     //     changePoint:480,
+			//     //     visibleItems: 1
+			//     //   },
+			//     //   landscape: {
+			//     //     changePoint:640,
+			//     //     visibleItems: 2
+			//     //   },
+			//     //   tablet: {
+			//     //     changePoint:768,
+			//     //     visibleItems: 3
+			//     //   }
+			//     // }
+			//   });
+			// });
+			// Animations for the sponsors!
+			// $(window).load(function() {
+
+			// });
+
+
 
 			// Facebook Like Button
 			window.fbAsyncInit = function() {

@@ -1,37 +1,37 @@
 <?php
 	// New Team Members
-	$members[] = new TeamMember(
-		/* NAME        */ 'Alex Cory',
-		/* DESCRIPTION */ 'Alex does some cool stuff for his really freaking cool description.',
-		/* IMAGE       */ 'alexcory.jpg',
-		/* LINKEDIN    */ 'in/alexcory',
-		/* GOOGLE+     */ '+AlexCory',
-		/* TWITTER     */ 'AlexCory_'
-	);
-	$members[] = new TeamMember(
-		/* NAME        */ 'Jessica Allen',
-		/* DESCRIPTION */ 'Jessica does some cool stuff for her really freaking cool description.',
-		/* IMAGE       */ 'jessicaallen.jpg',
-		/* LINKEDIN    */ 'pub/jessica-allen/50/820/b17',
-		/* GOOGLE+     */ '+JessicaAllen1',
-		/* TWITTER     */ ''
-	);
-	$members[] = new TeamMember(
-		/* NAME        */ 'Jessica Ou',
-		/* DESCRIPTION */ 'Jessica does some cool stuff for her really freaking cool description.',
-		/* IMAGE       */ 'jessicaou.jpg',
-		/* LINKEDIN    */ 'in/jessicaou',
-		/* GOOGLE+     */ '111122167171528863086',
-		/* TWITTER     */ ''
-	);
-	$members[] = new TeamMember(
-		/* NAME        */ 'Yanny Zhang',
-		/* DESCRIPTION */ 'Yanny does some cool stuff for her really freaking cool description.',
-		/* IMAGE       */ 'yannyzhang.jpg',
-		/* LINKEDIN    */ 'pub/yanny-zhang/9b/a20/83',
-		/* GOOGLE+     */ '+YanHongZhang',
-		/* TWITTER     */ ''
-	);
+	// $members[] = new TeamMember(
+	// 	/* NAME        */ 'Alex Cory',
+	// 	/* DESCRIPTION */ 'Alex does some cool stuff for his really freaking cool description.',
+	// 	/* IMAGE       */ 'alexcory.jpg',
+	// 	/* LINKEDIN    */ 'in/alexcory',
+	// 	/* GOOGLE+     */ '+AlexCory',
+	// 	/* TWITTER     */ 'AlexCory_'
+	// );
+	// $members[] = new TeamMember(
+	// 	/* NAME        */ 'Jessica Allen',
+	// 	/* DESCRIPTION */ 'Jessica does some cool stuff for her really freaking cool description.',
+	// 	/* IMAGE       */ 'jessicaallen.jpg',
+	// 	/* LINKEDIN    */ 'pub/jessica-allen/50/820/b17',
+	// 	/* GOOGLE+     */ '+JessicaAllen1',
+	// 	/* TWITTER     */ ''
+	// );
+	// $members[] = new TeamMember(
+	// 	/* NAME        */ 'Jessica Ou',
+	// 	/* DESCRIPTION */ 'Jessica does some cool stuff for her really freaking cool description.',
+	// 	/* IMAGE       */ 'jessicaou.jpg',
+	// 	/* LINKEDIN    */ 'in/jessicaou',
+	// 	/* GOOGLE+     */ '111122167171528863086',
+	// 	/* TWITTER     */ ''
+	// );
+	// $members[] = new TeamMember(
+	// 	/* NAME        */ 'Yanny Zhang',
+	// 	/* DESCRIPTION */ 'Yanny does some cool stuff for her really freaking cool description.',
+	// 	/* IMAGE       */ 'yannyzhang.jpg',
+	// 	/* LINKEDIN    */ 'pub/yanny-zhang/9b/a20/83',
+	// 	/* GOOGLE+     */ '+YanHongZhang',
+	// 	/* TWITTER     */ ''
+	// );
 	// $members[] = new TeamMember(
 	// /* NAME        */ 'Catherine Mullings',
 	// 	/* DESCRIPTION */ 'Jessica does some cool stuff for her really freaking cool description.',
@@ -51,8 +51,10 @@
 
 
 ?>
-
-	<div id="team" class="container ">
+ <!-- <div id="portfolio"> -->
+<div id="team" class="container ">
+	<div class="container"
+    	<div class="row mt">
 
 			<div class="col-lg-12 mt">
 				<h1>The HackingEDU Team</h1>
@@ -61,57 +63,65 @@
 				<!-- <p>We're excited to get the sponsors underway.  We plan to have Google, Evernote, Visa, and more!</p> -->
 			<!-- </div> --><!-- col-lg-8 -->
 
-			<br><!-- this br tag keeps everyone's pictures in line -->
+			<!-- <br> --><!-- this br tag keeps everyone's pictures in line -->
 
- 			<div id="links" class="">
-				<ul class="grid effect-2" id="grid">
-					<?php for ($i=0; $i < count($members); $i++): ?>
-						<li>
-							<a href="assets/img/team_img/<?php echo $members[$i]->getPicture(); ?>" title="<?php echo $members[$i]->getName(); ?>" data-gallery>
-								<img class="team_img_size pull-left col-lg-12" src="assets/img/team_img/<?php echo $members[$i]->getPicture(); ?>" alt="<?php echo $members[$i]->getName(); ?>">
-								<h2><?php echo $members[$i]->getName(); ?></h2>
-								<a class="pull-left marg-left-1" href="<?php echo $members[$i]->getLinkedIn(); ?>">LinkedIn</a>
-								<a class="pull-left marg-left-1" href="<?php echo $members[$i]->getGooglePlus(); ?>">Google+</a>
-								<a class="pull-left marg-left-1" href="<?php echo $members[$i]->getTwitter(); ?>">Twitter</a>
-							</a>
-						</li>
-					<?php endfor; ?>
-				</ul>
-			</div>
+		    <ul class="grid effect-2" id="grid">
+			    <?php foreach ($teamMembers as $teamMember): ?>
 
-			<!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
-			<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls" data-use-bootstrap-modal="false">
-			    <!-- The container for the modal slides -->
-			    <div class="slides"></div>
-			    <!-- Controls for the borderless lightbox -->
-			    <h3 class="title"></h3>
-			    <a class="prev">‹</a>
-			    <a class="next">›</a>
-			    <a class="close">×</a>
-			    <a class="play-pause"></a>
-			    <ol class="indicator"></ol>
-			    <!-- The modal dialog, which will be used to wrap the lightbox content -->
-			    <div class="modal fade">
+				    <?php $editedName = str_replace(' ', '_', $teamMember['Name']); ?>
+				    <?php if ($teamMember['Picture'] == ' ' || $editedName == '_') { continue; } ?><!-- Filtering out for only the Core Team -->
+				    	<li>
+					        <center>
+				    	        <a href="#aboutModal" data-toggle="modal" data-target="#<?php echo $editedName; ?>Modal"><img src="<?php echo $teamMember['Picture']; ?>" name="aboutme" width="140" height="140" class="img-circle"></a>
+				    	        <h3 class="mg-bottom-none"><?php echo $teamMember['Name']; ?></h3>
+				    	        <h5 class="mg-top-none"><?php echo rtrim($teamMember['Position'], ':'); ?></h5 class="mg-top-none">
+							</center>
+				    	</li>
+				<?php endforeach; ?>
+		    </ul>
+		    <?php foreach ($teamMembers as $teamMember): ?>
+			    <?php // $editedName = str_replace(' ', '_', $teamMember['Name']); ?>
+			    <?php $editedName = str_replace(' ', '_', $teamMember['Name']); ?>
+			    <?php if ($teamMember['Picture'] == ' ' || $editedName == '_') { continue; } ?><!-- Filtering out for only people who've filled out information -->
+			    <!-- Modal -->
+			    <div class="modal fade" id="<?php echo $editedName; ?>Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 			        <div class="modal-dialog">
 			            <div class="modal-content">
 			                <div class="modal-header">
-			                    <button type="button" class="close" aria-hidden="true">&times;</button>
-			                    <h4 class="modal-title"></h4>
+			                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+			                    <h4 class="modal-title" id="myModalLabel">More About <?php echo $teamMember['Name']; ?></h4>
+			                    </div>
+			                <div class="modal-body">
+			                    <center>
+			                    <img src="<?php echo $teamMember['Picture']; ?>" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+			                    <h3 class="media-heading"><?php echo $teamMember['Name']; ?></h3>
+			                    <span><strong><?php echo rtrim($teamMember['Position'], ':'); ?></strong></span>
+			                        <!-- <span class="label label-warning">HTML5/CSS</span> -->
+			                        <!-- <span class="label label-info"></span> -->
+			                        <!-- <span class="label label-info">Microsoft Office</span> -->
+			                        <!-- <span class="label label-success">Windows XP, Vista, 7</span> -->
+			                    </center>
+			                    <hr>
+			                    <center>
+			                    <p class="text-left"><strong>Bio: </strong><br><?php echo $teamMember['Blurb']; ?></p>
+			                    <br>
+			                    </center>
+			                    <!-- <center> -->
+				                    <div class="social text-center">
+				                    	<a href="https://twitter.com/<?php echo $teamMember['Twitter']; ?>" target="rss" class="[ social-icon twitter ] animate"><span class="fa fa-twitter"></span></a>
+				                    	<a href="https://github.com/<?php echo $teamMember['GitHub']; ?>" target="rss" class="[ social-icon github ] animate"><span class="fa fa-github-alt"></span></a>
+				                    	<a href="<?php echo $teamMember['G+']; ?>" target="rss" class="[ social-icon google-plus ] animate"><span class="fa fa-google-plus"></span></a>
+				                    	<a href="<?php echo $teamMember['LinkedIn']; ?>" target="rss" class="[ social-icon linkedin ] animate"><span class="fa fa-linkedin"></span></a>
+				                    </div>
+			                    <!-- </center> -->
+			                    <button type="button" class="btn btn-default pull-right modal-up-2em" data-dismiss="modal">Close</button>
 			                </div>
-			                <div class="modal-body next"></div>
-			                <div class="modal-footer">
-			                    <button type="button" class="btn btn-default pull-left prev">
-			                        <i class="glyphicon glyphicon-chevron-left"></i>
-			                        Previous
-			                    </button>
-			                    <button type="button" class="btn btn-primary next">
-			                        Next
-			                        <i class="glyphicon glyphicon-chevron-right"></i>
-			                    </button>
-			                </div>
+			                <!-- <div class="modal-footer">
+			                </div> -->
 			            </div>
 			        </div>
 			    </div>
-			</div>
+			<?php endforeach; ?>
 
-    </div><!-- container -->
+	</div>
+</div><!-- container -->
