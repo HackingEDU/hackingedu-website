@@ -1,8 +1,8 @@
 <?php
 
 require_once './application/config.php';
-include_path = ".:/usr/local/lib/php:./libraries/google-api-php-client/src";
 set_include_path(get_include_path() . PATH_SEPARATOR . '../../libraries/google-api-php-client/src'); # To get Access Tokens to work
+include_once ".:/usr/local/lib/php:./libraries/google-api-php-client/src";
 require_once '../../libraries/google-api-php-client/src/Google/Client.php';
 
 class Model
