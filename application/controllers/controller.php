@@ -16,8 +16,6 @@ class Controller
 
 	function __construct()
 	{
-		dd('here');
-
 		new Model();
 		$teamSpreadsheet = new Google_Spreadsheet('Team Contacts & Roles');
 		// d($teamSpreadsheet);
