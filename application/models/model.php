@@ -2,7 +2,7 @@
 
 require_once './application/config.php';
 set_include_path(get_include_path() . PATH_SEPARATOR . './libraries/google-api-php-client/src'); # To get Access Tokens to work
-require_once './libraries/google-api-php-client/src/Google/Client.php';
+require_once '../../libraries/google-api-php-client/src/Google/Client.php';
 
 class Model
 {

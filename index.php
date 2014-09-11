@@ -1,7 +1,9 @@
 <?php
 	// error_reporting(0);
-$root = realpath($_SERVER["DOCUMENT_ROOT"]);
-var_dump($root);
+
+// Absolute Root Path
+// $root = realpath($_SERVER["DOCUMENT_ROOT"]);
+// var_dump($root);
 
 	error_reporting(E_ALL);
 	ini_set('display_errors', '1');
