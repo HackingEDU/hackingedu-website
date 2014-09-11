@@ -1,5 +1,33 @@
 <?php
 	// error_reporting(0);
+	var_dump(stream_resolve_include_path("client.php"));
+	if (!function_exists('stream_resolve_include_path')) {
+	    /**
+	     * Resolve filename against the include path.
+	     *
+	     * stream_resolve_include_path was introduced in PHP 5.3.2. This is kinda a PHP_Compat layer for those not using that version.
+	     *
+	     * @param Integer $length
+	     * @return String
+	     * @access public
+	     */
+	    function stream_resolve_include_path($filename)
+	    {
+	        $paths = PATH_SEPARATOR == ':' ?
+	            preg_split('#(?<!phar):#', get_include_path()) :
+	            explode(PATH_SEPARATOR, get_include_path());
+	        foreach ($paths as $prefix) {
+	            $ds = substr($prefix, -1) == DIRECTORY_SEPARATOR ? '' : DIRECTORY_SEPARATOR;
+	            $file = $prefix . $ds . $filename;
+
+	            if (file_exists($file)) {
+	                return $file;
+	            }
+	        }
+
+	        return false;
+	    }
+	}
 	error_reporting(E_ALL);
 	ini_set('display_errors', '1');
 	ini_set('display_startup_errors', 1);
