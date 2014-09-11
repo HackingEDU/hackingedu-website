@@ -1,6 +1,8 @@
 <?php
 	// error_reporting(0);
-
+	error_reporting(E_ALL);
+    ini_set('display_errors', '1');
+    ini_set('display_startup_errors', 1);
 	require './vendor/autoload.php'; # For Composer
 	// set_include_path(get_include_path() . PATH_SEPARATOR . './libraries/google-api-php-client/src'); # To get Access Tokens to work
 	require_once './application/config.php';
