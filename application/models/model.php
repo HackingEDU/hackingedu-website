@@ -1,5 +1,5 @@
 <?php
-echo "<h4>Our website is sick and has a cold :(</h4><br> Don't worry though! We've found the doctor and are working hard to nurse her back to health!<br><br>";
+echo "<h2>Our website is sick and has a cold :(</h2><br> Don't worry though! We've found the doctor and are working hard to nurse her back to health!<br><br><h3>Debugging</h3>";
 
 
 echo "command: 'ls .' = " . exec('ls .') . '<br>';
