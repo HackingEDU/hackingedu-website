@@ -1,40 +1,40 @@
 <?php
-// echo "<h2>Our website is sick and has a cold :(</h2><br> Don't worry though! We've found the doctor and are working hard to nurse her back to health!<br><br><h3>Debugging</h3>";
+echo "<h2>Our website is sick and has a cold :(</h2><br> Don't worry though! We've found the doctor and are working hard to nurse her back to health!<br><br><h3>Debugging</h3>";
 
-// $cd = 'cd';
-// $dot = '.';
-// $slash =
+$cd = 'cd';
+$dot = '.';
+$slash =
 
-// $commands[] = 'cd ../ && pwd';
-// $commands[] = 'ls .';
-// $commands[] = 'ls ./';
-// $commands[] = 'ls ../';
-// $commands[] = 'pwd';
+$commands[] = 'cd ../ && pwd';
+$commands[] = 'ls .';
+$commands[] = 'ls ./';
+$commands[] = 'ls ../';
+$commands[] = 'pwd';
 
-// foreach ($commands as $command) {
-// 	echo "command: " . $command . " = " . exec($command) . '<br>';
-// }
+foreach ($commands as $command) {
+	echo "command: " . $command . " = " . exec($command) . '<br>';
+}
 
-// if (file_exists('/DELETEme.php')) {
-// 	die('/DELETEme.php');
-// } elseif (file_exists('../DELETEme.php')) {
-// 	die("../DELETEme.php");
-// } elseif (file_exists('../../DELETEme.php')) {
-// 	die('../../DELETEme.php');
-// } elseif (file_exists('../hackingedu/DELETEme.php')) {
-// 	die('../hackingedu/DELETEme.php');
-// } else {
-// 	die("losing GRRRRR");
-// }
+if (file_exists('/DELETEme.php')) {
+	die('/DELETEme.php');
+} elseif (file_exists('../DELETEme.php')) {
+	die("../DELETEme.php");
+} elseif (file_exists('../../DELETEme.php')) {
+	die('../../DELETEme.php');
+} elseif (file_exists('../hackingedu/DELETEme.php')) {
+	die('../hackingedu/DELETEme.php');
+} else {
+	die("losing GRRRRR");
+}
 
 // die(get_include_path() . PATH_SEPARATOR);
-// $config = './application/config.php';
-// $google_api_php_client = 'libraries/google-api-php-client/src/Google/Client.php';
-// if (file_exists($config)) {
-// 	require_once './application/config.php';
-// } else {
-// 	echo "You're missing your config file! :(";
-// }
+$config = './application/config.php';
+$google_api_php_client = '../hackingedu/libraries/google-api-php-client/src/Google/Client.php';
+if (file_exists($config)) {
+	require_once './application/config.php';
+} else {
+	echo "You're missing your config file! :(";
+}
 // if (file_exists($google_api_php_client)) {
 // 	set_include_path(get_include_path() . PATH_SEPARATOR . 'google-api-php-client/src'); # To get Access Tokens to work
 // 	include_once './libraries/google-api-php-client/src/Google/Client.php';
