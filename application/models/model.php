@@ -23,11 +23,11 @@ class Model
 
 	public function __construct()
 	{
-		die('here');
 		try {
 			// Setting up Authentication and Access Token
 
 			require_once './libraries/php-google-spreadsheet-client-master/src/Google/Spreadsheet/DefaultServiceRequest.php';
+			die('after requiring libraries inside model');
 			$this->client = new Google_Client();
 			$this->client->setApplicationName("HackingEDU");
 			$this->client->setClientId(CLIENT_ID);
