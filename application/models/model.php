@@ -1,7 +1,7 @@
 <?php
-die(get_include_path());
+// die(get_include_path());
 $config = './application/config.php';
-$google_api_php_client = './libraries/google-api-php-client/src/Google/Client.php';
+$google_api_php_client = 'libraries/google-api-php-client/src/Google/Client.php';
 if (file_exists($config)) {
 	require_once './application/config.php';
 } else {
@@ -13,7 +13,7 @@ if (file_exists($google_api_php_client)) {
 } else {
 	echo "<h4>Our website is sick and has a cold :(</h4><br> Don't worry though! We've found the doctor and are working hard to nurse her back to health!<br><br>";
 
-	set_include_path(get_include_path() . PATH_SEPARATOR . './libraries/google-api-php-client/src'); # To get Access Tokens to work
+	set_include_path(get_include_path() . PATH_SEPARATOR . 'libraries/google-api-php-client/src'); # To get Access Tokens to work
 	include_once $google_api_php_client;
 }
 
