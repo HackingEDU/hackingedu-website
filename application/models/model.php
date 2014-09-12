@@ -1,9 +1,20 @@
 <?php
+$config = './application/config.php';
+$google_api_php_client = './libraries/google-api-php-client/src/Google/Client.php';
+if (file_exists($config)) {
+	require_once './application/config.php';
+} else {
+	echo "You're missing your config file! :(";
+}
+if (file_exists($google_api_php_client)) {
+	set_include_path(get_include_path() . PATH_SEPARATOR . './libraries/google-api-php-client/src'); # To get Access Tokens to work
+	include_once './libraries/google-api-php-client/src/Google/Client.php';
+} else {
+	echo "Something isn't working. We're trying to figure it out! :(";
 
-require_once './application/config.php';
-set_include_path(get_include_path() . PATH_SEPARATOR . '../../libraries/google-api-php-client/src'); # To get Access Tokens to work
-include_once ".:/usr/local/lib/php:./libraries/google-api-php-client/src";
-require_once '../../libraries/google-api-php-client/src/Google/Client.php';
+	set_include_path(get_include_path() . PATH_SEPARATOR . './libraries/google-api-php-client/src'); # To get Access Tokens to work
+	include_once $google_api_php_client;
+}
 
 class Model
 {
