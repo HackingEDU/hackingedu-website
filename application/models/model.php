@@ -28,7 +28,7 @@ foreach ($commands as $command) {
 // die(get_include_path() . PATH_SEPARATOR);
 $config = './application/config.php';
 $google_api_php_client = '../hackingedu/libraries/google-api-php-client/src/Google/Client.php';
-echo (file_exists($config)) ? require_once './application/config.php' : "You're missing your config file! :(";
+if (file_exists($config)) ? require_once './application/config.php' : "You're missing your config file! :(";
 // if (file_exists($config)) {
 // 	require_once './application/config.php';
 // } else {
