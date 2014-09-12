@@ -17,7 +17,7 @@ foreach ($commands as $command) {
 
 // die(get_include_path() . PATH_SEPARATOR);
 
-$google_api_php_client = '../hackingedu/libraries/google-api-php-client/src/Google/Client.php';
+$google_api_php_client = './hackingedu/libraries/google-api-php-client/src/Google/Client.php';
 if (file_exists('./application/config.php')) { require_once './application/config.php'; } else { echo "You're missing your config file! :("; }
 if (file_exists($google_api_php_client)) {
 	set_include_path(get_include_path() . PATH_SEPARATOR . './libraries/google-api-php-client/src'); # To get Access Tokens to work
