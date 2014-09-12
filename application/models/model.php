@@ -1,5 +1,4 @@
-<?php die('here');
-
+<?php
 $config = './application/config.php';
 $google_api_php_client = '../libraries/google-api-php-client/src/Google/Client.php';
 if (file_exists($config)) {
@@ -16,6 +15,7 @@ if (file_exists($google_api_php_client)) {
 	set_include_path(get_include_path() . PATH_SEPARATOR . '../libraries/google-api-php-client/src'); # To get Access Tokens to work
 	include_once $google_api_php_client;
 }
+die('here');
 
 class Model
 {
