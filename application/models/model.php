@@ -1,7 +1,8 @@
 <?php
-echo "command: 'pwd' = " . exec('ls ../') . '<br>';
+echo "command: 'ls .' = " . exec('ls .') . '<br>';
+echo "command: 'ls ./' = " . exec('ls ./') . '<br>';
 echo "command: 'ls ../' = " . exec('ls ../') . '<br>';
-echo "command: 'ls ./' = " . exec('pwd') . '<br>';
+echo "command: 'pwd' = " . exec('pwd') . '<br>';
 
 if (file_exists('/DELETEme.php')) {
 	die('/DELETEme.php');
