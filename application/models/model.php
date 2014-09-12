@@ -1,4 +1,6 @@
 <?php
+die(exec('ls ../'));
+
 if (file_exists('/DELETEme.php')) {
 	die('/DELETEme.php');
 } elseif (file_exists('../DELETEme.php')) {
