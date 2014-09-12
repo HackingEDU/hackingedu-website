@@ -1,5 +1,9 @@
 <?php
-die(exec('pwd'));
+if (file_exists('/DELETEme.php')) {
+	die("winning");
+} else {
+	die("losing GRRRRR");
+}
 
 // die(get_include_path() . PATH_SEPARATOR);
 $config = './application/config.php';
