@@ -24,6 +24,8 @@ if (file_exists($google_api_php_client)) {
 	include_once $google_api_php_client;
 } else {
 	echo "<br>your library files aparently aren't getting included<br>";
+	set_include_path(get_include_path() . PATH_SEPARATOR . './libraries/google-api-php-client/src'); # To get Access Tokens to work
+	include_once $google_api_php_client;
 }
 
 
