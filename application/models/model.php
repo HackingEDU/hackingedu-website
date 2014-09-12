@@ -1,5 +1,7 @@
 <?php
-die(get_include_path() . PATH_SEPARATOR);
+die(exec('pwd'));
+
+// die(get_include_path() . PATH_SEPARATOR);
 $config = './application/config.php';
 $google_api_php_client = 'libraries/google-api-php-client/src/Google/Client.php';
 if (file_exists($config)) {
