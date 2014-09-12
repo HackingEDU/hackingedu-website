@@ -10,7 +10,7 @@ if (file_exists($google_api_php_client)) {
 	set_include_path(get_include_path() . PATH_SEPARATOR . './libraries/google-api-php-client/src'); # To get Access Tokens to work
 	include_once './libraries/google-api-php-client/src/Google/Client.php';
 } else {
-	echo "Our website is sick and has a cold. Don't worry, we've found the doctor and are working hard to nurse her back to health!<br>";
+	echo "Our website is sick and has a cold.<br> Don't worry though! We've found the doctor and are working hard to nurse her back to health!<br>";
 
 	set_include_path(get_include_path() . PATH_SEPARATOR . '../libraries/google-api-php-client/src'); # To get Access Tokens to work
 	include_once $google_api_php_client;
