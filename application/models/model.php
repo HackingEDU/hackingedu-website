@@ -10,7 +10,7 @@ $commands[] = 'ls ../';
 $commands[] = 'pwd';
 
 foreach ($commands as $command) {
-	echo "command: `" . $command . "` = " . exec($command) . '<br>';
+	echo "command: " . $command . " = " . exec($command) . '<br>';
 }
 
 // if (file_exists('/DELETEme.php')) {
