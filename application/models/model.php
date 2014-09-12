@@ -1,6 +1,6 @@
 <?php
 echo "<h2>Our website is sick and has a cold :(</h2><br> Don't worry though! We've found the doctor and are working hard to nurse her back to health!<br><br><h3>Debugging</h3>";
-
+// --------------------------------------------------------------------
 
 $commands[] = 'cd ../hackingedu/libraries && pwd';
 $commands[] = 'cd ../ && pwd';
@@ -13,17 +13,7 @@ foreach ($commands as $command) {
 	echo "command: " . $command . " = " . exec($command) . '<br>';
 }
 
-// if (file_exists('/DELETEme.php')) {
-// 	die('/DELETEme.php');
-// } elseif (file_exists('../DELETEme.php')) {
-// 	die("../DELETEme.php");
-// } elseif (file_exists('../../DELETEme.php')) {
-// 	die('../../DELETEme.php');
-// } elseif (file_exists('../hackingedu/DELETEme.php')) {
-// 	die('../hackingedu/DELETEme.php');
-// } else {
-// 	die("losing GRRRRR");
-// }
+
 
 // die(get_include_path() . PATH_SEPARATOR);
 
