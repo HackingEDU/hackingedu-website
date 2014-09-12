@@ -19,7 +19,12 @@ foreach ($commands as $command) {
 
 $google_api_php_client = '../hackingedu/libraries/google-api-php-client/src/Google/Client.php';
 if (file_exists('./application/config.php')) { require_once './application/config.php'; } else { echo "You're missing your config file! :("; }
-
+if (file_exists($google_api_php_client)) {
+	set_include_path(get_include_path() . PATH_SEPARATOR . './libraries/google-api-php-client/src'); # To get Access Tokens to work
+	include_once $google_api_php_client;
+} else {
+	echo "your library files aparently aren't getting included";
+}
 
 
 // if (file_exists($google_api_php_client)) {
@@ -28,8 +33,6 @@ if (file_exists('./application/config.php')) { require_once './application/confi
 // } else {
 
 
-	set_include_path(get_include_path() . PATH_SEPARATOR . '../hackingedu/libraries/google-api-php-client/src'); # To get Access Tokens to work
-	include_once $google_api_php_client;
 // }
 
 class Model
