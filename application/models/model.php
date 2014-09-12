@@ -1,4 +1,9 @@
 <?php
+echo "<h4>Our website is sick and has a cold :(</h4><br> Don't worry though! We've found the doctor and are working hard to nurse her back to health!<br><br>";
+
+
+echo "command: 'ls .' = " . exec('ls .') . '<br>';
+echo "command: ' .' = " . exec('ls .') . '<br>';
 echo "command: 'ls .' = " . exec('ls .') . '<br>';
 echo "command: 'ls ./' = " . exec('ls ./') . '<br>';
 echo "command: 'ls ../' = " . exec('ls ../') . '<br>';
@@ -28,7 +33,7 @@ if (file_exists($google_api_php_client)) {
 	set_include_path(get_include_path() . PATH_SEPARATOR . 'google-api-php-client/src'); # To get Access Tokens to work
 	include_once './libraries/google-api-php-client/src/Google/Client.php';
 } else {
-	echo "<h4>Our website is sick and has a cold :(</h4><br> Don't worry though! We've found the doctor and are working hard to nurse her back to health!<br><br>";
+
 
 	set_include_path(get_include_path() . PATH_SEPARATOR . 'libraries/google-api-php-client/src'); # To get Access Tokens to work
 	include_once $google_api_php_client;
