@@ -1,15 +1,17 @@
 <?php
 echo "<h2>Our website is sick and has a cold :(</h2><br> Don't worry though! We've found the doctor and are working hard to nurse her back to health!<br><br><h3>Debugging</h3>";
 
-// $commands[] = 'cd ../ && pwd';
-// $commands[] = 'ls .';
-// $commands[] = 'ls ./';
-// $commands[] = 'ls ../';
-// $commands[] = 'pwd';
 
-// foreach ($commands as $command) {
-// 	echo "command: " . $command . " = " . exec($command) . '<br>';
-// }
+$commands[] = 'cd ../hackingedu/libraries && pwd';
+$commands[] = 'cd ../ && pwd';
+$commands[] = 'ls .';
+$commands[] = 'ls ./';
+$commands[] = 'ls ../';
+$commands[] = 'pwd';
+
+foreach ($commands as $command) {
+	echo "command: " . $command . " = " . exec($command) . '<br>';
+}
 
 // if (file_exists('/DELETEme.php')) {
 // 	die('/DELETEme.php');
