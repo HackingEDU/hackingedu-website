@@ -5,7 +5,7 @@ $cd = 'cd';
 $dot = '.';
 $slash =
 
-$commands[] = 'cd ../ && ls';
+$commands[] = 'cd ../ && pwd';
 $commands[] = 'ls .';
 $commands[] = 'ls ./';
 $commands[] = 'ls ../';
