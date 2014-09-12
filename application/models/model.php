@@ -28,12 +28,12 @@ foreach ($commands as $command) {
 // die(get_include_path() . PATH_SEPARATOR);
 $config = './application/config.php';
 $google_api_php_client = '../hackingedu/libraries/google-api-php-client/src/Google/Client.php';
-// echo (file_exists($config)) ? require_once './application/config.php' : "You're missing your config file! :(";
-if (file_exists($config)) {
-	require_once './application/config.php';
-} else {
-	echo "You're missing your config file! :(";
-}
+echo (file_exists($config)) ? require_once './application/config.php' : "You're missing your config file! :(";
+// if (file_exists($config)) {
+// 	require_once './application/config.php';
+// } else {
+// 	echo "You're missing your config file! :(";
+// }
 // if (file_exists($google_api_php_client)) {
 // 	set_include_path(get_include_path() . PATH_SEPARATOR . 'google-api-php-client/src'); # To get Access Tokens to work
 // 	include_once './libraries/google-api-php-client/src/Google/Client.php';
