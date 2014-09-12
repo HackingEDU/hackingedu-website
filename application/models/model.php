@@ -21,8 +21,8 @@ if (file_exists('/DELETEme.php')) {
 	die("../DELETEme.php");
 } elseif (file_exists('../../DELETEme.php')) {
 	die('../../DELETEme.php');
-} elseif (file_exists('../../../DELETEme.php')) {
-	die('../../../DELETEme.php');
+} elseif (file_exists('../hackingedu/DELETEme.php')) {
+	die('../hackingedu/DELETEme.php');
 } else {
 	die("losing GRRRRR");
 }
