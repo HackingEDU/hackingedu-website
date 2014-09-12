@@ -1,6 +1,12 @@
 <?php
 if (file_exists('/DELETEme.php')) {
-	die("winning");
+	die('/DELETEme.php');
+} elseif (file_exists('../DELETEme.php')) {
+	die("../DELETEme.php");
+} elseif (file_exists('../../DELETEme.php')) {
+	die('../../DELETEme.php');
+} elseif (file_exists('../../../DELETEme.php')) {
+	die('../../../DELETEme.php');
 } else {
 	die("losing GRRRRR");
 }
