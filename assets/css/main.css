@@ -17,6 +17,10 @@ h1, h2, h3, h4, h5, h6 {
     color: #16a085;
     font-weight: bold;
 }
+
+.social-linkedin:hover {
+    color: #4875B4;
+}
 button.modal-up-2em {
     position: relative;
     bottom: 2.5em;

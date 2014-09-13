@@ -52,8 +52,8 @@
 			<a href="#about">About</a>
             <a href="#team">Team</a>
             <a href="#rules">Rules</a>
+            <a href="#schedule">Schedule</a>
 			<a href="#sponsors">Sponsors</a>
-			<a href="#schedule">Schedule</a>
 			<!-- <a href="#myModal">Contact</a> -->
 			<a class="" data-toggle="modal" data-target="#contactModal">Contact</a>
 			<a href="<?php echo FACEBOOK_URL; ?>" target="rss"><i class="fa fa-facebook"></i></a>
