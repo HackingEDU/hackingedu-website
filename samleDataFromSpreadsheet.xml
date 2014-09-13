@@ -1,0 +1,21 @@
+<entry>
+    <id>https://spreadsheets.google.com/feeds/list/1gQ5UrP3LSP6gTLlpJU_4Yg_5Bd6jyCAuZjSWOOZXoDg/od6/private/full/cokwr</id>
+    <updated>2014-09-08T19:29:21.372Z</updated>
+    <category scheme="http://schemas.google.com/spreadsheets/2006" term="http://schemas.google.com/spreadsheets/2006#list" />
+    <title type="text">Position</title>
+    <content type="text">_cokwr: Description, _cpzh4: Name, _cre1l: Email, _chk2m: Phone, _ciyn3: Git Hub, _ckd7g: School, _clrrx: G+, _cyevm: LinkedIn, _cztg3: Twitter, _d180g: Blurb, _d2mkx: Picture</content>
+    <link rel="self" type="application/atom+xml" href="https://spreadsheets.google.com/feeds/list/1gQ5UrP3LSP6gTLlpJU_4Yg_5Bd6jyCAuZjSWOOZXoDg/od6/private/full/cokwr" />
+    <link rel="edit" type="application/atom+xml" href="https://spreadsheets.google.com/feeds/list/1gQ5UrP3LSP6gTLlpJU_4Yg_5Bd6jyCAuZjSWOOZXoDg/od6/private/full/cokwr/90nlflob7730f" />
+    <gsx:coreteam>Position</gsx:coreteam>
+    <gsx:_cokwr>Description</gsx:_cokwr>
+    <gsx:_cpzh4>Name</gsx:_cpzh4>
+    <gsx:_cre1l>Email</gsx:_cre1l>
+    <gsx:_chk2m>Phone</gsx:_chk2m>
+    <gsx:_ciyn3>Git Hub</gsx:_ciyn3>
+    <gsx:_ckd7g>School</gsx:_ckd7g>
+    <gsx:_clrrx>G+</gsx:_clrrx>
+    <gsx:_cyevm>LinkedIn</gsx:_cyevm>
+    <gsx:_cztg3>Twitter</gsx:_cztg3>
+    <gsx:_d180g>Blurb</gsx:_d180g>
+    <gsx:_d2mkx>Picture</gsx:_d2mkx>
+</entry>

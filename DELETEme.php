@@ -1,2 +1,0 @@
-<?php
-die(exec('pwd'));
