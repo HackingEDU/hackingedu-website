@@ -1,13 +1,8 @@
 <?php
-	// error_reporting(0);
-
-// Absolute Root Path
-// $root = realpath($_SERVER["DOCUMENT_ROOT"]);
-// var_dump($root);
-
-	error_reporting(E_ALL);
-	ini_set('display_errors', '1');
-	ini_set('display_startup_errors', 1);
+	error_reporting(0);
+	// error_reporting(E_ALL);
+	// ini_set('display_errors', '1');
+	// ini_set('display_startup_errors', 1);
 	require './vendor/autoload.php'; # For Composer
 	// die('in the index.php');
 
