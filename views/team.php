@@ -50,10 +50,10 @@
                             <div class="text-center center-block">
                                 <!-- <p class="txt-railway">- Bootsnipp.com -</p> -->
                                 <!-- <br /> -->
-                                <a href="<?php echo $teamMember['LinkedIn']; ?>"><i id="social" class="fa fa-linkedin-square fa-3x social-linkedin"></i></a>
-                	            <a href="https://twitter.com/<?php echo $teamMember['Twitter']; ?>"><i id="social" class="fa fa-twitter-square fa-3x social-tw"></i></a>
-                	            <a href="<?php echo $teamMember['G+']; ?>"><i id="social" class="fa fa-google-plus-square fa-3x social-gp"></i></a>
-                	            <a href="https://github.com/<?php echo $teamMember['GitHub']; ?>"><i id="social" class="fa fa-github-square fa-3x"></i></a>
+                                <a href="<?php echo $teamMember['LinkedIn']; ?>" target="rss"><i id="social" class="fa fa-linkedin-square fa-3x social-linkedin"></i></a>
+                	            <a href="https://twitter.com/<?php echo $teamMember['Twitter']; ?>" target="rss"><i id="social" class="fa fa-twitter-square fa-3x social-tw"></i></a>
+                	            <a href="<?php echo $teamMember['G+']; ?>" target="rss"><i id="social" class="fa fa-google-plus-square fa-3x social-gp"></i></a>
+                	            <a href="https://github.com/<?php echo $teamMember['GitHub']; ?>" target="rss"><i id="social" class="fa fa-github-square fa-3x"></i></a>
 		                    </div>
 		                    <button type="button" class="btn btn-default pull-right modal-up-2em" data-dismiss="modal">Close</button>
 		                </div>
