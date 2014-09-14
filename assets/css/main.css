@@ -13,6 +13,84 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
     color: #333;
 }
+/* =========================================================================
+                            Coming Soon
+   =======================================================================*/
+div.timer_box{
+   margin: 35px 24px;
+   display: inline-block;
+   padding: 20px 12px 0px 12px;
+   text-align: center;
+   width: 130px;
+   border-radius: 50%;
+   border: 4px solid rgba(155, 155, 155, .7);
+}
+div.timer_box h1{
+   font-size: 48px;
+   margin-top: 5px;
+   margin-bottom: 0px;
+   font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+   color: white;
+}
+div.timer_box p{ margin-top: 0px;}
+#layer{
+   background-color: rgba(0, 0, 0, .2);
+   left: 0; top: 0;
+   width: 100%;
+   height: 100%;
+   position: fixed;
+   z-index: 1;
+}
+#slider{
+   width: 100%;
+   position: fixed;
+   background-color: #2c3e50;
+   top: 0;
+   left: 0;
+   z-index: 0;
+   padding:0;
+}
+
+.mt {
+margin-top: 30px;
+}
+div.timer_box>h1 {
+    color: rgba(155, 155, 155, .7);
+}
+
+.centered {
+text-align: center;
+}
+/******************************************************************************************************************************
+RESPONSIVE
+*******************************************************************************************************************************/
+@media only screen and (max-width: 520px) {
+   div.timer_box{ margin: 0 12px 12px 0;}
+   .tp-bullets{display: none;}
+   #header .container{padding: 20px 0px 20px 0}
+   #header-button{ display: none;}
+   #appendedInputButtons{
+       border-radius: 20px;
+       margin-bottom: 25px;
+   }
+   #slider{display: none;}
+   .btn-subscribe{border-radius: 20px;}
+   #contact-informations{margin-top: 24px;}
+   body {
+    background-color: #2c3e50;
+   }
+}
+@media only screen and (max-width: 740px) {
+   div.timer_box{
+       width: 100px;
+       padding: 16px 0 0 0;
+       margin: 35px 12px;
+   }
+   #layer{display: none;}
+   div.timer_box h1{ font-size: 28px;}
+   h1{ font-size: 36px;}
+}
+/*************************************/
 .clr-green {
     color: #16a085;
     font-weight: bold;
