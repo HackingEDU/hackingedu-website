@@ -9,7 +9,7 @@
 					<li>
 						<h1 class="coming-soon">Coming Soon!</h1>
 						<!-- START TIMER -->
-						<div id="timer" data-animated="FadeIn">
+						<div id="timer" class="marg-btm-1" data-animated="FadeIn">
 						    <!-- <p id="message"></p> -->
 						    <div id="days" class="timer_box"></div>
 						    <div id="hours" class="timer_box"></div>
