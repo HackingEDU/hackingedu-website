@@ -276,7 +276,7 @@
             <div dir="ltr" class="ss-item  ss-radio">
                 <div class="ss-form-entry">
                     <label class="ss-q-item-label" for="entry_567906908">
-                        <div class="ss-q-title">Will you need a travel reimbursement/arrangement to attend Hacking Edu?</div>
+                        <div class="ss-q-title">Will you need a travel reimbursement/arrangement to attend HackingEDU?</div>
                         <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
                     </label>
                     <div class="radio-inline pull-right required-message">required</div>

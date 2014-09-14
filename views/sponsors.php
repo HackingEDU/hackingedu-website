@@ -1,17 +1,17 @@
 		<div id="sponsors">
-			<div class="container ">
+<!-- 			<div class="container ">
 				<div class="row">
 					<div class="col-lg-12">
 						<h1 class="pull-left" style="color: white">2015 Hacking Edu Sponsors</h1>
 					</div>
 				</div>
-			</div>
+			</div> -->
 			<!-- BOOTSTRAP SLIDER (it sucks...) -->
-			<div class="container">
+			<!-- <div class="container"> -->
 			  <!-- <div class="row">
 			    <h2>Media Slider Carousel BS3</h2>
 			  </div> -->
-			  <div class='row'>
+<!-- 			  <div class='row'>
 			    <div class='col-md-12'>
 			      <div class="carousel slide media-carousel" id="media" data-ride="carousel">
 			        <div class="carousel-inner">
@@ -80,19 +80,19 @@
 			              </div>
 			            </div>
 			          </div>
-			        </div>
+			        </div> -->
 			        <!-- <a data-slide="prev" href="#media" class="left carousel-control">‹</a> -->
 			        <!-- <a data-slide="next" href="#media" class="right carousel-control">›</a> -->
-			      </div>
+			  <!--     </div>
 			    </div>
 			  </div>
-			</div>
+			</div> -->
 			<!-- BOOTSTRAP SLIDER (it sucks...) -->
-			<div class="container">
+			<!-- <div class="container"> -->
 			  <!-- <div class="row">
 			    <h2>Media Slider Carousel BS3</h2>
 			  </div> -->
-			  <div class='row'>
+			  <!-- <div class='row'>
 			    <div class='col-md-12'>
 			      <div class="carousel slide media-carousel" id="media2" data-ride="carousel">
 			        <div class="carousel-inner">
@@ -176,19 +176,19 @@
 			              </div>
 			            </div>
 			          </div>
-			        </div>
+			        </div> -->
 			        <!-- <a data-slide="prev" href="#media2" class="left carousel-control">‹</a> -->
 			        <!-- <a data-slide="next" href="#media2" class="right carousel-control">›</a> -->
-			      </div>
+			     <!--  </div>
 			    </div>
 			  </div>
-			</div>
+			</div> -->
 			<!-- BOOTSTRAP SLIDER (it sucks...) -->
-			<div class="container">
+			<!-- <div class="container"> -->
 			  <!-- <div class="row">
 			    <h2>Media Slider Carousel BS3</h2>
 			  </div> -->
-			  <div class='row'>
+			  <!-- <div class='row'>
 			    <div class='col-md-12'>
 			      <div class="carousel slide media-carousel" id="media1" data-ride="carousel">
 			        <div class="carousel-inner">
@@ -302,13 +302,13 @@
 			              </div>
 			            </div>
 			          </div>
-			        </div>
+			        </div> -->
 			        <!-- <a data-slide="prev" href="#media1" class="left carousel-control">‹</a> -->
 			        <!-- <a data-slide="next" href="#media1" class="right carousel-control">›</a> -->
-			      </div>
+			      <!-- </div>
 			    </div>
 			  </div>
-			</div>
+			</div> -->
 <!-- 	<div id="owl-example" class="owl-carousel">
 	  <div><img src="./assets/img/clients/c01.gif" alt=""></div>
 	  <div><img src="./assets/img/clients/c02.gif" alt=""></div>
