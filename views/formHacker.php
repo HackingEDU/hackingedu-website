@@ -308,7 +308,7 @@
             <div dir="ltr" class="ss-item  ss-paragraph-text">
                 <div class="ss-form-entry">
                     <label class="ss-q-item-label" for="entry_1146393786">
-                        <div class="ss-q-title">At Hacking Edu we want to show the world the new ways we can learn. How do you plan to tackle this challenge?</div>
+                        <div class="ss-q-title">At HackingEDU we want to show the world the new ways we can learn. How do you plan to tackle this challenge?</div>
                         <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
                     </label>
                     <textarea placeholder="Tell us about your idea! :)" name="entry.1146393786" rows="8" cols="0" class="ss-q-long form-control" id="entry_1146393786" dir="auto" aria-label="At Hacking Edu we want to show the world the new ways we can learn. How do you plan to tackle this challenge?  "></textarea>
