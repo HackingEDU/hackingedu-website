@@ -31,7 +31,7 @@
             hours.html('<h1>0</h1><p>Hour</p>');
             minutes.html('<h1>0</h1><p>Minute</p>');
             seconds.html('<h1>0</h1><p>Second</p>');
-            // message.html('');
+            message.html('The schedule is not yet complete but it will be coming soon!');
         }
         else{
             var s = -now.getTimezoneOffset()*60 + (launch.getTime() - now.getTime())/1000;
@@ -50,7 +50,7 @@
             seconds.html('<h1>'+s+'</h1><p>Second'+(s>1?'s':''),'</p>');
             setTimeout(setDate, 1000);
 
-            // message.html('');
+            message.html('The schedule is not yet complete but it will be coming soon!');
         }
     }
 })(jQuery);
