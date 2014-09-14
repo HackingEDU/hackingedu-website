@@ -10,7 +10,7 @@
     <!-- <link rel="shortcut icon" href="hackinged.ico"> -->
     <!-- <link rel="shortcut icon" href="assets/ico/faviconΩ.png"> -->
 
-    <title>Hacking Edu</title>
+    <title>HackingEDU</title>
 
     <link rel="stylesheet" href="./libraries/flexisel-master/css/style.css">
     <!-- Bootstrap core CSS -->
