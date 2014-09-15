@@ -1,6 +1,6 @@
 <div class="modal fade" id="sponsorshipModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="m-top-10">
-        <div class="col-sm-8 col-sm-offset-2 text-center">
+        <div class="col-sm-10 col-sm-offset-1 text-center">
             <h1>Levels Of Sponsorship</h1>
 
             <div class="auth contact-form well auth-box">
