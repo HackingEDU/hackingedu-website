@@ -23,7 +23,7 @@
                             <td>$3,000</td>
                             <td>$5,000</td>
                             <td>$10,000</td>
-                            <td>$20,000</td>
+                            <td>$20,000<br><span class="small-grey">(only 1)</span></td>
                         </tr>
 
                         <!-- GENERAL -->

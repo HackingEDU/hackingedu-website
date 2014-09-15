@@ -110,8 +110,8 @@
 		<?php require_once './views/sponsors.php'; ?>
 
 		<!-- STAY CONNECTED -->
-	    <div class="container ">
-	    	<div class="row mt">
+	    <div class="container">
+	    	<div class="row mt marg-btm-3">
 	      		<div class="col-lg-8">
 		        	<h1>Stay Connected</h1>
 		        	<p>Join us on our social networks for all the latest updates, service announcements and more or shoot us an email at <strong><a href="mailto:team@hackingedu.co">team@hackingedu.co</a></strong>.</p>
@@ -185,6 +185,28 @@
 		<!-- Include js plugin -->
 		<script src="./libraries/owl.carousel/owl-carousel/owl.carousel.js"></script>
 		<script>
+			// DIRECT TO CORRECT FORM
+			$(document).ready(function() {
+			    $('.apply-btn').click(function() {
+				    $('ul.panel-tabs li.active').removeClass('active');
+				    $('ul.panel-tabs li.hackerSignup').addClass('active');
+				    $('div.tab-pane.active').removeClass('active');
+				    $('div.tab-pane.hackerSignup').addClass('active');
+			    });
+			    $('.volunteer-btn').click(function() {
+			    	$('ul.panel-tabs li.active').removeClass('active');
+				    $('ul.panel-tabs li.volunteerSignup').addClass('active');
+				    $('div.tab-pane.active').removeClass('active');
+				    $('div.tab-pane.volunteerSignup').addClass('active');
+			    });
+			    $('.sponsor-btn').click(function() {
+			    	$('ul.panel-tabs li.active').removeClass('active');
+				    $('ul.panel-tabs li.sponsorSignup').addClass('active');
+				    $('div.tab-pane.active').removeClass('active');
+				    $('div.tab-pane.sponsorSignup').addClass('active');
+			    });
+			});
+
 			// Remove the Social Links that aren't used!
 			$.fn.exists = function () {
 			    return this.length !== 0;
@@ -307,27 +329,7 @@
 				viewportFactor : 0.2
 			} );
 
-			// DIRECT TO CORRECT FORM
-			$(document).ready(function() {
-			    $('.apply-btn').click(function() {
-				    $('ul.panel-tabs li.active').removeClass('active');
-				    $('ul.panel-tabs li.hackerSignup').addClass('active');
-				    $('div.tab-pane.active').removeClass('active');
-				    $('div.tab-pane.hackerSignup').addClass('active');
-			    });
-			    $('.volunteer-btn').click(function() {
-			    	$('ul.panel-tabs li.active').removeClass('active');
-				    $('ul.panel-tabs li.volunteerSignup').addClass('active');
-				    $('div.tab-pane.active').removeClass('active');
-				    $('div.tab-pane.volunteerSignup').addClass('active');
-			    });
-			    $('.sponsor-btn').click(function() {
-			    	$('ul.panel-tabs li.active').removeClass('active');
-				    $('ul.panel-tabs li.sponsorSignup').addClass('active');
-				    $('div.tab-pane.active').removeClass('active');
-				    $('div.tab-pane.sponsorSignup').addClass('active');
-			    });
-			});
+
 		</script>
 	</body>
 </html>

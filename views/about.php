@@ -1,6 +1,6 @@
-      <div class="container ">
+      <div id="about" class="container ">
             <div class="row mt">
-            	<div id="about" class="col-lg-8">
+            	<div class="col-lg-8">
                     <h1>What is Hacking Edu?</h1>
                     <h3>Vision:</h3>
                     <p>A world where students believe they can take that big chance, that big dream, and make it a reality.</p>

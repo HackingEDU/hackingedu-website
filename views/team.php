@@ -1,7 +1,7 @@
 
 <div id="team" class="container ">
-	<div class="container"
-		<div class="col-lg-12 mt">
+	<div class="row mt marg-btm-3">
+		<div class="col-lg-12">
 			<h1>The HackingEDU Team</h1>
 		</div><!-- col-lg-12 -->
 		<!-- <div class="col-lg-8"> -->
