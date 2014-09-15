@@ -12,21 +12,13 @@
 	require './application/controllers/controller.php';
 	$controller = new Controller();
 
-	// include_once './application/controllers/teamController.php'; # For team section (holds Member class)
 	include_once './application/analyticstracking.php'; # For Google Analytics
 	echo $google_analytics;
 
 	require_once './views/header.php';
 
-	// $teamMembers = array();
-	// $teamMembers = $controller->getTeamMembers();
-	// dd($teamMembers);
-
-	$rows = $controller->getRows();
-	// dd($rows);
-
+	$rows = $controller->getRows(); // rows
 	$teamMembers = array();
-
 	$teamName;
 	foreach ($rows as $row) {
 		$teamMember = array();
@@ -35,26 +27,13 @@
 		} else {
 			foreach ($row as $key => $value) {
 				$teamMember[$key] = $value;
-				$teamMember['Team Name:'] = $teamName;
+				$teamMember['team name'] = $teamName . ': ';
 			}
 			$teamMembers[] = $teamMember;
 		}
 
 	}
 	// dd($teamMembers);
-
-
-
-?>
-
-<?php
-	// TODO: Loop through the users and add them into this bootstrap snippet: http://bootsnipp.com/snippets/2XX5
-
-	// Social Links For People
-	// <a href="https://www.facebook.com/bootsnipp"><i id="social" class="fa fa-facebook-square fa-3x social-fb"></i></a>
-    // <a href="https://twitter.com/bootsnipp"><i id="social" class="fa fa-twitter-square fa-3x social-tw"></i></a>
-    // <a href="https://plus.google.com/+Bootsnipp-page"><i id="social" class="fa fa-google-plus-square fa-3x social-gp"></i></a>
-    // <a href="mailto:bootsnipp@gmail.com"><i id="social" class="fa fa-envelope-square fa-3x social-em"></i></a>
 ?>
 
 		<!-- Social Like/Follow Buttons -->
@@ -253,38 +232,6 @@
 			    interval: false,
 			  });
 			});
-
-			// -- Pretty slider (problem: can only do one slider though -__-)
-			//   $("#myCarousel2").flexisel({
-			//     visibleItems: 5,
-			//     animationSpeed: 1700,
-			//     autoPlay: true,
-			//     autoPlaySpeed: 3000,
-			//     pauseOnHover: true,
-			//     // clone:false,
-			//     // enableResponsiveBreakpoints: true,
-			//     // responsiveBreakpoints: {
-			//     //   portrait: {
-			//     //     changePoint:480,
-			//     //     visibleItems: 1
-			//     //   },
-			//     //   landscape: {
-			//     //     changePoint:640,
-			//     //     visibleItems: 2
-			//     //   },
-			//     //   tablet: {
-			//     //     changePoint:768,
-			//     //     visibleItems: 3
-			//     //   }
-			//     // }
-			//   });
-			// });
-			// Animations for the sponsors!
-			// $(window).load(function() {
-
-			// });
-
-
 
 			// Facebook Like Button
 			window.fbAsyncInit = function() {
