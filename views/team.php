@@ -8,6 +8,7 @@
 			<!-- <p>We're excited to get the sponsors underway.  We plan to have Google, Evernote, Visa, and more!</p> -->
 		<!-- </div> --><!-- col-lg-8 -->
 
+		<!-- TEAM PHOTOS -->
 	    <ul class="grid effect-2" id="grid">
 		    <?php foreach ($teamMembers as $teamMember): ?>
 			    <?php $editedName = str_replace(' ', '_', $teamMember['Name']); ?>
@@ -16,7 +17,7 @@
 			        <center>
 		    	        <a href="#aboutModal" data-toggle="modal" data-target="#<?php echo $editedName; ?>Modal"><img src="<?php echo $teamMember['Picture']; ?>" name="aboutme" width="140" height="140" class="img-circle"></a>
 		    	        <h3 class="mg-bottom-none"><?php echo $teamMember['Name']; ?></h3>
-		    	        <h5 class="mg-top-none"><?php echo $teamMember['team name']; ?><?php echo rtrim($teamMember['Position'], ':'); ?></h5 class="mg-top-none">
+		    	        <h5 class="mg-top-none"><strong><?php echo $teamMember['team name']; ?></strong><?php echo rtrim($teamMember['Position'], ':'); ?></h5 class="mg-top-none">
 					</center>
 		    	</li>
 			<?php endforeach; ?>
@@ -36,7 +37,7 @@
 		                    <center>
 			                    <img src="<?php echo $teamMember['Picture']; ?>" name="aboutme" width="140" height="140" border="0" class="img-circle"><!-- </a> -->
 			                    <h3 class="media-heading"><?php echo $teamMember['Name']; ?></h3>
-			                    <span><strong><?php echo $teamMember['team name']; ?><?php echo rtrim($teamMember['Position'], ':'); ?></strong></span>
+			                    <span><strong><?php echo $teamMember['team name']; ?></strong><?php echo rtrim($teamMember['Position'], ':'); ?></span>
 			                        <!-- <span class="label label-warning">HTML5/CSS</span> -->
 			                        <!-- <span class="label label-info"></span> -->
 			                        <!-- <span class="label label-info">Microsoft Office</span> -->
