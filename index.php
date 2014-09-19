@@ -281,17 +281,17 @@
 			}(document, 'script', 'twitter-wjs');
 
 
-			// // ANIMATIONS ON SCROLL
-			// new AnimOnScroll( document.getElementById( 'grid' ), {
-			// 	minDuration : 0.4,
-			// 	maxDuration : 0.7,
-			// 	viewportFactor : 0.2
-			// } );
-			// new AnimOnScroll( document.getElementById( 'process' ), {
-			// 	minDuration : 0.4,
-			// 	maxDuration : 0.7,
-			// 	viewportFactor : 0.2
-			// } );
+			// ANIMATIONS ON SCROLL
+			new AnimOnScroll( document.getElementById( 'grid' ), {
+				minDuration : 0.4,
+				maxDuration : 0.7,
+				viewportFactor : 0.2
+			} );
+			new AnimOnScroll( document.getElementById( 'process' ), {
+				minDuration : 0.4,
+				maxDuration : 0.7,
+				viewportFactor : 0.2
+			} );
 
 
 		</script>
