@@ -596,7 +596,7 @@ a.apply-btn {
 }
 h1.coming-soon {
     color: red;
-    font-weight: bold;
+    /*font-weight: bold;*/
     font-size: 65;
     /*margin-bottom: 1em;*/
 }

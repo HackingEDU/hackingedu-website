@@ -58,7 +58,8 @@
 			<a class="" data-toggle="modal" data-target="#contactModal">Contact</a>
 			<a href="<?php echo FACEBOOK_URL; ?>" target="rss"><i class="fa fa-facebook"></i></a>
 			<a href="<?php echo TWITTER_URL; ?>" target="rss"><i class="fa fa-twitter"></i></a>
-			<a href="<?php echo GOOGLE_PLUS_URL; ?>" target="rss" rel="publisher"><i class="fa fa-google-plus"></i></a>
+            <a href="<?php echo GOOGLE_PLUS_URL; ?>" target="rss" rel="publisher"><i class="fa fa-google-plus"></i></a>
+			<a href="<?php echo INSTAGRAM_URL; ?>" target="rss" rel="publisher"><i class="fa fa-instagram"></i></a>
 			<a href="mailto:team@hackingedu.co"><i class="fa fa-envelope"></i></a>
 		</div>
 
