@@ -15,9 +15,13 @@
 			    <?php if ($teamMember['Picture'] == ' ' || $editedName == '_') { continue; } // // Need Name + Photo to show up ?>
 		    	<li>
 			        <center>
-		    	        <a href="#aboutModal" data-toggle="modal" data-target="#<?php echo $editedName; ?>Modal"><img src="<?php echo $teamMember['Picture']; ?>" name="aboutme" width="140" height="140" class="img-circle"></a>
+		    	        <a href="#aboutModal" data-toggle="modal" data-target="#<?php echo $editedName; ?>Modal">
+		    	        	<img src="<?php echo $teamMember['Picture']; ?>" name="aboutme" alt="<?php echo $teamMember['Name']; ?>" width="140" height="140" class="img-circle">
+		    	        </a>
 		    	        <h3 class="mg-bottom-none fw-400"><?php echo $teamMember['Name']; ?></h3>
-		    	        <h5 class="mg-top-none"><strong><?php echo $teamMember['team name']; ?></strong><?php echo rtrim($teamMember['Position'], ':'); ?></h5 class="mg-top-none">
+		    	        <h5 class="mg-top-none">
+		    	        	<strong><?php echo $teamMember['team name']; ?></strong><?php echo rtrim($teamMember['Position'], ':'); ?>
+	    	        	</h5 class="mg-top-none">
 					</center>
 		    	</li>
 			<?php endforeach; ?>
@@ -35,7 +39,7 @@
 	                    </div>
 		                <div class="modal-body">
 		                    <center>
-			                    <img src="<?php echo $teamMember['Picture']; ?>" name="aboutme" width="140" height="140" border="0" class="img-circle"><!-- </a> -->
+			                    <img src="<?php echo $teamMember['Picture']; ?>" name="aboutme" alt="<?php echo $teamMember['Name']; ?>" width="140" height="140" border="0" class="img-circle"><!-- </a> -->
 			                    <h3 class="media-heading"><?php echo $teamMember['Name']; ?></h3>
 			                    <span><strong><?php echo $teamMember['team name']; ?></strong><?php echo rtrim($teamMember['Position'], ':'); ?></span>
 			                        <!-- <span class="label label-warning">HTML5/CSS</span> -->

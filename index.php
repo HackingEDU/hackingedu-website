@@ -51,7 +51,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-8 col-lg-offset-2">
-						<img class="marg-top-20 col-xs-12 col-sm-10 col-lg-10 col-sm-offset-1 col-lg-offset-1" src="./assets/img/hacklogo-white-no-border.png" alt="">
+						<img class="marg-top-20 col-xs-12 col-sm-10 col-lg-10 col-sm-offset-1 col-lg-offset-1" alt="HackingEDU hackathon" src="./assets/img/hacklogo-white-no-border.png" alt="">
 						<div class="col-lg-10 col-lg-offset-1">
 							<h3>SF Bay Area</h3>
 							<h2>Invent the Future</h2>
@@ -164,6 +164,11 @@
 		<!-- Include js plugin -->
 		<script src="./libraries/owl.carousel/owl-carousel/owl.carousel.js"></script>
 		<script>
+
+			// $(function () {
+			//     animateOnScroll();
+			// });
+
 			// DIRECT TO CORRECT FORM
 			$(document).ready(function() {
 			    $('.apply-btn').click(function() {
@@ -276,17 +281,17 @@
 			}(document, 'script', 'twitter-wjs');
 
 
-			// ANIMATIONS ON SCROLL
-			new AnimOnScroll( document.getElementById( 'grid' ), {
-				minDuration : 0.4,
-				maxDuration : 0.7,
-				viewportFactor : 0.2
-			} );
-			new AnimOnScroll( document.getElementById( 'process' ), {
-				minDuration : 0.4,
-				maxDuration : 0.7,
-				viewportFactor : 0.2
-			} );
+			// // ANIMATIONS ON SCROLL
+			// new AnimOnScroll( document.getElementById( 'grid' ), {
+			// 	minDuration : 0.4,
+			// 	maxDuration : 0.7,
+			// 	viewportFactor : 0.2
+			// } );
+			// new AnimOnScroll( document.getElementById( 'process' ), {
+			// 	minDuration : 0.4,
+			// 	maxDuration : 0.7,
+			// 	viewportFactor : 0.2
+			// } );
 
 
 		</script>

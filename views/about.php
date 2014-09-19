@@ -29,10 +29,10 @@
             	  </div><!-- col-lg-8 -->
             	  <div class="col-lg-4">
             		<ul class="process effect-2 hide-on-mobile" id="process">
-            			<li><img src="assets/img/process/pro01.png"></li>
-            			<!-- <li><img src="assets/img/process/pro02.png"></li> -->
-            			<li><img src="assets/img/process/pro03.png"></li>
-            			<li><img src="assets/img/process/pro04.png"></li>
+            			<li class="shown"><img src="assets/img/process/pro01.png" alt="HackingEDU hackathon"></li>
+            			<!-- <li class="shown"><img src="assets/img/process/pro02.png"></li> -->
+            			<li class="shown"><img src="assets/img/process/pro03.png" alt="HackingEDU hackathon"></li>
+            			<li class="shown"><img src="assets/img/process/pro04.png" alt="HackingEDU hackathon"></li>
             		</ul>
             	  </div><!-- col-lg-4 -->
             </div><!-- /row -->
