@@ -132,6 +132,7 @@ ul.ss-choices {
     min-width: 200px;
     max-width: 900px;
     display: -webkit-flex;
+    display: flex;
 }
 .centered {
     text-align: center;
@@ -176,7 +177,7 @@ img.team_img_size.pull-left.col-lg-12 {
     padding: 8px 19px 0 19px;
 }
 input.btn {
-    border-radius: 3;
+    border-radius: 3px;
 }
 a {
     color: #16a085;
@@ -579,8 +580,9 @@ a.main-btn {
     font-weight: bold;
     background: clear;
     color: #fff;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    /*-moz-border-radius: 10px;*/
+    /*-webkit-border-radius: 10px;*/
     /* border: none; */
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -1180,6 +1182,7 @@ span.small-grey {
     height:auto;
     font-size: 10pt;
     -webkit-flex: 1;
+    flex: auto;
     margin-left: .4em;
 }
 textarea.ss-q-long::-webkit-input-placeholder {
@@ -1469,6 +1472,9 @@ td:nth-child(n+2) {
    =======================================================================*/
 .marg-top-20 {
    margin-top: 20vh;
+}
+.marg-top-1 {
+    margin-top: 1em;
 }
 .marg-btm-1 {
     margin-bottom: 1em;

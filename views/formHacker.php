@@ -1,16 +1,47 @@
 <?php // HACKER FORM ?>
 <form action="https://docs.google.com/forms/d/17z_PL-YR2__DDiwkpLA_hTENqojw-zB0D0RjUT05AUg/formResponse" method="POST" id="ss-form" target="rss _self" onsubmit="">
     <ol role="list" class="ss-question-list" style="padding-left: 0">
+        <!-- BUSINESS OR TECHNICAL -->
+        <div class="ss-form-question errorbox-good" role="listitem">
+            <div dir="ltr" class="ss-item  ss-radio">
+                <div class="ss-form-entry">
+                    <label class="ss-q-item-label" for="entry_2129457077">
+                        <div class="ss-q-title">Business or Technical?</div>
+                        <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+                    </label>
+                    <div class="radio-inline pull-right required-message">required</div>
+                    <ul class="ss-choices" role="radiogroup" aria-label="Business or Technical?  ">
+                        <li class="radio-inline ss-choice-item">
+                            <label>
+                                <span class="ss-choice-item-control goog-inline-block">
+                                    <input checked onclick="business()" type="radio" name="entry.1264898354" value="Business" id="group_1264898354_1" role="radio" class="ss-q-radio" aria-label="Business">
+                                </span>
+                                <span class="ss-choice-label">Business</span>
+                            </label>
+                        </li>
+                        <li class="radio-inline ss-choice-item">
+                            <label>
+                                <span class="ss-choice-item-control goog-inline-block">
+                                    <input onclick="technical()" type="radio" name="entry.1264898354" value="Technical" id="group_1264898354_2" role="radio" class="ss-q-radio" aria-label="Technical">
+                                </span>
+                            <span class="ss-choice-label">Technical</span>
+                            </label>
+                        </li>
+                    </ul>
+                    <div class="error-message" id="2129457077_errorMessage"></div>
+                </div>
+            </div>
+        </div>
         <!-- NAME -->
         <div class="ss-form-question errorbox-good" role="listitem">
             <div dir="ltr" class="ss-item  ss-text">
                 <div class="ss-form-entry s-form-text">
                     <label class="ss-q-item-label" for="entry_1672223234">
-                    <div class="ss-q-title">Hacker Name:</div>
+                    <div class="ss-q-title">Name:</div>
                     <div class="ss-q-help ss-secondary-text" dir="ltr">
                     </div>
                     </label>
-                    <input placeholder="Alexander the Hacker" type="text" name="entry.1672223234" value="" class="ss-q-short" id="entry_1672223234" dir="auto" aria-label="Hacker Name:  " title="">
+                    <input placeholder="Alexander the Businessman" type="text" name="entry.1672223234" value="" class="ss-q-short" id="entry_1672223234" dir="auto" aria-label="Hacker Name:  " title="">
                     <div class="error-message" id="1889223634_errorMessage"></div>
                     <div class="required-message">required</div>
                 </div>
@@ -38,7 +69,7 @@
                         <div class="ss-q-title">Major:</div>
                         <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
                     </label>
-                    <input placeholder="Computer Science" type="text" name="entry.74476949" value="" class="ss-q-short" id="entry_74476949" dir="auto" aria-label="Major:  " title="">
+                    <input placeholder="Business" type="text" name="entry.74476949" value="" class="ss-q-short" id="entry_74476949" dir="auto" aria-label="Major:  " title="">
                     <div class="error-message" id="1693962477_errorMessage"></div>
                     <div class="required-message">required</div>
                 </div>
@@ -58,6 +89,7 @@
                 </div>
             </div>
         </div>
+
         <!-- GENDER -->
         <div class="ss-form-question errorbox-good" role="listitem">
             <div dir="ltr" class="ss-item  ss-radio">
@@ -205,7 +237,7 @@
                     </label>
                     <input placeholder="@your_github_username" type="text" name="entry.1542160184" value="" class="ss-q-short" id="entry_1542160184" dir="auto" aria-label="Github Username:  " title="">
                     <div class="error-message" id="980342934_errorMessage"></div>
-                    <div class="required-message">required</div>
+                    <div class="required-message">N/A if not applicable</div>
                 </div>
             </div>
         </div>

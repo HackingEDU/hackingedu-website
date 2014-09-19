@@ -12,7 +12,7 @@
 	                    <div class="mg-btm-1em btn-group">
 		                    <ul class="nav panel-tabs">
 		                        <li class="hackerSignup active">
-		                        	<a type="button" class="btn btn-default" href="#hackerForm" data-toggle="tab">Hacker</a>
+		                        	<a type="button" class="btn btn-default" href="#hackerForm" data-toggle="tab">Main Application</a>
 		                        </li>
 		                        <li class="volunteerSignup">
 		                        	<a type="button" class="hide-right-left-border btn btn-default" href="#volunteerForm" data-toggle="tab">Volunteer</a>

@@ -57,7 +57,7 @@
 							<h2>Invent the Future</h2>
 						</div>
 						<!-- HACKER APPLICATION -->
-						<a class="btn marg-left-6 col-lg-offset-2 col-md-offset-2 col-sm-offset-2 col-lg-3 col-sm-3 col-xs-12 main-btn apply-btn" href="#apply">Hacker Application</a>
+						<a class="btn marg-left-6 col-lg-offset-2 col-md-offset-2 col-sm-offset-2 col-lg-3 col-sm-3 col-xs-12 main-btn apply-btn" href="#apply">Main Application</a>
 						<!-- <a type="button" class="btn btn-default" href="#hackerForm" data-toggle="tab">Hacker</a> -->
 						<!-- VOLUNTEER APPLICATION -->
 						<a class="btn col-lg-3 col-md-3 col-sm-3 col-xs-12 main-btn volunteer-btn" href="#apply">Volunteer</a>
@@ -186,7 +186,7 @@
 			    });
 			});
 
-			// Remove the Social Links that aren't used!
+			// Remove the Social Links that aren't used for Team Profiles!
 			$.fn.exists = function () {
 			    return this.length !== 0;
 			}
@@ -198,6 +198,18 @@
 					$('a[href*=" "]').addClass('hidden');
 				};
 			});
+
+			// Form Change Business + Technical
+			function business () {
+				$('input[placeholder="Alexander the Hacker"]').attr("placeholder", "Alexander the Businessman");
+				$('input[placeholder="Computer Science"]').attr("placeholder", "Business");
+				$('input[placeholder="@your_github_username"]').nextAll().eq(1).text("N/A if not applicable");
+			}
+			function technical () {
+				$('input[placeholder="Alexander the Businessman"]').attr("placeholder", "Alexander the Hacker");
+				$('input[placeholder="Business"]').attr("placeholder", "Computer Science");
+				$('input[placeholder="@your_github_username"]').nextAll().eq(1).text("required");
+			}
 
 			// Animations for the sponsors!
 			// $(document).ready(function() {
