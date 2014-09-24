@@ -196,8 +196,8 @@
 			    return this.length !== 0;
 			}
 			$( document ).ready(function() {
-				if ($('a[href*="/N/A"]').exists()) { // hiding twitter if they don't have a value
-					$('a[href*="/N/A"]').addClass('hidden');
+				if ($('a[href*="N/A"]').exists()) { // hiding twitter if they don't have a value
+					$('a[href*="N/A"]').addClass('hidden');
 				}
 				if ($('a[href*=" "]').exists()) { // hiding linkedin if they don't have a value
 					$('a[href*=" "]').addClass('hidden');
