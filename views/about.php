@@ -3,7 +3,7 @@
             	<div class="col-lg-8">
                     <h1>What is Hacking Edu?</h1>
                     <h3>About:</h3>
-                    <p>This is the first hackathon conceived and excecuted by students, for students, with the intent of disrupting the classroom and really pushing the envelope on the contemporary education system.</p>
+                    <p>HackingEDU is a hackathon conceived and excecuted by students, for students, with the intent of disrupting the classroom and really pushing the envelope on the contemporary education system.  This is the largest student run hackathon encompassing all the major San Francisco Bay Area Universities and those along the west coast.</p>
                     <h3>Vision:</h3>
                     <p>A world where students believe they can take that big chance, that big dream, and make it a reality.</p>
                     <h3>Mission:</h3>
