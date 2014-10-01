@@ -195,7 +195,7 @@
 			$.fn.exists = function () {
 			    return this.length !== 0;
 			}
-			$( document ).ready(function() {
+			$(document).ready(function() {
 				if ($('a[href*="N/A"]').exists()) { // hiding twitter if they don't have a value
 					$('a[href*="N/A"]').addClass('hidden');
 				}

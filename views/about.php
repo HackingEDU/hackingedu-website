@@ -2,6 +2,8 @@
             <div class="row mt">
             	<div class="col-lg-8">
                     <h1>What is Hacking Edu?</h1>
+                    <h3>About:</h3>
+                    <p>This is the first hackathon conceived and excecuted by students, for students, with the intent of disrupting the classroom and really pushing the envelope on the contemporary education system.</p>
                     <h3>Vision:</h3>
                     <p>A world where students believe they can take that big chance, that big dream, and make it a reality.</p>
                     <h3>Mission:</h3>
