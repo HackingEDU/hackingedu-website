@@ -22,10 +22,10 @@
             	  	<p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software.</p>
             	  	<br> -->
             	  	<h3><b>BUILD</b></h3>
-            	  	<p>It's time to show what you've got!  They say ideas are great, but execution is where people fall short.  Lets see what you can do in the 36 hours provided.</p>
+            	  	<p>It's time to show what you've got!  They say ideas are great, but execution is where people fall short.  Let's see what you can do in the 36 hours provided.</p>
             	  	<br>
             	  	<h3><b>EVOLVE</b></h3>
-            	  	<p>We believe that the current education system is outdated.  If you are on the same wavelength as us then lets make a change.  Let us evolve the way we think about education.</p>
+            	  	<p>We believe that the current education system is outdated.  If you are on the same wavelength as us then let's make a change.  Let us evolve the way we think about education.</p>
 
                         <strong>It is not required to create something related to education.</strong>
             	  </div><!-- col-lg-8 -->
