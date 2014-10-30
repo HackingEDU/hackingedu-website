@@ -15,6 +15,7 @@
 			    <?php if ($teamMember['Picture'] == ' ' || $editedName == '_') { continue; } // // Need Name + Photo to show up ?>
 		    	<li>
 			        <center>
+			        <!-- <center style="border: 1px solid black; border-radius: 4px"> -->
 		    	        <a href="#aboutModal" data-toggle="modal" data-target="#<?php echo $editedName; ?>Modal">
 		    	        	<img src="<?php echo $teamMember['Picture']; ?>" name="aboutme" alt="<?php echo $teamMember['Name']; ?>" width="140" height="140" class="img-circle">
 		    	        </a>

@@ -9,12 +9,15 @@
 	// set_include_path(get_include_path() . PATH_SEPARATOR . './libraries/google-api-php-client/src'); # To get Access Tokens to work
 	require_once './application/config.php';
 
+	// Controller
 	require './application/controllers/controller.php';
 	$controller = new Controller();
 
-	include_once './application/analyticstracking.php'; # For Google Analytics
+	// Google Analytics
+	include_once './application/analyticstracking.php';
 	echo $google_analytics;
 
+	// Header
 	require_once './views/header.php';
 
 	$rows = $controller->getRows(); // rows
@@ -46,47 +49,50 @@
 			<a href="https://twitter.com/hackingedusf" class="twitter-follow-button" data-show-count="true">Follow @hackingedusf</a>
 		</div>
 
-		<!-- MAIN IMAGE SECTION -->
-		<div id="home" class="headerwrap">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-8 col-lg-offset-2">
-						<img class="marg-top-20 col-xs-12 col-sm-10 col-lg-10 col-sm-offset-1 col-lg-offset-1" alt="HackingEDU hackathon" src="./assets/img/hacklogo-white-no-border.png" alt="">
-						<div class="col-lg-10 col-lg-offset-1">
-							<h3>SF Bay Area</h3>
-							<h2>Invent the Future</h2>
+		<div id="blog-switch"></div>
+		<div id="body">
+			<!-- MAIN IMAGE SECTION -->
+			<div id="home" class="headerwrap">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-8 col-lg-offset-2">
+							<img class="marg-top-20 col-xs-12 col-sm-10 col-lg-10 col-sm-offset-1 col-lg-offset-1" alt="HackingEDU hackathon" src="./assets/img/hacklogo-white-no-border.png" alt="">
+							<div class="col-lg-10 col-lg-offset-1">
+								<h3>SF Bay Area</h3>
+								<h2>Invent the Future</h2>
+							</div>
+							<!-- HACKER APPLICATION -->
+							<a class="btn marg-left-6 col-lg-offset-2 col-md-offset-2 col-sm-offset-2 col-lg-3 col-sm-3 col-xs-12 main-btn apply-btn" href="#apply">Main Application</a>
+							<!-- <a type="button" class="btn btn-default" href="#hackerForm" data-toggle="tab">Hacker</a> -->
+							<!-- VOLUNTEER APPLICATION -->
+							<a class="btn col-lg-3 col-md-3 col-sm-3 col-xs-12 main-btn volunteer-btn" href="#apply">Volunteer</a>
+							<!-- SPONSOR APPLICATION -->
+							<a class="btn col-lg-3 col-md-3 col-sm-3 col-xs-12 main-btn sponsor-btn sponsor-btn-pad" href="#apply">Sponsor</a>
+							<div class="spacer"></div>
 						</div>
-						<!-- HACKER APPLICATION -->
-						<a class="btn marg-left-6 col-lg-offset-2 col-md-offset-2 col-sm-offset-2 col-lg-3 col-sm-3 col-xs-12 main-btn apply-btn" href="#apply">Main Application</a>
-						<!-- <a type="button" class="btn btn-default" href="#hackerForm" data-toggle="tab">Hacker</a> -->
-						<!-- VOLUNTEER APPLICATION -->
-						<a class="btn col-lg-3 col-md-3 col-sm-3 col-xs-12 main-btn volunteer-btn" href="#apply">Volunteer</a>
-						<!-- SPONSOR APPLICATION -->
-						<a class="btn col-lg-3 col-md-3 col-sm-3 col-xs-12 main-btn sponsor-btn sponsor-btn-pad" href="#apply">Sponsor</a>
-						<div class="spacer"></div>
-					</div>
-				</div><!-- row -->
-			</div><!-- /container -->
-		</div><!-- /headerwrap -->
-		<div id="fb-root"></div>
+					</div><!-- row -->
+				</div><!-- /container -->
+			</div><!-- /headerwrap -->
+			<div id="fb-root"></div>
 
-		<!-- ABOUT -->
-		<?php require_once './views/about.php'; ?>
+			<!-- ABOUT -->
+			<?php require_once './views/about.php'; ?>
 
-		<!-- APPLICATION FORMS -->
-		<?php require_once './views/formSignUp.php'; ?>
+			<!-- APPLICATION FORMS -->
+			<?php require_once './views/formSignUp.php'; ?>
 
-		<!-- TEAM -->
-		<?php require_once './views/team.php'; ?>
+			<!-- TEAM -->
+			<?php require_once './views/team.php'; ?>
 
-		<!-- RULES -->
-		<?php require_once './views/rules.php'; ?>
+			<!-- RULES -->
+			<?php require_once './views/rules.php'; ?>
 
-		<!-- SCHEDULE -->
-		<?php require_once './views/schedule.php'; ?>
+			<!-- SCHEDULE -->
+			<?php require_once './views/schedule.php'; ?>
 
-		<!-- CALL TO ACTION -->
-		<?php require_once './views/sponsors.php'; ?>
+			<!-- CALL TO ACTION -->
+			<?php require_once './views/sponsors.php'; ?>
+		</div>
 
 		<!-- STAY CONNECTED -->
 	    <div class="container">
