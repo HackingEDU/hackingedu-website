@@ -12,7 +12,7 @@ class TeamMember extends Model
 	public $github;
 	public $school;
 	public $googlePlus;
-	// public $googlePlusUsername;
+	public $website;
 	public $linkedIn;
 	// public $linkedInUsername;
 	public $twitter;
@@ -41,7 +41,7 @@ class TeamMember extends Model
 		$this->team = $nameOfTeam;
 	}
 
-	public function setAll($pos, $desc, $name, $githubUsername, $school, $googlePlusUsername, $linkedInUsername, $twitterUsername, $blurb, $picture)
+	public function setAll($pos, $desc, $name, $githubUsername, $school, $googlePlusUsername, $linkedInUsername, $twitterUsername, $blurb, $picture, $website)
 	{
 		$this->position = $pos;
 		$this->description = $desc;
@@ -50,6 +50,7 @@ class TeamMember extends Model
 		$this->school = $school;
 		$this->picture = $picture;
 		$this->googlePlus = 'https://plus.google.com/' . $googlePlusUsername . '/posts';
+        $this->website = $website;
 		// $this->googlePlusUsername = $googlePlusUsername;
 
 		$this->linkedIn = 'https://linkedin.com/' . $linkedInUsername;
@@ -81,6 +82,11 @@ class TeamMember extends Model
 	}
 
 	public function getGooglePlus()
+	{
+		return $this->googlePlus;
+	}
+
+	public function getWebsite()
 	{
 		return $this->googlePlus;
 	}

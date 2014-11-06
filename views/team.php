@@ -10,6 +10,7 @@
 
 		<!-- TEAM PHOTOS -->
 	    <ul class="grid effect-2" id="grid">
+	    	<?php // d($teamMembers); ?>
 		    <?php foreach ($teamMembers as $teamMember): ?>
 			    <?php $editedName = str_replace(' ', '_', $teamMember['Name']); ?>
 			    <?php if ($teamMember['Picture'] == ' ' || $editedName == '_') { continue; } // // Need Name + Photo to show up ?>
@@ -39,13 +40,14 @@
 	                    </div>
 		                <div class="modal-body">
 		                    <center>
-			                    <img src="<?php echo $teamMember['Picture']; ?>" name="aboutme" width="140" height="140" border="0" class="img-circle"><!-- </a> -->
+		                    	<?php if ($teamMember['Website'] !== ' ' || $teamMember['Website'] !== '  ' || $teamMember['Website'] !== 'N/A'): ?>
+				                    <a href="<?php echo $teamMember['Website']; ?>"><img src="<?php echo $teamMember['Picture']; ?>" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+				                <?php endif; ?>
+		                    	<?php if ($teamMember['Website'] == ' ' || $teamMember['Website'] == '  ' || $teamMember['Website'] == 'N/A'): ?>
+		                    		<img src="<?php echo $teamMember['Picture']; ?>" name="aboutme" width="140" height="140" border="0" class="img-circle">
+		                    	<?php endif; ?>
 			                    <h3 class="media-heading"><?php echo $teamMember['Name']; ?></h3>
 			                    <span><strong><?php echo $teamMember['team name']; ?></strong><?php echo rtrim($teamMember['Position'], ':'); ?></span>
-			                        <!-- <span class="label label-warning">HTML5/CSS</span> -->
-			                        <!-- <span class="label label-info"></span> -->
-			                        <!-- <span class="label label-info">Microsoft Office</span> -->
-			                        <!-- <span class="label label-success">Windows XP, Vista, 7</span> -->
 		                    </center>
 		                    <hr>
 		                    <center>
@@ -53,8 +55,6 @@
 			                    <br>
 		                    </center>
                             <div class="text-center center-block">
-                                <!-- <p class="txt-railway">- Bootsnipp.com -</p> -->
-                                <!-- <br /> -->
                                 <a href="<?php echo $teamMember['LinkedIn']; ?>" target="rss"><i id="social" class="fa fa-linkedin-square fa-3x social-linkedin"></i></a>
                 	            <a href="https://twitter.com/<?php echo $teamMember['Twitter']; ?>" target="rss"><i id="social" class="fa fa-twitter-square fa-3x social-tw"></i></a>
                 	            <a href="<?php echo $teamMember['G+']; ?>" target="rss"><i id="social" class="fa fa-google-plus-square fa-3x social-gp"></i></a>

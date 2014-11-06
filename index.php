@@ -36,17 +36,20 @@
 		}
 
 	}
-	// dd($teamMembers);
+	// echo '<pre>';
+	// var_dump($teamMembers);
+	// echo '</pre>';
+
 ?>
 
 		<!-- Social Like/Follow Buttons -->
 		<div class="top-left-social">
 			<!-- Facebook Like -->
-			<div class="fb-like" data-href="https://www.facebook.com/hackingedusf" data-layout="button_count" data-action="like" data-show-faces="true" data-share=""></div>
+			<div class="fb-like" data-href="<?php echo FACEBOOK_URL; ?>" data-layout="button_count" data-action="like" data-show-faces="true" data-share=""></div>
 			<!-- Google+ Plus -->
-			<div class="g-follow" data-annotation="bubble" data-height="20" data-href="https://plus.google.com/100755871712588838625" data-rel="publisher"></div>
+			<div class="g-follow" data-annotation="bubble" data-height="20" data-href="<?php echo GOOGLE_PLUS_URL; ?>" data-rel="publisher"></div>
 			<!-- Twitter Follow -->
-			<a href="https://twitter.com/hackingedusf" class="twitter-follow-button" data-show-count="true">Follow @hackingedusf</a>
+			<a href="<?php echo TWITTER_URL; ?>" class="twitter-follow-button" data-show-count="true">Follow @hackingedusf</a>
 		</div>
 
 		<div id="blog-switch"></div>
