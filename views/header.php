@@ -30,8 +30,8 @@
     <![endif]-->
     <!-- Custom styles for this template -->
     <link href="assets/css/main.css" rel="stylesheet">
-    <link rel="stylesheet" href="./libraries/owl.carousel/owl-carousel/owl.carousel.css">
-    <link rel="stylesheet" href="./libraries/owl.carousel/owl-carousel/owl.theme.css">
+    <!-- <link rel="stylesheet" href="./libraries/owl.carousel/owl-carousel/owl.carousel.css"> -->
+    <!-- <link rel="stylesheet" href="./libraries/owl.carousel/owl-carousel/owl.theme.css"> -->
     <!-- <link rel="stylesheet" href="./libraries/Smooth-Div-Scroll/css/smoothDivScroll.css"> -->
     <script src="assets/js/modernizr.custom.js"></script>
     <!--<script type="text/javascript" src="./assets/js/jssor.core.js"></script>
@@ -54,7 +54,7 @@
             <a href="#rules">Rules</a>
             <a href="#schedule">Schedule</a>
             <a href="#sponsors">Sponsors</a>
-			<a href="#blog">Blog</a>
+			<a href="http://hackingedu.tumblr.com/">Blog</a>
 			<!-- <a href="#myModal">Contact</a> -->
 			<a class="" data-toggle="modal" data-target="#contactModal">Contact</a>
 			<a href="<?php echo FACEBOOK_URL; ?>" target="rss"><i class="fa fa-facebook"></i></a>
