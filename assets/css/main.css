@@ -802,9 +802,32 @@ a.main-btn:hover {
 }
 #sponsors h3 {
     color: #fff;
+    margin-bottom: 24px;
 }
 #sponsors p {
     color: #fff;
+}
+/* #sponsors a:link {
+    color:green;
+}
+#sponsors a:hover {
+    transition-duration: 1s;
+    color:red;
+} */
+#sponsors .level-1 img {
+  width: 250px;
+}
+#sponsors .level-2 img {
+
+}
+#sponsors .level-3 img {
+
+}
+#sponsors .level-4 img {
+
+}
+#sponsors .level-5 img {
+
 }
 #sf {
     display: block;
