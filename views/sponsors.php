@@ -17,6 +17,14 @@
 						<a href="https://www.edsurge.com/"><img alt="edSurge" src="assets/img/edsurge-logo.png"></a>
 					</div>
 				</div>
+				<div class="row level-2">
+				</div>
+				<div class="row level-3">
+				</div>
+				<div class="row level-4">
+				</div>
+				<div class="row level-5">
+				</div>
 			</div>
 
 			<!-- BOOTSTRAP SLIDER (it sucks...) -->
