@@ -11,10 +11,10 @@
 			<div class="container">
 				<div class="row level-1">
 					<div class="col-md-6">
-						<a href="https://www.google.com/"><img alt="Google" src="assets/img/google-logo.png"></a>
+						<a href="https://www.google.com/"><img alt="Google" src="./assets/img/google-logo.png"></a>
 					</div>
 					<div class="col-md-6">
-						<a href="https://www.edsurge.com/"><img alt="edSurge" src="assets/img/edsurge-logo.png"></a>
+						<a href="https://www.edsurge.com/"><img alt="edSurge" src="./assets/img/edsurge-logo.png"></a>
 					</div>
 				</div>
 				<div class="row level-2">
