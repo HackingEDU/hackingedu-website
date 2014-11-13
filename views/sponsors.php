@@ -1,11 +1,32 @@
 		<div id="sponsors">
-<!-- 			<div class="container ">
+
+ 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
 						<h1 class="pull-left" style="color: white">2015 Hacking Edu Sponsors</h1>
 					</div>
 				</div>
 			</div>
+
+			<div class="container">
+				<div class="row level-1">
+					<div class="col-md-6">
+						<a href="https://www.google.com/"><img alt="Google" src="assets/img/google-logo.png"></a>
+					</div>
+					<div class="col-md-6">
+						<a href="https://www.edsurge.com/"><img alt="edSurge" src="assets/img/edsurge-logo.png"></a>
+					</div>
+				</div>
+				<div class="row level-2">
+				</div>
+				<div class="row level-3">
+				</div>
+				<div class="row level-4">
+				</div>
+				<div class="row level-5">
+				</div>
+			</div>
+
 			<!-- BOOTSTRAP SLIDER (it sucks...) -->
 			<!-- <div class="container"> -->
 			  <!-- <div class="row">
