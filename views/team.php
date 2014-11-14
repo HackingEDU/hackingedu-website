@@ -41,7 +41,7 @@
 		                <div class="modal-body">
 		                    <center>
 		                    	<?php if ($teamMember['Website'] !== ' ' || $teamMember['Website'] !== '  ' || $teamMember['Website'] !== 'N/A'): ?>
-				                    <a href="<?php echo $teamMember['Website']; ?>"><img src="<?php echo $teamMember['Picture']; ?>" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+				                    <a href="<?php echo $teamMember['Website']; ?>" target="rss"><img src="<?php echo $teamMember['Picture']; ?>" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
 				                <?php endif; ?>
 		                    	<?php if ($teamMember['Website'] == ' ' || $teamMember['Website'] == '  ' || $teamMember['Website'] == 'N/A'): ?>
 		                    		<img src="<?php echo $teamMember['Picture']; ?>" name="aboutme" width="140" height="140" border="0" class="img-circle">
