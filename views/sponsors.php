@@ -3,7 +3,7 @@
  			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
-						<h1 class="pull-left" style="color: white">2015 Hacking Edu Sponsors</h1>
+						<h1 class="pull-left" style="color: white">2015 HackingEDU Sponsors</h1>
 					</div>
 				</div>
 			</div>
