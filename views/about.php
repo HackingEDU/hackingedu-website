@@ -1,7 +1,7 @@
       <div id="about" class="container ">
             <div class="row mt">
             	<div class="col-lg-8">
-                    <h1>What is Hacking Edu?</h1>
+                    <h1>What is <?php echo NAME; ?>?</h1>
                     <h3>About:</h3>
                     <p>HackingEDU is a hackathon conceived and executed by students, for students, with the intent of disrupting the classroom and really pushing the envelope on the contemporary education system.  This is the largest student run hackathon encompassing all the major San Francisco Bay Area Universities and those along the west coast.</p>
                     <h3>Vision:</h3>
