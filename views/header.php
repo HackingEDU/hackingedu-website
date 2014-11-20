@@ -46,23 +46,22 @@
 	<!-- Menu -->
 	<nav class="menu " id="theMenu">
 		<div class="menu-wrap">
-			<h1 class="logo"><a href="#home">Hacking Edu</a></h1>
-			<i class="fa fa-arrow-right menu-close"></i>
-			<a href="#home">Home</a>
-			<a href="#about">About</a>
-            <a href="#team">Team</a>
-            <a href="#rules">Rules</a>
-            <a href="#schedule">Schedule</a>
-            <a href="#sponsors">Sponsors</a>
+			<h1 class="logo"><a class="close-it" href="#home">HackingEDU</a></h1>
+			<i class="fa fa-arrow-right menu-close close-it"></i>
+			<a class="close-it" href="#home">Home</a>
+			<a class="close-it" href="#about">About</a>
+            <a class="close-it" href="#team">Team</a>
+            <a class="close-it" href="#rules">Rules</a>
+            <a class="close-it" href="#schedule">Schedule</a>
+            <a class="close-it" href="#sponsors">Sponsors</a>
 			<a href="http://hackingedu.tumblr.com/">Blog</a>
-			<!-- <a href="#myModal">Contact</a> -->
-			<a class="" data-toggle="modal" data-target="#contactModal">Contact</a>
+			<a class="close-it" data-toggle="modal" data-target="#contactModal">Contact</a>
 			<a href="<?php echo FACEBOOK_URL; ?>" target="rss"><i class="fa fa-facebook"></i></a>
 			<a href="<?php echo TWITTER_URL; ?>" target="rss"><i class="fa fa-twitter"></i></a>
             <a href="<?php echo GOOGLE_PLUS_URL; ?>" target="rss" rel="publisher"><i class="fa fa-google-plus"></i></a>
             <a href="<?php echo INSTAGRAM_URL; ?>" target="rss" rel="publisher"><i class="fa fa-instagram"></i></a>
 			<a href="<?php echo LINKEDIN_URL; ?>" target="rss" rel="publisher"><i class="fa fa-linkedin"></i></a>
-			<a href="mailto:team@hackingedu.co"><i class="fa fa-envelope"></i></a>
+			<a class="close-it" href="mailto:team@hackingedu.co"><i class="fa fa-envelope"></i></a>
 		</div>
 
 		<!-- Menu button -->

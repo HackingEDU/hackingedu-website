@@ -61,8 +61,8 @@
 						<div class="col-lg-8 col-lg-offset-2">
 							<img class="marg-top-20 col-xs-12 col-sm-10 col-lg-10 col-sm-offset-1 col-lg-offset-1" alt="HackingEDU hackathon" src="./assets/img/hacklogo-white-no-border.png" alt="">
 							<div class="col-lg-10 col-lg-offset-1">
-								<h3>SF Bay Area</h3>
-								<h2>Invent the Future</h2>
+								<h3 class="mobile-size">SF Bay Area</h3>
+								<h2 class="mobile-size">Invent the Future</h2>
 							</div>
 							<!-- HACKER APPLICATION -->
 							<a class="btn marg-left-6 col-lg-offset-2 col-md-offset-2 col-sm-offset-2 col-lg-3 col-sm-3 col-xs-12 main-btn apply-btn" href="#apply">Main Application</a>

@@ -18,6 +18,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* =========================================================================
+                                Schedule
+   =======================================================================*/
+div#schedule {
+    margin: 2em 0 2em;
+}
+
+/* =========================================================================
                             JS Fading       ex: http://jsfiddle.net/decodedpixel/re9pN/
    =======================================================================*/
 /*#content {*/
@@ -413,7 +420,7 @@ hr {
 }
 .headerwrap {
     /*background: url(../img/header-bg1.jpg) no-repeat center top;*/
-    background: url(../img/prism.jpg) no-repeat center top fixed;
+    background: url(../img/prism.jpg) no-repeat center center fixed;
     margin-top: -10px;
     padding-top: 20px;
     text-align: center;
@@ -686,6 +693,9 @@ a.volunteer-btn {
         display: none;
         color: transparent;
     }
+/*    .mobile-size {
+
+    }*/
 }
 a.sponsor-btn-pad {
     padding: 15px 59px;
