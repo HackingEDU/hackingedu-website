@@ -48,7 +48,6 @@
 		<div class="menu-wrap">
 			<h1 class="logo"><a class="close-it" href="#home">HackingEDU</a></h1>
 			<i class="fa fa-arrow-right menu-close close-it"></i>
-			<a class="close-it" href="#home">Home</a>
 			<a class="close-it" href="#about">About</a>
             <a class="close-it" href="#team">Team</a>
             <a class="close-it" href="#rules">Rules</a>

@@ -163,6 +163,9 @@ button.modal-up-2em {
 .mg-bottom-none {
     margin-bottom: 0;
 }
+.mg-bottom-7em {
+    margin-bottom: 7em;
+}
 p {
     line-height: 28px;
     margin-bottom: 25px;
