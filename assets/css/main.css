@@ -423,7 +423,7 @@ hr {
 }
 .headerwrap {
     /*background: url(../img/header-bg1.jpg) no-repeat center top;*/
-    background: url(../img/prism.jpg) 0 0 / cover; /*no-repeat center center fixed;*/
+    background: url(../img/prism.jpg) fixed  0 0 / cover; /*no-repeat center center fixed;*/
     margin-top: -10px;
     padding-top: 20px;
     text-align: center;
