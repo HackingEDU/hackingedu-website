@@ -1,5 +1,7 @@
 <?php
+
 include_once './application/models/model.php';
+// die('in google_spreadsheet.php');
 
 use Google\Spreadsheet\DefaultServiceRequest;
 use Google\Spreadsheet\ServiceRequestFactory;

@@ -1,7 +1,9 @@
 <?php
 // use Google\Spreadsheet\DefaultServiceRequest;
 // use Google\Spreadsheet\ServiceRequestFactory;
+
 include_once './application/models/google_spreadsheet.php';
+// die('in controller.php');
 include_once './application/models/teamMember.php';
 
 /**
