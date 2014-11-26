@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c0dcbc73-3235-4ddb-9a83-1678c7fa9afb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/google-api-php-client" afterPath="$PROJECT_DIR$/libraries/google-api-php-client" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="hackingedu-website.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,7 +30,7 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21333334" vertical-offset="880" max-vertical-offset="6520">
+            <state vertical-scroll-proportion="0.34666666" vertical-offset="780" max-vertical-offset="6520">
               <caret line="52" column="3" selection-start-line="52" selection-start-column="3" selection-end-line="52" selection-end-column="3" />
               <folding />
             </state>
@@ -244,12 +243,12 @@
       <workItem from="1416977661639" duration="83000" />
       <workItem from="1416977748342" duration="55000" />
       <workItem from="1416977827797" duration="41000" />
-      <workItem from="1416977951335" duration="1199000" />
+      <workItem from="1416977951335" duration="1277000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8243000" />
+    <option name="totallyTimeSpent" value="8321000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -351,7 +350,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21333334" vertical-offset="880" max-vertical-offset="6520">
+        <state vertical-scroll-proportion="0.34666666" vertical-offset="780" max-vertical-offset="6520">
           <caret line="52" column="3" selection-start-line="52" selection-start-column="3" selection-end-line="52" selection-end-column="3" />
           <folding />
         </state>
