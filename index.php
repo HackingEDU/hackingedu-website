@@ -40,9 +40,17 @@
 		}
 
 	}
-	// echo '<pre>';
-	// var_dump($teamMembers);
-	// echo '</pre>';
+
+/*
+ * all form fields == hidden
+ * if github
+ * 		unhide all form fields except: name, email, and github
+ * if facebook
+ * 		unhide all form fields except: name, email, (possibly university, major, gender, date of birth)
+ * if email
+ * 		uhide all form fields
+ *
+ */
 
 ?>
 
