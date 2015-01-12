@@ -31,12 +31,12 @@
                         <!-- Subject & Message -->
                         <div class="form-group">
                             <!-- Subject -->
-                            <textarea class="pull-left form-control subject marg-top-1" id="" name="textarea" placeholder="Subject"></textarea>
+                            <textarea class="pull-left form-control subject marg-top-1" id="subject" name="subject" placeholder="Subject"></textarea>
                             <!-- Textarea -->
-                            <textarea class="pull-left form-control marg-btm-1" id="textarea" name="textarea" placeholder="Ask away! :)"></textarea>
+                            <textarea class="pull-left form-control marg-btm-1" id="message" name="message" placeholder="Ask away! :)"></textarea>
                         </div>
 
-                        <button id="singlebutton" name="singlebutton" class="btn m-btm-1em btn-default pull-right" style="color: black">Send</button>
+                        <input id="singlebutton" name="singlebutton" class="btn m-btm-1em btn-default pull-right" type="submit" style="color: black"><!--Send--></input>
 
                     <!-- </fieldset> -->
                     </form>
@@ -46,3 +46,49 @@
 		</div>
     </div>
 </div>
+
+<?php
+
+if(isset($_POST["submit"])) {
+
+    // Email receipient
+    $to ='hackingedu@gmail.com';
+
+    // Checking For Blank Fields..
+    if($_POST["name"]==""||$_POST["email"]==""||$_POST["subject"]==""||$_POST["message"]=="") {
+        echo "Fill All Fields..";
+    }
+
+    else {
+        // Check if the "Sender's Email" input field is filled out
+        $email=$_POST['email'];
+        // Sanitize and Validate E-mail Address
+        $email =filter_var($email, FILTER_SANITIZE_EMAIL);
+        $email= filter_var($email, FILTER_VALIDATE_EMAIL);
+
+        if (!$email){
+            echo "Invalid Email";
+        }
+        else {
+            $subject = $_POST['subject'];
+            $message = $_POST['message'];
+            $headers = 'From:'. $email . "\r\n"; // Sender's Email
+            $headers .= 'Cc:'. $email . "\r\n"; // Carbon copy to Sender
+
+            // Message lines should not exceed 70 characters (PHP rule), so wrap it
+            $message = wordwrap($message, 70);
+
+            // Send Mail By PHP Mail Function
+            $send_contact = mail($to, $subject, $message, $headers);
+
+            // Check, if message sent to your email
+            // display message "We've recived your information"
+            if($send_contact) {
+                echo "Thanks!";
+            } else {
+                echo "ERROR";
+            }
+        }
+    }
+}
+?>
