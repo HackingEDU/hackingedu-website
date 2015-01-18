@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^hackingedu\.alexcory\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.hackingedu\.alexcory\.com$
+RewriteRule ^/?$ "http\:\/\/hackingedu\.co\/" [R=301,L]
+
