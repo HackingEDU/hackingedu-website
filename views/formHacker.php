@@ -335,20 +335,6 @@
                 </div>
             </div>
         </div>
-        <!-- LAST TEXT INPUT -->
-        <div class="ss-form-question errorbox-good" role="listitem">
-            <div dir="ltr" class="ss-item  ss-paragraph-text">
-                <div class="ss-form-entry">
-                    <label class="ss-q-item-label" for="entry_1146393786">
-                        <div class="ss-q-title">At HackingEDU we want to show the world the new ways we can learn. How do you plan to tackle this challenge?</div>
-                        <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
-                    </label>
-                    <textarea placeholder="Tell us about your idea! :)" name="entry.1146393786" rows="8" cols="0" class="ss-q-long form-control" id="entry_1146393786" dir="auto" aria-label="At Hacking Edu we want to show the world the new ways we can learn. How do you plan to tackle this challenge?  "></textarea>
-                    <div class="error-message" id="172844175_errorMessage"></div>
-                    <!-- <div class="required-message">This is a required question</div> -->
-                </div>
-            </div>
-        </div>
         <input type="hidden" name="draftResponse" value="[,,&quot;2857943352873406159&quot;]">
         <input type="hidden" name="pageHistory" value="0">
         <input type="hidden" name="fbzx" value="2857943352873406159">
