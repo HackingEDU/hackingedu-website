@@ -8,7 +8,7 @@
     	            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
     	            <h3 class="pull-left">What can we help you with?</h3>
                     <!-- Form Name -->
-                    <form>
+                    <form method='post' action='contactFormEmail.php'>
 
                         <!-- Name -->
                         <div class="form-group">
@@ -46,49 +46,3 @@
 		</div>
     </div>
 </div>
-
-<?php
-
-if(isset($_POST["submit"])) {
-
-    // Email receipient
-    $to ='hackingedu@gmail.com';
-
-    // Checking For Blank Fields..
-    if($_POST["name"]==""||$_POST["email"]==""||$_POST["subject"]==""||$_POST["message"]=="") {
-        echo "Fill All Fields..";
-    }
-
-    else {
-        // Check if the "Sender's Email" input field is filled out
-        $email=$_POST['email'];
-        // Sanitize and Validate E-mail Address
-        $email =filter_var($email, FILTER_SANITIZE_EMAIL);
-        $email= filter_var($email, FILTER_VALIDATE_EMAIL);
-
-        if (!$email){
-            echo "Invalid Email";
-        }
-        else {
-            $subject = $_POST['subject'];
-            $message = $_POST['message'];
-            $headers = 'From:'. $email . "\r\n"; // Sender's Email
-            $headers .= 'Cc:'. $email . "\r\n"; // Carbon copy to Sender
-
-            // Message lines should not exceed 70 characters (PHP rule), so wrap it
-            $message = wordwrap($message, 70);
-
-            // Send Mail By PHP Mail Function
-            $send_contact = mail($to, $subject, $message, $headers);
-
-            // Check, if message sent to your email
-            // display message "We've recived your information"
-            if($send_contact) {
-                echo "Thanks!";
-            } else {
-                echo "ERROR";
-            }
-        }
-    }
-}
-?>
