@@ -11,7 +11,7 @@ $headers = "From:" . $email . "\r\n" .
            "Reply-To: james@thekao.com" . "\r\n" .
            'X-Mailer: PHP/' . phpversion();
 
-$isSent = mail('james@thekao.com',$subject,$message);
+$isSent = mail($to,$subject,$message);
 // echo "Mail sent."
 
 
