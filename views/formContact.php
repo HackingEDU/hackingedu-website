@@ -14,7 +14,7 @@
                         <div class="form-group">
                         <!-- <label class="pull-left control-label" for="textinput">Your Name</label> -->
                             <div class="">
-                                <input id="textinput" name="name" placeholder="Your Name" class="pull-left form-control input-md contact-border-bottom" type="text">
+                                <input id="name" name="name" placeholder="Your Name" class="pull-left form-control input-md contact-border-bottom" type="text">
                                 <!-- <span class="help-block">help</span> -->
                             </div>
                         </div>
@@ -23,7 +23,7 @@
                         <div class="form-group">
                             <!-- <label class="pull-left control-label" for="textinput">Your Email</label> -->
                             <div class="">
-                            <input id="textinput" name="email" placeholder="example@hacker.com" class="pull-left form-control input-md contact-border-bottom" type="text">
+                            <input id="email" name="email" placeholder="example@hacker.com" class="pull-left form-control input-md contact-border-bottom" type="text">
                             <!-- <span class="help-block">help</span> -->
                             </div>
                         </div>
@@ -46,3 +46,5 @@
 		</div>
     </div>
 </div>
+
+<?php // include_once 'contactFormEmail.php'; ?>
