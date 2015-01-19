@@ -47,4 +47,4 @@
     </div>
 </div>
 
-<?php // include_once 'contactFormEmail.php'; ?>
+<?php include_once 'contactFormEmail.php'; ?>
