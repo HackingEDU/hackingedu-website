@@ -10,7 +10,7 @@ $message = $_POST['message'];
 $headers = "From:" . $email
 
 mail($to,$subject,$message,$headers);
-echo "Mail sent."
+// echo "Mail sent."
 
 
 // if(isset($_POST["submit"])) {
