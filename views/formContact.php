@@ -9,7 +9,7 @@
     	            <h3 class="pull-left">What can we help you with?</h3>
                     <!-- Form Name -->
                     <!-- <form method='post'> -->
-                    <form method='post' target="rss" action='./views/contactFormEmail.php'>
+                    <form method='post' target="rss" action='./views/formContactEmail.php'>
 
                         <!-- Name -->
                         <div class="form-group">
@@ -47,5 +47,3 @@
 		</div>
     </div>
 </div>
-
-<?php include_once 'contactFormEmail.php'; ?>
