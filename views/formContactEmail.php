@@ -7,12 +7,11 @@ $email= $_POST['email'];
 $subject = $_POST['subject'];
 $message = $_POST['message'];
 
-$headers = "From:" . $email . "\r\n" .
-           "Reply-To: james@thekao.com" . "\r\n" .
-           'X-Mailer: PHP/' . phpversion();
+$headers = "From: " . $email . "\r\n" .
+           "Reply-To: james@thekao.com" . "\r\n";
+          //  'X-Mailer: PHP/' . phpversion();
 
-$isSent = mail($to,$subject,$message);
-// echo "Mail sent."
+$isSent = mail($to, $subject, $message, $headers);
 
 
 // if(isset($_POST["submit"])) {
