@@ -1,20 +1,22 @@
 <?php
+$to = "james@thekao.com";
 
-if(isset($_POST["submit"])) {
-    $to = "james@thekao.com";
-
-    $name = $_POST['name'];
-    $email= $_POST['email'];
-    $subject = $_POST['subject'];
-    $message = $_POST['message'];
-
-    $headers = "From: " . $email . "\r\n" .
-               "Reply-To: james@thekao.com" . "\r\n";
-
-    $isSent = mail($to, $subject, $message, $headers);
+// Checking For Blank Fields..
+if($_POST["name"]==""||$_POST["email"]==""||$_POST["subject"]==""||$_POST["message"]=="") {
+    echo "Please fill all fields..";
 }
 
-// if(isset($_POST["submit"])) {
+$name = $_POST['name'];
+$email= $_POST['email'];
+$subject = $_POST['subject'];
+$message = $_POST['message'];
+
+$headers = "From: " . $email . "\r\n" .
+           "Reply-To: james@thekao.com" . "\r\n";
+
+$isSent = mail($to, $subject, $message, $headers);
+
+// if(isset($_POST["submit"])) { // doesn't work
 //
 //     // Email receipient
 //     $to ='james@thekao.com';
@@ -62,6 +64,6 @@ if(isset($_POST["submit"])) {
         <title>Does it work?</title>
     </head>
     <body>
-        <h3><?php if($isSent) echo 'Sent';?></h3>
+        <h3><?php if($isSent) echo 'Thanks!';?></h3>
     </body>
 </html>
