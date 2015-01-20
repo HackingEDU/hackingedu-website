@@ -1,18 +1,18 @@
 <?php
 
-$to = "james@thekao.com";
+if(isset($_POST["submit"])) {
+    $to = "james@thekao.com";
 
-$name = $_POST['name'];
-$email= $_POST['email'];
-$subject = $_POST['subject'];
-$message = $_POST['message'];
+    $name = $_POST['name'];
+    $email= $_POST['email'];
+    $subject = $_POST['subject'];
+    $message = $_POST['message'];
 
-$headers = "From: " . $email . "\r\n" .
-           "Reply-To: james@thekao.com" . "\r\n";
-          //  'X-Mailer: PHP/' . phpversion();
+    $headers = "From: " . $email . "\r\n" .
+               "Reply-To: james@thekao.com" . "\r\n";
 
-$isSent = mail($to, $subject, $message, $headers);
-
+    $isSent = mail($to, $subject, $message, $headers);
+}
 
 // if(isset($_POST["submit"])) {
 //
@@ -58,11 +58,10 @@ $isSent = mail($to, $subject, $message, $headers);
 // }
 ?>
 <html>
-  <head>
-    <title>Does it work?</title>
-  </head>
-  <body>
-    <h3><?php if($isSent) echo 'Sent';?></h3>
-
-  </body>
+    <head>
+        <title>Does it work?</title>
+    </head>
+    <body>
+        <h3><?php if($isSent) echo 'Sent';?></h3>
+    </body>
 </html>
