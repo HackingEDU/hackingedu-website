@@ -1,5 +1,5 @@
 <?php
-$to = "james@thekao.com";
+$to = "team@hackingedu.co";
 
 // Checking For Blank Fields..
 if($_POST["name"]==""||$_POST["email"]==""||$_POST["subject"]==""||$_POST["message"]=="") {
@@ -12,13 +12,14 @@ $subject = $_POST["subject"];
 $message = $_POST["message"];
 
 $headers = "From: " . $email . "\r\n" .
-           "Reply-To: james@thekao.com" . "\r\n" .
+           "Reply-To: " . $to . "\r\n" .
            "X-Mailer: PHP/" . phpversion();
 
 $isSent = mail($to, $subject, $message, $headers);
 
-// require_once './../views/header.php'; //
 ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
