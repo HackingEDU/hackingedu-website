@@ -8,8 +8,7 @@
     	            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
     	            <h3 class="pull-left">What can we help you with?</h3>
                     <!-- Form Name -->
-                    <!-- <form method='post'> -->
-                    <form method='post' target="rss" action='./views/formContactEmail.php'>
+                    <form method="post" action="./views/thanks.php">
 
                         <!-- Name -->
                         <div class="form-group">
@@ -32,7 +31,7 @@
                         <!-- Subject & Message -->
                         <div class="form-group">
                             <!-- Subject -->
-                            <textarea class="pull-left form-control subject marg-top-1" id="subject" name="subject" placeholder="Subject"></textarea>
+                            <input class="pull-left form-control subject marg-top-1" id="subject" name="subject" placeholder="Subject"></input>
                             <!-- Textarea -->
                             <textarea class="pull-left form-control marg-btm-1" id="message" name="message" placeholder="Ask away! :)"></textarea>
                         </div>
