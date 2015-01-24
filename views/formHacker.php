@@ -6,25 +6,33 @@
             <div dir="ltr" class="ss-item  ss-radio">
                 <div class="ss-form-entry">
                     <label class="ss-q-item-label" for="entry_1811104857">
-                        <div class="ss-q-title">Business or Technical?</div>
+                        <div class="ss-q-title">Role</div>
                         <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
                     </label>
                     <div class="radio-inline pull-right required-message">required</div>
-                    <ul class="ss-choices" role="radiogroup" aria-label="Business or Technical?  ">
+                    <ul class="ss-choices" role="radiogroup" aria-label="Role  ">
                         <li class="radio-inline ss-choice-item">
                             <label>
                                 <span class="ss-choice-item-control goog-inline-block">
-                                    <input checked onclick="business()" type="radio" name="entry.1894517158" value="Business" id="group_1894517158_1" role="radio" class="ss-q-radio" aria-label="Business">
+                                    <input checked onclick="business()" type="radio" name="entry.1894517158" value="Business/Idea Person" id="group_1894517158_1" role="radio" class="ss-q-radio" aria-label="Business/Idea Person">
                                 </span>
-                                <span class="ss-choice-label">Business</span>
+                                <span class="ss-choice-label">Business/Idea Person</span>
                             </label>
                         </li>
                         <li class="radio-inline ss-choice-item">
                             <label>
                                 <span class="ss-choice-item-control goog-inline-block">
-                                    <input onclick="technical()" type="radio" name="entry.1894517158" value="Technical" id="group_1894517158_2" role="radio" class="ss-q-radio" aria-label="Technical">
+                                    <input onclick="technical()" type="radio" name="entry.1894517158" value="Developer" id="group_1894517158_2" role="radio" class="ss-q-radio" aria-label="Developer">
                                 </span>
-                            <span class="ss-choice-label">Technical</span>
+                            <span class="ss-choice-label">Developer</span>
+                            </label>
+                        </li>
+                        <li class="radio-inline ss-choice-item">
+                            <label>
+                                <span class="ss-choice-item-control goog-inline-block">
+                                    <input onclick="technical()" type="radio" name="entry.1894517158" value="Designer" id="group_1894517158_3" role="radio" class="ss-q-radio" aria-label="Designer">
+                                </span>
+                            <span class="ss-choice-label">Designer</span>
                             </label>
                         </li>
                     </ul>
@@ -373,7 +381,7 @@
                                 <span class="ss-choice-item-control goog-inline-block">
                                     <input type="radio" name="entry.145886455" value="__other_option__" id="group_145886455_4" role="radio" class="ss-q-radio ss-q-other-toggle">
                                 </span>
-                                <span class="ss-choice-label">Other:</span>
+                                <span class="ss-choice-label">Other</span>
                             </label>
                         </li>
                     </ul>
