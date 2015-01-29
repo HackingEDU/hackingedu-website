@@ -1,4 +1,4 @@
-<form action="https://docs.google.com/forms/d/1SqIGlmv8c984PzMJScLUHPK4oWgjvcbv0OiMGC2FvKs/formResponse" method="POST" id="ss-form" target="rss _self" onsubmit="sponsorConfirmation()">
+<form action="https://docs.google.com/forms/d/1SqIGlmv8c984PzMJScLUHPK4oWgjvcbv0OiMGC2FvKs/formResponse" method="POST" id="ss-form" target="rss _self" onsubmit="">
     <ol role="list" class="ss-question-list" style="padding-left: 0">
         <!-- COMPANY NAME -->
         <div class="ss-form-question errorbox-good" role="listitem">
