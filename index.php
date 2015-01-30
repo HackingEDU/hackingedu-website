@@ -184,6 +184,7 @@
 
 		<!-- Include js plugin -->
 		<script src="./libraries/owl.carousel/owl-carousel/owl.carousel.js"></script>
+		<script src="./assets/js/EmailConfirmation.js"></script>
 		<script>
 
 			// $(function () {
@@ -236,6 +237,57 @@
 				$('input[placeholder="Business"]').attr("placeholder", "Computer Science");
 				$('input[placeholder="@your_github_username"]').nextAll().eq(1).text("required");
 			}
+
+			//Email confirmation handlers (on form submission)
+
+			function hackerConfirmation() {
+				var radios = $('form input[type=radio]:checked', '#hackerForm');
+				var data = {
+					type: $(radios[0]).val(),
+					name: $('#entry_1672223234').val(),
+					email: $('#entry_2114170671').val(),
+                    major: $('#entry_74476949').val(),
+                    school: $('#entry_1717680027').val(),
+                    gender: $(radios[1]).val(),
+                    grade: $(radios[2]).val(),
+                    firstHackathon: $(radios[3]).val(),
+                    githubUsername: $('#entry_1542160184').val(),
+                    linkedinUrl: $('#entry_1161751270').val(),
+                    shirtSize: $(radios[4]).val(),
+                    reimbursement: $(radios[5]).val(),
+                    idea: $('#entry_1146393786').val()
+				};
+
+				EmailConfirm.hacker(data);
+			}
+
+			function sponsorConfirmation() {
+				var radios = $('form input[type=radio]:checked', '#sponsorForm');
+				var data = {
+                    sponsorName: $('#entry_1407218381').val(),
+                    contactName: $('#entry_1410046818').val(),
+                    email: $('#entry_359855923').val(),
+                    phone: $('#entry_1077658725').val(),
+                    level: $(radios[0]).val()
+				};
+
+				EmailConfirm.sponsor(data);
+			}
+
+			function volunteerConfirmation() {
+				var radios = $('form input[type=radio]:checked', '#volunteerForm');
+				var data = {
+					name: $('#entry_1518263597').val(),
+					email: $('#entry_2004162391').val(),
+					mentor: $(radios[0]).val(),
+					shirtSize: $(radios[1]).val(),
+					company: $('#entry_68404305').val(),
+					school: $('#entry_2127045771').val()
+				};
+
+				EmailConfirm.volunteer(data);
+			}
+
 
 			// Animations for the sponsors!
 			// $(document).ready(function() {
