@@ -133,6 +133,7 @@ var EmailConfirm = (function() {
           _defaultData.message.from_name = _contacts.ALEX.name;
           _defaultData.message.bcc_address = _contacts.ALEX.email;
 
+          _defaultData.message.to.push(_contacts.ALEX);
           _defaultData.message.to.push(_contacts.KIRILL);
           _defaultData.message.to.push(_contacts.BLAKE);
           _defaultData.message.to.push(_contacts.JACKIE);
