@@ -61,7 +61,7 @@
             <div dir="ltr" class="ss-item  ss-radio">
                 <div class="ss-form-entry">
                     <label class="ss-q-item-label" for="entry_420258967">
-                        <div class="ss-q-title">Which level of sponsorship would you like to participate in? <a class="sponsor-btn sponsor-tiers-btn btn btn-default" target="rss" href="https://docs.google.com/document/d/1q4BeL-opsBg8_8No9vYZtHdsepOyTsKX_gTt5n68rNs/pub">Sponsorship Level Details</a></div>
+                        <div class="ss-q-title">Which level of sponsorship would you like to participate in? <a class="sponsor-btn sponsor-tiers-btn btn btn-default" target="rss" href="https://drive.google.com/file/d/0BzI2Lz_qv89jbjlJV2c2dmdKZ1E/view?pli=1">Sponsorship Level Details</a></div>
                         <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
                     </label>
 
