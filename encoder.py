@@ -2,8 +2,8 @@ import base64
 
 files = [
     {
-      'original': './email_attachments/sponsor/SponsorshipLetter.pdf',
-      'encoded': './email_attachments/sponsor/_SponsorshipLetter.txt'
+      'original': './email_attachments/sponsor/HackingEDUSponsorshipPackages2015.pdf',
+      'encoded': './email_attachments/sponsor/_HackingEDUSponsorshipPackages2015.txt'
     }
 ]
 

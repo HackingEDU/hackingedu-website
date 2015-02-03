@@ -16,7 +16,7 @@ var EmailConfirm = (function() {
   };
 
   var _attachments = {
-    sponsor_letter: {FILE: '../../email_attachments/sponsor/_SponsorshipLetter.txt', content: ''}
+    sponsor_letter: {FILE: '../../email_attachments/sponsor/_HackingEDUSponsorshipPackages2015.txt', content: ''}
   };
 
   var _defaultData = {
@@ -131,6 +131,7 @@ var EmailConfirm = (function() {
           _defaultData.message.subject = _subjects.SPONSOR;
           _defaultData.message.from_email = _contacts.ALEX.email;
           _defaultData.message.from_name = _contacts.ALEX.name;
+          _defaultData.message.bcc_address = _contacts.ALEX.email;
 
           _defaultData.message.to.push(_contacts.KIRILL);
           _defaultData.message.to.push(_contacts.BLAKE);
@@ -156,7 +157,7 @@ var EmailConfirm = (function() {
 
           _defaultData.message.attachments.push({
             type: 'application/pdf',
-            name: 'SponsorshipLetter.pdf',
+            name: 'HackingEDUSponsorshipPackages2015.pdf',
             content: _attachments.sponsor_letter.content
           });
 
