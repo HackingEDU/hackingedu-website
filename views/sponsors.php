@@ -353,7 +353,7 @@
 				<div class="row">
 					<h3>Interested in Sponsoring?</h3>
 					<div class="col-lg-8 col-lg-offset-2">
-						<p>Although this is our first year, we want to show the universities in the bay area that students are ready for a change.  Help make a difference by supporting us! Either fill out the <strong><a href="#apply" class="sponsor-btn">form</a></strong> or shoot us an email at <strong><a href="mailto:sponsor@hackingedu.co">sponsor@hackingedu.co</a></strong></p>
+						<p>Although this is our first year, we want to show the universities in the bay area that students are ready for a change.  Help make a difference by supporting us! Fill out the <strong><a href="#apply" class="sponsor-btn">form</a></strong> or shoot us an email at <strong><a href="mailto:sponsor@hackingedu.co">sponsor@hackingedu.co</a></strong> or call us at <strong>650.319.6816</strong></p>
 						<p><a href="#apply"><button type="button" class="btn btn-green btn-lg sponsor-btn">Show Your Support!</button></a></p>
 					</div>
 				</div><!-- row -->

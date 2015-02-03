@@ -36,6 +36,7 @@
                             <textarea class="pull-left form-control marg-btm-1" id="message" name="message" placeholder="Ask away! :)"></textarea>
                         </div>
 
+                        <h4 class="pull-left">Or call us at 650.319.6816</h4>
                         <input id="singlebutton" name="singlebutton" class="btn m-btm-1em btn-default pull-right" type="submit" style="color: black"><!--Send--></input>
 
                     <!-- </fieldset> -->
