@@ -26,7 +26,7 @@
 			 	        	<h3><b class="clr-green">PHOTOS</b></h3>
 							<p>By attending HackingEDU, you acknowledge that your picture and video may be used without compensation, prior permission, or notification in any promotional material related to HackingEDU.</p>
 			 	        	<h3><b class="clr-green">DID WE MISS SOMETHING?</b></h3>
-							<p>Have a question, or think there's something we should have included here, but didn’t? Drop us a line.</p>
+							<p>Have a question, or think there's something we should have included here, but didn’t? <a href="mailto:team@hackingedu.co"><strong>Drop us a line.</strong></a></p>
 							</div>
 						</div>
 		       		</div>
