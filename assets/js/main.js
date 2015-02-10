@@ -13,7 +13,7 @@
     * Set your date here  (YEAR, MONTH (0 for January/11 for December), DAY, HOUR, MINUTE, SECOND)
     * according to the GMT+0 Timezone
     **/
-    var launch = new Date(2015, 04, 14, 10, 00);
+    var launch = new Date(2015, 09, 23, 00, 00);
     /**
     * The script
     **/
