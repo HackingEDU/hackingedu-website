@@ -96,8 +96,6 @@
 			<!-- APPLICATION FORMS -->
 			<?php require_once './views/formSignUp.php'; ?>
 
-			<!-- TEAM -->
-			<?php require_once './views/team.php'; ?>
 
 			<!-- RULES -->
 			<?php require_once './views/rules.php'; ?>
@@ -107,52 +105,19 @@
 
 			<!-- CALL TO ACTION -->
 			<?php require_once './views/sponsors.php'; ?>
+
+			<!-- STAY CONNECTED -->
+			<?php require_once './views/stayConnected.php'; ?>
+
+			<!-- SOCIAL FOOTER -->
+			<?php require_once './views/socialFooter.php'; ?>
+
+			<!-- TEAM -->
+			<?php require_once './views/team.php'; ?>
+			
 		</div>
 
-		<!-- STAY CONNECTED -->
-	    <div class="container">
-	    	<div class="row mt marg-btm-3">
-	      		<div class="col-lg-8">
-		        	<h1>Stay Connected</h1>
-		        	<p>Join us on our social networks for all the latest updates, service announcements and more or shoot us an email at <strong><a href="mailto:team@hackingedu.co">team@hackingedu.co</a></strong>.</p>
-	      		</div>
-	      		<div class="col-lg-4">
-	      			<p class="pull-right"><br><a data-toggle="modal" data-target="#contactModal"><button type="button" class="btn btn-green">Contact Us!</button></a></p>
-	      		</div>
-	    	</div><!-- /row -->
-	    </div><!-- /.container -->
-
-		<!-- SOCIAL FOOTER -->
-		<section id="contact"></section>
-		<div id="sf">
-			<div class="container ">
-				<div class="row">
-					<a href="<?php echo FACEBOOK_URL; ?>" target="rss">
-						<div class="col-lg-4 dg">
-							<h4 class="ml">FACEBOOK</h4>
-							<p class="centered"><i class="fa fa-facebook"></i></p>
-							<p class="ml">> Become A Friend</p>
-						</div>
-					</a>
-					<a href="<?php echo TWITTER_URL; ?>" target="rss">
-						<div class="col-lg-4 lg">
-							<h4 class="ml">TWITTER</h4>
-							<p class="centered"><i class="fa fa-twitter"></i></p>
-							<p class="ml">> Follow Us</p>
-						</div>
-					</a>
-					<a href="<?php echo GOOGLE_PLUS_URL; ?>" target="rss">
-						<div class="col-lg-4 dg">
-							<h4 class="ml">GOOGLE +</h4>
-							<p class="centered"><i class="fa fa-google-plus"></i></p>
-							<p class="ml">> Add Us To Your Circle</p>
-						</div>
-					</a>
-				</div><!-- row -->
-			</div><!-- container -->
-		</div><!-- Social Footer -->
-
-	    <!-- Contact Form Modal -->
+		<!-- Contact Form Modal -->
 		<?php require_once './views/formContact.php'; ?>
 		<!-- Levels of Sponsorship Modal -->
 		<?php require_once './views/sponsorshipLevelsModal.php'; ?>
