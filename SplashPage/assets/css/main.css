@@ -1,0 +1,379 @@
+
+/* =========================================================================
+                           CSS Framework Helpers
+   =======================================================================*/
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+.mg-top-none {
+    margin-top: 0;
+}
+.mg-t-3em {
+    margin-top: 3em;
+}
+.mg-bottom-none {
+    margin-bottom: 0;
+}
+.mg-bottom-7em {
+    margin-bottom: 7em;
+}
+.marg-t-3em {
+	margin-top: 3.5em;
+}
+.mg-r-2em {
+	margin-right: 2em;
+}
+.marg-btm-9em {
+	margin-bottom: 9em;
+}
+.marg-left-6 {
+	margin-left: 6.3em;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.horizontally-center {
+	text-align: center;
+}
+/*.vertically-center {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+
+}
+*/
+
+
+
+
+/* =========================================================================
+                           		  Random
+   =======================================================================*/
+
+body {
+	background-color: #f2f2f2;
+	font-family: Fallback, sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	color: #555;
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+	width: 100%;
+	/*background-image: url('assets/img/prism.jpg');*/
+}
+
+.contents {
+	margin: 210px 10% 0px;
+	color: #fff
+}
+
+h1 {
+	font-size: 60px;
+	margin: 0px;
+	text-align: center;
+}
+
+h1.subtitle {
+	font-size: 36px;
+}
+
+h1.ugly-line {
+	font-size: 18px;
+}
+
+p {
+	font-size: 18px;
+}
+
+li {
+	font-size: 18px;
+}
+
+/* =========================================================================
+                           	Imported Fonts
+   =======================================================================*/
+
+/*@font-face {
+	font-family: 'GeosansLight';
+	src: url('/assets/fonts/GeosansLight.eot?#iefix') format('embedded-opentype'),
+		 url('/assets/fonts/GeosansLight.woff') format('woff'),
+		 url('/assets/fonts/GeosansLight.ttf') format('truetype'),
+		 url('/assets/fonts/GeosansLight.svg#GeosansLight') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+*//*@font-face {
+	font-family: 'geosanslightregular';
+	src: url('/assets/fonts/19521.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}*/
+
+/* =========================================================================
+                           PDF Modal
+   =======================================================================*/
+
+.iframe-container {
+	padding-bottom: 60%;
+	padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.iframe-container iframe,
+.iframe-container object,
+.iframe-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* =========================================================================
+                           Main Page Signup Buttons
+   =======================================================================*/
+.volunteer-btn {
+    padding: 15px 51px;
+}
+
+.sponsor-btn-pad {
+    padding: 15px 59px;
+}
+
+.main-btn {
+    margin-top: 1em;
+    margin-right: .5em;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.247059);
+    color: #fff;
+    border-radius: 10px;
+    /*-moz-border-radius: 10px;*/
+    /*-webkit-border-radius: 10px;*/
+    /* border: none; */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    /* text-decoration: none; */
+    border: 2px solid #fff;
+    text-transform: uppercase;
+    /* max-width: 236px; */
+    /* cursor: pointer; */
+    transition-duration: .4s;
+}
+.apply-btn {
+    padding: 15px;
+}
+.main-btn:hover {
+    background: rgba(255, 255, 255, 0.6);
+    color: black;
+    border: 2px solid #fff;
+}
+
+/*
+	- dark transparent background on sponsorship buttons
+	- potential background for typeform: https://500px.com/photo/82708617/math-blackboard-by-mr-doomits
+	- add LinkedIn + Instagram to Team Signup Form & Training Day Signup Form
+	- Sponsorship Form:
+		- which sponsorship "package" are you interested in
+	- Training Day Form:
+		- gender (choose only 1)
+		- are you interested in a job in edTech?
+		- like/follow: add LinkedIn + Instagram
+		- any dietary restrictions
+		- will you need transportation to PayPal?
+	- Join The Team:
+		- What is your github (N/A if none)
+		- LinkedIn URL (N/A if none)
+		- school = remove picture
+		- Shirt Size
+		- position apply for
+			- remove technical coordinator
+			- maybe just put teams here
+		- remove would you consider a job in edtech
+	- maybe add roles we're looking for button to the right of join the team
+*/
+
+/* =========================================================================
+                                Logo
+   =======================================================================*/
+
+.logo-container {
+	text-align: center;
+}
+
+
+/* =========================================================================
+                            Social Links
+   =======================================================================*/
+
+#social:hover {
+	-webkit-transform:scale(1.1);
+	-moz-transform:scale(1.1);
+	-o-transform:scale(1.1);
+}
+#social {
+	-webkit-transform:scale(0.8);
+	/* Browser Variations: */
+	-moz-transform:scale(0.8);
+	-o-transform:scale(0.8);
+	-webkit-transition-duration: 0.5s;
+	-moz-transition-duration: 0.5s;
+	-o-transition-duration: 0.5s;
+}
+.social-fb:hover {
+	color: #3B5998;
+}
+.social-tw:hover {
+	color: #4099FF;
+}
+.social-ig:hover {
+	color: #3C4F56;
+}
+.social-em:hover {
+	color: #f39c12;
+}
+
+.social-block {
+	position: absolute;
+	right: 1em;
+	top: 1em;
+	z-index: 1;
+}
+
+a { /* BOOTSTRAP OVERWRITE */
+	color: white;
+	text-decoration: none;
+}
+/* =========================================================================
+                            Fade Carousel
+   =======================================================================*/
+
+/*
+Fade content bs-carousel with hero headers
+Code snippet by maridlcrmn (Follow me on Twitter @maridlcrmn) for Bootsnipp.com
+Image credits: unsplash.com
+*/
+
+/********************************/
+/*       Fade Bs-carousel       */
+/********************************/
+.fade-carousel {
+   position: relative;
+   height: 100vh;
+}
+.fade-carousel .carousel-inner .item {
+   height: 100vh;
+}
+.fade-carousel .carousel-indicators > li {
+   margin: 0 2px;
+   /*background-color: #f39c12;*/
+   /*border-color: #f39c12;*/
+   opacity: .7;
+}
+.fade-carousel .carousel-indicators > li.active {
+ width: 10px;
+ height: 10px;
+ opacity: 1;
+}
+
+/********************************/
+/*          Hero Headers        */
+/********************************/
+.hero {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   z-index: 3;
+   color: #fff;
+   text-align: center;
+   text-transform: uppercase;
+   /*text-shadow: 1px 1px 0 rgba(0,0,0,.75);*/
+     -webkit-transform: translate3d(-50%,-50%,0);
+        -moz-transform: translate3d(-50%,-50%,0);
+         -ms-transform: translate3d(-50%,-50%,0);
+          -o-transform: translate3d(-50%,-50%,0);
+             transform: translate3d(-50%,-50%,0);
+}
+.hero h1 {
+   font-size: 6em;
+   /*font-weight: bold;*/
+   /*margin: 0;*/
+   padding: 0;
+}
+
+.fade-carousel .carousel-inner .item .hero {
+   opacity: 0;
+   -webkit-transition: 2s all ease-in-out .1s;
+      -moz-transition: 2s all ease-in-out .1s;
+       -ms-transition: 2s all ease-in-out .1s;
+        -o-transition: 2s all ease-in-out .1s;
+           transition: 2s all ease-in-out .1s;
+}
+.fade-carousel .carousel-inner .item.active .hero {
+   opacity: 1;
+   -webkit-transition: 2s all ease-in-out .1s;
+      -moz-transition: 2s all ease-in-out .1s;
+       -ms-transition: 2s all ease-in-out .1s;
+        -o-transition: 2s all ease-in-out .1s;
+           transition: 2s all ease-in-out .1s;
+}
+
+/********************************/
+/*            Overlay           */
+/********************************/
+.overlay {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   z-index: 2;
+   background-color: #080d15;
+   opacity: .7;
+}
+
+/********************************/
+/*          Custom Buttons      */
+/********************************/
+/*.btn.btn-lg {padding: 10px 40px;}
+.btn.btn-hero,
+.btn.btn-hero:hover,
+.btn.btn-hero:focus {
+   color: #f5f5f5;
+   background-color: #1abc9c;
+   border-color: #1abc9c;
+   outline: none;
+   margin: 20px auto;
+}*/
+
+/********************************/
+/*       Slides backgrounds     */
+/********************************/
+.fade-carousel .slides .slide-1,
+.fade-carousel .slides .slide-2,
+.fade-carousel .slides .slide-3 {
+ height: 100vh;
+ background-size: cover;
+ background-position: center center;
+ background-repeat: no-repeat;
+}
+.fade-carousel .slides .slide-1 {
+	background-image: url(../img/prism.jpg);
+}
+.fade-carousel .slides .slide-2 {
+	background-image: url(../img/Paypal%20Hq.jpg);
+}
+.fade-carousel .slides .slide-3 {
+	background-image: url(../img/Education%20Wall%20paper.jpg);
+}
+
+/********************************/
+/*          Media Queries       */
+/********************************/
+@media screen and (min-width: 980px){
+   .hero { width: 980px; }
+}
+@media screen and (max-width: 640px){
+   .hero h1 { font-size: 3em; }
+}
