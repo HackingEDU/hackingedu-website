@@ -111,6 +111,92 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="/SplashPage/assets/js/bootstrap.min.js"></script>
 
+    <!-- Swipe to scroll setup -->
+    <script>
+    //Scrolling setup
+        var area = document.getElementById('myCarousel');
+        var carousel = $('.carousel');
+        var distance = 0;
+
+        if ('ontouchstart' in window) {
+            var touch = 0;
+            var lastTouch = 0;
+            var touchdown = false;
+            var isMoving = false;
+
+            area.addEventListener('touchstart', function(e) {
+                touchdown = true;
+                touch = e.touches[0].pageX;
+                //e.preventDefault();
+            }, false);
+
+            document.addEventListener('touchmove', function(e) {
+                if (!touchdown) {
+                    return;
+                }
+
+                isMoving = true;
+                touchdown = true;
+                lastTouch = e.touches[0].pageX;
+            }, false);
+
+            document.addEventListener('touchend', function(e) {
+                if (!touchdown || !isMoving) {
+                    return;
+                }
+
+                distance = lastTouch - touch;
+                if (Math.abs(distance) < 50) {
+                    return;
+                }
+
+                if (distance < 0) {
+                    carousel.carousel('next');
+                } else if (distance > 0) {
+                    carousel.carousel('prev');
+                }
+
+                touchdown = false;
+                isMoving = false;
+            }, false);
+        
+        } else {
+            var pos = 0;
+            var mousedown = false;
+            area.addEventListener('mousedown', function(e) {
+                mousedown = true;
+                pos = e.pageX;
+            }, false);
+
+            document.addEventListener('mousemove', function(e) {
+                if (!mousedown) {
+                    return;
+                }
+
+                mousedown = true;
+            }, false);
+
+            document.addEventListener('mouseup', function(e) {
+                if (!mousedown) {
+                    return;
+                }
+
+                var distance = e.pageX - pos;
+                if (Math.abs(distance) < 100) {
+                    return;
+                }
+
+                if (distance < 0) {
+                    carousel.carousel('next');
+                } else if (distance > 0) {
+                    carousel.carousel('prev');
+                }
+
+                mousedown = false;
+            }, false);
+        }
+    </script>
+
     <script>
     // TypeForm
         // Join The Team
