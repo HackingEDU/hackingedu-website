@@ -96,7 +96,6 @@
 			<!-- APPLICATION FORMS -->
 			<?php require_once './views/formSignUp.php'; ?>
 
-
 			<!-- RULES -->
 			<?php require_once './views/rules.php'; ?>
 
@@ -114,7 +113,7 @@
 
 			<!-- TEAM -->
 			<?php require_once './views/team.php'; ?>
-			
+
 		</div>
 
 		<!-- Contact Form Modal -->
