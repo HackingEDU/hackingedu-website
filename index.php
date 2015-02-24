@@ -63,7 +63,7 @@
                 </div>
                 <div class="carousel-caption">
                     <!-- Team Recruitment Application -->
-                    <p class="lead"><a class="typeform-share btn btn-lg main-btn volunteer-btn"href="https://jackiezhang.typeform.com/to/IqBqso" data-mode="2" target="_blank">Join The Team</a></p>
+                    <p class="lead"><a class="typeform-share btn btn-lg main-btn volunteer-btn"href="https://hackingedu.typeform.com/to/IqBqso" data-mode="2" target="_blank">Join The Team</a></p>
                 </div>
             </div>
             <!-- Training Day -->
@@ -75,7 +75,7 @@
                     </hgroup>
                 </div>
                 <div class="carousel-caption">
-                    <p class="lead"><a class="typeform-share btn btn-lg main-btn apply-btn" href="https://jackiezhang.typeform.com/to/w6qOJT" data-mode="2" target="_blank">Training Day Application</a></p>
+                    <p class="lead"><a class="typeform-share btn btn-lg main-btn apply-btn" href="https://hackingedu.typeform.com/to/Vub48x" data-mode="2" target="_blank">Training Day Application</a></p>
                 </div>
             </div>
             <!-- Sponsorships -->
@@ -89,7 +89,7 @@
                 <div class="carousel-caption">
                     <!-- Sponsorship Application -->
                     <p class="lead">
-                        <a class="typeform-share btn btn-lg main-btn sponsor-btn sponsor-btn-pad"  href="https://jackiezhang.typeform.com/to/BEXo5M" data-mode="2" target="_blank">Sponsor Us</a>
+                        <a class="typeform-share btn btn-lg main-btn sponsor-btn sponsor-btn-pad"  href="https://hackingedu.typeform.com/to/BEXo5M" data-mode="2" target="_blank">Sponsor Us</a>
                         <a href="https://drive.google.com/file/d/0BzI2Lz_qv89jY181ZUIwZXY4ZkE/view?usp=sharing" target = "rss" class="btn btn-lg main-btn sponsor-btn sponsor-btn-pad" id="trigger">The Packages</a>
                     </p>
                 </div>
@@ -159,7 +159,7 @@
                 touchdown = false;
                 isMoving = false;
             }, false);
-        
+
         } else {
             var pos = 0;
             var mousedown = false;
