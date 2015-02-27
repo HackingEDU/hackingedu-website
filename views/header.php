@@ -10,7 +10,7 @@
     <meta property="og:type" content="website"/>
     <meta property="og:title" content="HackingEDU"/>
     <meta property="og:description" content="HackingEDU, the largest student run hackathon conceived with the intent to disrupt the classroom and push the envelope on the contemporary education system."/>
-    <meta property="og:image" content="http://hackingedu.co/hackingedu-website.png"/>
+    <meta property="og:image" content="http://hackingedu.co/assets/img/hacklogo-prism.png"/>
     <link rel="shortcut icon" href="../assets/img/favicon.ico?v=1.1">
     <!-- <link rel="shortcut icon" href="hackinged.ico"> -->
     <!-- <link rel="shortcut icon" href="assets/ico/faviconΩ.png"> -->

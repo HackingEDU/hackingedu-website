@@ -12,7 +12,7 @@
     <meta property="og:type" content="website"/>
     <meta property="og:title" content="HackingEDU"/>
     <meta property="og:description" content="HackingEDU, the largest student run hackathon conceived with the intent to disrupt the classroom and push the envelope on the contemporary education system."/>
-    <meta property="og:image" content="http://hackingedu.co/hacklogo-prism.png"/>
+    <meta property="og:image" content="http://hackingedu.co/assets/img/hacklogo-prism.png"/>
 
     <title>HackingEDU</title>
 
