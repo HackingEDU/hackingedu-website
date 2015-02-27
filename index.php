@@ -8,6 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+    <meta property="og:url" content="http://hackingedu.co"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="HackingEDU"/>
+    <meta property="og:description" content="HackingEDU, the largest student run hackathon conceived with the intent to disrupt the classroom and push the envelope on the contemporary education system."/>
+    <meta property="og:image" content="http://hackingedu.co/hackingedu-website.png"/>
 
     <title>HackingEDU</title>
 
