@@ -55,7 +55,7 @@
 
 body {
 	background-color: #f2f2f2;
-	font-family: Fallback, sans-serif;
+	font-family: 'GeosansLight', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-weight: 300;
 	font-size: 16px;
 	color: #555;
@@ -74,6 +74,7 @@ h1 {
 	font-size: 60px;
 	margin: 0px;
 	text-align: center;
+  font-family: 'GeosansLight', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 h1.subtitle {
@@ -96,7 +97,7 @@ li {
                            	Imported Fonts
    =======================================================================*/
 
-/*@font-face {
+@font-face {
 	font-family: 'GeosansLight';
 	src: url('/assets/fonts/GeosansLight.eot?#iefix') format('embedded-opentype'),
 		 url('/assets/fonts/GeosansLight.woff') format('woff'),
@@ -105,12 +106,12 @@ li {
 	font-weight: normal;
 	font-style: normal;
 }
-*//*@font-face {
+@font-face {
 	font-family: 'geosanslightregular';
 	src: url('/assets/fonts/19521.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
-}*/
+}
 
 /* =========================================================================
                            PDF Modal
