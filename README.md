@@ -11,11 +11,7 @@ Website for the **HackingEDU**, the world's largest education hackathon
 curl -sS https://getcomposer.org/installer | php
 mv composer.phar /usr/local/bin/composer
 ```
-- Linux/Unix/OS X
-```
-curl -sS https://getcomposer.org/installer | php
-mv composer.phar /usr/local/bin/composer
-```
+- Windows [Composer-Setup.exe](https://getcomposer.org/Composer-Setup.exe)
 3. Install Composer packages found in [composer.json](https://github.com/HackingEDU/hackingedu-website/blob/master/composer.json)
 ```
 composer install
