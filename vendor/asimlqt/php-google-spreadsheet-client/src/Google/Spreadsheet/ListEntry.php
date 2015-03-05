@@ -29,21 +29,21 @@ class ListEntry
 {
     /**
      * The xml representation of this list entry
-     *
+     * 
      * @var \SimpleXMLElement
      */
     protected $xml;
 
     /**
      * The data for this list entry
-     *
+     * 
      * @var array
      */
     protected $data;
 
     /**
      * Constructor
-     *
+     * 
      * @param \SimpleXMLElement $xml
      * @param array             $data
      */
@@ -51,45 +51,31 @@ class ListEntry
     {
         $this->xml = $xml;
         $this->data = $data;
-        // d($data);
-        // dd($xml);
-
     }
 
     /**
      * Get the values of this list entry
-     *
+     * 
      * @return array
      */
     public function getValues()
     {
-        // $array = $this->data;
-        // foreach ($array as $key => $value) {
-        //     if (is_null($value)) {
-        //          $array[$key] = " ";
-        //     }
-        // }
-        // dd($this->data); // <- ACTUAL COLUMN NAMES WRONG KEYS
         return $this->data;
     }
 
-
-
-
-
     /**
      * Update this entry
-     *
+     * 
      * @param array $values
      */
     public function update($values)
-    {
+    {        
         $entry = '<entry xmlns="http://www.w3.org/2005/Atom" xmlns:gsx="http://schemas.google.com/spreadsheets/2006/extended">';
         $entry .= '<id>'.$this->xml->id->__toString().'</id>';
 
         foreach($values as $colName => $value) {
             $entry .= sprintf(
-                '<gsx:%s>%s</gsx:%s>',
+                '<gsx:%s><![CDATA[%s]]></gsx:%s>',
                 $colName,
                 $value,
                 $colName
@@ -108,10 +94,10 @@ class ListEntry
     {
         ServiceRequestFactory::getInstance()->delete($this->getEditUrl());
     }
-
+    
     /**
      * Get the edit url
-     *
+     * 
      * @return string
      */
     public function getEditUrl()

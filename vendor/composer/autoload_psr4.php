@@ -6,5 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Klein\\' => array($vendorDir . '/klein/klein/src/Klein'),
     'Google\\' => array($vendorDir . '/asimlqt/php-google-spreadsheet-client/src/Google'),
 );

@@ -1,6 +1,7 @@
 {
     "require": {
         "asimlqt/php-google-spreadsheet-client": "2.2.*",
-        "google/apiclient": "1.0.*@beta"
+        "google/apiclient": "1.0.*@beta",
+        "klein/klein": "~2.1"
     }
 }
