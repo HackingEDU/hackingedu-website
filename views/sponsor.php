@@ -19,8 +19,8 @@
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="assets/css/normalize.css">
-  <link rel="stylesheet" href="assets/css/skeleton.css">
+  <link rel="stylesheet" href="/assets/css/normalize.css">
+  <link rel="stylesheet" href="/assets/css/skeleton.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -29,18 +29,18 @@
 </head>
 <body>
 
-<body style="background-image:url('assets/img/colorful.jpg');">
+<body style="background-image:url('/assets/img/colorful.jpg');">
 
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <h1 class="text-left"> Overview </h1>
 
-<p class="text-left">Many people are frustrated with our current education system, and HackingEDU is empowering students to step 
+<p class="text-left">Many people are frustrated with our current education system, and HackingEDU is empowering students to step
 
-up and make a difference. This fall, over 1000 hackers will battle for 36 hours to create revolutionary products 
+up and make a difference. This fall, over 1000 hackers will battle for 36 hours to create revolutionary products
 
-that will redefine the education system. We are providing the launchpad for students to invent the future of 
+that will redefine the education system. We are providing the launchpad for students to invent the future of
 
 education and reinstate a new code for education practices.</p>
 
@@ -50,24 +50,24 @@ education and reinstate a new code for education practices.</p>
 
 <p class="text-left">HackingEDU was brought to life when a group of 11 Google Student Ambassadors were asked to hold small
 
-events at each of their respective universities, but instead, they dreamed of something much bigger. We are 
+events at each of their respective universities, but instead, they dreamed of something much bigger. We are
 
-bringing together students from all across the west coast and inspiring them to change the world. At most 
+bringing together students from all across the west coast and inspiring them to change the world. At most
 
-hackathons, students have trouble coming up with meaningful ideas. At HackingEDU, students come because 
+hackathons, students have trouble coming up with meaningful ideas. At HackingEDU, students come because
 
-they want to revolutionize education. This massive collaboration of ideas and implementation will bring about 
+they want to revolutionize education. This massive collaboration of ideas and implementation will bring about
 
-change to the education system as a whole. 
-
-<br>
+change to the education system as a whole.
 
 <br>
-Our team has a proven track record, having coordinated other hackathons such as Citrus Hack, HackSC, Davis 
 
-Hacks, and Cal Hacks. ​We have a dedicated core team that spans over 11 universities and more than 20 ​other key 
+<br>
+Our team has a proven track record, having coordinated other hackathons such as Citrus Hack, HackSC, Davis
 
-members, so you can be confident that the hackathon will run smoothly and solidify its place as one of the most 
+Hacks, and Cal Hacks. ​We have a dedicated core team that spans over 11 universities and more than 20 ​other key
+
+members, so you can be confident that the hackathon will run smoothly and solidify its place as one of the most
 
 elite hackathons in the nation.</p>
 
@@ -112,42 +112,42 @@ sustainable connections with multiple universities at once, and tap into the poo
       <th>Masters $35K</th>
       <th>Doctorate $50K</th>
 
-      
+
 
 
     </tr>
 
-    
+
   </thead>
   <tbody>
     <tr>
       <td>Mentors/Engineers at HackingEDU</td>
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
 </td>
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
 
     </tr>
     <tr>
   <td>Reserved Company Table</td>
       <td class="yes"></td>
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
     </tr>
  <tr>
   <td>Judging Spot for HackingEDU Prizes</td>
       <td class="yes"></td>
       <td class="yes"></td>
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
     </tr>
 
      <tr>
@@ -176,9 +176,9 @@ sustainable connections with multiple universities at once, and tap into the poo
        <td class="yes"></td>
       <td class="yes"></td>
 
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
     </tr>
 
      <tr>
@@ -187,9 +187,9 @@ sustainable connections with multiple universities at once, and tap into the poo
       <td class="yes"></td>
       <td class="yes"></td>
 
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
     </tr>
 
      <tr>
@@ -201,8 +201,8 @@ top prizes</td>
       <td class="yes"></td>
       <td class="yes"></td>
 
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
     </tr>
 
      <tr>
@@ -235,7 +235,7 @@ top prizes</td>
       <td class="yes"></td>
       <td class="yes"></td>
 
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
     </tr>
 
 
@@ -258,12 +258,12 @@ top prizes</td>
       <th>Masters $35K</th>
       <th>Doctorate $50K</th>
 
-      
+
 
 
     </tr>
 
-    
+
   </thead>
   <tbody>
     <tr>
@@ -279,20 +279,20 @@ top prizes</td>
     <tr>
   <td>Access to attendee profiles after event</td>
       <td class ="yes"></td>
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
     </tr>
  <tr>
   <td>Early access to participant info</td>
       <td class="yes"></td>
       <td class="yes"></td>
       <td class="yes"></td>
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
 
     </tr>
 
@@ -326,22 +326,22 @@ top prizes</td>
       <th>Masters $35K</th>
       <th>Doctorate $50K</th>
 
-      
+
 
 
     </tr>
 
-    
+
   </thead>
   <tbody>
     <tr>
       <td>Thanked at kickoff demos</td>
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
 
 
 
@@ -359,12 +359,12 @@ top prizes</td>
     </tr>
  <tr>
   <td>Can distribute company swag</td>
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
 
     </tr>
 
@@ -373,10 +373,10 @@ top prizes</td>
       <td class="yes"></td>
       <td class="yes"></td>
 
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
 
     </tr>
 
@@ -385,10 +385,10 @@ top prizes</td>
   <td>Swag in swag bags</td>
       <td class="yes"></td>
       <td class="yes"></td>
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
 
     </tr>
 
@@ -397,9 +397,9 @@ top prizes</td>
       <td class="yes"></td>
       <td class="yes"></td>
       <td class="yes"></td>
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
     </tr>
      <tr>
 
@@ -410,9 +410,9 @@ top prizes</td>
       <td class="yes"></td>
       <td class="yes"></td>
       <td class="yes"></td>
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
     </tr>
      <tr>
   <td>Company branded email</td>
@@ -440,7 +440,7 @@ top prizes</td>
       <td class="yes"></td>
       <td class="yes"></td>
       <td class="yes"></td>
-        <td class="yes"> <img class = "center" src="assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
+        <td class="yes"> <img class = "center" src="/assets/img/checkmark-icon.png" alt="" style="width:25px;height:25px">
     </tr>
 
 

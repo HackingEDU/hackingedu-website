@@ -17,15 +17,15 @@
     <title>HackingEDU</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="/SplashPage/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/css/bootstrap.css" rel="stylesheet">
 
     <!-- Fonts -->
-    <link href="/SplashPage/assets/fonts/GeosansLight.ttf" rel="stylesheet">
+    <link href="/assets/fonts/GeosansLight.ttf" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="/SplashPage/assets/css/full-slider.css" rel="stylesheet">
-    <link href="/SplashPage/assets/css/main.css" rel="stylesheet">
+    <link href="/assets/css/full-slider.css" rel="stylesheet">
+    <link href="/assets/css/new-main.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -62,7 +62,7 @@
                 <div class="hero">
                     <hgroup>
                         <!-- HackingEDU Cover Image -->
-                        <img class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-3 mg-r-2em mg-t-3em" alt="HackingEDU hackathon" src=".//SplashPage/assets/img/hacklogo-white-no-border.png" alt="">
+                        <img class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-3 mg-r-2em mg-t-3em" alt="HackingEDU hackathon" src="/assets/img/hacklogo-white-no-border.png" alt="">
                         <h4 class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-3">Bay Area's Largest Education Hackathon</h4>
                     </hgroup>
                 </div>
@@ -111,10 +111,10 @@
 
     </header>
 
-    <script src="/SplashPage/assets/js/jquery.js"></script>
+    <script src="/assets/js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="/SplashPage/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/bootstrap.js"></script>
 
     <!-- Swipe to scroll setup -->
     <script>
@@ -216,7 +216,7 @@
     </script>
 
     <!-- Script to Activate the Carousel -->
-    <script src= "main.js">
+    <script src= "/assets/js/new-main.js">
     // $('.carousel').carousel({
     //     interval: 5000 //changes the speed
     // })

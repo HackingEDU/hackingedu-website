@@ -9,11 +9,11 @@
     <title>HackingEDU Training Day</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="assets/css/full-slider.css" rel="stylesheet">
-    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="/assets/css/full-slider.css" rel="stylesheet">
+    <link href="/assets/css/new-main.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -23,7 +23,7 @@
     <![endif]-->
 </head>
 
-<body style="background-image:url('assets/img/prism.jpg');">
+<body style="background-image:url('/assets/img/prism.jpg');">
     <div class="contents">
       <h1>HackingEDU Training Day</h1>
       <h1><span class="pp-r">4/25</span></h1>
@@ -34,7 +34,7 @@
       <h1 class="text-left">HOW IT WORKS</h1>
       <p>Get coached by X of the best tech companies from all over the bay area. Something something talks! Something something demo APIs!
         <br>
-        <img src="assets/img/tday_logos/paypal-logo.jpg" height="48px" width="172px"> <img src="assets/img/tday_logos/make_school.png" height="70" width="175"> <img src="assets/img/tday_logos/syncano-logo.png"> <img src="assets/img/tday_logos/lean_gap.jpg" height="175" width="175">
+        <img src="/assets/img/tday_logos/paypal-logo.jpg" height="48px" width="172px"> <img src="/assets/img/tday_logos/make_school.png" height="70" width="175"> <img src="/assets/img/tday_logos/syncano-logo.png"> <img src="/assets/img/tday_logos/lean_gap.jpg" height="175" width="175">
       </p>
       <hr>
       <br>
@@ -66,10 +66,10 @@
     </div>
 
     <!-- jQuery -->
-    <script src="assets/js/jquery.js"></script>
+    <script src="/assets/js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
 
     <!-- Script to Activate the Carousel -->
     <script>
