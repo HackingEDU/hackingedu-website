@@ -1,31 +1,374 @@
-@charset "UTF-8";
-/*
- * Bootstrap Image Gallery Demo CSS 3.0.0
- * https://github.com/blueimp/Bootstrap-Image-Gallery
- *
- * Copyright 2013, Sebastian Tschan
- * https://blueimp.net
- *
- * Licensed under the MIT license:
- * http://www.opensource.org/licenses/MIT
- */
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'codropsicons';
+	src:url('../fonts/codropsicons/codropsicons.eot');
+	src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/codropsicons/codropsicons.woff') format('woff'),
+		url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
+		url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+}
+
+*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { content: ''; display: table; }
+.clearfix:after { clear: both; }
 
 body {
-    padding-top: 60px;
-    background: #222;
-    color: #fff;
+	background: #fff;
+	color: #383a3c;
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 1.25;
+	font-family: 'Raleway', Calibri, Arial, sans-serif;
 }
-h1 {
-    font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+
+a, button {
+	outline: none;
 }
+
 a {
-    color: orange;
+	color: #566473;
+	text-decoration: none;
 }
-a:hover {
-    color: lightblue;
-    text-decoration: none;
+
+a:hover, a:focus {
+	color: #34495e;
 }
-.modal {
-	overflow: auto;
-	color: #333;
+
+section {
+	padding: 1em;
+	text-align: center;
 }
+
+p.ref {
+	text-align: center;
+	padding: 2em 1em;
+}
+
+/* Header */
+.codrops-header {
+	margin: 0 auto;
+	padding: 2em;
+	text-align: center;
+	max-width: 100%;
+    background-color:azure
+}
+
+.codrops-header h1 {
+	margin: 0;
+	font-size: 4.5em;
+	line-height: 1;
+	font-weight: 200;
+}
+
+.codrops-header h1 span {
+	display: block;
+	padding: 1em 0 1.5em;
+	font-size: 36%;
+	color: #95a5a6;
+	line-height: 1.4;
+}
+
+/* To Navigation Style */
+.codrops-top {
+	width: 100%;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 0.69em;
+	text-align: center;
+	padding: 3em 0;
+}
+
+.codrops-top a {
+	display: inline-block;
+	padding: 1.5em;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+
+.codrops-icon:before {
+	margin: 0 4px;
+	text-transform: none;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-family: 'codropsicons';
+	line-height: 1;
+	speak: none;
+	-webkit-font-smoothing: antialiased;
+}
+
+.codrops-icon-drop:before {
+	content: "\e001";
+}
+
+.codrops-icon-prev:before {
+	content: "\e004";
+}
+
+/* Demo Buttons Style */
+.codrops-demos {
+	padding-top: 1em;
+	font-size: 0.8em;
+}
+
+.codrops-demos a {
+	display: inline-block;
+	margin: 0.35em 0.1em;
+	padding: 0.5em 1.2em;
+	outline: none;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	border-radius: 2px;
+	font-size: 110%;
+	border: 2px solid transparent;
+}
+
+.codrops-demos a:hover,
+.codrops-demos a.current-demo {
+	border-color: #383a3c;
+}
+
+.codrops-demos h3 {
+	margin: 0;
+	padding: 1em 0 0.5em 0;
+	font-size: 0.9em;
+	float: left;
+	min-width: 90px;
+	clear: left;
+}
+
+.codrops-demos div:not(:first-child) h3 {
+	padding-top: 2em;
+}
+
+.codrops-demos a:hover,
+.codrops-demos a.current-demo {
+	color: inherit;
+	border-color: initial;
+}
+
+/* Related demos */
+.related {
+	padding: 10em 0;
+}
+
+.related p {
+	font-size: 1.5em;
+}
+
+.related > a {
+	display: inline-block;
+	text-align: center;
+	margin: 20px 10px;
+	padding: 25px;
+	vertical-align: middle;
+}
+
+.related a img {
+	max-width: 100%;
+	opacity: 0.8;
+	border-radius: 10px;
+}
+
+.related a:hover img,
+.related a:active img {
+	opacity: 1;
+}
+
+.related a h3 {
+	margin: 0;
+	min-height: 63px;
+	padding: 0.5em 0 0.3em;
+	max-width: 300px;
+	text-align: center;
+	font-weight: 400;
+	font-size: 1em;
+}
+
+@media screen and (max-width: 40em) {
+
+	.codrops-header h1 {
+		font-size: 2.5em;
+	}
+}
+
+/* =========================================================================
+                           Sponsor Logo Layout
+   =======================================================================*/
+#sponsor-logos {
+  margin: 40px 20%;
+  padding: 0;
+  max-width: 100%;
+}
+
+section.sponsors { 
+  z-index: 5;
+  font-weight: 700;
+  font-size: 2em;
+  margin-bottom: 2em;
+  font-family: lato, sans-serif;
+  color: #57655f;
+  text-align:center;
+}
+
+.sponsors a {
+  height: 4rem;
+  float: left;
+  display: inline-block;
+  padding: 1rem 0;
+}
+
+.sponsors img {
+  max-height: 100%;
+  max-width: 95%;
+  display: block;
+  margin: auto;
+}
+
+.sponsors .rollover img {
+  -webkit-filter: grayscale(1) opacity(0.5);
+  filter:grayscale(1) opacity(0.5);
+}
+.sponsors .rollover img:hover {
+  -webkit-filter: none;
+  filter:none;
+}
+
+.sponsors .sophomore, .sponsors .masters, .sponsors .senior, .sponsors .junior, .sponsors .freshman{
+  display: inline-block;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+}
+
+.sponsors .masters a {
+  height: 8rem;
+  width: 100%;
+}
+
+.sponsors .senior a {
+  height: 7rem <!--13rem-->;
+  width: 50%;
+}
+
+.sponsors .partner a.ubc {
+  width: 16%;
+}
+
+.sponsors .junior a {
+  height: 5.5rem;
+  width: 33%;
+}
+
+.sponsors .freshman a {
+  height: 3.6rem;
+  width: 25%;
+}
+
+.sponsors .sophomore a, .sponsors .masters a, .sponsors .senior a, .sponsors .junior a, .sponsors .freshman a {
+  position: relative;
+}
+
+a.edu {
+  margin-top:50px;
+  height: 4em!important;
+}
+
+
+#partner-logos.sponsors .doctorate a {
+  height: 12rem;
+  width: 100%;
+}
+
+#partner-logos.sponsors .doctorate a img#next36{
+  padding-top:3rem;
+}
+
+/* =========================================================================
+                           Main Page Signup Buttons
+   =======================================================================*/
+.volunteer-btn {
+    padding: 15px 51px;
+}
+
+.sponsor-btn-pad {
+    padding: 15px 59px;
+}
+
+.main-btn {
+    margin-top: 1em;
+    margin-right: .5em;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.247059);
+    color: #fff;
+    border-radius: 10px;
+    /*-moz-border-radius: 10px;*/
+    /*-webkit-border-radius: 10px;*/
+    /* border: none; */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    /* text-decoration: none; */
+    border: 2px solid #fff;
+    text-transform: uppercase;
+    /* max-width: 236px; */
+    /* cursor: pointer; */
+    transition-duration: .4s;
+}
+.apply-btn {
+    padding: 15px;
+}
+.main-btn:hover {
+    background: rgba(255, 255, 255, 0.6);
+    color: black;
+    border: 2px solid #fff;
+}
+
+/* =========================================================================
+                            Social Links
+   =======================================================================*/
+
+#social:hover {
+	-webkit-transform:scale(1.1);
+	-moz-transform:scale(1.1);
+	-o-transform:scale(1.1);
+}
+#social {
+	-webkit-transform:scale(0.8);
+	/* Browser Variations: */
+	-moz-transform:scale(0.8);
+	-o-transform:scale(0.8);
+	-webkit-transition-duration: 0.5s;
+	-moz-transition-duration: 0.5s;
+	-o-transition-duration: 0.5s;
+}
+.social-fb:hover {
+	color: #3B5998;
+}
+.social-tw:hover {
+	color: #4099FF;
+}
+.social-ig:hover {
+	color: #3C4F56;
+}
+.social-em:hover {
+	color: #f39c12;
+}
+
+.social-block {
+	position: absolute;
+	right: 1em;
+	top: 1em;
+	z-index: 1;
+}
+
+a { /* BOOTSTRAP OVERWRITE */
+	color: black;
+	text-decoration: none;
+}
+

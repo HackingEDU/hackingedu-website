@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>HackingEDU | Training Day</title>
+        <meta name="description" content="Examples for creative website header animations using Canvas and JavaScript" />
+        <meta name="keywords" content="header, canvas, animated, creative, inspiration, javascript" />
+        <meta name="author" content="Codrops" />
+        <link rel="shortcut icon" href="../favicon.ico">
+        <link rel="stylesheet" type="text/css" href="assets/css/normalize2.css" />
+        <link rel="stylesheet" type="text/css" href="assets/css/demo.css" />
+                <link rel="stylesheet" type="text/css" href="assets/css/marketing.css" />
+
+        <link rel="stylesheet" type="text/css" href="assets/css/component.css" />
+
+        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+        <link href='http://fonts.googleapis.com/css?family=Raleway:200,400,800|Londrina+Outline' rel='stylesheet' type='text/css'>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+        <!--[if IE]>
+        	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+	</head>
+
+
+
+    <!-- <div class="header">
+        <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item pure-menu-selected"><a href="#" class="pure-menu-link">Home</a></li>
+                <li class="pure-menu-item"><a href="#" class="pure-menu-link">Tour</a></li>
+                <li class="pure-menu-item"><a href="#" class="pure-menu-link">Sign Up</a></li>
+            </ul>
+        </div>
+    </div> -->
+	<body>
+
+    <!-- first section -->
+		<div class="demo-3">
+			<div class="content">
+                <div id="large-header" class="large-header">
+                    <canvas id="demo-canvas"></canvas>
+                    <div class="main-title" style="border: none;">
+                        <img src="assets/img/hacklogo.png" class="mg-t-2.5em" style='width:100%;' border="0" alt="Null">
+                        <!-- Training Day button -->
+                        <!-- <p><a class="typeform-share btn btn-lg main-btn apply-btn" href="https://hackingedu.typeform.com/to/Vub48x" data-mode="2" target="_blank">Hacker</a><p>
+                        <p><a class="typeform-share btn btn-lg main-btn apply-btn" href="https://hackingedu.typeform.com/to/Vub48x" data-mode="2" target="_blank">Sponsor</a><p> -->
+                        <p class="lead">
+                            <a class="typeform-share btn btn-lg main-btn sponsor-btn sponsor-btn-pad"  href="https://jackiezhang.typeform.com/to/BEXo5M" data-mode="2" target="_blank">Sponsor</a>
+                            <a class="typeform-share btn btn-lg main-btn sponsor-btn sponsor-btn-pad"  href="change this shit" data-mode="2" target="_blank">Hacker</a>
+                        </p>
+                    </div>
+                </div>
+                <!-- Background-Black-->
+            </div>
+
+            <div class="codrops-top clearfix " style="background:black">
+                <!-- Social Media Icons -->
+                <div class="social-block">
+                    <a href="https://www.facebook.com/hackingedusf" target="rss" style="display: block;"><i id="social" class="fa fa-facebook-square fa-3x social-fb"></i></a>
+                    <a href="https://twitter.com/hackingedusf" target="rss" style="display: block;"><i id="social" class="fa fa-twitter-square fa-3x social-tw"></i></a>
+                    <a href="https://instagram.com/hackingedusf" target="rss" style="display: block;"><i id="social" class="fa fa-instagram fa-3x social-ig"></i></a>
+                    <a href="mailto:team@hackingedu.co" target="rss" style="display: block;"><i id="social" class="fa fa-envelope-square fa-3x social-em"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!--/* =========================================================================
+                                   First Section
+           =======================================================================*/-->
+        <div class="codrops-header">
+            <h1>This is Training Day for HackingEDU<span>Learn how to the use new API's and Frameworks from the coolest tech companies to win the world's largest education hackathon in the world!</span></h1>
+            <!-- Where nav started -->
+                <a href="http://hackingedu.co" title="Add to Calendar" class="addthisevent" style="width: 250px; border: 1px solid black;">
+                    Add to Calendar
+                    <span class="_start">25-04-2015 12:00:00</span>
+                    <span class="_end">25-04-2015 8:30:00</span>
+                    <span class="_zonecode">6</span>
+                    <span class="_summary">HackingEDU Training Day</span>
+                    <span class="_description">Learn how to the use new API's and Frameworks from the coolest tech companies to win the world's largest education hackathon in the world!</span>
+                    <span class="_location">Paypal HQ, 2211 N 1st St, San Jose, CA 95131</span>
+                    <span class="_organizer">HackingEDU</span>
+                    <span class="_organizer_email">team@hackingedu.co</span>
+                    <span class="_all_day_event">false</span>
+                    <span class="_date_format">DD/MM/YYYY</span>
+                </a>
+        </div>
+
+
+        <!--/* =========================================================================
+                                   Second Section
+           =======================================================================*/ -->
+        <section id="Schedule">
+            <h1>Schedule</h1><br>
+            <h2>Saturday, April 25</h2>
+            <strong>
+                <table align="center" style="border-collapse: separate; border-spacing: 70px 0px;">
+                    <thead>
+                        <tr>
+                            <td align="center"><h2>Time</h2></td>
+                            <td align="center"><h2>Event</h2></td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td align="center"><span class="time-digit">12:00 PM</span></td>
+                            <td align="center">Greet & Meet! Make some friends! :)</td>
+                        </tr>
+                        <tr>
+                            <td align="center"><span class="time-digit">1:15-2:00</span> PM</td>
+                            <td align="center">Lunch Time! Eat some yummy food courtesy of our sponsors!</td>
+                        </tr>
+                        <tr>
+                            <td align="center"><span class="time-digit">2:30-3:00</span> PM</td>
+                            <td align="center">Opening Ceremonies</td>
+                        </tr>
+                        <tr>
+                            <td align="center"><span class="time-digit">3:00-6:00</span> PM</td>
+                            <td align="center">Workshops and API Talks! Learn some new code!</td>
+                        </tr>
+                        <tr>
+                            <td align="center"><span class="time-digit">6:00-7:00</span> PM</td>
+                            <td align="center">Dinner Time! Take a break from all the learning!</td>
+                        </tr>
+                        <tr>
+                            <td align="center"><span class="time-digit">7:00-8:00</span> PM</td>
+                            <td align="center">Closing Workshops! Push through all the learning!</td>
+                        </tr>
+                        <tr>
+                            <td align="center"><span class="time-digit">8:00-8:30</span> PM</td>
+                            <td align="center">Ending Ceremony! We know you had fun! ;)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </strong>
+            <br>
+            <hr>
+        </section>
+        <!-- container div above-->
+        <!-- codrop3 div above-->
+
+        <!-- /* =========================================================================
+                                   FAQ Section
+           =======================================================================*/-->
+        <section id="faq">
+            <h1>FAQ</h1>
+            <a id="hacker_faq_link" href="">Hacker FAQ</a> | <a id="sponsor_faq_link" href="">Sponsor FAQ</a> | <a id="other_faq_link" href="">Other</a>
+            <div id="hacker_faq">
+                <h3>Hacker Question 1</h3>
+                <p>This is an answer.</p>
+
+                <h3>Hacker Question 2</h3>
+                <p>This is an answer.</p>
+            </div>
+
+            <div id="sponsor_faq" style="display: none;">
+                <h3>Sponsor Question 1</h3>
+                <p>This is an answer.</p>
+
+                <h3>Sponsor Question 2</h3>
+                <p>This is an answer.</p>
+            </div>
+
+            <div id="other_faq" style="display: none;">
+                <h3>Other Question 1</h3>
+                <p>This is an answer.</p>
+
+                <h3>Other Question 2</h3>
+                <p>This is an answer.</p>
+            </div>
+        </section>
+
+        <!-- =========================================================================
+                                   Sponsor and Partners Section
+           =======================================================================*/-->
+        <section id="sponsors">
+        	<section class="header-frame">
+        		<h1 style="padding-top: 10vh;">Sponsors &amp; Partners</h1>
+        	</section>
+
+        	<section class="content-frame">
+        		<section id="sponsor-logos" class="sponsors">
+        			<h2>Sponsors</h2>
+        			<!--<div class="peta">
+        			</div>-->
+                    <div class="masters">
+                    <a href="http://paypal.com" class="rollover"><img src="assets/img/paypalLogo.jpg"></a>
+                    </div>
+        			<div class="senior">
+                        <a href="http://moxtra.com" class="rollover"><img src="assets/img/moxtraLogo.png"></a>
+        				<a href="http://getpebble.com" class="rollover"><img src="assets/img/pebbleLogo.png"></a>
+                        <a href="http://datastax.com" class="rollover"><img src="assets/img/datastaxLogo.png"></a>
+                        <a href="http://makeschool.com" class="rollover"><img src="assets/img/makeschoolLogo.png"></a>
+                    </div>
+
+                    <div class="junior">
+                        <a href="http://getbootstrap.com" class="rollover"><img src="assets/img/bootstrapLogo.png"></a>
+                        <a href="http://lyft.com" class="rollover"><img src="assets/img/lyftLogo.png"></a>
+                        <a href="http://aerospike.com" class="rollover"><img src="assets/img/aerospikeLogo.png"></a>
+                        <a href="http://auth0.com" class="rollover"><img src="assets/img/Auth0Logo.png"></a>
+                        <a href="http://socket.io" class="rollover"><img src="assets/img/socketLogo.png"</a>
+        			</div>
+
+        			<!--
+        			<div class="sophomore">
+
+        			</div>
+        		</section>
+
+        		<section id="partner-logos" class="sponsors">
+        			<h2>Partners</h2>
+        			<div class="peta">
+        				<a href="http://nwhacks.com" class="rollover"><img src="assets/img/nwhacks.jpg"></a>
+        			</div>
+        		</section>-->
+            	</section>
+            </section>
+        </section>
+
+        <script src="assets/js/TweenLite.min.js"></script>
+        <script src="assets/js/EasePack.min.js"></script>
+        <script src="assets/js/rAF.js"></script>
+        <script src="assets/js/demo-3.js"></script>
+        <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+        <!-- AddThisEvent -->
+        <script type="text/javascript" src="https://addthisevent.com/libs/1.5.8/ate.min.js"></script>
+
+        <script>
+            //used for changing faq display
+
+            var activeFaq = $('#hacker_faq');
+
+            $('#hacker_faq_link').click(function(e) {
+                e.preventDefault();
+                if (activeFaq.attr('id') === 'hacker_faq') {
+                    return;
+                }
+
+                activeFaq.css({display: 'none'});
+                activeFaq = $('#hacker_faq');
+                activeFaq.css({display: 'inherit'});
+            });
+
+            $('#sponsor_faq_link').click(function(e) {
+                e.preventDefault();
+                if (activeFaq.attr('id') === 'sponsor_faq') {
+                    return;
+                }
+
+                activeFaq.css({display: 'none'});
+                activeFaq = $('#sponsor_faq');
+                activeFaq.css({display: 'inherit'});
+
+            });
+
+            $('#other_faq_link').click(function(e) {
+                e.preventDefault();
+                if (activeFaq.attr('id') === 'other_faq') {
+                    return;
+                }
+
+                activeFaq.css({display: 'none'});
+                activeFaq = $('#other_faq');
+                activeFaq.css({display: 'inherit'});
+
+            });
+        </script>
+    </body>
+</html>
