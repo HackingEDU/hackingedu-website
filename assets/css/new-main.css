@@ -206,6 +206,17 @@ li {
 	text-align: center;
 }
 
+h1.training-day.marg-t-4em {
+	font-size: 61pt;
+}
+
+.pp-l {
+	color: #253B80;
+}
+.pp-r {
+	color: #179BD7;
+}
+
 
 /* =========================================================================
                             Social Links

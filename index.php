@@ -76,7 +76,7 @@
                 <div class="slide-2"></div>
                 <div class="hero">
                     <hgroup>
-                        <h1 class="marg-t-3em">Training Day</h1>
+                        <h1 class="marg-t-3em">Training Day <span class="pp-r">4/25</span></h1>
                     </hgroup>
                 </div>
                 <div class="carousel-caption">
