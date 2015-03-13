@@ -93,11 +93,11 @@
                 </div>
                 <div class="carousel-caption">
                     <!-- Sponsorship Application -->
-                    <p class="lead">
-                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" style="width:80px; margin: 0 auto; float:center;">
+                    <p class="lead" style="float:center;">
+                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                           <input type="hidden" name="cmd" value="_s-xclick">
                           <input type="hidden" name="hosted_button_id" value="3ND68R59WU3DU">
-                          <table>
+                          <table style="width:80px; margin: 0 auto; float:center; text-align: left;">
                           <tr><td><input type="hidden" name="on0" value="Sponsorship Levels">Sponsorship Levels</td></tr><tr><td><select name="os0">
                              <option value="Freshman">Freshman $2,500.00 USD</option>
                              <option value="Sophomore">Sophomore $7,500.00 USD</option>
@@ -109,7 +109,8 @@
                           </table>
                           <input type="hidden" name="currency_code" value="USD">
                           <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">                        </form>
+                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                      </form>
                         <a class="typeform-share btn btn-lg main-btn sponsor-btn sponsor-btn-pad"  href="https://hackingedu.typeform.com/to/BEXo5M" data-mode="2" target="_blank">Sign Up</a>
                         <a href="https://drive.google.com/file/d/0BzI2Lz_qv89jY181ZUIwZXY4ZkE/view?usp=sharing" target = "rss" class="btn btn-lg main-btn sponsor-btn sponsor-btn-pad" id="trigger">The Packages</a>
                     </p>
