@@ -94,7 +94,7 @@
                 <div class="carousel-caption">
                     <!-- Sponsorship Application -->
                     <p class="lead">
-                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" style="width:80px; margin: 0 auto; float:center;">
                           <input type="hidden" name="cmd" value="_s-xclick">
                           <input type="hidden" name="hosted_button_id" value="3ND68R59WU3DU">
                           <table>
