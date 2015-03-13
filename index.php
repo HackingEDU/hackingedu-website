@@ -94,29 +94,12 @@
                 <div class="carousel-caption">
                     <!-- Sponsorship Application -->
                     <p class="lead">
-                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" style="width:80px; margin: 0 auto; float:center;">
-                          <input type="hidden" name="cmd" value="_s-xclick">
-                          <input type="hidden" name="hosted_button_id" value="3ND68R59WU3DU">
-                          <table>
-                          <tr><td><input type="hidden" name="on0" value="Sponsorship Levels">Sponsorship Levels</td></tr><tr><td><select name="os0">
-                             <option value="Freshman">Freshman $2,500.00 USD</option>
-                             <option value="Sophomore">Sophomore $7,500.00 USD</option>
-                             <option value="Junior">Junior $12,000.00 USD</option>
-                             <option value="Senior">Senior $20,000.00 USD</option>
-                             <option value="Masters">Masters $35,000.00 USD</option>
-                             <option value="Doctorate">Doctorate $50,000.00 USD</option>
-                          </select> </td></tr>
-                          </table>
-                          <input type="hidden" name="currency_code" value="USD">
-                          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                        </form>
                         <a class="typeform-share btn btn-lg main-btn sponsor-btn sponsor-btn-pad"  href="https://hackingedu.typeform.com/to/BEXo5M" data-mode="2" target="_blank">Sign Up</a>
                         <a href="https://drive.google.com/file/d/0BzI2Lz_qv89jY181ZUIwZXY4ZkE/view?usp=sharing" target = "rss" class="btn btn-lg main-btn sponsor-btn sponsor-btn-pad" id="trigger">The Packages</a>
                     </p>
                 </div>
             </div>
-
+        </div>
 
         <!-- Controls -->
         <a class="left carousel-control" href="#myCarousel" data-slide="prev">
